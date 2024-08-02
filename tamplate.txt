@@ -1,0 +1,9 @@
+level1:
+1- remove unused initialized variables
+2- replacing the variable with its expression inside the print statement and remove it's initialization
+3- if we have a multiplication by 1 like "m*1" we replace it by "m" 
+4- if we have a multiplication by 0 like "x*0" we replace it by "0"
+
+level2:
+   
+ 
