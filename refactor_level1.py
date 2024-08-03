@@ -5,14 +5,18 @@ class RemoveUnusedVariablesAndSimplifyPrint(ast.NodeTransformer):
     def __init__(self):
         self.used_vars = set()
         self.assigned_vars = {}
+        self.dependencies = {}
     
     def visit_Name(self, node):
+        
         if isinstance(node.ctx, ast.Load):
-            self.used_vars.add(node.id)
-            # print(self.used_vars)
+            # check if the current variable (node.id) is used by any other variable already in used_vars probably it solves the problem
+            for var, deps in self.dependencies.items():
+                if var in self.used_vars and node.id in deps:
+                    self.used_vars.add(node.id)
+                    break
         elif isinstance(node.ctx, ast.Store):
             self.assigned_vars[node.id] = None
-            # print(self.assigned_vars)
         return node
     
     def visit_Assign(self, node):
@@ -21,17 +25,18 @@ class RemoveUnusedVariablesAndSimplifyPrint(ast.NodeTransformer):
             if isinstance(target, ast.Name):
                 self.visit_Name(target)
                 self.assigned_vars[target.id] = node.value
+                dependencies = self.find_dependencies(node.value)
+                self.dependencies[target.id] = dependencies
+
         return node
+
+    def find_dependencies(self, node):
+        dependencies = set()
+        for child in ast.walk(node):
+            if isinstance(child, ast.Name) and isinstance(child.ctx, ast.Load):
+                dependencies.add(child.id)
+        return dependencies
     
-    # def visit_Expr(self, node):
-    #     if isinstance(node.value, ast.Call) and isinstance(node.value.func, ast.Name) and node.value.func.id == 'print':
-    #         for i, arg in enumerate(node.value.args):
-    #             if isinstance(arg, ast.Name):
-    #                 var_name = arg.id
-    #                 # replacing the variable within the print statement with its value
-    #                 if var_name in self.assigned_vars and self.assigned_vars[var_name] is not None:
-    #                     node.value.args[i] = self.assigned_vars[var_name]
-    #     return node
     def visit_Expr(self, node):
         if isinstance(node.value, ast.Call) and isinstance(node.value.func, ast.Name) and node.value.func.id == 'print':
             new_args = []
@@ -47,27 +52,20 @@ class RemoveUnusedVariablesAndSimplifyPrint(ast.NodeTransformer):
             node.value.args = new_args
 
         return node
-    
-    # def visit_Module(self, node):
-    #     # visit all nodes to gather information about used and assigned variables
-    #     self.generic_visit(node)
-        
-    #     # filter out assignments where the assigned variable is not used
-    #     new_body = []
-    #     for n in node.body:
-    #         if isinstance(n, ast.Assign):
-    #             c = [t.id for t in n.targets if isinstance(t, ast.Name)]
-    #             target_names = [t.id for t in n.targets if isinstance(t, ast.Name)]
-    #             if any(tn in self.used_vars for tn in target_names):
-    #                 new_body.append(n)
-    #         else:
-    #             new_body.append(n)
-    #     node.body = new_body
-    #     return node
 
     def visit_Module(self, node):
         self.generic_visit(node)
-        
+
+        all_used_vars = set(self.used_vars)
+        additional_vars = set(self.used_vars)
+        while additional_vars:
+            current_var = additional_vars.pop()
+            if current_var in self.dependencies:
+                additional_dependencies = self.dependencies[current_var]
+                new_vars = additional_dependencies - all_used_vars
+                all_used_vars.update(additional_dependencies)
+                additional_vars.update(new_vars)
+
         new_body = []
         for n in node.body:
             if isinstance(n, ast.Assign):
@@ -101,10 +99,11 @@ def remove_unused_variables_and_simplify_print(code):
 
 # exemples to try
 snippets = [
-    """a = 2
-c = a + 1
-u = 4
-print(a + u)
+    """y = 9
+o = 1
+c = 6
+x = o * 2
+print(y * o)
 """
 ]
 
