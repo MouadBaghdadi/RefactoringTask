@@ -1,0 +1,8 @@
+*.ipynb
+
+*.pkl
+*.bin
+*.pyc
+preparation.py
+
+__pycache__/
