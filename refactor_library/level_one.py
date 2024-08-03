@@ -2,11 +2,16 @@ from refactor_library.refactor_base import Refactor
 import re
 
 
-class LevelOneOne(Refactor):
+class LevelOne(Refactor):
+    """THis class is responsible for simplifying code at level 1 both 1.1 and 1.2"""
+    
+    
+    
     def refactor(self, text: str) -> str:
-        return self.simplify_code(text)
+        """Tthis method will simplify the code"""
+        return self.__simplify_code(text)
         
-    def simplify_code(self, code: str)->str:
+    def __simplify_code(self, code: str)->str:
         local_vars = {}
         simplified_code = ""
         
@@ -21,7 +26,7 @@ class LevelOneOne(Refactor):
             if statement.startswith('print'):
                 # Extract the expression within the print statement
                 expr = re.search(r'print\((.*)\)', statement).group(1)
-                simplified_expr = self.format_expression(expr, local_vars)
+                simplified_expr = self.__format_expression(expr, local_vars)
                 simplified_code += f"print({simplified_expr})\n"
             else:
                 # Execute the assignment in the local_vars dictionary
@@ -29,7 +34,7 @@ class LevelOneOne(Refactor):
         
         return simplified_code
     
-    def format_expression(self, expr, local_vars):
+    def __format_expression(self, expr, local_vars):
         def replace_var(match):
             var = match.group(0)
             return str(local_vars.get(var, var))
