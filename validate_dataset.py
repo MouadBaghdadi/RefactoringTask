@@ -47,10 +47,10 @@ def validate_code(original_code, reformulated_code):
 
 def main():
     parser = argparse.ArgumentParser(description='Validate dataset of code reformulations')
-    parser.add_argument('--file', type=str, default='./reformulation.txt', help='The txt file to validate')
+    parser.add_argument('--filename', type=str, default='./reformulation.txt', help='The txt file to validate')
     
     args = parser.parse_args()
-    with open(args.file, 'r') as file:
+    with open(args.filename, 'r') as file:
         data = file.read()
 
     # Extract code and reformulations
