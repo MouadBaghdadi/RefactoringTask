@@ -1,0 +1,766 @@
+
+e = 7
+d = (6 - 5)/(e / e)-(7 + 0)
+print(e / 5)
+# reformulation
+print(7 / 5)
+
+
+b = 7
+print(b)
+# reformulation
+print(7)
+
+
+e = 2
+c = 0
+print(e)
+# reformulation
+print(2)
+
+
+d = 9
+e = 3
+a = 2
+d = (0 - d)*(a + d)
+print(d - d)
+# reformulation
+print(-99 - -99)
+
+
+e = 1
+e = e - e
+print(e + e)
+# reformulation
+print(0 + 0)
+
+
+b = 5
+print(b - b)
+# reformulation
+print(5 - 5)
+
+
+b = 7
+b = 2
+e = 2
+a = 1
+e = e + 8
+print(b / b)
+# reformulation
+print(2 / 2)
+
+
+c = 7
+d = 1
+c = (0 - d)+(2 * 9)
+print(c + d)
+# reformulation
+print(17 + 1)
+
+
+e = 5
+c = e - e
+print(c)
+# reformulation
+print(0)
+
+
+a = 7
+d = 2
+e = a * 2
+print(a + 9)
+# reformulation
+print(7 + 9)
+
+
+e = 4
+a = 3
+print(e)
+# reformulation
+print(4)
+
+
+d = 8
+d = 8 + 9
+print(d * 9)
+# reformulation
+print(17 * 9)
+
+
+d = 6
+a = 8
+c = (8 * d)*(2 * a)
+print(a - 0)
+# reformulation
+print(8 - 0)
+
+
+c = 7
+b = (0 + c)
+print(b)
+# reformulation
+print(7)
+
+
+b = 4
+print(b + 0)
+# reformulation
+print(4 + 0)
+
+
+a = 5
+c = 6 + 0
+print(c)
+# reformulation
+print(6)
+
+
+d = 7
+a = 9
+b = (7 + a)+(d + 1)
+print(a + a)
+# reformulation
+print(9 + 9)
+
+
+e = 0
+a = 4
+c = 7
+d = 7
+print(c - 4)
+# reformulation
+print(7 - 4)
+
+
+e = 5
+a = 8
+a = e - 3
+print(a)
+# reformulation
+print(2)
+
+
+c = 8
+d = 8
+d = (9 * d)
+print(c + 0)
+# reformulation
+print(8 + 0)
+
+
+d = 0
+e = 0
+a = 7
+a = d - 8
+print(a)
+# reformulation
+print(-8)
+
+
+e = 1
+d = 5 - e
+print(d)
+# reformulation
+print(4)
+
+
+b = 3
+c = 5
+c = 7
+a = (b - 3)
+print(b + 0)
+# reformulation
+print(3 + 0)
+
+
+c = 9
+b = 7
+a = 5
+b = 6
+a = (c * 9)/(b * c)
+print(c + a)
+# reformulation
+print(9 + 1.5)
+
+
+d = 3
+c = d + d
+print(c)
+# reformulation
+print(6)
+
+
+a = 4
+e = 0 / a
+print(a + a)
+# reformulation
+print(4 + 4)
+
+
+e = 5
+c = 2
+b = 4
+c = 8
+e = (5 / 4)/(c - 0)
+print(e)
+# reformulation
+print(0.15625)
+
+
+e = 8
+b = (0 + 9)+(e * 4)+(6 * 0)*(e / e)
+print(b)
+# reformulation
+print(41.0)
+
+
+e = 4
+e = 2
+c = 5
+b = 2
+print(c * 9)
+# reformulation
+print(5 * 9)
+
+
+d = 0
+b = d + 0
+print(b)
+# reformulation
+print(0)
+
+
+e = 5
+d = (1 * 5)*(9 + 2)
+print(e * 8)
+# reformulation
+print(5 * 8)
+
+
+d = 9
+print(d / 4)
+# reformulation
+print(9 / 4)
+
+
+c = 6
+d = 4
+print(d / c)
+# reformulation
+print(4 / 6)
+
+
+e = 2
+c = 5
+a = (3 - 4)-(3 - c)*(8 - e)*(2 / 3)
+print(a)
+# reformulation
+print(7.0)
+
+
+d = 5
+e = 1
+c = 2
+c = 8
+e = e + e
+print(d / 8)
+# reformulation
+print(5 / 8)
+
+
+c = 7
+c = 8
+print(c)
+# reformulation
+print(8)
+
+
+a = 3
+c = (9 / 3)
+print(a / 5)
+# reformulation
+print(3 / 5)
+
+
+d = 2
+e = 7
+e = 0
+e = d + 3
+print(e)
+# reformulation
+print(5)
+
+
+b = 6
+a = 0
+d = b + b
+print(d)
+# reformulation
+print(12)
+
+
+c = 2
+e = c + c
+print(c * 4)
+# reformulation
+print(2 * 4)
+
+
+a = 8
+d = 0
+e = 0
+d = (e - 8)-(e - 5)
+print(d)
+# reformulation
+print(-3)
+
+
+e = 3
+c = 2
+b = 3
+c = (9 * b)
+print(c - 9)
+# reformulation
+print(27 - 9)
+
+
+b = 1
+b = 5 / b
+print(b)
+# reformulation
+print(5.0)
+
+
+d = 0
+c = 6
+e = 0
+a = 7
+print(a)
+# reformulation
+print(7)
+
+
+a = 1
+print(a)
+# reformulation
+print(1)
+
+
+a = 6
+c = 7
+c = 7
+d = 7
+c = (6 + 0)+(d * 0)
+print(c)
+# reformulation
+print(6)
+
+
+c = 2
+a = (c / 9)
+print(c + c)
+# reformulation
+print(2 + 2)
+
+
+b = 0
+b = (9 / 2)
+print(b)
+# reformulation
+print(4.5)
+
+
+e = 4
+c = (7 - e)
+print(e * e)
+# reformulation
+print(4 * 4)
+
+
+e = 8
+e = 7
+d = (e - e)-(e + e)/(9 / e)-(0 / 2)
+print(e + e)
+# reformulation
+print(7 + 7)
+
+
+e = 3
+b = 0
+e = 3
+e = 4
+a = (b + b)
+print(b * 6)
+# reformulation
+print(0 * 6)
+
+
+c = 0
+c = 4 - c
+print(c)
+# reformulation
+print(4)
+
+
+c = 7
+d = 8 + 7
+print(c * 5)
+# reformulation
+print(7 * 5)
+
+
+a = 9
+a = 0
+e = 8 * 3
+print(a / 7)
+# reformulation
+print(0 / 7)
+
+
+e = 1
+d = e / 3
+print(d)
+# reformulation
+print(0.3333333333333333)
+
+
+d = 4
+print(d - d)
+# reformulation
+print(4 - 4)
+
+
+e = 4
+d = 1
+b = 6
+b = 5
+d = (2 - 3)-(b + 2)
+print(d)
+# reformulation
+print(-8)
+
+
+d = 8
+b = d - 1
+print(d * d)
+# reformulation
+print(8 * 8)
+
+
+b = 4
+e = 5
+print(b)
+# reformulation
+print(4)
+
+
+e = 6
+print(e - e)
+# reformulation
+print(6 - 6)
+
+
+b = 7
+d = (4 * 7)
+print(b + b)
+# reformulation
+print(7 + 7)
+
+
+d = 9
+a = 3
+e = 7
+print(e - a)
+# reformulation
+print(7 - 3)
+
+
+b = 6
+a = (1 - b)+(1 / b)*(5 - 7)-(3 / 4)
+print(a)
+# reformulation
+print(-6.083333333333333)
+
+
+e = 5
+d = 4
+c = 7
+e = (d * 6)
+print(e)
+# reformulation
+print(24)
+
+
+a = 4
+d = (a - a)+(3 / 2)*(a - a)-(a + a)-(6 + a)*(1 * 7)
+print(a - a)
+# reformulation
+print(4 - 4)
+
+
+c = 5
+e = 3
+print(c)
+# reformulation
+print(5)
+
+
+a = 1
+d = 1
+d = 0
+print(d + a)
+# reformulation
+print(0 + 1)
+
+
+e = 3
+print(e + 8)
+# reformulation
+print(3 + 8)
+
+
+a = 1
+a = 1
+b = (a * a)-(2 + 4)+(3 * 1)
+print(a * a)
+# reformulation
+print(1 * 1)
+
+
+e = 2
+e = e * 1
+print(e)
+# reformulation
+print(2)
+
+
+a = 9
+d = 5
+e = 3
+a = (a + d)
+print(a)
+# reformulation
+print(14)
+
+
+b = 5
+e = 5
+c = 7
+a = e * e
+print(b / 2)
+# reformulation
+print(5 / 2)
+
+
+d = 1
+c = 6
+c = 9
+print(c)
+# reformulation
+print(9)
+
+
+a = 0
+a = 0
+d = 2
+c = 6
+print(c - 7)
+# reformulation
+print(6 - 7)
+
+
+c = 3
+d = c / c
+print(c / 4)
+# reformulation
+print(3 / 4)
+
+
+a = 6
+d = (a - a)+(a / a)
+print(a * a)
+# reformulation
+print(6 * 6)
+
+
+b = 5
+c = 5
+b = 4
+print(b)
+# reformulation
+print(4)
+
+
+c = 2
+e = 3
+c = (5 / c)
+print(c)
+# reformulation
+print(2.5)
+
+
+d = 7
+print(d / d)
+# reformulation
+print(7 / 7)
+
+
+c = 8
+c = 9
+c = 2 + c
+print(c + c)
+# reformulation
+print(11 + 11)
+
+
+e = 3
+d = e + 0
+print(d)
+# reformulation
+print(3)
+
+
+e = 7
+c = 3 - 3
+print(c)
+# reformulation
+print(0)
+
+
+e = 3
+print(e)
+# reformulation
+print(3)
+
+
+c = 9
+c = 8
+b = 6
+e = (b * b)
+print(b - 0)
+# reformulation
+print(6 - 0)
+
+
+b = 3
+c = 8
+d = 0
+c = (c - 3)/(b / 4)
+print(d - 3)
+# reformulation
+print(0 - 3)
+
+
+b = 4
+b = b / b
+print(b)
+# reformulation
+print(1.0)
+
+
+d = 4
+a = (5 * d)-(d * 7)/(d - 0)
+print(d * 8)
+# reformulation
+print(4 * 8)
+
+
+b = 3
+c = 2
+a = (b * 5)
+print(a)
+# reformulation
+print(15)
+
+
+d = 8
+c = 6
+b = (c + 6)+(5 + 4)-(5 - 7)-(9 - 0)
+print(b)
+# reformulation
+print(14)
+
+
+d = 1
+a = (1 - d)
+print(a)
+# reformulation
+print(0)
+
+
+e = 9
+d = 1 - e
+print(d)
+# reformulation
+print(-8)
+
+
+b = 3
+d = 4
+c = 7
+print(d + 9)
+# reformulation
+print(4 + 9)
+
+
+c = 1
+b = 9
+b = 0
+a = 9
+c = b / 5
+print(b / a)
+# reformulation
+print(0 / 9)
+
+
+a = 9
+e = (a * 8)-(a * 5)*(5 - a)+(8 / 7)
+print(a + a)
+# reformulation
+print(9 + 9)
+
+
+e = 1
+e = (e / 9)*(e * 8)
+print(e - e)
+# reformulation
+print(0.8888888888888888 - 0.8888888888888888)
+
+
+a = 4
+a = 1
+d = 5
+a = 7
+print(a * 9)
+# reformulation
+print(7 * 9)
+
+
+a = 6
+b = 5
+a = 7
+print(a)
+# reformulation
+print(7)
+
+
+c = 4
+e = 7
+print(c)
+# reformulation
+print(4)
+
+
+d = 4
+c = 7
+print(d - c)
+# reformulation
+print(4 - 7)
+
+
+c = 7
+a = 0 * 3
+print(a)
+# reformulation
+print(0)

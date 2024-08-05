@@ -5,4 +5,5 @@
 *.pyc
 preparation.py
 
+*.pth
 __pycache__/git
