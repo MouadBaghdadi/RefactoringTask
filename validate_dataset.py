@@ -22,24 +22,46 @@ def extract_code_and_reformulation(data):
     lines = data.split('\n')
     i = 0
     current_original_code = []
+
     while i < len(lines):
-        if lines[i].strip().startswith('# reformulation'):
+        line = lines[i]
+        if line.lstrip().startswith('# reformulation'):
+            # Skip the '# reformulation' line
             i += 1
-            if i < len(lines):
-                reformulation.append(lines[i].strip())
-            else:
-                reformulation.append('')
+            current_reformulation = []
+            while i < len(lines) and lines[i].strip():
+                current_reformulation.append(lines[i])
+                i += 1
+            # Join the reformulation code block and append
+            reformulation.append('\n'.join(current_reformulation))
+            # Append the collected original code block
             original_code.append('\n'.join(current_original_code))
             current_original_code = []
-        elif lines[i].strip():
-            current_original_code.append(lines[i].strip())
+        elif line.strip():  # Include non-empty lines only
+            current_original_code.append(line)
         i += 1
+
+    # Add any remaining original code if no final reformulation marker is present
+    if current_original_code:
+        original_code.append('\n'.join(current_original_code))
+
+    # Ensure both lists are of equal length
+    while len(reformulation) < len(original_code):
+        reformulation.append('')
+
     return original_code, reformulation
+
 
 def validate_code(original_code, reformulated_code):
     try:
         original_output = run_code(original_code)    
         reformulated_output = run_code(reformulated_code)
+        
+        if original_output!=reformulated_output:
+            print("original code :",original_code)
+            print("reformulated code :",reformulated_code)
+            print("orginal output :",original_output)
+            print("reformulated output : ",reformulated_output)
         return original_output == reformulated_output
     except Exception as e:
         print(f"Error in validation: {e}")
