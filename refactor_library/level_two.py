@@ -1,7 +1,6 @@
 import ast
-from refactor_library.refactor_base import Refactor
-class LevelTwo(ast.NodeTransformer,Refactor):
-    
+
+class IfStatementRefactorer(ast.NodeTransformer):
     def __init__(self):
         self.assigned_vars = {}
         self.used_vars = set()
@@ -10,7 +9,7 @@ class LevelTwo(ast.NodeTransformer,Refactor):
         # Track variable assignments
         if isinstance(node.targets[0], ast.Name):
             var_name = node.targets[0].id
-            self.assigned_vars[var_name] = node
+            self.assigned_vars[var_name] = node.targets[0].id
         
         # Continue processing the assignment
         self.generic_visit(node)
@@ -21,17 +20,12 @@ class LevelTwo(ast.NodeTransformer,Refactor):
         if isinstance(node.ctx, ast.Load):
             self.used_vars.add(node.id)
         return node
-
-    def visit_Print(self, node):
-        # Ensure all variables in print statements are marked as used
-        for value in node.values:
-            if isinstance(value, ast.Name):
-                self.used_vars.add(value.id)
-        return self.generic_visit(node)
+    
 
     def visit_If(self, node):
         # Track variables used in the if condition
-        self.generic_visit(node.test)
+        # self.generic_visit(node.test)
+        self.generic_visit(node.body[0])
         
         # Check if the if condition is a 'not' condition
         if isinstance(node.test, ast.UnaryOp) and isinstance(node.test.op, ast.Not):
@@ -79,6 +73,7 @@ class LevelTwo(ast.NodeTransformer,Refactor):
         """
         Process the elif/else branches as we did with the original if statement.
         """
+        self.generic_visit(orelse[0])
         new_body = []
         for stmt in orelse:
             if isinstance(stmt, ast.If):
@@ -112,33 +107,31 @@ class LevelTwo(ast.NodeTransformer,Refactor):
         self.generic_visit(node)
         return self.remove_unused_assignments(node)
 
-    def refactor(self,source_code):
-        # Parse the source code into an AST
-        tree = ast.parse(source_code)
+def refactor_code(source_code):
+    # Parse the source code into an AST
+    tree = ast.parse(source_code)
+    
+    # Refactor the AST
+    refactorer = IfStatementRefactorer()
+    refactorer.visit(tree)
+    
+    # Unparse the AST back into source code
+    return ast.unparse(tree)
 
-        # Refactor the AST
-        refactorer = LevelTwo()
-        refactorer.visit(tree)
-
-        # Unparse the AST back into source code
-        return f"{ast.unparse(tree)}\n"
-
-# Examples of code snippets to refactor
 code_snippets = [
-    """g = 3
-v = 8
-if not v < v :
-	print(v)
-elif g != 3 :
-	print(v)
+    """q = 8
+if  q > 2 :
+	print(q)
+elif  q < q :
+	print(q)
 else :
-	print(v)
+	print(q)
 """
 ]
 
 # Refactor each code snippet
-#for code in code_snippets:
-#    refactored_code =LevelTwo().refactor(code)
-#    print("Original Code:\n", code)
-#    print("Refactored Code:\n", refactored_code)
-#    print("-" * 40)
+for code in code_snippets:
+    refactored_code = refactor_code(code)
+    print("Original Code:\n", code)
+    print("Refactored Code:\n", refactored_code)
+    print("-" * 40)
