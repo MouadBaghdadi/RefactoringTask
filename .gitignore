@@ -6,4 +6,5 @@
 preparation.py
 
 *.pth
-__pycache__/git
+__pycache__/
+*.txt
