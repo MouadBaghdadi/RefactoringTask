@@ -9,7 +9,7 @@ class IfStatementRefactorer(ast.NodeTransformer):
         # Track variable assignments
         if isinstance(node.targets[0], ast.Name):
             var_name = node.targets[0].id
-            self.assigned_vars[var_name] = node
+            self.assigned_vars[var_name] = node.targets[0].id
         
         # Continue processing the assignment
         self.generic_visit(node)
@@ -20,17 +20,12 @@ class IfStatementRefactorer(ast.NodeTransformer):
         if isinstance(node.ctx, ast.Load):
             self.used_vars.add(node.id)
         return node
-
-    def visit_Print(self, node):
-        # Ensure all variables in print statements are marked as used
-        for value in node.values:
-            if isinstance(value, ast.Name):
-                self.used_vars.add(value.id)
-        return self.generic_visit(node)
+    
 
     def visit_If(self, node):
         # Track variables used in the if condition
-        self.generic_visit(node.test)
+        # self.generic_visit(node.test)
+        self.generic_visit(node.body[0])
         
         # Check if the if condition is a 'not' condition
         if isinstance(node.test, ast.UnaryOp) and isinstance(node.test.op, ast.Not):
@@ -78,6 +73,7 @@ class IfStatementRefactorer(ast.NodeTransformer):
         """
         Process the elif/else branches as we did with the original if statement.
         """
+        self.generic_visit(orelse[0])
         new_body = []
         for stmt in orelse:
             if isinstance(stmt, ast.If):
@@ -122,16 +118,14 @@ def refactor_code(source_code):
     # Unparse the AST back into source code
     return ast.unparse(tree)
 
-# Examples of code snippets to refactor
 code_snippets = [
-    """g = 3
-v = 8
-if not v < v :
-	print(v)
-elif g != 3 :
-	print(v)
+    """q = 8
+if  q > 2 :
+	print(q)
+elif  q < q :
+	print(q)
 else :
-	print(v)
+	print(q)
 """
 ]
 

@@ -80,7 +80,6 @@ class RemoveUnusedVariablesAndSimplifyPrint(ast.NodeTransformer):
                         left = arg.left.id
                         op = arg.op
                         right = arg.right.id
-                        print(op)
                         if left in self.assigned_vars and isinstance(self.assigned_vars[left], ast.Constant) and right in self.assigned_vars and isinstance(self.assigned_vars[right], ast.Constant):
 
                             n.value.args[i] = ast.BinOp(self.assigned_vars[left],arg.op,self.assigned_vars[right])
