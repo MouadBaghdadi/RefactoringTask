@@ -1,0 +1,12216 @@
+a = 0
+if a >= a :
+	print(a)
+# output
+# a = 0
+# print(a)
+
+o = 7
+f = 3
+z = 6
+if not f > 1 :
+	print(o)
+else :
+	print(z)
+# output
+# o = 7
+# f = 3
+# z = 6
+# if not f > 1:
+#     print(o)
+# else:
+#     print(z)
+
+f = 1
+if f <= f :
+	print(f)
+# output
+# f = 1
+# print(f)
+
+i = 5
+if  i >= i :
+	print(i)
+else :
+	print(i)
+# output
+# i = 5
+# print(i)
+
+c = 9
+if not c > 6 :
+	print(c)
+elif c <= 3 :
+	print(c)
+else :
+	print(c)
+# output
+# c = 9
+# if not c > 6:
+#     print(c)
+# elif c <= 3:
+#     print(c)
+# else:
+#     print(c)
+
+h = 5
+c = 6
+if c == h :
+	print(h)
+elif c > h :
+	print(c)
+else :
+	print(h)
+# output
+# h = 5
+# c = 6
+# if c == h:
+#     print(h)
+# elif c > h:
+#     print(c)
+# else:
+#     print(h)
+
+s = 2
+if s >= 7 :
+	print(s)
+elif s < s :
+	print(s)
+else :
+	print(s)
+# output
+# s = 2
+# if s >= 7:
+#     print(s)
+# else:
+#     print(s)
+
+v = 9
+r = 8
+s = 6
+if not r <= v :
+	print(v)
+else :
+	print(v)
+# output
+# v = 9
+# r = 8
+# if not r <= v:
+#     print(v)
+# else:
+#     print(v)
+
+g = 0
+n = 4
+u = 2
+i = 2
+c = 7
+f = 2
+if not u < c :
+	print(n)
+# output
+# n = 4
+# u = 2
+# c = 7
+# if not u < c:
+#     print(n)
+
+p = 9
+if p != p :
+	print(p)
+elif not p != p :
+	print(p)
+else :
+	print(p)
+# output
+# p = 9
+# print(p)
+
+w = 4
+if not w >= w :
+	print(w)
+elif w <= w :
+	print(w)
+else :
+	print(w)
+# output
+# w = 4
+# print(w)
+
+i = 7
+if not i != i :
+	print(i)
+else :
+	print(i)
+# output
+# i = 7
+# print(i)
+
+w = 2
+if w >= w :
+	print(w)
+# output
+# w = 2
+# print(w)
+
+k = 8
+y = 4
+if y != y :
+	print(y)
+# output
+# y = 4
+
+d = 0
+t = 5
+e = 2
+if not t <= t :
+	print(e)
+# output
+# t = 5
+
+f = 7
+if f >= f :
+	print(f)
+else :
+	print(f)
+# output
+# f = 7
+# print(f)
+
+m = 5
+h = 6
+m = 5
+y = 2
+s = 1
+n = 7
+if  n == 2 :
+	print(m)
+# output
+# m = 5
+# m = 5
+# n = 7
+# if n == 2:
+#     print(m)
+
+t = 2
+l = 4
+r = 8
+if l > 4 :
+	print(t)
+# output
+# t = 2
+# l = 4
+# if l > 4:
+#     print(t)
+
+h = 1
+s = 1
+e = 2
+h = 8
+if s >= e :
+	print(h)
+# output
+# h = 1
+# s = 1
+# e = 2
+# h = 8
+# if s >= e:
+#     print(h)
+
+w = 0
+if not w > 5 :
+	print(w)
+else :
+	print(w)
+# output
+# w = 0
+# if not w > 5:
+#     print(w)
+# else:
+#     print(w)
+
+f = 0
+s = 5
+q = 2
+f = 9
+if q <= 9 :
+	print(q)
+elif f > 5 :
+	print(f)
+else :
+	print(f)
+# output
+# f = 0
+# q = 2
+# f = 9
+# if q <= 9:
+#     print(q)
+# elif f > 5:
+#     print(f)
+# else:
+#     print(f)
+
+h = 9
+q = 4
+if  q == h :
+	print(h)
+elif  h == 3 :
+	print(q)
+else :
+	print(q)
+# output
+# h = 9
+# q = 4
+# if q == h:
+#     print(h)
+# elif h == 3:
+#     print(q)
+# else:
+#     print(q)
+
+m = 8
+if  m != m :
+	print(m)
+else :
+	print(m)
+# output
+# m = 8
+# print(m)
+
+q = 5
+if  q >= q :
+	print(q)
+elif  q == q :
+	print(q)
+else :
+	print(q)
+# output
+# q = 5
+# print(q)
+
+c = 5
+if  c < 4 :
+	print(c)
+elif c == c :
+	print(c)
+else :
+	print(c)
+# output
+# c = 5
+# if c < 4:
+#     print(c)
+# else:
+#     print(c)
+
+b = 7
+if b == b :
+	print(b)
+else :
+	print(b)
+# output
+# b = 7
+# print(b)
+
+r = 9
+v = 4
+if  r <= 0 :
+	print(v)
+# output
+# r = 9
+# v = 4
+# if r <= 0:
+#     print(v)
+
+k = 9
+n = 0
+if n != n :
+	print(n)
+# output
+# n = 0
+
+d = 1
+if d != d :
+	print(d)
+else :
+	print(d)
+# output
+# d = 1
+# print(d)
+
+g = 1
+if g > g :
+	print(g)
+# output
+# g = 1
+
+b = 8
+f = 1
+i = 4
+g = 0
+p = 9
+if  g <= p :
+	print(f)
+elif  f >= f :
+	print(b)
+else :
+	print(i)
+# output
+# f = 1
+# g = 0
+# p = 9
+# if g <= p:
+#     print(f)
+# else:
+#     print(b)
+
+e = 4
+o = 1
+t = 5
+s = 1
+if s > 2 :
+	print(s)
+elif s == e :
+	print(o)
+else :
+	print(o)
+# output
+# e = 4
+# o = 1
+# s = 1
+# if s > 2:
+#     print(s)
+# elif s == e:
+#     print(o)
+# else:
+#     print(o)
+
+m = 9
+m = 0
+if m == 5 :
+	print(m)
+# output
+# m = 9
+# m = 0
+# if m == 5:
+#     print(m)
+
+v = 2
+n = 6
+v = 0
+if not n > n :
+	print(v)
+elif  n < 7 :
+	print(n)
+else :
+	print(v)
+# output
+# n = 6
+# print(v)
+
+n = 1
+r = 1
+n = 8
+if not r <= n :
+	print(n)
+else :
+	print(r)
+# output
+# n = 1
+# r = 1
+# n = 8
+# if not r <= n:
+#     print(n)
+# else:
+#     print(r)
+
+p = 8
+z = 2
+f = 8
+v = 7
+b = 7
+l = 0
+if not v != f :
+	print(b)
+else :
+	print(b)
+# output
+# f = 8
+# v = 7
+# b = 7
+# if not v != f:
+#     print(b)
+# else:
+#     print(b)
+
+t = 6
+c = 4
+if not c == t :
+	print(c)
+elif c == 8 :
+	print(c)
+else :
+	print(t)
+# output
+# t = 6
+# c = 4
+# if not c == t:
+#     print(c)
+# elif c == 8:
+#     print(c)
+# else:
+#     print(t)
+
+v = 9
+if not v > 3 :
+	print(v)
+# output
+# v = 9
+# if not v > 3:
+#     print(v)
+
+o = 8
+u = 1
+i = 3
+if o < i :
+	print(o)
+# output
+# o = 8
+# i = 3
+# if o < i:
+#     print(o)
+
+a = 6
+if  a >= a :
+	print(a)
+elif  a == 6 :
+	print(a)
+else :
+	print(a)
+# output
+# a = 6
+# print(a)
+
+k = 3
+m = 6
+if k > 2 :
+	print(m)
+else :
+	print(m)
+# output
+# k = 3
+# m = 6
+# if k > 2:
+#     print(m)
+# else:
+#     print(m)
+
+f = 1
+if not f == 1 :
+	print(f)
+elif f <= f :
+	print(f)
+else :
+	print(f)
+# output
+# f = 1
+# if not f == 1:
+#     print(f)
+# else:
+#     print(f)
+
+t = 2
+a = 8
+y = 5
+v = 3
+if not v < 3 :
+	print(y)
+elif t == v :
+	print(t)
+else :
+	print(v)
+# output
+# t = 2
+# y = 5
+# v = 3
+# if not v < 3:
+#     print(y)
+# elif t == v:
+#     print(t)
+# else:
+#     print(v)
+
+d = 5
+if  d < 7 :
+	print(d)
+elif d < d :
+	print(d)
+else :
+	print(d)
+# output
+# d = 5
+# if d < 7:
+#     print(d)
+# else:
+#     print(d)
+
+n = 3
+if  n >= n :
+	print(n)
+else :
+	print(n)
+# output
+# n = 3
+# print(n)
+
+c = 6
+if  c != 0 :
+	print(c)
+# output
+# c = 6
+# if c != 0:
+#     print(c)
+
+c = 4
+if  c < c :
+	print(c)
+else :
+	print(c)
+# output
+# c = 4
+# print(c)
+
+g = 0
+k = 9
+n = 6
+a = 5
+u = 2
+if not g <= 3 :
+	print(n)
+elif  n != 0 :
+	print(a)
+else :
+	print(u)
+# output
+# g = 0
+# n = 6
+# a = 5
+# u = 2
+# if not g <= 3:
+#     print(n)
+# elif n != 0:
+#     print(a)
+# else:
+#     print(u)
+
+i = 8
+if not i <= i :
+	print(i)
+else :
+	print(i)
+# output
+# i = 8
+# print(i)
+
+n = 9
+if not n == 1 :
+	print(n)
+else :
+	print(n)
+# output
+# n = 9
+# if not n == 1:
+#     print(n)
+# else:
+#     print(n)
+
+h = 5
+f = 3
+e = 8
+if e >= 3 :
+	print(h)
+elif  h >= 8 :
+	print(f)
+else :
+	print(e)
+# output
+# h = 5
+# f = 3
+# e = 8
+# if e >= 3:
+#     print(h)
+# elif h >= 8:
+#     print(f)
+# else:
+#     print(e)
+
+g = 1
+a = 6
+if a >= a :
+	print(a)
+elif g > a :
+	print(a)
+else :
+	print(g)
+# output
+# a = 6
+# print(a)
+
+o = 4
+w = 1
+b = 5
+if not o <= 2 :
+	print(w)
+# output
+# o = 4
+# w = 1
+# if not o <= 2:
+#     print(w)
+
+s = 1
+g = 8
+if s <= s :
+	print(g)
+elif g != 1 :
+	print(s)
+else :
+	print(s)
+# output
+# s = 1
+# print(g)
+
+s = 5
+if not s != s :
+	print(s)
+# output
+# s = 5
+# print(s)
+
+h = 7
+if h >= h :
+	print(h)
+elif  h >= h :
+	print(h)
+else :
+	print(h)
+# output
+# h = 7
+# print(h)
+
+q = 7
+if q != 1 :
+	print(q)
+else :
+	print(q)
+# output
+# q = 7
+# if q != 1:
+#     print(q)
+# else:
+#     print(q)
+
+p = 2
+u = 8
+if u < 4 :
+	print(u)
+else :
+	print(u)
+# output
+# u = 8
+# if u < 4:
+#     print(u)
+# else:
+#     print(u)
+
+t = 9
+if not t <= t :
+	print(t)
+elif t > 9 :
+	print(t)
+else :
+	print(t)
+# output
+# t = 9
+# if t > 9:
+#     print(t)
+# else:
+#     print(t)
+
+m = 8
+l = 0
+if m > 1 :
+	print(l)
+else :
+	print(l)
+# output
+# m = 8
+# l = 0
+# if m > 1:
+#     print(l)
+# else:
+#     print(l)
+
+s = 6
+u = 3
+if u != u :
+	print(s)
+else :
+	print(s)
+# output
+# u = 3
+# print(s)
+
+b = 4
+if b != b :
+	print(b)
+# output
+# b = 4
+
+p = 4
+if p <= p :
+	print(p)
+else :
+	print(p)
+# output
+# p = 4
+# print(p)
+
+s = 7
+if s != s :
+	print(s)
+else :
+	print(s)
+# output
+# s = 7
+# print(s)
+
+m = 9
+if m != 3 :
+	print(m)
+# output
+# m = 9
+# if m != 3:
+#     print(m)
+
+t = 8
+t = 2
+g = 1
+s = 3
+e = 0
+q = 4
+if not q > g :
+	print(s)
+elif  g == 7 :
+	print(s)
+else :
+	print(q)
+# output
+# g = 1
+# s = 3
+# q = 4
+# if not q > g:
+#     print(s)
+# elif g == 7:
+#     print(s)
+# else:
+#     print(q)
+
+u = 4
+x = 2
+f = 4
+if not x >= 7 :
+	print(u)
+else :
+	print(x)
+# output
+# u = 4
+# x = 2
+# if not x >= 7:
+#     print(u)
+# else:
+#     print(x)
+
+e = 1
+if not e >= 5 :
+	print(e)
+else :
+	print(e)
+# output
+# e = 1
+# if not e >= 5:
+#     print(e)
+# else:
+#     print(e)
+
+o = 7
+if not o <= o :
+	print(o)
+# output
+# o = 7
+
+s = 5
+if s > s :
+	print(s)
+elif s != s :
+	print(s)
+else :
+	print(s)
+# output
+# s = 5
+# print(s)
+
+s = 4
+if s > s :
+	print(s)
+else :
+	print(s)
+# output
+# s = 4
+# print(s)
+
+o = 2
+c = 8
+if not c >= c :
+	print(c)
+# output
+# c = 8
+
+o = 3
+if  o >= 7 :
+	print(o)
+# output
+# o = 3
+# if o >= 7:
+#     print(o)
+
+s = 9
+j = 3
+z = 9
+t = 9
+if j == 3 :
+	print(j)
+# output
+# j = 3
+# if j == 3:
+#     print(j)
+
+k = 2
+if k == k :
+	print(k)
+elif k == 6 :
+	print(k)
+else :
+	print(k)
+# output
+# k = 2
+# print(k)
+
+z = 7
+s = 7
+t = 4
+if s == z :
+	print(t)
+else :
+	print(t)
+# output
+# z = 7
+# s = 7
+# t = 4
+# if s == z:
+#     print(t)
+# else:
+#     print(t)
+
+i = 1
+f = 7
+y = 1
+t = 5
+if i != 9 :
+	print(y)
+else :
+	print(f)
+# output
+# i = 1
+# f = 7
+# y = 1
+# if i != 9:
+#     print(y)
+# else:
+#     print(f)
+
+d = 5
+x = 5
+if  x > d :
+	print(d)
+elif d > 2 :
+	print(d)
+else :
+	print(d)
+# output
+# d = 5
+# x = 5
+# if x > d:
+#     print(d)
+# elif d > 2:
+#     print(d)
+# else:
+#     print(d)
+
+b = 3
+h = 4
+o = 3
+x = 9
+if b != 2 :
+	print(x)
+elif o > 2 :
+	print(o)
+else :
+	print(h)
+# output
+# b = 3
+# h = 4
+# o = 3
+# x = 9
+# if b != 2:
+#     print(x)
+# elif o > 2:
+#     print(o)
+# else:
+#     print(h)
+
+h = 1
+h = 3
+if h != 6 :
+	print(h)
+elif  h == 4 :
+	print(h)
+else :
+	print(h)
+# output
+# h = 1
+# h = 3
+# if h != 6:
+#     print(h)
+# elif h == 4:
+#     print(h)
+# else:
+#     print(h)
+
+f = 8
+if f == 4 :
+	print(f)
+else :
+	print(f)
+# output
+# f = 8
+# if f == 4:
+#     print(f)
+# else:
+#     print(f)
+
+i = 6
+if not i != 8 :
+	print(i)
+# output
+# i = 6
+# if not i != 8:
+#     print(i)
+
+n = 2
+if not n < n :
+	print(n)
+# output
+# n = 2
+# print(n)
+
+o = 8
+d = 2
+y = 5
+if  o < y :
+	print(o)
+# output
+# o = 8
+# y = 5
+# if o < y:
+#     print(o)
+
+o = 9
+if o <= 0 :
+	print(o)
+elif  o != 9 :
+	print(o)
+else :
+	print(o)
+# output
+# o = 9
+# if o <= 0:
+#     print(o)
+# elif o != 9:
+#     print(o)
+# else:
+#     print(o)
+
+r = 1
+if not r != 6 :
+	print(r)
+# output
+# r = 1
+# if not r != 6:
+#     print(r)
+
+j = 5
+if not j >= j :
+	print(j)
+else :
+	print(j)
+# output
+# j = 5
+# print(j)
+
+m = 6
+if m < m :
+	print(m)
+else :
+	print(m)
+# output
+# m = 6
+# print(m)
+
+m = 8
+if  m < m :
+	print(m)
+# output
+# m = 8
+
+q = 0
+r = 9
+f = 3
+m = 1
+if r > 3 :
+	print(r)
+else :
+	print(q)
+# output
+# q = 0
+# r = 9
+# if r > 3:
+#     print(r)
+# else:
+#     print(q)
+
+u = 0
+if u <= u :
+	print(u)
+else :
+	print(u)
+# output
+# u = 0
+# print(u)
+
+d = 3
+y = 5
+if d <= d :
+	print(d)
+elif  d <= 7 :
+	print(d)
+else :
+	print(y)
+# output
+# d = 3
+# print(d)
+
+t = 6
+if t < 0 :
+	print(t)
+elif t != t :
+	print(t)
+else :
+	print(t)
+# output
+# t = 6
+# if t < 0:
+#     print(t)
+# else:
+#     print(t)
+
+s = 2
+h = 6
+p = 4
+if p <= h :
+	print(p)
+elif not p <= 3 :
+	print(h)
+else :
+	print(s)
+# output
+# s = 2
+# h = 6
+# p = 4
+# if p <= h:
+#     print(p)
+# elif not p <= 3:
+#     print(h)
+# else:
+#     print(s)
+
+e = 6
+e = 7
+if not e > 1 :
+	print(e)
+# output
+# e = 6
+# e = 7
+# if not e > 1:
+#     print(e)
+
+p = 4
+a = 1
+w = 2
+if not p != 0 :
+	print(a)
+elif  p <= 8 :
+	print(w)
+else :
+	print(a)
+# output
+# p = 4
+# a = 1
+# w = 2
+# if not p != 0:
+#     print(a)
+# elif p <= 8:
+#     print(w)
+# else:
+#     print(a)
+
+p = 6
+if p <= p :
+	print(p)
+# output
+# p = 6
+# print(p)
+
+w = 5
+if  w < 4 :
+	print(w)
+# output
+# w = 5
+# if w < 4:
+#     print(w)
+
+m = 3
+if m >= m :
+	print(m)
+else :
+	print(m)
+# output
+# m = 3
+# print(m)
+
+z = 1
+if not z < 1 :
+	print(z)
+elif z > 5 :
+	print(z)
+else :
+	print(z)
+# output
+# z = 1
+# if not z < 1:
+#     print(z)
+# elif z > 5:
+#     print(z)
+# else:
+#     print(z)
+
+i = 3
+if  i >= i :
+	print(i)
+else :
+	print(i)
+# output
+# i = 3
+# print(i)
+
+w = 2
+if w == w :
+	print(w)
+elif  w == 8 :
+	print(w)
+else :
+	print(w)
+# output
+# w = 2
+# print(w)
+
+b = 5
+q = 2
+if  q != b :
+	print(q)
+# output
+# b = 5
+# q = 2
+# if q != b:
+#     print(q)
+
+s = 9
+f = 3
+if  f <= 8 :
+	print(f)
+# output
+# f = 3
+# if f <= 8:
+#     print(f)
+
+i = 0
+if i >= i :
+	print(i)
+# output
+# i = 0
+# print(i)
+
+t = 1
+r = 8
+w = 4
+if r == 7 :
+	print(w)
+else :
+	print(t)
+# output
+# t = 1
+# r = 8
+# w = 4
+# if r == 7:
+#     print(w)
+# else:
+#     print(t)
+
+n = 7
+if  n == n :
+	print(n)
+elif not n > 2 :
+	print(n)
+else :
+	print(n)
+# output
+# n = 7
+# print(n)
+
+t = 5
+if t > 0 :
+	print(t)
+else :
+	print(t)
+# output
+# t = 5
+# if t > 0:
+#     print(t)
+# else:
+#     print(t)
+
+q = 8
+if q >= q :
+	print(q)
+elif q > q :
+	print(q)
+else :
+	print(q)
+# output
+# q = 8
+# print(q)
+
+y = 0
+if  y < y :
+	print(y)
+elif not y < y :
+	print(y)
+else :
+	print(y)
+# output
+# y = 0
+# print(y)
+
+t = 7
+r = 1
+if r < 2 :
+	print(t)
+else :
+	print(r)
+# output
+# t = 7
+# r = 1
+# if r < 2:
+#     print(t)
+# else:
+#     print(r)
+
+f = 4
+s = 4
+if  f != 9 :
+	print(f)
+elif not f <= 7 :
+	print(f)
+else :
+	print(s)
+# output
+# f = 4
+# s = 4
+# if f != 9:
+#     print(f)
+# elif not f <= 7:
+#     print(f)
+# else:
+#     print(s)
+
+n = 5
+if n == 8 :
+	print(n)
+elif  n >= n :
+	print(n)
+else :
+	print(n)
+# output
+# n = 5
+# if n == 8:
+#     print(n)
+# else:
+#     print(n)
+
+m = 1
+if m < m :
+	print(m)
+# output
+# m = 1
+
+q = 7
+o = 5
+if o != q :
+	print(o)
+# output
+# q = 7
+# o = 5
+# if o != q:
+#     print(o)
+
+c = 8
+m = 3
+g = 9
+b = 2
+if g < c :
+	print(c)
+else :
+	print(m)
+# output
+# c = 8
+# m = 3
+# g = 9
+# if g < c:
+#     print(c)
+# else:
+#     print(m)
+
+p = 5
+if p < p :
+	print(p)
+elif  p <= 9 :
+	print(p)
+else :
+	print(p)
+# output
+# p = 5
+# if p <= 9:
+#     print(p)
+# else:
+#     print(p)
+
+u = 7
+if  u > u :
+	print(u)
+elif u == 0 :
+	print(u)
+else :
+	print(u)
+# output
+# u = 7
+# if u == 0:
+#     print(u)
+# else:
+#     print(u)
+
+q = 9
+if q >= 2 :
+	print(q)
+# output
+# q = 9
+# if q >= 2:
+#     print(q)
+
+u = 2
+if u >= u :
+	print(u)
+# output
+# u = 2
+# print(u)
+
+a = 9
+if  a < a :
+	print(a)
+# output
+# a = 9
+
+s = 6
+b = 9
+m = 2
+m = 9
+if not b <= 1 :
+	print(b)
+# output
+# b = 9
+# if not b <= 1:
+#     print(b)
+
+c = 8
+o = 3
+j = 9
+if j >= 1 :
+	print(o)
+else :
+	print(j)
+# output
+# o = 3
+# j = 9
+# if j >= 1:
+#     print(o)
+# else:
+#     print(j)
+
+a = 8
+if  a < 0 :
+	print(a)
+else :
+	print(a)
+# output
+# a = 8
+# if a < 0:
+#     print(a)
+# else:
+#     print(a)
+
+j = 9
+if not j == j :
+	print(j)
+# output
+# j = 9
+
+k = 5
+z = 2
+s = 7
+l = 0
+if not l != 3 :
+	print(z)
+elif  k > k :
+	print(k)
+else :
+	print(k)
+# output
+# k = 5
+# z = 2
+# l = 0
+# if not l != 3:
+#     print(z)
+# else:
+#     print(k)
+
+b = 9
+v = 2
+q = 5
+if q <= 0 :
+	print(q)
+else :
+	print(v)
+# output
+# v = 2
+# q = 5
+# if q <= 0:
+#     print(q)
+# else:
+#     print(v)
+
+k = 7
+z = 3
+q = 5
+q = 7
+j = 9
+l = 2
+if j < l :
+	print(q)
+else :
+	print(z)
+# output
+# z = 3
+# q = 5
+# q = 7
+# j = 9
+# l = 2
+# if j < l:
+#     print(q)
+# else:
+#     print(z)
+
+a = 1
+w = 4
+z = 4
+j = 4
+if a <= w :
+	print(j)
+else :
+	print(a)
+# output
+# a = 1
+# w = 4
+# j = 4
+# if a <= w:
+#     print(j)
+# else:
+#     print(a)
+
+t = 0
+if t >= t :
+	print(t)
+# output
+# t = 0
+# print(t)
+
+d = 6
+k = 4
+if  k >= k :
+	print(d)
+else :
+	print(d)
+# output
+# k = 4
+# print(d)
+
+v = 6
+if not v < 5 :
+	print(v)
+# output
+# v = 6
+# if not v < 5:
+#     print(v)
+
+f = 4
+if f <= f :
+	print(f)
+else :
+	print(f)
+# output
+# f = 4
+# print(f)
+
+s = 1
+if s != s :
+	print(s)
+# output
+# s = 1
+
+z = 4
+t = 3
+if not z == z :
+	print(t)
+# output
+# z = 4
+
+k = 3
+o = 0
+m = 9
+f = 0
+q = 6
+a = 3
+if  k < 4 :
+	print(f)
+else :
+	print(q)
+# output
+# k = 3
+# f = 0
+# q = 6
+# if k < 4:
+#     print(f)
+# else:
+#     print(q)
+
+e = 8
+d = 0
+if not d >= 5 :
+	print(d)
+elif not d > e :
+	print(d)
+else :
+	print(d)
+# output
+# e = 8
+# d = 0
+# if not d >= 5:
+#     print(d)
+# elif not d > e:
+#     print(d)
+# else:
+#     print(d)
+
+r = 3
+if r < 4 :
+	print(r)
+elif r <= r :
+	print(r)
+else :
+	print(r)
+# output
+# r = 3
+# if r < 4:
+#     print(r)
+# else:
+#     print(r)
+
+c = 8
+s = 5
+if  s >= c :
+	print(c)
+elif  s != c :
+	print(c)
+else :
+	print(s)
+# output
+# c = 8
+# s = 5
+# if s >= c:
+#     print(c)
+# elif s != c:
+#     print(c)
+# else:
+#     print(s)
+
+m = 9
+if  m < m :
+	print(m)
+# output
+# m = 9
+
+b = 4
+h = 2
+o = 7
+g = 4
+if  h > 2 :
+	print(b)
+else :
+	print(g)
+# output
+# b = 4
+# h = 2
+# g = 4
+# if h > 2:
+#     print(b)
+# else:
+#     print(g)
+
+t = 9
+if  t != 2 :
+	print(t)
+elif t != t :
+	print(t)
+else :
+	print(t)
+# output
+# t = 9
+# if t != 2:
+#     print(t)
+# else:
+#     print(t)
+
+x = 7
+v = 7
+if not x < 1 :
+	print(v)
+else :
+	print(v)
+# output
+# x = 7
+# v = 7
+# if not x < 1:
+#     print(v)
+# else:
+#     print(v)
+
+z = 0
+d = 7
+if  d < 1 :
+	print(z)
+elif  d == 2 :
+	print(z)
+else :
+	print(z)
+# output
+# z = 0
+# d = 7
+# if d < 1:
+#     print(z)
+# elif d == 2:
+#     print(z)
+# else:
+#     print(z)
+
+w = 8
+u = 6
+x = 1
+y = 1
+if y > x :
+	print(u)
+# output
+# u = 6
+# x = 1
+# y = 1
+# if y > x:
+#     print(u)
+
+c = 6
+t = 6
+r = 4
+if  r == r :
+	print(r)
+elif not c < 1 :
+	print(r)
+else :
+	print(r)
+# output
+# r = 4
+# print(r)
+
+q = 3
+r = 6
+i = 3
+if r != 3 :
+	print(q)
+else :
+	print(r)
+# output
+# q = 3
+# r = 6
+# if r != 3:
+#     print(q)
+# else:
+#     print(r)
+
+p = 2
+s = 3
+if s >= p :
+	print(s)
+# output
+# p = 2
+# s = 3
+# if s >= p:
+#     print(s)
+
+k = 0
+if k < k :
+	print(k)
+# output
+# k = 0
+
+c = 4
+u = 1
+if c < c :
+	print(c)
+elif c < u :
+	print(u)
+else :
+	print(c)
+# output
+# c = 4
+# u = 1
+# if c < u:
+#     print(u)
+# else:
+#     print(c)
+
+a = 7
+if a < a :
+	print(a)
+elif a <= a :
+	print(a)
+else :
+	print(a)
+# output
+# a = 7
+# print(a)
+
+x = 6
+b = 5
+if b <= x :
+	print(b)
+else :
+	print(b)
+# output
+# x = 6
+# b = 5
+# if b <= x:
+#     print(b)
+# else:
+#     print(b)
+
+n = 9
+y = 8
+l = 6
+e = 0
+w = 8
+if y <= y :
+	print(w)
+else :
+	print(w)
+# output
+# y = 8
+# print(w)
+
+r = 1
+if r <= r :
+	print(r)
+elif not r == 0 :
+	print(r)
+else :
+	print(r)
+# output
+# r = 1
+# print(r)
+
+r = 1
+k = 5
+if not k < 6 :
+	print(r)
+# output
+# r = 1
+# k = 5
+# if not k < 6:
+#     print(r)
+
+f = 9
+u = 7
+g = 7
+s = 4
+if  g >= 6 :
+	print(f)
+else :
+	print(s)
+# output
+# f = 9
+# g = 7
+# s = 4
+# if g >= 6:
+#     print(f)
+# else:
+#     print(s)
+
+w = 8
+if w == 3 :
+	print(w)
+else :
+	print(w)
+# output
+# w = 8
+# if w == 3:
+#     print(w)
+# else:
+#     print(w)
+
+c = 9
+if not c == c :
+	print(c)
+else :
+	print(c)
+# output
+# c = 9
+# print(c)
+
+p = 7
+if p > p :
+	print(p)
+# output
+# p = 7
+
+r = 2
+k = 2
+if  k > 7 :
+	print(k)
+elif k != 7 :
+	print(k)
+else :
+	print(r)
+# output
+# r = 2
+# k = 2
+# if k > 7:
+#     print(k)
+# elif k != 7:
+#     print(k)
+# else:
+#     print(r)
+
+a = 0
+if a != 8 :
+	print(a)
+else :
+	print(a)
+# output
+# a = 0
+# if a != 8:
+#     print(a)
+# else:
+#     print(a)
+
+u = 2
+q = 6
+if q < 7 :
+	print(u)
+elif u == q :
+	print(u)
+else :
+	print(u)
+# output
+# u = 2
+# q = 6
+# if q < 7:
+#     print(u)
+# elif u == q:
+#     print(u)
+# else:
+#     print(u)
+
+j = 4
+if not j <= 5 :
+	print(j)
+else :
+	print(j)
+# output
+# j = 4
+# if not j <= 5:
+#     print(j)
+# else:
+#     print(j)
+
+f = 1
+if f >= 0 :
+	print(f)
+# output
+# f = 1
+# if f >= 0:
+#     print(f)
+
+e = 7
+if not e < e :
+	print(e)
+else :
+	print(e)
+# output
+# e = 7
+# print(e)
+
+d = 7
+if not d == 0 :
+	print(d)
+# output
+# d = 7
+# if not d == 0:
+#     print(d)
+
+t = 0
+q = 6
+if t != t :
+	print(q)
+# output
+# t = 0
+
+s = 4
+c = 2
+if  c < 7 :
+	print(s)
+else :
+	print(s)
+# output
+# s = 4
+# c = 2
+# if c < 7:
+#     print(s)
+# else:
+#     print(s)
+
+r = 7
+if r == 3 :
+	print(r)
+# output
+# r = 7
+# if r == 3:
+#     print(r)
+
+b = 4
+if not b < 9 :
+	print(b)
+elif  b >= 0 :
+	print(b)
+else :
+	print(b)
+# output
+# b = 4
+# if not b < 9:
+#     print(b)
+# elif b >= 0:
+#     print(b)
+# else:
+#     print(b)
+
+t = 9
+if t >= 0 :
+	print(t)
+# output
+# t = 9
+# if t >= 0:
+#     print(t)
+
+b = 4
+s = 1
+if b >= b :
+	print(s)
+else :
+	print(b)
+# output
+# b = 4
+# print(s)
+
+s = 4
+m = 9
+if not m > 0 :
+	print(m)
+# output
+# m = 9
+# if not m > 0:
+#     print(m)
+
+k = 2
+if not k > 8 :
+	print(k)
+elif k <= 4 :
+	print(k)
+else :
+	print(k)
+# output
+# k = 2
+# if not k > 8:
+#     print(k)
+# elif k <= 4:
+#     print(k)
+# else:
+#     print(k)
+
+q = 9
+h = 0
+h = 4
+if  h != 9 :
+	print(q)
+# output
+# q = 9
+# h = 0
+# h = 4
+# if h != 9:
+#     print(q)
+
+c = 9
+if c < c :
+	print(c)
+elif c != 6 :
+	print(c)
+else :
+	print(c)
+# output
+# c = 9
+# if c != 6:
+#     print(c)
+# else:
+#     print(c)
+
+o = 6
+if not o >= 3 :
+	print(o)
+else :
+	print(o)
+# output
+# o = 6
+# if not o >= 3:
+#     print(o)
+# else:
+#     print(o)
+
+x = 9
+b = 3
+s = 4
+x = 0
+if b <= s :
+	print(x)
+else :
+	print(b)
+# output
+# x = 9
+# b = 3
+# s = 4
+# x = 0
+# if b <= s:
+#     print(x)
+# else:
+#     print(b)
+
+n = 1
+if not n >= 4 :
+	print(n)
+elif not n != n :
+	print(n)
+else :
+	print(n)
+# output
+# n = 1
+# if not n >= 4:
+#     print(n)
+# else:
+#     print(n)
+
+z = 1
+if not z != z :
+	print(z)
+elif z <= z :
+	print(z)
+else :
+	print(z)
+# output
+# z = 1
+# print(z)
+
+w = 7
+x = 3
+if not x >= x :
+	print(w)
+# output
+# x = 3
+
+m = 4
+g = 7
+if g >= m :
+	print(g)
+# output
+# m = 4
+# g = 7
+# if g >= m:
+#     print(g)
+
+g = 2
+if g == g :
+	print(g)
+# output
+# g = 2
+# print(g)
+
+u = 3
+if u != 9 :
+	print(u)
+elif not u > u :
+	print(u)
+else :
+	print(u)
+# output
+# u = 3
+# if u != 9:
+#     print(u)
+# else:
+#     print(u)
+
+c = 5
+l = 6
+h = 6
+x = 9
+b = 2
+f = 6
+if c != 9 :
+	print(x)
+elif not b == l :
+	print(f)
+else :
+	print(l)
+# output
+# c = 5
+# l = 6
+# x = 9
+# b = 2
+# f = 6
+# if c != 9:
+#     print(x)
+# elif not b == l:
+#     print(f)
+# else:
+#     print(l)
+
+d = 8
+p = 4
+z = 1
+m = 6
+w = 1
+if  p < 4 :
+	print(p)
+# output
+# p = 4
+# if p < 4:
+#     print(p)
+
+o = 6
+j = 1
+t = 8
+i = 6
+if  o >= 6 :
+	print(j)
+elif j < 1 :
+	print(i)
+else :
+	print(o)
+# output
+# o = 6
+# j = 1
+# i = 6
+# if o >= 6:
+#     print(j)
+# elif j < 1:
+#     print(i)
+# else:
+#     print(o)
+
+s = 2
+k = 2
+l = 2
+if l < 7 :
+	print(k)
+# output
+# k = 2
+# l = 2
+# if l < 7:
+#     print(k)
+
+r = 0
+if  r != 0 :
+	print(r)
+else :
+	print(r)
+# output
+# r = 0
+# if r != 0:
+#     print(r)
+# else:
+#     print(r)
+
+m = 4
+d = 4
+if not m == d :
+	print(d)
+elif  m >= m :
+	print(m)
+else :
+	print(m)
+# output
+# m = 4
+# d = 4
+# if not m == d:
+#     print(d)
+# else:
+#     print(m)
+
+u = 0
+c = 1
+if  c != u :
+	print(c)
+# output
+# u = 0
+# c = 1
+# if c != u:
+#     print(c)
+
+b = 5
+b = 6
+q = 9
+if b == q :
+	print(q)
+elif not b >= 3 :
+	print(q)
+else :
+	print(b)
+# output
+# b = 5
+# b = 6
+# q = 9
+# if b == q:
+#     print(q)
+# elif not b >= 3:
+#     print(q)
+# else:
+#     print(b)
+
+i = 5
+if not i > 8 :
+	print(i)
+elif i != 0 :
+	print(i)
+else :
+	print(i)
+# output
+# i = 5
+# if not i > 8:
+#     print(i)
+# elif i != 0:
+#     print(i)
+# else:
+#     print(i)
+
+b = 5
+e = 0
+j = 6
+h = 0
+w = 4
+if j < 0 :
+	print(h)
+elif e != 6 :
+	print(h)
+else :
+	print(b)
+# output
+# b = 5
+# e = 0
+# j = 6
+# h = 0
+# if j < 0:
+#     print(h)
+# elif e != 6:
+#     print(h)
+# else:
+#     print(b)
+
+t = 2
+c = 8
+if t != 2 :
+	print(c)
+elif c != 4 :
+	print(c)
+else :
+	print(c)
+# output
+# t = 2
+# c = 8
+# if t != 2:
+#     print(c)
+# elif c != 4:
+#     print(c)
+# else:
+#     print(c)
+
+k = 4
+i = 7
+y = 6
+x = 2
+if not k != 0 :
+	print(i)
+else :
+	print(x)
+# output
+# k = 4
+# i = 7
+# x = 2
+# if not k != 0:
+#     print(i)
+# else:
+#     print(x)
+
+k = 1
+if k > 2 :
+	print(k)
+else :
+	print(k)
+# output
+# k = 1
+# if k > 2:
+#     print(k)
+# else:
+#     print(k)
+
+z = 0
+if not z < 4 :
+	print(z)
+elif z != 1 :
+	print(z)
+else :
+	print(z)
+# output
+# z = 0
+# if not z < 4:
+#     print(z)
+# elif z != 1:
+#     print(z)
+# else:
+#     print(z)
+
+j = 5
+if j >= 8 :
+	print(j)
+# output
+# j = 5
+# if j >= 8:
+#     print(j)
+
+x = 5
+w = 1
+v = 9
+l = 9
+d = 6
+t = 1
+if  d != 2 :
+	print(w)
+# output
+# w = 1
+# d = 6
+# if d != 2:
+#     print(w)
+
+y = 4
+if  y <= 7 :
+	print(y)
+# output
+# y = 4
+# if y <= 7:
+#     print(y)
+
+g = 4
+j = 8
+if not j == 6 :
+	print(j)
+# output
+# j = 8
+# if not j == 6:
+#     print(j)
+
+t = 6
+a = 5
+t = 8
+if a == a :
+	print(t)
+# output
+# a = 5
+# print(t)
+
+y = 8
+if y <= y :
+	print(y)
+elif y <= y :
+	print(y)
+else :
+	print(y)
+# output
+# y = 8
+# print(y)
+
+f = 1
+n = 4
+if  n > f :
+	print(f)
+else :
+	print(n)
+# output
+# f = 1
+# n = 4
+# if n > f:
+#     print(f)
+# else:
+#     print(n)
+
+g = 7
+if g > g :
+	print(g)
+# output
+# g = 7
+
+r = 7
+b = 8
+i = 9
+if r != 1 :
+	print(r)
+# output
+# r = 7
+# if r != 1:
+#     print(r)
+
+x = 7
+q = 5
+if  q <= q :
+	print(q)
+elif  q <= x :
+	print(q)
+else :
+	print(q)
+# output
+# q = 5
+# print(q)
+
+z = 1
+o = 3
+e = 8
+h = 0
+if z >= o :
+	print(h)
+else :
+	print(z)
+# output
+# z = 1
+# o = 3
+# h = 0
+# if z >= o:
+#     print(h)
+# else:
+#     print(z)
+
+p = 9
+h = 8
+x = 1
+if not p != x :
+	print(p)
+# output
+# p = 9
+# x = 1
+# if not p != x:
+#     print(p)
+
+b = 7
+y = 9
+if not y == y :
+	print(b)
+elif y >= b :
+	print(y)
+else :
+	print(y)
+# output
+# b = 7
+# y = 9
+# if y >= b:
+#     print(y)
+# else:
+#     print(y)
+
+o = 5
+if  o >= 7 :
+	print(o)
+# output
+# o = 5
+# if o >= 7:
+#     print(o)
+
+q = 3
+m = 4
+a = 4
+g = 2
+a = 2
+a = 4
+if  a > g :
+	print(a)
+elif not a < 2 :
+	print(q)
+else :
+	print(q)
+# output
+# q = 3
+# a = 4
+# g = 2
+# a = 2
+# a = 4
+# if a > g:
+#     print(a)
+# elif not a < 2:
+#     print(q)
+# else:
+#     print(q)
+
+k = 2
+a = 5
+if k >= a :
+	print(a)
+else :
+	print(a)
+# output
+# k = 2
+# a = 5
+# if k >= a:
+#     print(a)
+# else:
+#     print(a)
+
+a = 7
+c = 0
+if  c != c :
+	print(a)
+elif a == a :
+	print(c)
+else :
+	print(a)
+# output
+# a = 7
+# c = 0
+# print(c)
+
+n = 5
+if  n >= n :
+	print(n)
+# output
+# n = 5
+# print(n)
+
+n = 4
+g = 0
+if n < n :
+	print(n)
+elif not n == g :
+	print(g)
+else :
+	print(g)
+# output
+# n = 4
+# g = 0
+# if not n == g:
+#     print(g)
+# else:
+#     print(g)
+
+p = 5
+if p != 7 :
+	print(p)
+elif p <= 2 :
+	print(p)
+else :
+	print(p)
+# output
+# p = 5
+# if p != 7:
+#     print(p)
+# elif p <= 2:
+#     print(p)
+# else:
+#     print(p)
+
+e = 5
+if e == 8 :
+	print(e)
+elif  e <= e :
+	print(e)
+else :
+	print(e)
+# output
+# e = 5
+# if e == 8:
+#     print(e)
+# else:
+#     print(e)
+
+l = 2
+if l < 8 :
+	print(l)
+elif l < 7 :
+	print(l)
+else :
+	print(l)
+# output
+# l = 2
+# if l < 8:
+#     print(l)
+# elif l < 7:
+#     print(l)
+# else:
+#     print(l)
+
+l = 0
+b = 7
+g = 6
+u = 2
+w = 8
+if l <= b :
+	print(b)
+# output
+# l = 0
+# b = 7
+# if l <= b:
+#     print(b)
+
+r = 6
+if not r < 1 :
+	print(r)
+# output
+# r = 6
+# if not r < 1:
+#     print(r)
+
+f = 9
+if  f < 7 :
+	print(f)
+else :
+	print(f)
+# output
+# f = 9
+# if f < 7:
+#     print(f)
+# else:
+#     print(f)
+
+k = 3
+if k != k :
+	print(k)
+else :
+	print(k)
+# output
+# k = 3
+# print(k)
+
+h = 3
+if h < 3 :
+	print(h)
+elif not h == 0 :
+	print(h)
+else :
+	print(h)
+# output
+# h = 3
+# if h < 3:
+#     print(h)
+# elif not h == 0:
+#     print(h)
+# else:
+#     print(h)
+
+n = 2
+if n != n :
+	print(n)
+elif n == n :
+	print(n)
+else :
+	print(n)
+# output
+# n = 2
+# print(n)
+
+a = 5
+if  a >= a :
+	print(a)
+elif a < a :
+	print(a)
+else :
+	print(a)
+# output
+# a = 5
+# print(a)
+
+x = 2
+if not x != 9 :
+	print(x)
+# output
+# x = 2
+# if not x != 9:
+#     print(x)
+
+h = 5
+l = 3
+w = 0
+if l == 3 :
+	print(l)
+elif not l != l :
+	print(l)
+else :
+	print(l)
+# output
+# l = 3
+# if l == 3:
+#     print(l)
+# else:
+#     print(l)
+
+a = 4
+s = 0
+m = 2
+u = 1
+if s < s :
+	print(s)
+else :
+	print(s)
+# output
+# s = 0
+# print(s)
+
+d = 3
+o = 0
+if d >= d :
+	print(o)
+# output
+# d = 3
+# print(o)
+
+a = 8
+if not a >= 1 :
+	print(a)
+else :
+	print(a)
+# output
+# a = 8
+# if not a >= 1:
+#     print(a)
+# else:
+#     print(a)
+
+d = 2
+q = 4
+if  q != q :
+	print(q)
+elif d >= q :
+	print(d)
+else :
+	print(d)
+# output
+# d = 2
+# q = 4
+# if d >= q:
+#     print(d)
+# else:
+#     print(d)
+
+j = 2
+if j > 8 :
+	print(j)
+# output
+# j = 2
+# if j > 8:
+#     print(j)
+
+c = 6
+o = 8
+r = 6
+r = 5
+if not o < o :
+	print(c)
+# output
+# o = 8
+# print(c)
+
+y = 4
+if not y <= 1 :
+	print(y)
+# output
+# y = 4
+# if not y <= 1:
+#     print(y)
+
+q = 5
+if q == q :
+	print(q)
+elif not q == 5 :
+	print(q)
+else :
+	print(q)
+# output
+# q = 5
+# print(q)
+
+q = 8
+r = 3
+if q < 4 :
+	print(r)
+elif  q > 2 :
+	print(r)
+else :
+	print(r)
+# output
+# q = 8
+# r = 3
+# if q < 4:
+#     print(r)
+# elif q > 2:
+#     print(r)
+# else:
+#     print(r)
+
+h = 6
+if h > h :
+	print(h)
+# output
+# h = 6
+
+g = 9
+m = 8
+if m != 2 :
+	print(g)
+else :
+	print(g)
+# output
+# g = 9
+# m = 8
+# if m != 2:
+#     print(g)
+# else:
+#     print(g)
+
+i = 1
+if  i != 4 :
+	print(i)
+elif i >= 3 :
+	print(i)
+else :
+	print(i)
+# output
+# i = 1
+# if i != 4:
+#     print(i)
+# elif i >= 3:
+#     print(i)
+# else:
+#     print(i)
+
+x = 8
+x = 0
+d = 9
+if not d > d :
+	print(d)
+elif d > 1 :
+	print(x)
+else :
+	print(d)
+# output
+# d = 9
+# print(d)
+
+j = 1
+g = 4
+if g < 0 :
+	print(g)
+else :
+	print(g)
+# output
+# g = 4
+# if g < 0:
+#     print(g)
+# else:
+#     print(g)
+
+v = 4
+d = 5
+i = 6
+r = 7
+if  r >= 5 :
+	print(r)
+else :
+	print(v)
+# output
+# v = 4
+# r = 7
+# if r >= 5:
+#     print(r)
+# else:
+#     print(v)
+
+p = 4
+w = 6
+j = 1
+if not p > j :
+	print(p)
+elif w >= w :
+	print(w)
+else :
+	print(w)
+# output
+# p = 4
+# w = 6
+# j = 1
+# if not p > j:
+#     print(p)
+# else:
+#     print(w)
+
+j = 3
+if j == 9 :
+	print(j)
+else :
+	print(j)
+# output
+# j = 3
+# if j == 9:
+#     print(j)
+# else:
+#     print(j)
+
+f = 2
+x = 1
+d = 2
+d = 2
+if not x > 6 :
+	print(d)
+elif not d > d :
+	print(x)
+else :
+	print(x)
+# output
+# x = 1
+# d = 2
+# d = 2
+# if not x > 6:
+#     print(d)
+# else:
+#     print(x)
+
+e = 9
+w = 2
+t = 6
+if e == w :
+	print(e)
+else :
+	print(t)
+# output
+# e = 9
+# w = 2
+# t = 6
+# if e == w:
+#     print(e)
+# else:
+#     print(t)
+
+y = 7
+if y >= 6 :
+	print(y)
+# output
+# y = 7
+# if y >= 6:
+#     print(y)
+
+s = 9
+if not s >= s :
+	print(s)
+# output
+# s = 9
+
+s = 8
+c = 0
+f = 2
+if not s != s :
+	print(c)
+else :
+	print(s)
+# output
+# s = 8
+# print(c)
+
+c = 5
+if c != c :
+	print(c)
+# output
+# c = 5
+
+x = 5
+if x <= x :
+	print(x)
+else :
+	print(x)
+# output
+# x = 5
+# print(x)
+
+q = 9
+u = 8
+if  q <= u :
+	print(u)
+# output
+# q = 9
+# u = 8
+# if q <= u:
+#     print(u)
+
+c = 9
+if c > c :
+	print(c)
+else :
+	print(c)
+# output
+# c = 9
+# print(c)
+
+z = 9
+if z == z :
+	print(z)
+# output
+# z = 9
+# print(z)
+
+b = 8
+i = 8
+if  i < 0 :
+	print(i)
+else :
+	print(b)
+# output
+# b = 8
+# i = 8
+# if i < 0:
+#     print(i)
+# else:
+#     print(b)
+
+l = 2
+i = 8
+o = 4
+if l <= l :
+	print(l)
+# output
+# l = 2
+# print(l)
+
+b = 9
+if not b >= b :
+	print(b)
+elif not b <= 2 :
+	print(b)
+else :
+	print(b)
+# output
+# b = 9
+# if not b <= 2:
+#     print(b)
+# else:
+#     print(b)
+
+i = 9
+o = 2
+if o > o :
+	print(o)
+# output
+# o = 2
+
+d = 1
+if not d > 3 :
+	print(d)
+# output
+# d = 1
+# if not d > 3:
+#     print(d)
+
+u = 8
+if u != 9 :
+	print(u)
+else :
+	print(u)
+# output
+# u = 8
+# if u != 9:
+#     print(u)
+# else:
+#     print(u)
+
+a = 0
+n = 0
+b = 9
+e = 1
+c = 6
+if  e <= 1 :
+	print(c)
+# output
+# e = 1
+# c = 6
+# if e <= 1:
+#     print(c)
+
+a = 8
+v = 8
+if v == 0 :
+	print(a)
+else :
+	print(a)
+# output
+# a = 8
+# v = 8
+# if v == 0:
+#     print(a)
+# else:
+#     print(a)
+
+m = 8
+d = 2
+if not d != 8 :
+	print(d)
+# output
+# d = 2
+# if not d != 8:
+#     print(d)
+
+a = 1
+if not a >= 1 :
+	print(a)
+elif a >= a :
+	print(a)
+else :
+	print(a)
+# output
+# a = 1
+# if not a >= 1:
+#     print(a)
+# else:
+#     print(a)
+
+h = 7
+if not h < h :
+	print(h)
+elif  h != 5 :
+	print(h)
+else :
+	print(h)
+# output
+# h = 7
+# print(h)
+
+n = 9
+y = 9
+if n > 4 :
+	print(n)
+# output
+# n = 9
+# if n > 4:
+#     print(n)
+
+u = 5
+c = 6
+if c >= 8 :
+	print(u)
+# output
+# u = 5
+# c = 6
+# if c >= 8:
+#     print(u)
+
+d = 1
+g = 4
+y = 0
+if not g == 5 :
+	print(g)
+# output
+# g = 4
+# if not g == 5:
+#     print(g)
+
+i = 3
+a = 1
+if not a == i :
+	print(a)
+else :
+	print(i)
+# output
+# i = 3
+# a = 1
+# if not a == i:
+#     print(a)
+# else:
+#     print(i)
+
+q = 8
+c = 0
+if  c <= 0 :
+	print(q)
+else :
+	print(c)
+# output
+# q = 8
+# c = 0
+# if c <= 0:
+#     print(q)
+# else:
+#     print(c)
+
+p = 9
+if p < 2 :
+	print(p)
+elif not p != 8 :
+	print(p)
+else :
+	print(p)
+# output
+# p = 9
+# if p < 2:
+#     print(p)
+# elif not p != 8:
+#     print(p)
+# else:
+#     print(p)
+
+v = 1
+if  v != v :
+	print(v)
+# output
+# v = 1
+
+g = 6
+v = 0
+s = 9
+c = 9
+l = 0
+n = 6
+if not l >= 4 :
+	print(n)
+else :
+	print(l)
+# output
+# l = 0
+# n = 6
+# if not l >= 4:
+#     print(n)
+# else:
+#     print(l)
+
+d = 3
+m = 9
+if  m < m :
+	print(d)
+# output
+# m = 9
+
+u = 7
+g = 2
+if u != 5 :
+	print(u)
+else :
+	print(g)
+# output
+# u = 7
+# g = 2
+# if u != 5:
+#     print(u)
+# else:
+#     print(g)
+
+t = 6
+i = 0
+s = 5
+if s < 7 :
+	print(s)
+else :
+	print(s)
+# output
+# s = 5
+# if s < 7:
+#     print(s)
+# else:
+#     print(s)
+
+g = 2
+if  g <= 4 :
+	print(g)
+elif  g != 8 :
+	print(g)
+else :
+	print(g)
+# output
+# g = 2
+# if g <= 4:
+#     print(g)
+# elif g != 8:
+#     print(g)
+# else:
+#     print(g)
+
+a = 7
+b = 5
+r = 9
+if not r >= 0 :
+	print(a)
+else :
+	print(a)
+# output
+# a = 7
+# r = 9
+# if not r >= 0:
+#     print(a)
+# else:
+#     print(a)
+
+j = 0
+if not j > 2 :
+	print(j)
+elif j > j :
+	print(j)
+else :
+	print(j)
+# output
+# j = 0
+# if not j > 2:
+#     print(j)
+# else:
+#     print(j)
+
+h = 2
+c = 0
+if c >= c :
+	print(c)
+else :
+	print(h)
+# output
+# c = 0
+# print(c)
+
+p = 3
+if  p != p :
+	print(p)
+# output
+# p = 3
+
+l = 9
+k = 7
+if l > k :
+	print(l)
+elif k >= 0 :
+	print(l)
+else :
+	print(l)
+# output
+# l = 9
+# k = 7
+# if l > k:
+#     print(l)
+# elif k >= 0:
+#     print(l)
+# else:
+#     print(l)
+
+s = 6
+v = 3
+t = 5
+if s > 4 :
+	print(v)
+elif s < 8 :
+	print(t)
+else :
+	print(t)
+# output
+# s = 6
+# v = 3
+# t = 5
+# if s > 4:
+#     print(v)
+# elif s < 8:
+#     print(t)
+# else:
+#     print(t)
+
+d = 2
+if d <= 5 :
+	print(d)
+# output
+# d = 2
+# if d <= 5:
+#     print(d)
+
+c = 2
+h = 5
+if c == c :
+	print(h)
+elif h != c :
+	print(c)
+else :
+	print(c)
+# output
+# c = 2
+# print(h)
+
+c = 0
+if  c < 0 :
+	print(c)
+else :
+	print(c)
+# output
+# c = 0
+# if c < 0:
+#     print(c)
+# else:
+#     print(c)
+
+w = 5
+if not w >= 5 :
+	print(w)
+else :
+	print(w)
+# output
+# w = 5
+# if not w >= 5:
+#     print(w)
+# else:
+#     print(w)
+
+r = 2
+h = 1
+f = 8
+u = 1
+if f != 5 :
+	print(u)
+# output
+# f = 8
+# u = 1
+# if f != 5:
+#     print(u)
+
+z = 5
+v = 8
+if v != 4 :
+	print(z)
+else :
+	print(z)
+# output
+# z = 5
+# v = 8
+# if v != 4:
+#     print(z)
+# else:
+#     print(z)
+
+f = 8
+if f != f :
+	print(f)
+else :
+	print(f)
+# output
+# f = 8
+# print(f)
+
+p = 9
+if p > p :
+	print(p)
+elif p == p :
+	print(p)
+else :
+	print(p)
+# output
+# p = 9
+# print(p)
+
+q = 0
+if not q != q :
+	print(q)
+elif not q != 3 :
+	print(q)
+else :
+	print(q)
+# output
+# q = 0
+# print(q)
+
+b = 6
+if  b != b :
+	print(b)
+elif b < b :
+	print(b)
+else :
+	print(b)
+# output
+# b = 6
+# print(b)
+
+c = 4
+c = 5
+if not c == c :
+	print(c)
+elif  c == 7 :
+	print(c)
+else :
+	print(c)
+# output
+# c = 4
+# c = 5
+# if c == 7:
+#     print(c)
+# else:
+#     print(c)
+
+p = 8
+z = 5
+if not z <= 9 :
+	print(z)
+# output
+# z = 5
+# if not z <= 9:
+#     print(z)
+
+f = 1
+n = 6
+if n < 3 :
+	print(n)
+elif  n == n :
+	print(f)
+else :
+	print(n)
+# output
+# n = 6
+# if n < 3:
+#     print(n)
+# else:
+#     print(f)
+
+b = 8
+w = 2
+h = 5
+t = 8
+if t < t :
+	print(h)
+else :
+	print(b)
+# output
+# t = 8
+# print(b)
+
+j = 5
+if not j < j :
+	print(j)
+elif not j > j :
+	print(j)
+else :
+	print(j)
+# output
+# j = 5
+# print(j)
+
+r = 8
+if not r > r :
+	print(r)
+else :
+	print(r)
+# output
+# r = 8
+# print(r)
+
+m = 3
+if  m != m :
+	print(m)
+# output
+# m = 3
+
+t = 6
+w = 4
+f = 0
+b = 1
+w = 6
+if w >= 4 :
+	print(b)
+else :
+	print(f)
+# output
+# w = 4
+# f = 0
+# b = 1
+# w = 6
+# if w >= 4:
+#     print(b)
+# else:
+#     print(f)
+
+m = 2
+if not m <= m :
+	print(m)
+elif not m <= 8 :
+	print(m)
+else :
+	print(m)
+# output
+# m = 2
+# if not m <= 8:
+#     print(m)
+# else:
+#     print(m)
+
+h = 7
+d = 3
+g = 2
+if g != g :
+	print(g)
+elif g > 9 :
+	print(h)
+else :
+	print(g)
+# output
+# h = 7
+# g = 2
+# if g > 9:
+#     print(h)
+# else:
+#     print(g)
+
+i = 4
+if  i > i :
+	print(i)
+# output
+# i = 4
+
+e = 7
+if e >= e :
+	print(e)
+else :
+	print(e)
+# output
+# e = 7
+# print(e)
+
+g = 0
+if g < g :
+	print(g)
+# output
+# g = 0
+
+p = 8
+f = 7
+if not p <= f :
+	print(f)
+# output
+# p = 8
+# f = 7
+# if not p <= f:
+#     print(f)
+
+y = 5
+if y <= 8 :
+	print(y)
+# output
+# y = 5
+# if y <= 8:
+#     print(y)
+
+x = 1
+if  x != x :
+	print(x)
+elif x <= x :
+	print(x)
+else :
+	print(x)
+# output
+# x = 1
+# print(x)
+
+b = 4
+if b <= 6 :
+	print(b)
+# output
+# b = 4
+# if b <= 6:
+#     print(b)
+
+y = 2
+if not y == 6 :
+	print(y)
+# output
+# y = 2
+# if not y == 6:
+#     print(y)
+
+a = 3
+g = 4
+z = 4
+v = 7
+if not z < 4 :
+	print(v)
+elif z != a :
+	print(a)
+else :
+	print(z)
+# output
+# a = 3
+# z = 4
+# v = 7
+# if not z < 4:
+#     print(v)
+# elif z != a:
+#     print(a)
+# else:
+#     print(z)
+
+m = 4
+if not m > 0 :
+	print(m)
+else :
+	print(m)
+# output
+# m = 4
+# if not m > 0:
+#     print(m)
+# else:
+#     print(m)
+
+k = 6
+if  k > 1 :
+	print(k)
+elif k > k :
+	print(k)
+else :
+	print(k)
+# output
+# k = 6
+# if k > 1:
+#     print(k)
+# else:
+#     print(k)
+
+d = 6
+h = 9
+n = 4
+if  n != 1 :
+	print(d)
+else :
+	print(n)
+# output
+# d = 6
+# n = 4
+# if n != 1:
+#     print(d)
+# else:
+#     print(n)
+
+g = 9
+o = 1
+s = 9
+if  s > 2 :
+	print(o)
+# output
+# o = 1
+# s = 9
+# if s > 2:
+#     print(o)
+
+t = 1
+l = 8
+if t >= 6 :
+	print(l)
+# output
+# t = 1
+# l = 8
+# if t >= 6:
+#     print(l)
+
+w = 1
+j = 6
+if w < 6 :
+	print(j)
+elif w == 9 :
+	print(w)
+else :
+	print(w)
+# output
+# w = 1
+# j = 6
+# if w < 6:
+#     print(j)
+# elif w == 9:
+#     print(w)
+# else:
+#     print(w)
+
+g = 9
+if g != 1 :
+	print(g)
+# output
+# g = 9
+# if g != 1:
+#     print(g)
+
+i = 3
+h = 4
+g = 2
+if not h != g :
+	print(g)
+# output
+# h = 4
+# g = 2
+# if not h != g:
+#     print(g)
+
+q = 8
+if  q > 6 :
+	print(q)
+else :
+	print(q)
+# output
+# q = 8
+# if q > 6:
+#     print(q)
+# else:
+#     print(q)
+
+q = 0
+u = 9
+y = 3
+n = 7
+if q < 3 :
+	print(y)
+# output
+# q = 0
+# y = 3
+# if q < 3:
+#     print(y)
+
+f = 4
+q = 5
+h = 5
+r = 4
+n = 3
+u = 5
+if n >= n :
+	print(h)
+elif not h <= u :
+	print(q)
+else :
+	print(h)
+# output
+# n = 3
+# print(h)
+
+x = 8
+l = 0
+a = 2
+g = 6
+x = 4
+f = 7
+if  x != x :
+	print(f)
+else :
+	print(g)
+# output
+# x = 8
+# x = 4
+# print(g)
+
+h = 4
+s = 9
+a = 9
+d = 3
+if d >= a :
+	print(a)
+else :
+	print(a)
+# output
+# a = 9
+# d = 3
+# if d >= a:
+#     print(a)
+# else:
+#     print(a)
+
+j = 3
+if j < j :
+	print(j)
+else :
+	print(j)
+# output
+# j = 3
+# print(j)
+
+n = 5
+if not n <= n :
+	print(n)
+# output
+# n = 5
+
+v = 3
+o = 0
+if o != 4 :
+	print(o)
+elif not o >= 3 :
+	print(v)
+else :
+	print(o)
+# output
+# v = 3
+# o = 0
+# if o != 4:
+#     print(o)
+# elif not o >= 3:
+#     print(v)
+# else:
+#     print(o)
+
+p = 8
+if p > 5 :
+	print(p)
+else :
+	print(p)
+# output
+# p = 8
+# if p > 5:
+#     print(p)
+# else:
+#     print(p)
+
+q = 2
+if not q < q :
+	print(q)
+elif q >= q :
+	print(q)
+else :
+	print(q)
+# output
+# q = 2
+# print(q)
+
+l = 8
+if l < 7 :
+	print(l)
+# output
+# l = 8
+# if l < 7:
+#     print(l)
+
+n = 4
+e = 4
+if not n <= 5 :
+	print(n)
+else :
+	print(e)
+# output
+# n = 4
+# e = 4
+# if not n <= 5:
+#     print(n)
+# else:
+#     print(e)
+
+j = 2
+r = 0
+if j <= 8 :
+	print(j)
+# output
+# j = 2
+# if j <= 8:
+#     print(j)
+
+m = 4
+v = 5
+q = 7
+y = 2
+if  y > y :
+	print(v)
+# output
+# y = 2
+
+k = 3
+i = 3
+n = 0
+if n >= 8 :
+	print(i)
+# output
+# i = 3
+# n = 0
+# if n >= 8:
+#     print(i)
+
+v = 1
+r = 2
+k = 5
+if k >= v :
+	print(k)
+elif k >= 2 :
+	print(v)
+else :
+	print(v)
+# output
+# v = 1
+# k = 5
+# if k >= v:
+#     print(k)
+# elif k >= 2:
+#     print(v)
+# else:
+#     print(v)
+
+b = 0
+if b > 2 :
+	print(b)
+elif b != b :
+	print(b)
+else :
+	print(b)
+# output
+# b = 0
+# if b > 2:
+#     print(b)
+# else:
+#     print(b)
+
+d = 2
+if d == d :
+	print(d)
+elif not d == 7 :
+	print(d)
+else :
+	print(d)
+# output
+# d = 2
+# print(d)
+
+z = 2
+s = 8
+if s == z :
+	print(z)
+elif s >= 8 :
+	print(z)
+else :
+	print(z)
+# output
+# z = 2
+# s = 8
+# if s == z:
+#     print(z)
+# elif s >= 8:
+#     print(z)
+# else:
+#     print(z)
+
+u = 6
+if  u < 0 :
+	print(u)
+elif u != 6 :
+	print(u)
+else :
+	print(u)
+# output
+# u = 6
+# if u < 0:
+#     print(u)
+# elif u != 6:
+#     print(u)
+# else:
+#     print(u)
+
+g = 0
+y = 9
+if y == g :
+	print(y)
+elif not y > y :
+	print(g)
+else :
+	print(g)
+# output
+# g = 0
+# y = 9
+# if y == g:
+#     print(y)
+# else:
+#     print(g)
+
+c = 4
+if  c >= 2 :
+	print(c)
+else :
+	print(c)
+# output
+# c = 4
+# if c >= 2:
+#     print(c)
+# else:
+#     print(c)
+
+t = 4
+if t != t :
+	print(t)
+else :
+	print(t)
+# output
+# t = 4
+# print(t)
+
+u = 0
+w = 4
+if w != 7 :
+	print(u)
+elif u > w :
+	print(u)
+else :
+	print(w)
+# output
+# u = 0
+# w = 4
+# if w != 7:
+#     print(u)
+# elif u > w:
+#     print(u)
+# else:
+#     print(w)
+
+t = 3
+if t >= 6 :
+	print(t)
+# output
+# t = 3
+# if t >= 6:
+#     print(t)
+
+w = 9
+if w != w :
+	print(w)
+elif w <= w :
+	print(w)
+else :
+	print(w)
+# output
+# w = 9
+# print(w)
+
+x = 7
+if  x < 6 :
+	print(x)
+elif not x != 4 :
+	print(x)
+else :
+	print(x)
+# output
+# x = 7
+# if x < 6:
+#     print(x)
+# elif not x != 4:
+#     print(x)
+# else:
+#     print(x)
+
+g = 0
+if not g >= g :
+	print(g)
+elif g == 3 :
+	print(g)
+else :
+	print(g)
+# output
+# g = 0
+# if g == 3:
+#     print(g)
+# else:
+#     print(g)
+
+x = 8
+x = 6
+o = 9
+f = 0
+if not x < 7 :
+	print(o)
+elif not x == 8 :
+	print(o)
+else :
+	print(x)
+# output
+# x = 8
+# x = 6
+# o = 9
+# if not x < 7:
+#     print(o)
+# elif not x == 8:
+#     print(o)
+# else:
+#     print(x)
+
+t = 3
+v = 2
+if not v > v :
+	print(v)
+# output
+# v = 2
+# print(v)
+
+h = 9
+e = 8
+b = 3
+if not e < 8 :
+	print(b)
+# output
+# e = 8
+# b = 3
+# if not e < 8:
+#     print(b)
+
+y = 8
+y = 6
+b = 8
+d = 2
+u = 6
+j = 6
+if j != 0 :
+	print(y)
+else :
+	print(y)
+# output
+# y = 8
+# y = 6
+# j = 6
+# if j != 0:
+#     print(y)
+# else:
+#     print(y)
+
+h = 4
+if not h <= 4 :
+	print(h)
+# output
+# h = 4
+# if not h <= 4:
+#     print(h)
+
+q = 7
+if q == 0 :
+	print(q)
+else :
+	print(q)
+# output
+# q = 7
+# if q == 0:
+#     print(q)
+# else:
+#     print(q)
+
+j = 1
+if not j <= 4 :
+	print(j)
+else :
+	print(j)
+# output
+# j = 1
+# if not j <= 4:
+#     print(j)
+# else:
+#     print(j)
+
+n = 7
+if n > 0 :
+	print(n)
+elif n <= n :
+	print(n)
+else :
+	print(n)
+# output
+# n = 7
+# if n > 0:
+#     print(n)
+# else:
+#     print(n)
+
+w = 6
+if w > 6 :
+	print(w)
+else :
+	print(w)
+# output
+# w = 6
+# if w > 6:
+#     print(w)
+# else:
+#     print(w)
+
+x = 2
+a = 5
+e = 7
+e = 1
+if not e == x :
+	print(a)
+elif not a >= 1 :
+	print(x)
+else :
+	print(e)
+# output
+# x = 2
+# a = 5
+# e = 7
+# e = 1
+# if not e == x:
+#     print(a)
+# elif not a >= 1:
+#     print(x)
+# else:
+#     print(e)
+
+i = 9
+if  i == 6 :
+	print(i)
+else :
+	print(i)
+# output
+# i = 9
+# if i == 6:
+#     print(i)
+# else:
+#     print(i)
+
+c = 4
+i = 5
+i = 1
+if i != 5 :
+	print(i)
+# output
+# i = 5
+# i = 1
+# if i != 5:
+#     print(i)
+
+p = 7
+w = 1
+v = 2
+if not v != 2 :
+	print(v)
+# output
+# v = 2
+# if not v != 2:
+#     print(v)
+
+l = 6
+if  l != 4 :
+	print(l)
+elif  l != l :
+	print(l)
+else :
+	print(l)
+# output
+# l = 6
+# if l != 4:
+#     print(l)
+# else:
+#     print(l)
+
+t = 2
+if t != t :
+	print(t)
+# output
+# t = 2
+
+v = 4
+j = 4
+t = 3
+f = 7
+if not j > 6 :
+	print(j)
+elif not v > 7 :
+	print(j)
+else :
+	print(v)
+# output
+# v = 4
+# j = 4
+# if not j > 6:
+#     print(j)
+# elif not v > 7:
+#     print(j)
+# else:
+#     print(v)
+
+r = 4
+if r > 9 :
+	print(r)
+elif not r == 7 :
+	print(r)
+else :
+	print(r)
+# output
+# r = 4
+# if r > 9:
+#     print(r)
+# elif not r == 7:
+#     print(r)
+# else:
+#     print(r)
+
+y = 6
+s = 6
+if  y >= s :
+	print(y)
+# output
+# y = 6
+# s = 6
+# if y >= s:
+#     print(y)
+
+p = 0
+r = 1
+if p != r :
+	print(p)
+elif  p <= p :
+	print(r)
+else :
+	print(r)
+# output
+# p = 0
+# r = 1
+# if p != r:
+#     print(p)
+# else:
+#     print(r)
+
+d = 1
+if d < d :
+	print(d)
+elif  d <= 3 :
+	print(d)
+else :
+	print(d)
+# output
+# d = 1
+# if d <= 3:
+#     print(d)
+# else:
+#     print(d)
+
+p = 5
+g = 2
+if  g < p :
+	print(g)
+elif p == p :
+	print(p)
+else :
+	print(p)
+# output
+# p = 5
+# g = 2
+# if g < p:
+#     print(g)
+# else:
+#     print(p)
+
+h = 0
+if h <= h :
+	print(h)
+# output
+# h = 0
+# print(h)
+
+b = 9
+f = 1
+d = 2
+if f != 6 :
+	print(d)
+# output
+# f = 1
+# d = 2
+# if f != 6:
+#     print(d)
+
+i = 6
+if not i >= i :
+	print(i)
+elif i < 6 :
+	print(i)
+else :
+	print(i)
+# output
+# i = 6
+# if i < 6:
+#     print(i)
+# else:
+#     print(i)
+
+k = 6
+if not k >= k :
+	print(k)
+# output
+# k = 6
+
+e = 7
+c = 4
+if c == e :
+	print(e)
+elif c > c :
+	print(c)
+else :
+	print(e)
+# output
+# e = 7
+# c = 4
+# if c == e:
+#     print(e)
+# else:
+#     print(e)
+
+i = 2
+c = 2
+if i < c :
+	print(i)
+elif not i > c :
+	print(i)
+else :
+	print(i)
+# output
+# i = 2
+# c = 2
+# if i < c:
+#     print(i)
+# elif not i > c:
+#     print(i)
+# else:
+#     print(i)
+
+i = 1
+if i >= 4 :
+	print(i)
+# output
+# i = 1
+# if i >= 4:
+#     print(i)
+
+i = 4
+d = 6
+if  i > i :
+	print(i)
+elif d < d :
+	print(d)
+else :
+	print(d)
+# output
+# i = 4
+# d = 6
+# print(d)
+
+y = 6
+if not y >= y :
+	print(y)
+else :
+	print(y)
+# output
+# y = 6
+# print(y)
+
+i = 5
+i = 4
+if i <= 5 :
+	print(i)
+# output
+# i = 5
+# i = 4
+# if i <= 5:
+#     print(i)
+
+s = 0
+if s > 9 :
+	print(s)
+# output
+# s = 0
+# if s > 9:
+#     print(s)
+
+n = 1
+o = 1
+r = 9
+t = 7
+if not o < n :
+	print(n)
+# output
+# n = 1
+# o = 1
+# if not o < n:
+#     print(n)
+
+i = 3
+if not i != 7 :
+	print(i)
+# output
+# i = 3
+# if not i != 7:
+#     print(i)
+
+y = 6
+if not y < y :
+	print(y)
+# output
+# y = 6
+# print(y)
+
+w = 3
+if w != w :
+	print(w)
+# output
+# w = 3
+
+p = 3
+if not p >= p :
+	print(p)
+# output
+# p = 3
+
+w = 0
+if w < 1 :
+	print(w)
+elif w <= 6 :
+	print(w)
+else :
+	print(w)
+# output
+# w = 0
+# if w < 1:
+#     print(w)
+# elif w <= 6:
+#     print(w)
+# else:
+#     print(w)
+
+y = 1
+if y <= y :
+	print(y)
+# output
+# y = 1
+# print(y)
+
+f = 7
+j = 2
+p = 0
+if not p > 3 :
+	print(j)
+else :
+	print(p)
+# output
+# j = 2
+# p = 0
+# if not p > 3:
+#     print(j)
+# else:
+#     print(p)
+
+s = 3
+if  s != s :
+	print(s)
+elif  s != s :
+	print(s)
+else :
+	print(s)
+# output
+# s = 3
+# print(s)
+
+i = 7
+h = 4
+if not h != 1 :
+	print(h)
+else :
+	print(i)
+# output
+# i = 7
+# h = 4
+# if not h != 1:
+#     print(h)
+# else:
+#     print(i)
+
+n = 0
+e = 4
+z = 0
+u = 4
+z = 1
+if e < n :
+	print(e)
+# output
+# n = 0
+# e = 4
+# if e < n:
+#     print(e)
+
+h = 6
+l = 8
+if  l <= 8 :
+	print(h)
+elif not l <= 0 :
+	print(h)
+else :
+	print(l)
+# output
+# h = 6
+# l = 8
+# if l <= 8:
+#     print(h)
+# elif not l <= 0:
+#     print(h)
+# else:
+#     print(l)
+
+m = 8
+if not m >= 8 :
+	print(m)
+# output
+# m = 8
+# if not m >= 8:
+#     print(m)
+
+o = 9
+if  o >= 2 :
+	print(o)
+else :
+	print(o)
+# output
+# o = 9
+# if o >= 2:
+#     print(o)
+# else:
+#     print(o)
+
+b = 3
+m = 2
+if  m == 9 :
+	print(b)
+# output
+# b = 3
+# m = 2
+# if m == 9:
+#     print(b)
+
+z = 6
+p = 6
+j = 9
+if p == j :
+	print(j)
+else :
+	print(p)
+# output
+# p = 6
+# j = 9
+# if p == j:
+#     print(j)
+# else:
+#     print(p)
+
+t = 9
+p = 1
+t = 7
+v = 0
+k = 4
+if  v <= k :
+	print(v)
+elif  p > 4 :
+	print(k)
+else :
+	print(p)
+# output
+# p = 1
+# v = 0
+# k = 4
+# if v <= k:
+#     print(v)
+# elif p > 4:
+#     print(k)
+# else:
+#     print(p)
+
+c = 7
+if c < 1 :
+	print(c)
+else :
+	print(c)
+# output
+# c = 7
+# if c < 1:
+#     print(c)
+# else:
+#     print(c)
+
+p = 2
+if not p > p :
+	print(p)
+else :
+	print(p)
+# output
+# p = 2
+# print(p)
+
+j = 4
+f = 2
+if j > j :
+	print(f)
+# output
+# j = 4
+
+w = 7
+c = 0
+if  c != 7 :
+	print(c)
+else :
+	print(w)
+# output
+# w = 7
+# c = 0
+# if c != 7:
+#     print(c)
+# else:
+#     print(w)
+
+l = 0
+if l != l :
+	print(l)
+else :
+	print(l)
+# output
+# l = 0
+# print(l)
+
+h = 1
+if h >= 4 :
+	print(h)
+elif not h > h :
+	print(h)
+else :
+	print(h)
+# output
+# h = 1
+# if h >= 4:
+#     print(h)
+# else:
+#     print(h)
+
+t = 6
+a = 6
+if not t == t :
+	print(a)
+else :
+	print(t)
+# output
+# t = 6
+# print(t)
+
+x = 7
+p = 4
+if  p == x :
+	print(x)
+else :
+	print(p)
+# output
+# x = 7
+# p = 4
+# if p == x:
+#     print(x)
+# else:
+#     print(p)
+
+n = 1
+if not n <= n :
+	print(n)
+# output
+# n = 1
+
+b = 0
+if  b == 1 :
+	print(b)
+# output
+# b = 0
+# if b == 1:
+#     print(b)
+
+d = 4
+t = 1
+p = 8
+if  p != p :
+	print(d)
+else :
+	print(t)
+# output
+# p = 8
+# print(t)
+
+h = 5
+if not h == h :
+	print(h)
+else :
+	print(h)
+# output
+# h = 5
+# print(h)
+
+g = 3
+if  g == g :
+	print(g)
+else :
+	print(g)
+# output
+# g = 3
+# print(g)
+
+g = 2
+if  g > 6 :
+	print(g)
+# output
+# g = 2
+# if g > 6:
+#     print(g)
+
+y = 8
+if y == y :
+	print(y)
+# output
+# y = 8
+# print(y)
+
+x = 2
+k = 4
+if  k != k :
+	print(x)
+elif x == k :
+	print(x)
+else :
+	print(x)
+# output
+# x = 2
+# k = 4
+# if x == k:
+#     print(x)
+# else:
+#     print(x)
+
+a = 9
+if a <= 4 :
+	print(a)
+elif not a == a :
+	print(a)
+else :
+	print(a)
+# output
+# a = 9
+# if a <= 4:
+#     print(a)
+# else:
+#     print(a)
+
+a = 6
+if a >= a :
+	print(a)
+# output
+# a = 6
+# print(a)
+
+l = 0
+k = 8
+w = 6
+k = 2
+g = 9
+if not k >= w :
+	print(w)
+else :
+	print(g)
+# output
+# k = 8
+# w = 6
+# k = 2
+# g = 9
+# if not k >= w:
+#     print(w)
+# else:
+#     print(g)
+
+k = 9
+z = 3
+m = 2
+if not z >= 2 :
+	print(k)
+# output
+# k = 9
+# z = 3
+# if not z >= 2:
+#     print(k)
+
+o = 6
+o = 7
+if  o != o :
+	print(o)
+elif o != o :
+	print(o)
+else :
+	print(o)
+# output
+# o = 6
+# o = 7
+# print(o)
+
+c = 2
+if not c != c :
+	print(c)
+elif c < 5 :
+	print(c)
+else :
+	print(c)
+# output
+# c = 2
+# print(c)
+
+n = 1
+n = 3
+if n > 1 :
+	print(n)
+# output
+# n = 1
+# n = 3
+# if n > 1:
+#     print(n)
+
+h = 0
+if h < h :
+	print(h)
+elif  h != h :
+	print(h)
+else :
+	print(h)
+# output
+# h = 0
+# print(h)
+
+z = 6
+if z <= z :
+	print(z)
+elif  z > 7 :
+	print(z)
+else :
+	print(z)
+# output
+# z = 6
+# print(z)
+
+y = 9
+if not y == 2 :
+	print(y)
+# output
+# y = 9
+# if not y == 2:
+#     print(y)
+
+s = 4
+if not s > 8 :
+	print(s)
+elif s == s :
+	print(s)
+else :
+	print(s)
+# output
+# s = 4
+# if not s > 8:
+#     print(s)
+# else:
+#     print(s)
+
+a = 5
+e = 8
+if  e <= e :
+	print(a)
+elif a < 8 :
+	print(e)
+else :
+	print(e)
+# output
+# e = 8
+# print(a)
+
+i = 5
+if i != 8 :
+	print(i)
+elif i >= i :
+	print(i)
+else :
+	print(i)
+# output
+# i = 5
+# if i != 8:
+#     print(i)
+# else:
+#     print(i)
+
+d = 2
+if d < 5 :
+	print(d)
+else :
+	print(d)
+# output
+# d = 2
+# if d < 5:
+#     print(d)
+# else:
+#     print(d)
+
+x = 6
+b = 1
+if  b != 1 :
+	print(x)
+elif b <= b :
+	print(b)
+else :
+	print(b)
+# output
+# x = 6
+# b = 1
+# if b != 1:
+#     print(x)
+# else:
+#     print(b)
+
+i = 6
+s = 6
+if i >= 4 :
+	print(s)
+# output
+# i = 6
+# s = 6
+# if i >= 4:
+#     print(s)
+
+h = 2
+b = 0
+if b <= h :
+	print(h)
+elif b >= 6 :
+	print(b)
+else :
+	print(h)
+# output
+# h = 2
+# b = 0
+# if b <= h:
+#     print(h)
+# elif b >= 6:
+#     print(b)
+# else:
+#     print(h)
+
+j = 2
+if j == j :
+	print(j)
+else :
+	print(j)
+# output
+# j = 2
+# print(j)
+
+m = 6
+m = 4
+h = 6
+j = 1
+e = 4
+if j == 3 :
+	print(j)
+else :
+	print(m)
+# output
+# m = 6
+# m = 4
+# j = 1
+# if j == 3:
+#     print(j)
+# else:
+#     print(m)
+
+e = 8
+c = 2
+if not c >= 2 :
+	print(c)
+else :
+	print(e)
+# output
+# e = 8
+# c = 2
+# if not c >= 2:
+#     print(c)
+# else:
+#     print(e)
+
+c = 5
+if c != c :
+	print(c)
+elif c == 8 :
+	print(c)
+else :
+	print(c)
+# output
+# c = 5
+# if c == 8:
+#     print(c)
+# else:
+#     print(c)
+
+y = 0
+if not y < y :
+	print(y)
+# output
+# y = 0
+# print(y)
+
+t = 4
+f = 9
+if f == 1 :
+	print(f)
+else :
+	print(t)
+# output
+# t = 4
+# f = 9
+# if f == 1:
+#     print(f)
+# else:
+#     print(t)
+
+v = 1
+i = 5
+if not i <= 0 :
+	print(v)
+# output
+# v = 1
+# i = 5
+# if not i <= 0:
+#     print(v)
+
+o = 5
+s = 5
+l = 6
+x = 2
+v = 9
+l = 8
+if not l <= o :
+	print(v)
+elif v != 0 :
+	print(s)
+else :
+	print(v)
+# output
+# o = 5
+# s = 5
+# l = 6
+# v = 9
+# l = 8
+# if not l <= o:
+#     print(v)
+# elif v != 0:
+#     print(s)
+# else:
+#     print(v)
+
+s = 6
+b = 8
+if b > b :
+	print(b)
+else :
+	print(s)
+# output
+# b = 8
+# print(s)
+
+w = 5
+if w > 6 :
+	print(w)
+# output
+# w = 5
+# if w > 6:
+#     print(w)
+
+p = 1
+p = 4
+if  p != 2 :
+	print(p)
+else :
+	print(p)
+# output
+# p = 1
+# p = 4
+# if p != 2:
+#     print(p)
+# else:
+#     print(p)
+
+o = 9
+if  o <= o :
+	print(o)
+else :
+	print(o)
+# output
+# o = 9
+# print(o)
+
+i = 6
+if i == i :
+	print(i)
+elif i >= i :
+	print(i)
+else :
+	print(i)
+# output
+# i = 6
+# print(i)
+
+k = 0
+f = 0
+q = 9
+if q != 8 :
+	print(f)
+# output
+# f = 0
+# q = 9
+# if q != 8:
+#     print(f)
+
+t = 7
+if not t <= t :
+	print(t)
+# output
+# t = 7
+
+w = 1
+h = 4
+j = 1
+if j > j :
+	print(j)
+else :
+	print(w)
+# output
+# j = 1
+# print(w)
+
+n = 7
+m = 2
+if  n != 9 :
+	print(n)
+else :
+	print(n)
+# output
+# n = 7
+# if n != 9:
+#     print(n)
+# else:
+#     print(n)
+
+u = 4
+if  u < u :
+	print(u)
+# output
+# u = 4
+
+g = 6
+if not g < g :
+	print(g)
+else :
+	print(g)
+# output
+# g = 6
+# print(g)
+
+m = 6
+if m <= 5 :
+	print(m)
+else :
+	print(m)
+# output
+# m = 6
+# if m <= 5:
+#     print(m)
+# else:
+#     print(m)
+
+i = 6
+if i < i :
+	print(i)
+else :
+	print(i)
+# output
+# i = 6
+# print(i)
+
+r = 9
+x = 2
+u = 6
+if not u <= 3 :
+	print(u)
+# output
+# u = 6
+# if not u <= 3:
+#     print(u)
+
+k = 4
+if k < k :
+	print(k)
+# output
+# k = 4
+
+a = 2
+x = 8
+s = 4
+q = 9
+if x > a :
+	print(a)
+# output
+# a = 2
+# x = 8
+# if x > a:
+#     print(a)
+
+o = 4
+e = 9
+j = 0
+w = 4
+if not o == o :
+	print(j)
+# output
+# o = 4
+
+n = 0
+p = 1
+if  p < n :
+	print(p)
+elif n > p :
+	print(n)
+else :
+	print(p)
+# output
+# n = 0
+# p = 1
+# if p < n:
+#     print(p)
+# elif n > p:
+#     print(n)
+# else:
+#     print(p)
+
+m = 4
+if m != 9 :
+	print(m)
+else :
+	print(m)
+# output
+# m = 4
+# if m != 9:
+#     print(m)
+# else:
+#     print(m)
+
+e = 0
+e = 7
+d = 8
+p = 9
+m = 4
+if  m < 0 :
+	print(d)
+else :
+	print(p)
+# output
+# d = 8
+# p = 9
+# m = 4
+# if m < 0:
+#     print(d)
+# else:
+#     print(p)
+
+y = 4
+i = 2
+if not i <= i :
+	print(y)
+# output
+# i = 2
+
+a = 4
+if not a != 8 :
+	print(a)
+else :
+	print(a)
+# output
+# a = 4
+# if not a != 8:
+#     print(a)
+# else:
+#     print(a)
+
+d = 9
+if not d <= d :
+	print(d)
+else :
+	print(d)
+# output
+# d = 9
+# print(d)
+
+d = 8
+e = 7
+x = 7
+if x < e :
+	print(e)
+# output
+# e = 7
+# x = 7
+# if x < e:
+#     print(e)
+
+j = 6
+if not j == j :
+	print(j)
+# output
+# j = 6
+
+i = 8
+l = 3
+s = 2
+if i == s :
+	print(l)
+else :
+	print(i)
+# output
+# i = 8
+# l = 3
+# s = 2
+# if i == s:
+#     print(l)
+# else:
+#     print(i)
+
+a = 5
+h = 1
+if h > 5 :
+	print(h)
+else :
+	print(a)
+# output
+# a = 5
+# h = 1
+# if h > 5:
+#     print(h)
+# else:
+#     print(a)
+
+q = 4
+u = 6
+w = 6
+k = 6
+i = 0
+if  q <= 7 :
+	print(i)
+# output
+# q = 4
+# i = 0
+# if q <= 7:
+#     print(i)
+
+c = 4
+k = 8
+k = 2
+if c >= k :
+	print(k)
+elif c == 9 :
+	print(k)
+else :
+	print(c)
+# output
+# c = 4
+# k = 8
+# k = 2
+# if c >= k:
+#     print(k)
+# elif c == 9:
+#     print(k)
+# else:
+#     print(c)
+
+h = 3
+a = 2
+if  h > 8 :
+	print(a)
+else :
+	print(h)
+# output
+# h = 3
+# a = 2
+# if h > 8:
+#     print(a)
+# else:
+#     print(h)
+
+p = 8
+f = 1
+o = 8
+if p < f :
+	print(o)
+elif  p != 0 :
+	print(o)
+else :
+	print(p)
+# output
+# p = 8
+# f = 1
+# o = 8
+# if p < f:
+#     print(o)
+# elif p != 0:
+#     print(o)
+# else:
+#     print(p)
+
+j = 8
+m = 5
+k = 4
+c = 4
+s = 0
+if not c == 7 :
+	print(s)
+# output
+# c = 4
+# s = 0
+# if not c == 7:
+#     print(s)
+
+l = 5
+if l != l :
+	print(l)
+elif l >= l :
+	print(l)
+else :
+	print(l)
+# output
+# l = 5
+# print(l)
+
+a = 4
+e = 8
+j = 7
+if j >= e :
+	print(e)
+elif a > e :
+	print(a)
+else :
+	print(j)
+# output
+# a = 4
+# e = 8
+# j = 7
+# if j >= e:
+#     print(e)
+# elif a > e:
+#     print(a)
+# else:
+#     print(j)
+
+s = 4
+if s <= 2 :
+	print(s)
+elif not s == 8 :
+	print(s)
+else :
+	print(s)
+# output
+# s = 4
+# if s <= 2:
+#     print(s)
+# elif not s == 8:
+#     print(s)
+# else:
+#     print(s)
+
+d = 0
+y = 5
+m = 3
+m = 1
+t = 7
+if not t > 2 :
+	print(y)
+elif not y == m :
+	print(t)
+else :
+	print(d)
+# output
+# d = 0
+# y = 5
+# m = 3
+# m = 1
+# t = 7
+# if not t > 2:
+#     print(y)
+# elif not y == m:
+#     print(t)
+# else:
+#     print(d)
+
+s = 1
+if not s <= 9 :
+	print(s)
+else :
+	print(s)
+# output
+# s = 1
+# if not s <= 9:
+#     print(s)
+# else:
+#     print(s)
+
+v = 2
+if v == 4 :
+	print(v)
+else :
+	print(v)
+# output
+# v = 2
+# if v == 4:
+#     print(v)
+# else:
+#     print(v)
+
+y = 2
+if not y != y :
+	print(y)
+# output
+# y = 2
+# print(y)
+
+w = 7
+b = 3
+if b <= w :
+	print(b)
+elif w > 5 :
+	print(w)
+else :
+	print(b)
+# output
+# w = 7
+# b = 3
+# if b <= w:
+#     print(b)
+# elif w > 5:
+#     print(w)
+# else:
+#     print(b)
+
+p = 9
+if p <= 7 :
+	print(p)
+else :
+	print(p)
+# output
+# p = 9
+# if p <= 7:
+#     print(p)
+# else:
+#     print(p)
+
+k = 8
+if  k == 4 :
+	print(k)
+else :
+	print(k)
+# output
+# k = 8
+# if k == 4:
+#     print(k)
+# else:
+#     print(k)
+
+r = 5
+t = 3
+if t == 9 :
+	print(r)
+elif r == 3 :
+	print(r)
+else :
+	print(t)
+# output
+# r = 5
+# t = 3
+# if t == 9:
+#     print(r)
+# elif r == 3:
+#     print(r)
+# else:
+#     print(t)
+
+v = 9
+e = 1
+if e < e :
+	print(e)
+elif e < v :
+	print(e)
+else :
+	print(e)
+# output
+# v = 9
+# e = 1
+# if e < v:
+#     print(e)
+# else:
+#     print(e)
+
+d = 2
+if not d != 0 :
+	print(d)
+else :
+	print(d)
+# output
+# d = 2
+# if not d != 0:
+#     print(d)
+# else:
+#     print(d)
+
+d = 9
+if d == d :
+	print(d)
+else :
+	print(d)
+# output
+# d = 9
+# print(d)
+
+f = 7
+e = 7
+u = 4
+d = 1
+g = 0
+f = 8
+if  g > e :
+	print(g)
+# output
+# e = 7
+# g = 0
+# if g > e:
+#     print(g)
+
+h = 9
+u = 9
+if u > h :
+	print(u)
+# output
+# h = 9
+# u = 9
+# if u > h:
+#     print(u)
+
+u = 8
+v = 2
+y = 5
+k = 0
+if v != 8 :
+	print(u)
+else :
+	print(u)
+# output
+# u = 8
+# v = 2
+# if v != 8:
+#     print(u)
+# else:
+#     print(u)
+
+e = 8
+if not e < e :
+	print(e)
+# output
+# e = 8
+# print(e)
+
+e = 1
+if e < e :
+	print(e)
+elif not e != 6 :
+	print(e)
+else :
+	print(e)
+# output
+# e = 1
+# if not e != 6:
+#     print(e)
+# else:
+#     print(e)
+
+x = 1
+k = 2
+if x > 5 :
+	print(k)
+elif not k < k :
+	print(x)
+else :
+	print(x)
+# output
+# x = 1
+# k = 2
+# if x > 5:
+#     print(k)
+# else:
+#     print(x)
+
+h = 2
+if not h > 2 :
+	print(h)
+else :
+	print(h)
+# output
+# h = 2
+# if not h > 2:
+#     print(h)
+# else:
+#     print(h)
+
+h = 6
+z = 4
+if z > z :
+	print(z)
+else :
+	print(z)
+# output
+# z = 4
+# print(z)
+
+n = 5
+if n == 8 :
+	print(n)
+# output
+# n = 5
+# if n == 8:
+#     print(n)
+
+e = 0
+n = 8
+if e == 4 :
+	print(e)
+elif not e == n :
+	print(n)
+else :
+	print(n)
+# output
+# e = 0
+# n = 8
+# if e == 4:
+#     print(e)
+# elif not e == n:
+#     print(n)
+# else:
+#     print(n)
+
+g = 9
+if not g != g :
+	print(g)
+# output
+# g = 9
+# print(g)
+
+l = 3
+if l > l :
+	print(l)
+elif not l > 0 :
+	print(l)
+else :
+	print(l)
+# output
+# l = 3
+# if not l > 0:
+#     print(l)
+# else:
+#     print(l)
+
+j = 2
+if  j != j :
+	print(j)
+else :
+	print(j)
+# output
+# j = 2
+# print(j)
+
+s = 5
+t = 6
+if not t <= t :
+	print(t)
+# output
+# t = 6
+
+u = 1
+if u == u :
+	print(u)
+# output
+# u = 1
+# print(u)
+
+r = 3
+l = 0
+if  r != 7 :
+	print(l)
+# output
+# r = 3
+# l = 0
+# if r != 7:
+#     print(l)
+
+z = 8
+if z != 7 :
+	print(z)
+elif not z > z :
+	print(z)
+else :
+	print(z)
+# output
+# z = 8
+# if z != 7:
+#     print(z)
+# else:
+#     print(z)
+
+v = 3
+t = 1
+if v >= v :
+	print(t)
+# output
+# v = 3
+# print(t)
+
+y = 2
+s = 3
+h = 5
+if s != y :
+	print(h)
+elif s == 0 :
+	print(s)
+else :
+	print(h)
+# output
+# y = 2
+# s = 3
+# h = 5
+# if s != y:
+#     print(h)
+# elif s == 0:
+#     print(s)
+# else:
+#     print(h)
+
+c = 5
+o = 9
+s = 4
+p = 4
+if not p < 3 :
+	print(c)
+else :
+	print(s)
+# output
+# c = 5
+# s = 4
+# p = 4
+# if not p < 3:
+#     print(c)
+# else:
+#     print(s)
+
+e = 8
+s = 8
+q = 8
+t = 9
+k = 9
+w = 1
+if t <= 8 :
+	print(e)
+elif not q >= 9 :
+	print(k)
+else :
+	print(q)
+# output
+# e = 8
+# q = 8
+# t = 9
+# k = 9
+# if t <= 8:
+#     print(e)
+# elif not q >= 9:
+#     print(k)
+# else:
+#     print(q)
+
+h = 2
+if not h > 6 :
+	print(h)
+elif h != h :
+	print(h)
+else :
+	print(h)
+# output
+# h = 2
+# if not h > 6:
+#     print(h)
+# else:
+#     print(h)
+
+g = 0
+y = 8
+if g == 3 :
+	print(g)
+# output
+# g = 0
+# if g == 3:
+#     print(g)
+
+n = 5
+m = 4
+u = 8
+l = 4
+if n > 0 :
+	print(n)
+elif  n < n :
+	print(n)
+else :
+	print(m)
+# output
+# n = 5
+# if n > 0:
+#     print(n)
+# else:
+#     print(m)
+
+d = 5
+if d == d :
+	print(d)
+elif  d >= d :
+	print(d)
+else :
+	print(d)
+# output
+# d = 5
+# print(d)
+
+w = 1
+if not w >= 2 :
+	print(w)
+else :
+	print(w)
+# output
+# w = 1
+# if not w >= 2:
+#     print(w)
+# else:
+#     print(w)
+
+k = 4
+if  k < 3 :
+	print(k)
+elif k != 2 :
+	print(k)
+else :
+	print(k)
+# output
+# k = 4
+# if k < 3:
+#     print(k)
+# elif k != 2:
+#     print(k)
+# else:
+#     print(k)
+
+q = 8
+if q < 2 :
+	print(q)
+# output
+# q = 8
+# if q < 2:
+#     print(q)
+
+j = 3
+if not j < 4 :
+	print(j)
+else :
+	print(j)
+# output
+# j = 3
+# if not j < 4:
+#     print(j)
+# else:
+#     print(j)
+
+f = 9
+r = 7
+if  f == 2 :
+	print(f)
+else :
+	print(f)
+# output
+# f = 9
+# if f == 2:
+#     print(f)
+# else:
+#     print(f)
+
+e = 5
+if e <= e :
+	print(e)
+elif  e > e :
+	print(e)
+else :
+	print(e)
+# output
+# e = 5
+# print(e)
+
+w = 2
+j = 0
+if not w > j :
+	print(w)
+# output
+# w = 2
+# j = 0
+# if not w > j:
+#     print(w)
+
+p = 7
+if not p > 6 :
+	print(p)
+elif  p == 5 :
+	print(p)
+else :
+	print(p)
+# output
+# p = 7
+# if not p > 6:
+#     print(p)
+# elif p == 5:
+#     print(p)
+# else:
+#     print(p)
+
+y = 9
+a = 6
+if y <= 5 :
+	print(a)
+# output
+# y = 9
+# a = 6
+# if y <= 5:
+#     print(a)
+
+k = 7
+b = 8
+if b < 1 :
+	print(k)
+elif not k < 1 :
+	print(b)
+else :
+	print(k)
+# output
+# k = 7
+# b = 8
+# if b < 1:
+#     print(k)
+# elif not k < 1:
+#     print(b)
+# else:
+#     print(k)
+
+d = 8
+v = 1
+if  v == 2 :
+	print(v)
+else :
+	print(d)
+# output
+# d = 8
+# v = 1
+# if v == 2:
+#     print(v)
+# else:
+#     print(d)
+
+s = 0
+if s < 1 :
+	print(s)
+else :
+	print(s)
+# output
+# s = 0
+# if s < 1:
+#     print(s)
+# else:
+#     print(s)
+
+x = 3
+if not x > x :
+	print(x)
+else :
+	print(x)
+# output
+# x = 3
+# print(x)
+
+u = 2
+p = 4
+x = 6
+if  u <= u :
+	print(p)
+# output
+# u = 2
+# print(p)
+
+t = 1
+if t != 8 :
+	print(t)
+elif t < 4 :
+	print(t)
+else :
+	print(t)
+# output
+# t = 1
+# if t != 8:
+#     print(t)
+# elif t < 4:
+#     print(t)
+# else:
+#     print(t)
+
+q = 0
+q = 2
+q = 5
+if not q != 2 :
+	print(q)
+# output
+# q = 0
+# q = 2
+# q = 5
+# if not q != 2:
+#     print(q)
+
+y = 2
+if y >= y :
+	print(y)
+elif not y < y :
+	print(y)
+else :
+	print(y)
+# output
+# y = 2
+# print(y)
+
+o = 5
+if o <= 8 :
+	print(o)
+else :
+	print(o)
+# output
+# o = 5
+# if o <= 8:
+#     print(o)
+# else:
+#     print(o)
+
+h = 6
+if h <= h :
+	print(h)
+elif not h >= 0 :
+	print(h)
+else :
+	print(h)
+# output
+# h = 6
+# print(h)
+
+m = 4
+if m != 6 :
+	print(m)
+elif not m <= m :
+	print(m)
+else :
+	print(m)
+# output
+# m = 4
+# if m != 6:
+#     print(m)
+# else:
+#     print(m)
+
+g = 3
+if not g != 3 :
+	print(g)
+else :
+	print(g)
+# output
+# g = 3
+# if not g != 3:
+#     print(g)
+# else:
+#     print(g)
+
+f = 8
+i = 7
+w = 2
+if  w < 1 :
+	print(w)
+# output
+# w = 2
+# if w < 1:
+#     print(w)
+
+y = 2
+if not y >= y :
+	print(y)
+# output
+# y = 2
+
+z = 6
+e = 5
+if  z < 5 :
+	print(e)
+elif z < 5 :
+	print(e)
+else :
+	print(z)
+# output
+# z = 6
+# e = 5
+# if z < 5:
+#     print(e)
+# elif z < 5:
+#     print(e)
+# else:
+#     print(z)
+
+n = 5
+if n != n :
+	print(n)
+# output
+# n = 5
+
+g = 8
+if g < g :
+	print(g)
+# output
+# g = 8
+
+w = 0
+i = 7
+if w <= 3 :
+	print(w)
+# output
+# w = 0
+# if w <= 3:
+#     print(w)
+
+v = 5
+if v <= v :
+	print(v)
+# output
+# v = 5
+# print(v)
+
+l = 4
+s = 8
+p = 7
+if  l < 5 :
+	print(p)
+elif  s <= s :
+	print(l)
+else :
+	print(l)
+# output
+# l = 4
+# s = 8
+# p = 7
+# if l < 5:
+#     print(p)
+# else:
+#     print(l)
+
+s = 3
+if s == 3 :
+	print(s)
+elif not s > s :
+	print(s)
+else :
+	print(s)
+# output
+# s = 3
+# if s == 3:
+#     print(s)
+# else:
+#     print(s)
+
+w = 4
+d = 5
+if w == d :
+	print(d)
+# output
+# w = 4
+# d = 5
+# if w == d:
+#     print(d)
+
+b = 1
+i = 3
+if b <= i :
+	print(b)
+# output
+# b = 1
+# i = 3
+# if b <= i:
+#     print(b)
+
+c = 4
+if c < 2 :
+	print(c)
+# output
+# c = 4
+# if c < 2:
+#     print(c)
+
+b = 0
+if not b == 8 :
+	print(b)
+# output
+# b = 0
+# if not b == 8:
+#     print(b)
+
+n = 9
+o = 3
+e = 8
+if  e == o :
+	print(n)
+# output
+# n = 9
+# o = 3
+# e = 8
+# if e == o:
+#     print(n)
+
+j = 0
+m = 0
+h = 4
+l = 3
+if l == 9 :
+	print(h)
+elif h > l :
+	print(h)
+else :
+	print(j)
+# output
+# j = 0
+# h = 4
+# l = 3
+# if l == 9:
+#     print(h)
+# elif h > l:
+#     print(h)
+# else:
+#     print(j)
+
+z = 7
+if  z < z :
+	print(z)
+# output
+# z = 7
+
+v = 3
+if  v != v :
+	print(v)
+else :
+	print(v)
+# output
+# v = 3
+# print(v)
+
+j = 0
+w = 4
+if j > w :
+	print(j)
+else :
+	print(j)
+# output
+# j = 0
+# w = 4
+# if j > w:
+#     print(j)
+# else:
+#     print(j)
+
+a = 6
+if  a != 8 :
+	print(a)
+else :
+	print(a)
+# output
+# a = 6
+# if a != 8:
+#     print(a)
+# else:
+#     print(a)
+
+a = 2
+if a != 1 :
+	print(a)
+elif  a <= a :
+	print(a)
+else :
+	print(a)
+# output
+# a = 2
+# if a != 1:
+#     print(a)
+# else:
+#     print(a)
+
+h = 5
+if h == h :
+	print(h)
+# output
+# h = 5
+# print(h)
+
+c = 2
+t = 8
+w = 9
+if not c == 1 :
+	print(c)
+else :
+	print(t)
+# output
+# c = 2
+# t = 8
+# if not c == 1:
+#     print(c)
+# else:
+#     print(t)
+
+n = 8
+if  n < n :
+	print(n)
+elif n < n :
+	print(n)
+else :
+	print(n)
+# output
+# n = 8
+# print(n)
+
+v = 6
+e = 4
+q = 5
+l = 8
+if l >= 2 :
+	print(q)
+else :
+	print(v)
+# output
+# v = 6
+# q = 5
+# l = 8
+# if l >= 2:
+#     print(q)
+# else:
+#     print(v)
+
+t = 3
+r = 7
+a = 7
+if a < a :
+	print(t)
+elif t != 9 :
+	print(t)
+else :
+	print(t)
+# output
+# t = 3
+# a = 7
+# if t != 9:
+#     print(t)
+# else:
+#     print(t)
+
+q = 0
+if  q != 0 :
+	print(q)
+# output
+# q = 0
+# if q != 0:
+#     print(q)
+
+y = 7
+s = 2
+k = 3
+if k >= s :
+	print(y)
+else :
+	print(s)
+# output
+# y = 7
+# s = 2
+# k = 3
+# if k >= s:
+#     print(y)
+# else:
+#     print(s)
+
+v = 7
+v = 2
+if  v == 0 :
+	print(v)
+else :
+	print(v)
+# output
+# v = 7
+# v = 2
+# if v == 0:
+#     print(v)
+# else:
+#     print(v)
+
+u = 1
+if  u > u :
+	print(u)
+elif u >= u :
+	print(u)
+else :
+	print(u)
+# output
+# u = 1
+# print(u)
+
+g = 9
+if not g >= g :
+	print(g)
+# output
+# g = 9
+
+j = 5
+x = 3
+g = 1
+c = 7
+if  g == g :
+	print(c)
+# output
+# g = 1
+# print(c)
+
+o = 5
+if not o < o :
+	print(o)
+else :
+	print(o)
+# output
+# o = 5
+# print(o)
+
+z = 5
+if  z < 1 :
+	print(z)
+elif z != z :
+	print(z)
+else :
+	print(z)
+# output
+# z = 5
+# if z < 1:
+#     print(z)
+# else:
+#     print(z)
+
+v = 4
+if not v == 1 :
+	print(v)
+else :
+	print(v)
+# output
+# v = 4
+# if not v == 1:
+#     print(v)
+# else:
+#     print(v)
+
+t = 7
+y = 0
+if  y == 4 :
+	print(t)
+# output
+# t = 7
+# y = 0
+# if y == 4:
+#     print(t)
+
+j = 5
+if not j >= 3 :
+	print(j)
+# output
+# j = 5
+# if not j >= 3:
+#     print(j)
+
+p = 5
+y = 9
+x = 4
+d = 4
+v = 1
+w = 4
+if  y > x :
+	print(v)
+elif  w != y :
+	print(v)
+else :
+	print(v)
+# output
+# y = 9
+# x = 4
+# v = 1
+# w = 4
+# if y > x:
+#     print(v)
+# elif w != y:
+#     print(v)
+# else:
+#     print(v)
+
+o = 3
+if o == 8 :
+	print(o)
+elif not o == o :
+	print(o)
+else :
+	print(o)
+# output
+# o = 3
+# if o == 8:
+#     print(o)
+# else:
+#     print(o)
+
+i = 6
+t = 3
+if  t >= 8 :
+	print(t)
+elif not t >= i :
+	print(t)
+else :
+	print(i)
+# output
+# i = 6
+# t = 3
+# if t >= 8:
+#     print(t)
+# elif not t >= i:
+#     print(t)
+# else:
+#     print(i)
+
+y = 5
+if y != y :
+	print(y)
+# output
+# y = 5
+
+b = 5
+x = 7
+if b > b :
+	print(x)
+else :
+	print(b)
+# output
+# b = 5
+# print(b)
+
+b = 6
+if  b >= b :
+	print(b)
+else :
+	print(b)
+# output
+# b = 6
+# print(b)
+
+j = 2
+m = 1
+if j < m :
+	print(m)
+elif j <= 8 :
+	print(j)
+else :
+	print(j)
+# output
+# j = 2
+# m = 1
+# if j < m:
+#     print(m)
+# elif j <= 8:
+#     print(j)
+# else:
+#     print(j)
+
+j = 8
+if j != 8 :
+	print(j)
+else :
+	print(j)
+# output
+# j = 8
+# if j != 8:
+#     print(j)
+# else:
+#     print(j)
+
+z = 7
+if not z == z :
+	print(z)
+elif z < z :
+	print(z)
+else :
+	print(z)
+# output
+# z = 7
+# print(z)
+
+x = 3
+if x != x :
+	print(x)
+else :
+	print(x)
+# output
+# x = 3
+# print(x)
+
+r = 5
+if r != r :
+	print(r)
+elif  r <= r :
+	print(r)
+else :
+	print(r)
+# output
+# r = 5
+# print(r)
+
+y = 5
+if not y > 0 :
+	print(y)
+elif  y <= 2 :
+	print(y)
+else :
+	print(y)
+# output
+# y = 5
+# if not y > 0:
+#     print(y)
+# elif y <= 2:
+#     print(y)
+# else:
+#     print(y)
+
+c = 8
+d = 1
+if not d >= d :
+	print(d)
+else :
+	print(d)
+# output
+# d = 1
+# print(d)
+
+h = 4
+if h <= 8 :
+	print(h)
+else :
+	print(h)
+# output
+# h = 4
+# if h <= 8:
+#     print(h)
+# else:
+#     print(h)
+
+e = 3
+r = 7
+if e <= 4 :
+	print(e)
+# output
+# e = 3
+# if e <= 4:
+#     print(e)
+
+p = 5
+p = 2
+f = 2
+if f > p :
+	print(f)
+# output
+# p = 5
+# p = 2
+# f = 2
+# if f > p:
+#     print(f)
+
+x = 3
+if x != 5 :
+	print(x)
+elif not x <= 3 :
+	print(x)
+else :
+	print(x)
+# output
+# x = 3
+# if x != 5:
+#     print(x)
+# elif not x <= 3:
+#     print(x)
+# else:
+#     print(x)
+
+z = 8
+if not z != z :
+	print(z)
+elif z > 5 :
+	print(z)
+else :
+	print(z)
+# output
+# z = 8
+# print(z)
+
+m = 0
+if m == m :
+	print(m)
+# output
+# m = 0
+# print(m)
+
+e = 8
+t = 5
+if  t < 8 :
+	print(e)
+# output
+# e = 8
+# t = 5
+# if t < 8:
+#     print(e)
+
+r = 3
+s = 0
+if s == r :
+	print(r)
+else :
+	print(s)
+# output
+# r = 3
+# s = 0
+# if s == r:
+#     print(r)
+# else:
+#     print(s)
+
+e = 6
+if not e != e :
+	print(e)
+# output
+# e = 6
+# print(e)
+
+r = 2
+if not r != r :
+	print(r)
+# output
+# r = 2
+# print(r)
+
+x = 1
+if  x > x :
+	print(x)
+# output
+# x = 1
+
+b = 9
+u = 8
+m = 4
+if m < 2 :
+	print(m)
+elif u >= m :
+	print(u)
+else :
+	print(b)
+# output
+# b = 9
+# u = 8
+# m = 4
+# if m < 2:
+#     print(m)
+# elif u >= m:
+#     print(u)
+# else:
+#     print(b)
+
+h = 6
+if h == 2 :
+	print(h)
+else :
+	print(h)
+# output
+# h = 6
+# if h == 2:
+#     print(h)
+# else:
+#     print(h)
+
+e = 2
+h = 6
+if  h < 5 :
+	print(h)
+elif not e == 3 :
+	print(e)
+else :
+	print(h)
+# output
+# e = 2
+# h = 6
+# if h < 5:
+#     print(h)
+# elif not e == 3:
+#     print(e)
+# else:
+#     print(h)
+
+s = 1
+if s != 2 :
+	print(s)
+# output
+# s = 1
+# if s != 2:
+#     print(s)
+
+x = 1
+if not x != 4 :
+	print(x)
+else :
+	print(x)
+# output
+# x = 1
+# if not x != 4:
+#     print(x)
+# else:
+#     print(x)
+
+z = 6
+q = 1
+if  z <= q :
+	print(z)
+elif q > 3 :
+	print(z)
+else :
+	print(z)
+# output
+# z = 6
+# q = 1
+# if z <= q:
+#     print(z)
+# elif q > 3:
+#     print(z)
+# else:
+#     print(z)
+
+q = 7
+q = 5
+if not q != 8 :
+	print(q)
+# output
+# q = 7
+# q = 5
+# if not q != 8:
+#     print(q)
+
+r = 0
+v = 1
+j = 5
+if r > j :
+	print(j)
+elif v < v :
+	print(r)
+else :
+	print(r)
+# output
+# r = 0
+# v = 1
+# j = 5
+# if r > j:
+#     print(j)
+# else:
+#     print(r)
+
+i = 2
+t = 8
+f = 3
+if not f > f :
+	print(i)
+# output
+# f = 3
+# print(i)
+
+n = 5
+r = 6
+if r >= 3 :
+	print(n)
+elif n == n :
+	print(r)
+else :
+	print(n)
+# output
+# n = 5
+# r = 6
+# if r >= 3:
+#     print(n)
+# else:
+#     print(r)
+
+q = 6
+if q != 3 :
+	print(q)
+elif q > 0 :
+	print(q)
+else :
+	print(q)
+# output
+# q = 6
+# if q != 3:
+#     print(q)
+# elif q > 0:
+#     print(q)
+# else:
+#     print(q)
+
+h = 6
+if h <= 1 :
+	print(h)
+else :
+	print(h)
+# output
+# h = 6
+# if h <= 1:
+#     print(h)
+# else:
+#     print(h)
+
+u = 9
+if  u == 7 :
+	print(u)
+elif  u == u :
+	print(u)
+else :
+	print(u)
+# output
+# u = 9
+# if u == 7:
+#     print(u)
+# else:
+#     print(u)
+
+t = 8
+if t != t :
+	print(t)
+else :
+	print(t)
+# output
+# t = 8
+# print(t)
+
+b = 7
+if b >= b :
+	print(b)
+# output
+# b = 7
+# print(b)
+
+q = 6
+y = 7
+s = 2
+a = 7
+if a != 5 :
+	print(q)
+# output
+# q = 6
+# a = 7
+# if a != 5:
+#     print(q)
+
+d = 3
+if d >= d :
+	print(d)
+# output
+# d = 3
+# print(d)
+
+k = 3
+y = 8
+if k == 1 :
+	print(k)
+else :
+	print(k)
+# output
+# k = 3
+# if k == 1:
+#     print(k)
+# else:
+#     print(k)
+
+p = 8
+x = 7
+n = 4
+if x > p :
+	print(x)
+elif n < n :
+	print(n)
+else :
+	print(x)
+# output
+# p = 8
+# x = 7
+# n = 4
+# if x > p:
+#     print(x)
+# else:
+#     print(x)
+
+f = 8
+if not f == 8 :
+	print(f)
+# output
+# f = 8
+# if not f == 8:
+#     print(f)
+
+h = 7
+if  h < h :
+	print(h)
+# output
+# h = 7
+
+o = 8
+g = 3
+z = 3
+o = 7
+c = 8
+s = 8
+if  o != z :
+	print(z)
+# output
+# o = 8
+# z = 3
+# o = 7
+# if o != z:
+#     print(z)
+
+d = 9
+w = 6
+if d < 0 :
+	print(d)
+else :
+	print(d)
+# output
+# d = 9
+# if d < 0:
+#     print(d)
+# else:
+#     print(d)
+
+v = 0
+n = 0
+if  v != v :
+	print(v)
+else :
+	print(v)
+# output
+# v = 0
+# print(v)
+
+a = 8
+j = 6
+if  j >= a :
+	print(a)
+elif a == 6 :
+	print(a)
+else :
+	print(a)
+# output
+# a = 8
+# j = 6
+# if j >= a:
+#     print(a)
+# elif a == 6:
+#     print(a)
+# else:
+#     print(a)
+
+a = 0
+m = 0
+if a >= m :
+	print(a)
+elif a < 2 :
+	print(a)
+else :
+	print(m)
+# output
+# a = 0
+# m = 0
+# if a >= m:
+#     print(a)
+# elif a < 2:
+#     print(a)
+# else:
+#     print(m)
+
+t = 9
+if t >= 8 :
+	print(t)
+else :
+	print(t)
+# output
+# t = 9
+# if t >= 8:
+#     print(t)
+# else:
+#     print(t)
+
+t = 2
+k = 3
+if  t >= k :
+	print(k)
+elif  t < t :
+	print(t)
+else :
+	print(t)
+# output
+# t = 2
+# k = 3
+# if t >= k:
+#     print(k)
+# else:
+#     print(t)
+
+n = 3
+w = 9
+d = 1
+if not n >= 4 :
+	print(w)
+elif  w == 5 :
+	print(w)
+else :
+	print(w)
+# output
+# n = 3
+# w = 9
+# if not n >= 4:
+#     print(w)
+# elif w == 5:
+#     print(w)
+# else:
+#     print(w)
+
+n = 6
+if n > 8 :
+	print(n)
+# output
+# n = 6
+# if n > 8:
+#     print(n)
+
+h = 2
+h = 5
+l = 1
+a = 9
+if l > a :
+	print(l)
+elif h >= 2 :
+	print(a)
+else :
+	print(l)
+# output
+# h = 2
+# h = 5
+# l = 1
+# a = 9
+# if l > a:
+#     print(l)
+# elif h >= 2:
+#     print(a)
+# else:
+#     print(l)
+
+h = 8
+if h < h :
+	print(h)
+# output
+# h = 8
+
+v = 1
+q = 2
+c = 1
+if v < 0 :
+	print(v)
+elif v > 5 :
+	print(v)
+else :
+	print(v)
+# output
+# v = 1
+# if v < 0:
+#     print(v)
+# elif v > 5:
+#     print(v)
+# else:
+#     print(v)
+
+q = 9
+d = 2
+if q <= q :
+	print(q)
+elif d != d :
+	print(d)
+else :
+	print(d)
+# output
+# q = 9
+# print(q)
+
+d = 1
+h = 7
+if d >= 1 :
+	print(d)
+elif not d >= 0 :
+	print(h)
+else :
+	print(d)
+# output
+# d = 1
+# h = 7
+# if d >= 1:
+#     print(d)
+# elif not d >= 0:
+#     print(h)
+# else:
+#     print(d)
+
+i = 1
+f = 0
+s = 9
+if  i == 1 :
+	print(i)
+# output
+# i = 1
+# if i == 1:
+#     print(i)
+
+t = 3
+if  t == 4 :
+	print(t)
+else :
+	print(t)
+# output
+# t = 3
+# if t == 4:
+#     print(t)
+# else:
+#     print(t)
+
+p = 5
+c = 0
+if not c > 6 :
+	print(c)
+else :
+	print(p)
+# output
+# p = 5
+# c = 0
+# if not c > 6:
+#     print(c)
+# else:
+#     print(p)
+
+q = 6
+c = 1
+if c != q :
+	print(c)
+# output
+# q = 6
+# c = 1
+# if c != q:
+#     print(c)
+
+d = 3
+w = 4
+t = 4
+m = 5
+o = 1
+o = 4
+if w == m :
+	print(w)
+# output
+# w = 4
+# m = 5
+# if w == m:
+#     print(w)
+
+u = 2
+n = 1
+if not u > 7 :
+	print(n)
+# output
+# u = 2
+# n = 1
+# if not u > 7:
+#     print(n)
+
+c = 9
+if c >= 6 :
+	print(c)
+# output
+# c = 9
+# if c >= 6:
+#     print(c)
+
+l = 8
+p = 7
+m = 4
+c = 8
+n = 8
+y = 0
+if l == 3 :
+	print(p)
+elif  l == 4 :
+	print(c)
+else :
+	print(c)
+# output
+# l = 8
+# p = 7
+# c = 8
+# if l == 3:
+#     print(p)
+# elif l == 4:
+#     print(c)
+# else:
+#     print(c)
+
+j = 2
+if j > j :
+	print(j)
+else :
+	print(j)
+# output
+# j = 2
+# print(j)
+
+i = 5
+r = 9
+v = 1
+c = 3
+z = 4
+n = 1
+if  r < n :
+	print(c)
+else :
+	print(r)
+# output
+# r = 9
+# c = 3
+# n = 1
+# if r < n:
+#     print(c)
+# else:
+#     print(r)
+
+p = 2
+m = 7
+u = 4
+if not m < 4 :
+	print(u)
+else :
+	print(m)
+# output
+# m = 7
+# u = 4
+# if not m < 4:
+#     print(u)
+# else:
+#     print(m)
+
+b = 8
+if  b < b :
+	print(b)
+elif b < b :
+	print(b)
+else :
+	print(b)
+# output
+# b = 8
+# print(b)
+
+f = 9
+if  f != 5 :
+	print(f)
+else :
+	print(f)
+# output
+# f = 9
+# if f != 5:
+#     print(f)
+# else:
+#     print(f)
+
+x = 8
+j = 3
+if not j == 0 :
+	print(j)
+else :
+	print(j)
+# output
+# j = 3
+# if not j == 0:
+#     print(j)
+# else:
+#     print(j)
+
+s = 3
+b = 1
+k = 6
+if not s >= 7 :
+	print(k)
+else :
+	print(k)
+# output
+# s = 3
+# k = 6
+# if not s >= 7:
+#     print(k)
+# else:
+#     print(k)
+
+v = 4
+k = 7
+if v < k :
+	print(v)
+else :
+	print(v)
+# output
+# v = 4
+# k = 7
+# if v < k:
+#     print(v)
+# else:
+#     print(v)
+
+q = 1
+j = 5
+if  q >= 0 :
+	print(q)
+elif  q <= 2 :
+	print(j)
+else :
+	print(j)
+# output
+# q = 1
+# j = 5
+# if q >= 0:
+#     print(q)
+# elif q <= 2:
+#     print(j)
+# else:
+#     print(j)
+
+j = 1
+if j != j :
+	print(j)
+# output
+# j = 1
+
+m = 6
+if not m >= m :
+	print(m)
+# output
+# m = 6
+
+g = 4
+h = 6
+if h <= g :
+	print(h)
+else :
+	print(g)
+# output
+# g = 4
+# h = 6
+# if h <= g:
+#     print(h)
+# else:
+#     print(g)
+
+n = 5
+if n > 1 :
+	print(n)
+elif  n <= n :
+	print(n)
+else :
+	print(n)
+# output
+# n = 5
+# if n > 1:
+#     print(n)
+# else:
+#     print(n)
+
+c = 4
+k = 1
+q = 0
+f = 8
+o = 2
+r = 5
+if  q < r :
+	print(f)
+else :
+	print(q)
+# output
+# q = 0
+# f = 8
+# r = 5
+# if q < r:
+#     print(f)
+# else:
+#     print(q)
+
+d = 4
+if d == d :
+	print(d)
+elif d < d :
+	print(d)
+else :
+	print(d)
+# output
+# d = 4
+# print(d)
+
+c = 0
+if c <= c :
+	print(c)
+# output
+# c = 0
+# print(c)
+
+i = 4
+u = 4
+k = 5
+if u == u :
+	print(k)
+# output
+# u = 4
+# print(k)
+
+y = 6
+if  y <= 0 :
+	print(y)
+else :
+	print(y)
+# output
+# y = 6
+# if y <= 0:
+#     print(y)
+# else:
+#     print(y)
+
+k = 2
+i = 0
+if k < 7 :
+	print(k)
+else :
+	print(i)
+# output
+# k = 2
+# i = 0
+# if k < 7:
+#     print(k)
+# else:
+#     print(i)
+
+t = 0
+if  t != t :
+	print(t)
+# output
+# t = 0
+
+k = 2
+if k > k :
+	print(k)
+else :
+	print(k)
+# output
+# k = 2
+# print(k)
+
+r = 9
+if r == 0 :
+	print(r)
+# output
+# r = 9
+# if r == 0:
+#     print(r)
+
+p = 9
+f = 5
+if p == 0 :
+	print(p)
+# output
+# p = 9
+# if p == 0:
+#     print(p)
+
+b = 9
+if b >= b :
+	print(b)
+else :
+	print(b)
+# output
+# b = 9
+# print(b)
+
+n = 4
+if not n != n :
+	print(n)
+else :
+	print(n)
+# output
+# n = 4
+# print(n)
+
+v = 3
+u = 0
+if not u >= 8 :
+	print(v)
+else :
+	print(u)
+# output
+# v = 3
+# u = 0
+# if not u >= 8:
+#     print(v)
+# else:
+#     print(u)
+
+c = 9
+if not c >= c :
+	print(c)
+elif c <= 4 :
+	print(c)
+else :
+	print(c)
+# output
+# c = 9
+# if c <= 4:
+#     print(c)
+# else:
+#     print(c)
+
+s = 8
+e = 7
+w = 3
+if  e < s :
+	print(e)
+# output
+# s = 8
+# e = 7
+# if e < s:
+#     print(e)
+
+n = 3
+v = 2
+if  n == n :
+	print(v)
+# output
+# n = 3
+# print(v)
+
+a = 8
+if  a > 0 :
+	print(a)
+else :
+	print(a)
+# output
+# a = 8
+# if a > 0:
+#     print(a)
+# else:
+#     print(a)
+
+t = 7
+if t <= 2 :
+	print(t)
+# output
+# t = 7
+# if t <= 2:
+#     print(t)
+
+c = 4
+if c != 6 :
+	print(c)
+else :
+	print(c)
+# output
+# c = 4
+# if c != 6:
+#     print(c)
+# else:
+#     print(c)
+
+q = 7
+n = 7
+if  q > n :
+	print(n)
+else :
+	print(n)
+# output
+# q = 7
+# n = 7
+# if q > n:
+#     print(n)
+# else:
+#     print(n)
+
+n = 9
+m = 2
+if m < m :
+	print(m)
+else :
+	print(m)
+# output
+# m = 2
+# print(m)
+
+u = 9
+u = 6
+if not u <= u :
+	print(u)
+# output
+# u = 9
+# u = 6
+
+n = 8
+i = 6
+if n != i :
+	print(n)
+else :
+	print(n)
+# output
+# n = 8
+# i = 6
+# if n != i:
+#     print(n)
+# else:
+#     print(n)
+
+d = 4
+q = 6
+if  d < 3 :
+	print(d)
+else :
+	print(d)
+# output
+# d = 4
+# if d < 3:
+#     print(d)
+# else:
+#     print(d)
+
+v = 7
+f = 1
+if  v >= 2 :
+	print(f)
+# output
+# v = 7
+# f = 1
+# if v >= 2:
+#     print(f)
+
+h = 2
+if not h == h :
+	print(h)
+elif not h <= 9 :
+	print(h)
+else :
+	print(h)
+# output
+# h = 2
+# if not h <= 9:
+#     print(h)
+# else:
+#     print(h)
+
+d = 9
+if  d <= 1 :
+	print(d)
+else :
+	print(d)
+# output
+# d = 9
+# if d <= 1:
+#     print(d)
+# else:
+#     print(d)
+
+w = 4
+l = 9
+if w == w :
+	print(w)
+# output
+# w = 4
+# print(w)
+
+o = 4
+if o == o :
+	print(o)
+else :
+	print(o)
+# output
+# o = 4
+# print(o)
+
+f = 2
+if not f == 2 :
+	print(f)
+else :
+	print(f)
+# output
+# f = 2
+# if not f == 2:
+#     print(f)
+# else:
+#     print(f)
+
+n = 2
+if n == 2 :
+	print(n)
+else :
+	print(n)
+# output
+# n = 2
+# if n == 2:
+#     print(n)
+# else:
+#     print(n)
+
+r = 8
+r = 6
+e = 8
+if r > 1 :
+	print(r)
+# output
+# r = 8
+# r = 6
+# if r > 1:
+#     print(r)
+
+m = 8
+if m <= m :
+	print(m)
+# output
+# m = 8
+# print(m)
+
+r = 6
+if  r < 7 :
+	print(r)
+elif r != r :
+	print(r)
+else :
+	print(r)
+# output
+# r = 6
+# if r < 7:
+#     print(r)
+# else:
+#     print(r)
+
+e = 5
+if  e == 8 :
+	print(e)
+# output
+# e = 5
+# if e == 8:
+#     print(e)
+
+n = 6
+if n < 4 :
+	print(n)
+else :
+	print(n)
+# output
+# n = 6
+# if n < 4:
+#     print(n)
+# else:
+#     print(n)
+
+u = 6
+e = 4
+m = 6
+r = 1
+if m >= r :
+	print(m)
+else :
+	print(e)
+# output
+# e = 4
+# m = 6
+# r = 1
+# if m >= r:
+#     print(m)
+# else:
+#     print(e)
+
+q = 3
+a = 2
+if q != 7 :
+	print(a)
+elif a != q :
+	print(a)
+else :
+	print(q)
+# output
+# q = 3
+# a = 2
+# if q != 7:
+#     print(a)
+# elif a != q:
+#     print(a)
+# else:
+#     print(q)
+
+o = 4
+if o <= o :
+	print(o)
+elif not o >= 5 :
+	print(o)
+else :
+	print(o)
+# output
+# o = 4
+# print(o)
+
+e = 6
+a = 3
+if  a == a :
+	print(a)
+elif a > e :
+	print(a)
+else :
+	print(e)
+# output
+# a = 3
+# print(a)
+
+x = 8
+if not x == 3 :
+	print(x)
+elif x <= 3 :
+	print(x)
+else :
+	print(x)
+# output
+# x = 8
+# if not x == 3:
+#     print(x)
+# elif x <= 3:
+#     print(x)
+# else:
+#     print(x)
+
+m = 0
+if  m >= m :
+	print(m)
+else :
+	print(m)
+# output
+# m = 0
+# print(m)
+
+j = 4
+if  j == j :
+	print(j)
+elif  j < j :
+	print(j)
+else :
+	print(j)
+# output
+# j = 4
+# print(j)
+
+h = 8
+if not h == h :
+	print(h)
+else :
+	print(h)
+# output
+# h = 8
+# print(h)
+
+o = 4
+if not o != o :
+	print(o)
+else :
+	print(o)
+# output
+# o = 4
+# print(o)
+
+i = 9
+q = 7
+w = 9
+if w != w :
+	print(q)
+else :
+	print(i)
+# output
+# w = 9
+# print(i)
+
+b = 7
+c = 4
+if c != 0 :
+	print(b)
+# output
+# b = 7
+# c = 4
+# if c != 0:
+#     print(b)
+
+g = 9
+if not g == 6 :
+	print(g)
+elif g == 5 :
+	print(g)
+else :
+	print(g)
+# output
+# g = 9
+# if not g == 6:
+#     print(g)
+# elif g == 5:
+#     print(g)
+# else:
+#     print(g)
+
+c = 0
+if c >= 4 :
+	print(c)
+else :
+	print(c)
+# output
+# c = 0
+# if c >= 4:
+#     print(c)
+# else:
+#     print(c)
+
+q = 7
+a = 4
+w = 3
+k = 8
+q = 8
+if q <= 2 :
+	print(k)
+# output
+# q = 7
+# k = 8
+# q = 8
+# if q <= 2:
+#     print(k)
+
+a = 1
+if not a != a :
+	print(a)
+else :
+	print(a)
+# output
+# a = 1
+# print(a)
+
+g = 7
+g = 9
+d = 5
+if g < d :
+	print(g)
+elif d == g :
+	print(g)
+else :
+	print(g)
+# output
+# g = 7
+# g = 9
+# d = 5
+# if g < d:
+#     print(g)
+# elif d == g:
+#     print(g)
+# else:
+#     print(g)
+
+l = 9
+if l == l :
+	print(l)
+elif  l != 7 :
+	print(l)
+else :
+	print(l)
+# output
+# l = 9
+# print(l)
+
+e = 2
+if  e != e :
+	print(e)
+else :
+	print(e)
+# output
+# e = 2
+# print(e)
+
+b = 6
+e = 8
+l = 2
+y = 1
+t = 1
+f = 8
+if b < l :
+	print(b)
+elif b >= y :
+	print(y)
+else :
+	print(f)
+# output
+# b = 6
+# l = 2
+# y = 1
+# f = 8
+# if b < l:
+#     print(b)
+# elif b >= y:
+#     print(y)
+# else:
+#     print(f)
+
+u = 1
+r = 0
+if r < u :
+	print(u)
+# output
+# u = 1
+# r = 0
+# if r < u:
+#     print(u)
+
+e = 5
+m = 3
+o = 9
+j = 0
+if e > e :
+	print(o)
+else :
+	print(e)
+# output
+# e = 5
+# print(e)
+
+t = 4
+if  t == 2 :
+	print(t)
+elif not t >= 4 :
+	print(t)
+else :
+	print(t)
+# output
+# t = 4
+# if t == 2:
+#     print(t)
+# elif not t >= 4:
+#     print(t)
+# else:
+#     print(t)
+
+v = 1
+if v >= v :
+	print(v)
+elif v < v :
+	print(v)
+else :
+	print(v)
+# output
+# v = 1
+# print(v)
+
+z = 6
+g = 6
+j = 7
+if not g == j :
+	print(z)
+# output
+# z = 6
+# g = 6
+# j = 7
+# if not g == j:
+#     print(z)
+
+n = 7
+if n >= 3 :
+	print(n)
+# output
+# n = 7
+# if n >= 3:
+#     print(n)
+
+j = 6
+if j < 3 :
+	print(j)
+# output
+# j = 6
+# if j < 3:
+#     print(j)
+
+g = 5
+n = 3
+y = 6
+if n > y :
+	print(n)
+else :
+	print(g)
+# output
+# g = 5
+# n = 3
+# y = 6
+# if n > y:
+#     print(n)
+# else:
+#     print(g)
+
+x = 0
+if  x == x :
+	print(x)
+# output
+# x = 0
+# print(x)
+
+z = 7
+d = 7
+j = 4
+if j > j :
+	print(j)
+# output
+# j = 4
+
+a = 3
+k = 1
+r = 8
+if  r < a :
+	print(a)
+else :
+	print(r)
+# output
+# a = 3
+# r = 8
+# if r < a:
+#     print(a)
+# else:
+#     print(r)
+
+i = 4
+s = 9
+j = 3
+if j != 2 :
+	print(s)
+else :
+	print(s)
+# output
+# s = 9
+# j = 3
+# if j != 2:
+#     print(s)
+# else:
+#     print(s)
+
+p = 9
+s = 7
+if  p == s :
+	print(s)
+elif  p >= p :
+	print(p)
+else :
+	print(s)
+# output
+# p = 9
+# s = 7
+# if p == s:
+#     print(s)
+# else:
+#     print(p)
+
+z = 9
+if  z == z :
+	print(z)
+elif  z >= z :
+	print(z)
+else :
+	print(z)
+# output
+# z = 9
+# print(z)
+
+o = 8
+if o != 8 :
+	print(o)
+elif o > 1 :
+	print(o)
+else :
+	print(o)
+# output
+# o = 8
+# if o != 8:
+#     print(o)
+# elif o > 1:
+#     print(o)
+# else:
+#     print(o)
+
+j = 1
+d = 7
+y = 7
+m = 6
+x = 5
+if d <= y :
+	print(m)
+elif  m > y :
+	print(d)
+else :
+	print(y)
+# output
+# d = 7
+# y = 7
+# m = 6
+# if d <= y:
+#     print(m)
+# elif m > y:
+#     print(d)
+# else:
+#     print(y)
+
+r = 8
+if  r <= 0 :
+	print(r)
+else :
+	print(r)
+# output
+# r = 8
+# if r <= 0:
+#     print(r)
+# else:
+#     print(r)
+
+l = 2
+p = 7
+u = 7
+l = 9
+o = 8
+if  u == l :
+	print(p)
+# output
+# l = 2
+# p = 7
+# u = 7
+# l = 9
+# if u == l:
+#     print(p)
+
+u = 7
+o = 9
+if  u == u :
+	print(u)
+elif u >= o :
+	print(u)
+else :
+	print(u)
+# output
+# u = 7
+# print(u)
+
+o = 3
+s = 2
+g = 5
+if not s == 2 :
+	print(s)
+# output
+# s = 2
+# if not s == 2:
+#     print(s)
+
+l = 0
+if not l == 2 :
+	print(l)
+else :
+	print(l)
+# output
+# l = 0
+# if not l == 2:
+#     print(l)
+# else:
+#     print(l)
+
+m = 0
+if m != 0 :
+	print(m)
+elif  m <= m :
+	print(m)
+else :
+	print(m)
+# output
+# m = 0
+# if m != 0:
+#     print(m)
+# else:
+#     print(m)
+
+t = 3
+z = 4
+if  z >= 0 :
+	print(z)
+# output
+# z = 4
+# if z >= 0:
+#     print(z)
+
+y = 7
+if not y == y :
+	print(y)
+else :
+	print(y)
+# output
+# y = 7
+# print(y)
+
+e = 6
+if not e < 1 :
+	print(e)
+elif e <= e :
+	print(e)
+else :
+	print(e)
+# output
+# e = 6
+# if not e < 1:
+#     print(e)
+# else:
+#     print(e)
+
+j = 8
+s = 3
+if s < 0 :
+	print(s)
+elif not s >= j :
+	print(s)
+else :
+	print(j)
+# output
+# j = 8
+# s = 3
+# if s < 0:
+#     print(s)
+# elif not s >= j:
+#     print(s)
+# else:
+#     print(j)
+
+s = 3
+if s >= 6 :
+	print(s)
+# output
+# s = 3
+# if s >= 6:
+#     print(s)
+
+n = 7
+y = 5
+p = 0
+g = 0
+n = 1
+if n != 0 :
+	print(n)
+# output
+# n = 7
+# n = 1
+# if n != 0:
+#     print(n)
+
+v = 0
+if v >= v :
+	print(v)
+# output
+# v = 0
+# print(v)
+
+z = 0
+if  z == z :
+	print(z)
+# output
+# z = 0
+# print(z)
+
+z = 1
+f = 7
+if not z <= f :
+	print(z)
+# output
+# z = 1
+# f = 7
+# if not z <= f:
+#     print(z)
+
+v = 3
+s = 4
+if s > 1 :
+	print(v)
+elif  s < 7 :
+	print(s)
+else :
+	print(v)
+# output
+# v = 3
+# s = 4
+# if s > 1:
+#     print(v)
+# elif s < 7:
+#     print(s)
+# else:
+#     print(v)
+
+g = 1
+m = 1
+b = 7
+o = 9
+h = 2
+if g > 1 :
+	print(b)
+elif h != 5 :
+	print(o)
+else :
+	print(h)
+# output
+# g = 1
+# b = 7
+# o = 9
+# h = 2
+# if g > 1:
+#     print(b)
+# elif h != 5:
+#     print(o)
+# else:
+#     print(h)
+
+s = 1
+d = 2
+if s < 6 :
+	print(d)
+elif not d != 6 :
+	print(s)
+else :
+	print(d)
+# output
+# s = 1
+# d = 2
+# if s < 6:
+#     print(d)
+# elif not d != 6:
+#     print(s)
+# else:
+#     print(d)
+
+d = 1
+if d >= d :
+	print(d)
+else :
+	print(d)
+# output
+# d = 1
+# print(d)
+
+g = 7
+if  g == 2 :
+	print(g)
+else :
+	print(g)
+# output
+# g = 7
+# if g == 2:
+#     print(g)
+# else:
+#     print(g)
+
+m = 3
+u = 6
+j = 5
+w = 5
+if not j >= j :
+	print(u)
+# output
+# j = 5
+
+g = 7
+j = 4
+if  g < 5 :
+	print(j)
+elif not g >= g :
+	print(j)
+else :
+	print(g)
+# output
+# g = 7
+# j = 4
+# if g < 5:
+#     print(j)
+# else:
+#     print(g)
+
+g = 4
+if  g == 6 :
+	print(g)
+else :
+	print(g)
+# output
+# g = 4
+# if g == 6:
+#     print(g)
+# else:
+#     print(g)
+
+i = 2
+if not i >= 1 :
+	print(i)
+elif i == 9 :
+	print(i)
+else :
+	print(i)
+# output
+# i = 2
+# if not i >= 1:
+#     print(i)
+# elif i == 9:
+#     print(i)
+# else:
+#     print(i)
+
+m = 4
+l = 9
+if not l < 9 :
+	print(m)
+else :
+	print(l)
+# output
+# m = 4
+# l = 9
+# if not l < 9:
+#     print(m)
+# else:
+#     print(l)
+
+s = 7
+o = 0
+i = 3
+c = 5
+if  o <= 8 :
+	print(s)
+# output
+# s = 7
+# o = 0
+# if o <= 8:
+#     print(s)
+
+p = 0
+p = 3
+p = 5
+if not p >= p :
+	print(p)
+elif p > p :
+	print(p)
+else :
+	print(p)
+# output
+# p = 0
+# p = 3
+# p = 5
+# print(p)
+
+y = 3
+if y >= 0 :
+	print(y)
+# output
+# y = 3
+# if y >= 0:
+#     print(y)
+
+p = 0
+y = 8
+z = 2
+c = 7
+if  y <= c :
+	print(y)
+# output
+# y = 8
+# c = 7
+# if y <= c:
+#     print(y)
+
+b = 4
+w = 8
+if  b > 9 :
+	print(b)
+elif  b <= b :
+	print(w)
+else :
+	print(w)
+# output
+# b = 4
+# if b > 9:
+#     print(b)
+# else:
+#     print(w)
+
+e = 3
+if not e != e :
+	print(e)
+elif e == 1 :
+	print(e)
+else :
+	print(e)
+# output
+# e = 3
+# print(e)
+
+x = 4
+if  x != 4 :
+	print(x)
+# output
+# x = 4
+# if x != 4:
+#     print(x)
+
+w = 7
+b = 9
+v = 3
+if  v != 6 :
+	print(w)
+else :
+	print(w)
+# output
+# w = 7
+# v = 3
+# if v != 6:
+#     print(w)
+# else:
+#     print(w)
+
+q = 5
+u = 7
+i = 6
+if q != 0 :
+	print(q)
+# output
+# q = 5
+# if q != 0:
+#     print(q)
+
+i = 9
+z = 2
+if i > i :
+	print(z)
+elif  i != 1 :
+	print(i)
+else :
+	print(z)
+# output
+# i = 9
+# z = 2
+# if i != 1:
+#     print(i)
+# else:
+#     print(z)
+
+i = 6
+if not i != i :
+	print(i)
+else :
+	print(i)
+# output
+# i = 6
+# print(i)
+
+y = 6
+if y < 0 :
+	print(y)
+else :
+	print(y)
+# output
+# y = 6
+# if y < 0:
+#     print(y)
+# else:
+#     print(y)
+
+o = 5
+i = 2
+if i != i :
+	print(o)
+# output
+# i = 2
+
+c = 5
+if not c >= 6 :
+	print(c)
+# output
+# c = 5
+# if not c >= 6:
+#     print(c)
+
+a = 7
+if not a == 3 :
+	print(a)
+# output
+# a = 7
+# if not a == 3:
+#     print(a)
+
+b = 0
+if  b <= b :
+	print(b)
+else :
+	print(b)
+# output
+# b = 0
+# print(b)
+
+y = 7
+if  y >= y :
+	print(y)
+elif not y >= 2 :
+	print(y)
+else :
+	print(y)
+# output
+# y = 7
+# print(y)
+
+t = 7
+if t == 0 :
+	print(t)
+# output
+# t = 7
+# if t == 0:
+#     print(t)
+
+w = 8
+i = 0
+if not w != i :
+	print(i)
+else :
+	print(i)
+# output
+# w = 8
+# i = 0
+# if not w != i:
+#     print(i)
+# else:
+#     print(i)
+
+x = 3
+v = 5
+if not x == 4 :
+	print(v)
+# output
+# x = 3
+# v = 5
+# if not x == 4:
+#     print(v)
+
+l = 8
+if  l == l :
+	print(l)
+elif l <= l :
+	print(l)
+else :
+	print(l)
+# output
+# l = 8
+# print(l)
+
+k = 8
+n = 3
+c = 3
+y = 6
+v = 6
+s = 3
+if v > k :
+	print(n)
+elif not c > s :
+	print(y)
+else :
+	print(c)
+# output
+# k = 8
+# n = 3
+# c = 3
+# y = 6
+# v = 6
+# s = 3
+# if v > k:
+#     print(n)
+# elif not c > s:
+#     print(y)
+# else:
+#     print(c)
+
+v = 7
+if not v == v :
+	print(v)
+elif  v >= 4 :
+	print(v)
+else :
+	print(v)
+# output
+# v = 7
+# if v >= 4:
+#     print(v)
+# else:
+#     print(v)
+
+p = 6
+y = 4
+r = 0
+z = 2
+x = 4
+if not r >= z :
+	print(p)
+else :
+	print(x)
+# output
+# p = 6
+# r = 0
+# z = 2
+# x = 4
+# if not r >= z:
+#     print(p)
+# else:
+#     print(x)
+
+n = 5
+if  n != n :
+	print(n)
+# output
+# n = 5
+
+m = 7
+if not m < 7 :
+	print(m)
+elif not m <= 1 :
+	print(m)
+else :
+	print(m)
+# output
+# m = 7
+# if not m < 7:
+#     print(m)
+# elif not m <= 1:
+#     print(m)
+# else:
+#     print(m)
+
+l = 7
+if l > 2 :
+	print(l)
+elif l > 1 :
+	print(l)
+else :
+	print(l)
+# output
+# l = 7
+# if l > 2:
+#     print(l)
+# elif l > 1:
+#     print(l)
+# else:
+#     print(l)
+
+w = 2
+e = 6
+if e > 5 :
+	print(w)
+else :
+	print(w)
+# output
+# w = 2
+# e = 6
+# if e > 5:
+#     print(w)
+# else:
+#     print(w)
+
+v = 3
+if v < 8 :
+	print(v)
+# output
+# v = 3
+# if v < 8:
+#     print(v)
+
+w = 6
+t = 2
+if t < 8 :
+	print(t)
+# output
+# t = 2
+# if t < 8:
+#     print(t)
+
+a = 6
+if a > a :
+	print(a)
+else :
+	print(a)
+# output
+# a = 6
+# print(a)
+
+m = 1
+j = 6
+d = 5
+if j == 9 :
+	print(m)
+else :
+	print(d)
+# output
+# m = 1
+# j = 6
+# d = 5
+# if j == 9:
+#     print(m)
+# else:
+#     print(d)
+
+r = 1
+t = 1
+if r != 6 :
+	print(r)
+elif t > 6 :
+	print(r)
+else :
+	print(r)
+# output
+# r = 1
+# t = 1
+# if r != 6:
+#     print(r)
+# elif t > 6:
+#     print(r)
+# else:
+#     print(r)
+
+d = 8
+u = 9
+if not d <= 6 :
+	print(u)
+else :
+	print(u)
+# output
+# d = 8
+# u = 9
+# if not d <= 6:
+#     print(u)
+# else:
+#     print(u)
+
+g = 3
+g = 2
+n = 0
+if not n >= 4 :
+	print(n)
+# output
+# n = 0
+# if not n >= 4:
+#     print(n)
+
+j = 1
+if not j != 9 :
+	print(j)
+elif j != j :
+	print(j)
+else :
+	print(j)
+# output
+# j = 1
+# if not j != 9:
+#     print(j)
+# else:
+#     print(j)
+
+r = 2
+if r <= r :
+	print(r)
+# output
+# r = 2
+# print(r)
+
+r = 9
+if not r != r :
+	print(r)
+# output
+# r = 9
+# print(r)
+
+t = 3
+n = 6
+i = 5
+h = 7
+if t == n :
+	print(h)
+elif n <= 3 :
+	print(h)
+else :
+	print(i)
+# output
+# t = 3
+# n = 6
+# i = 5
+# h = 7
+# if t == n:
+#     print(h)
+# elif n <= 3:
+#     print(h)
+# else:
+#     print(i)
+
+d = 2
+n = 3
+s = 2
+if s >= d :
+	print(n)
+else :
+	print(n)
+# output
+# d = 2
+# n = 3
+# s = 2
+# if s >= d:
+#     print(n)
+# else:
+#     print(n)
+
+z = 6
+n = 8
+f = 5
+n = 0
+e = 5
+if not f > f :
+	print(n)
+# output
+# f = 5
+# print(n)
+
+i = 4
+a = 1
+y = 0
+if not y >= 2 :
+	print(i)
+else :
+	print(a)
+# output
+# i = 4
+# a = 1
+# y = 0
+# if not y >= 2:
+#     print(i)
+# else:
+#     print(a)
+
+k = 7
+z = 2
+r = 9
+s = 5
+g = 3
+if g > 4 :
+	print(k)
+# output
+# k = 7
+# g = 3
+# if g > 4:
+#     print(k)
+
+c = 5
+z = 1
+if  c != z :
+	print(z)
+# output
+# c = 5
+# z = 1
+# if c != z:
+#     print(z)
+
+j = 7
+l = 3
+f = 7
+if j <= 8 :
+	print(j)
+# output
+# j = 7
+# if j <= 8:
+#     print(j)
+
+s = 6
+x = 5
+if  s == s :
+	print(s)
+else :
+	print(s)
+# output
+# s = 6
+# print(s)
+
+w = 2
+if  w <= 1 :
+	print(w)
+elif  w <= w :
+	print(w)
+else :
+	print(w)
+# output
+# w = 2
+# if w <= 1:
+#     print(w)
+# else:
+#     print(w)
+
+b = 2
+o = 4
+u = 0
+if  o < 0 :
+	print(b)
+# output
+# b = 2
+# o = 4
+# if o < 0:
+#     print(b)
+
+o = 0
+if o <= o :
+	print(o)
+# output
+# o = 0
+# print(o)
+
+s = 6
+v = 8
+if v == 8 :
+	print(s)
+# output
+# s = 6
+# v = 8
+# if v == 8:
+#     print(s)
+
+v = 6
+if v != v :
+	print(v)
+elif  v == 2 :
+	print(v)
+else :
+	print(v)
+# output
+# v = 6
+# if v == 2:
+#     print(v)
+# else:
+#     print(v)
+
+c = 6
+t = 4
+k = 7
+n = 1
+b = 8
+if c <= b :
+	print(n)
+else :
+	print(c)
+# output
+# c = 6
+# n = 1
+# b = 8
+# if c <= b:
+#     print(n)
+# else:
+#     print(c)
+
+v = 6
+m = 6
+o = 6
+if o >= 2 :
+	print(o)
+elif v < 0 :
+	print(v)
+else :
+	print(v)
+# output
+# v = 6
+# o = 6
+# if o >= 2:
+#     print(o)
+# elif v < 0:
+#     print(v)
+# else:
+#     print(v)
+
+t = 6
+w = 0
+if  w > w :
+	print(t)
+# output
+# w = 0
+
+y = 6
+l = 8
+if not l != 8 :
+	print(l)
+else :
+	print(l)
+# output
+# l = 8
+# if not l != 8:
+#     print(l)
+# else:
+#     print(l)
+
+a = 5
+if not a >= a :
+	print(a)
+else :
+	print(a)
+# output
+# a = 5
+# print(a)
+
+m = 6
+f = 8
+z = 1
+a = 5
+k = 7
+x = 9
+if k >= 9 :
+	print(x)
+elif z < m :
+	print(k)
+else :
+	print(k)
+# output
+# m = 6
+# z = 1
+# k = 7
+# x = 9
+# if k >= 9:
+#     print(x)
+# elif z < m:
+#     print(k)
+# else:
+#     print(k)
+
+a = 6
+if a <= 7 :
+	print(a)
+elif a >= a :
+	print(a)
+else :
+	print(a)
+# output
+# a = 6
+# if a <= 7:
+#     print(a)
+# else:
+#     print(a)
+
+r = 1
+w = 2
+u = 3
+w = 0
+l = 0
+if not l != 3 :
+	print(w)
+elif not l < 0 :
+	print(w)
+else :
+	print(w)
+# output
+# w = 2
+# w = 0
+# l = 0
+# if not l != 3:
+#     print(w)
+# elif not l < 0:
+#     print(w)
+# else:
+#     print(w)
+
+s = 7
+if s >= 8 :
+	print(s)
+else :
+	print(s)
+# output
+# s = 7
+# if s >= 8:
+#     print(s)
+# else:
+#     print(s)
+
+w = 1
+u = 8
+if u > w :
+	print(w)
+else :
+	print(w)
+# output
+# w = 1
+# u = 8
+# if u > w:
+#     print(w)
+# else:
+#     print(w)
+
+h = 4
+if h <= h :
+	print(h)
+# output
+# h = 4
+# print(h)
+
+k = 9
+k = 0
+s = 1
+o = 2
+if k > 4 :
+	print(o)
+else :
+	print(o)
+# output
+# k = 9
+# k = 0
+# o = 2
+# if k > 4:
+#     print(o)
+# else:
+#     print(o)
+
+s = 1
+w = 7
+m = 4
+if w != 5 :
+	print(w)
+# output
+# w = 7
+# if w != 5:
+#     print(w)
+
+r = 8
+if r != r :
+	print(r)
+# output
+# r = 8
+
+k = 3
+a = 8
+if not a != k :
+	print(k)
+else :
+	print(a)
+# output
+# k = 3
+# a = 8
+# if not a != k:
+#     print(k)
+# else:
+#     print(a)
+
+v = 8
+if not v != 3 :
+	print(v)
+elif not v > v :
+	print(v)
+else :
+	print(v)
+# output
+# v = 8
+# if not v != 3:
+#     print(v)
+# else:
+#     print(v)
+
+v = 3
+if v == 6 :
+	print(v)
+else :
+	print(v)
+# output
+# v = 3
+# if v == 6:
+#     print(v)
+# else:
+#     print(v)
+
+s = 9
+if not s > s :
+	print(s)
+else :
+	print(s)
+# output
+# s = 9
+# print(s)
+
+p = 0
+if p == 1 :
+	print(p)
+# output
+# p = 0
+# if p == 1:
+#     print(p)
+
+y = 0
+if y == 6 :
+	print(y)
+# output
+# y = 0
+# if y == 6:
+#     print(y)
+
+m = 6
+x = 0
+if  x < 3 :
+	print(x)
+# output
+# x = 0
+# if x < 3:
+#     print(x)
+
+b = 3
+if b <= 3 :
+	print(b)
+elif  b <= 6 :
+	print(b)
+else :
+	print(b)
+# output
+# b = 3
+# if b <= 3:
+#     print(b)
+# elif b <= 6:
+#     print(b)
+# else:
+#     print(b)
+
+t = 4
+if not t == t :
+	print(t)
+# output
+# t = 4
+
+t = 5
+if t > 8 :
+	print(t)
+else :
+	print(t)
+# output
+# t = 5
+# if t > 8:
+#     print(t)
+# else:
+#     print(t)
+
+e = 4
+c = 6
+n = 0
+if e > n :
+	print(n)
+elif not e > c :
+	print(e)
+else :
+	print(c)
+# output
+# e = 4
+# c = 6
+# n = 0
+# if e > n:
+#     print(n)
+# elif not e > c:
+#     print(e)
+# else:
+#     print(c)
+
+x = 9
+if x >= 4 :
+	print(x)
+# output
+# x = 9
+# if x >= 4:
+#     print(x)
+
+c = 3
+if c >= c :
+	print(c)
+elif c <= c :
+	print(c)
+else :
+	print(c)
+# output
+# c = 3
+# print(c)
+
+d = 1
+if d > 5 :
+	print(d)
+elif not d == 4 :
+	print(d)
+else :
+	print(d)
+# output
+# d = 1
+# if d > 5:
+#     print(d)
+# elif not d == 4:
+#     print(d)
+# else:
+#     print(d)
+
+i = 2
+g = 0
+if i >= 1 :
+	print(i)
+# output
+# i = 2
+# if i >= 1:
+#     print(i)
+
+l = 9
+l = 5
+if not l != l :
+	print(l)
+elif not l == 9 :
+	print(l)
+else :
+	print(l)
+# output
+# l = 9
+# l = 5
+# print(l)
+
+s = 9
+y = 2
+if s >= y :
+	print(s)
+# output
+# s = 9
+# y = 2
+# if s >= y:
+#     print(s)
+
+w = 9
+i = 8
+if w <= w :
+	print(i)
+elif i < w :
+	print(i)
+else :
+	print(i)
+# output
+# w = 9
+# print(i)
+
+z = 0
+q = 9
+v = 2
+if q > z :
+	print(v)
+else :
+	print(v)
+# output
+# z = 0
+# q = 9
+# v = 2
+# if q > z:
+#     print(v)
+# else:
+#     print(v)
+
+i = 1
+d = 1
+if not i > i :
+	print(d)
+elif  i > i :
+	print(d)
+else :
+	print(i)
+# output
+# i = 1
+# print(d)
+
+s = 8
+if s <= s :
+	print(s)
+elif  s > 8 :
+	print(s)
+else :
+	print(s)
+# output
+# s = 8
+# print(s)
+
+i = 3
+z = 5
+m = 4
+if  m > 9 :
+	print(m)
+# output
+# m = 4
+# if m > 9:
+#     print(m)
+
+w = 8
+r = 1
+r = 4
+y = 7
+if w <= 8 :
+	print(r)
+elif not w == w :
+	print(w)
+else :
+	print(y)
+# output
+# w = 8
+# r = 1
+# r = 4
+# if w <= 8:
+#     print(r)
+# else:
+#     print(y)
+
+i = 5
+h = 9
+m = 2
+y = 3
+if h >= 3 :
+	print(h)
+else :
+	print(y)
+# output
+# h = 9
+# y = 3
+# if h >= 3:
+#     print(h)
+# else:
+#     print(y)
+
+p = 1
+d = 6
+if p == 5 :
+	print(d)
+elif  d < 8 :
+	print(d)
+else :
+	print(p)
+# output
+# p = 1
+# d = 6
+# if p == 5:
+#     print(d)
+# elif d < 8:
+#     print(d)
+# else:
+#     print(p)
+
+d = 9
+if d != 6 :
+	print(d)
+elif d < 2 :
+	print(d)
+else :
+	print(d)
+# output
+# d = 9
+# if d != 6:
+#     print(d)
+# elif d < 2:
+#     print(d)
+# else:
+#     print(d)
+
+m = 0
+r = 6
+r = 1
+if m == m :
+	print(r)
+elif not m != 6 :
+	print(m)
+else :
+	print(m)
+# output
+# m = 0
+# print(r)
+
+p = 7
+if  p > 8 :
+	print(p)
+# output
+# p = 7
+# if p > 8:
+#     print(p)
+
+r = 8
+if  r == r :
+	print(r)
+else :
+	print(r)
+# output
+# r = 8
+# print(r)
+
+a = 8
+if a == a :
+	print(a)
+else :
+	print(a)
+# output
+# a = 8
+# print(a)
+
+x = 3
+r = 0
+if  x == 2 :
+	print(r)
+else :
+	print(x)
+# output
+# x = 3
+# r = 0
+# if x == 2:
+#     print(r)
+# else:
+#     print(x)
+
+z = 1
+if  z != 6 :
+	print(z)
+# output
+# z = 1
+# if z != 6:
+#     print(z)
+
+z = 5
+g = 5
+if z != 6 :
+	print(z)
+# output
+# z = 5
+# if z != 6:
+#     print(z)
+
+o = 6
+if not o > o :
+	print(o)
+# output
+# o = 6
+# print(o)
+
+r = 1
+if not r != r :
+	print(r)
+# output
+# r = 1
+# print(r)
+
+l = 7
+if l < 0 :
+	print(l)
+# output
+# l = 7
+# if l < 0:
+#     print(l)
+
+e = 7
+b = 1
+h = 7
+if b >= b :
+	print(b)
+else :
+	print(e)
+# output
+# b = 1
+# print(b)
+
+e = 9
+if e == e :
+	print(e)
+# output
+# e = 9
+# print(e)
+
+u = 5
+if u != 7 :
+	print(u)
+elif u != u :
+	print(u)
+else :
+	print(u)
+# output
+# u = 5
+# if u != 7:
+#     print(u)
+# else:
+#     print(u)
+
+x = 7
+if  x != x :
+	print(x)
+else :
+	print(x)
+# output
+# x = 7
+# print(x)
+
+f = 2
+if not f < 6 :
+	print(f)
+elif f < f :
+	print(f)
+else :
+	print(f)
+# output
+# f = 2
+# if not f < 6:
+#     print(f)
+# else:
+#     print(f)
+
+e = 3
+if e >= 5 :
+	print(e)
+else :
+	print(e)
+# output
+# e = 3
+# if e >= 5:
+#     print(e)
+# else:
+#     print(e)
+
+w = 0
+x = 0
+s = 1
+e = 9
+g = 3
+s = 3
+if x > 1 :
+	print(s)
+# output
+# x = 0
+# s = 1
+# s = 3
+# if x > 1:
+#     print(s)
+
+a = 5
+r = 1
+if a != 4 :
+	print(r)
+else :
+	print(r)
+# output
+# a = 5
+# r = 1
+# if a != 4:
+#     print(r)
+# else:
+#     print(r)
+
+c = 1
+if c != c :
+	print(c)
+# output
+# c = 1
+
+g = 3
+if g <= 2 :
+	print(g)
+elif  g < 9 :
+	print(g)
+else :
+	print(g)
+# output
+# g = 3
+# if g <= 2:
+#     print(g)
+# elif g < 9:
+#     print(g)
+# else:
+#     print(g)
+
+x = 8
+if  x < x :
+	print(x)
+elif not x < 6 :
+	print(x)
+else :
+	print(x)
+# output
+# x = 8
+# if not x < 6:
+#     print(x)
+# else:
+#     print(x)
+
+m = 6
+y = 9
+if y == 4 :
+	print(m)
+else :
+	print(m)
+# output
+# m = 6
+# y = 9
+# if y == 4:
+#     print(m)
+# else:
+#     print(m)
+
+c = 0
+y = 6
+if y <= c :
+	print(c)
+# output
+# c = 0
+# y = 6
+# if y <= c:
+#     print(c)
+
+q = 9
+p = 0
+i = 2
+l = 6
+if not q != 0 :
+	print(l)
+# output
+# q = 9
+# l = 6
+# if not q != 0:
+#     print(l)
+
+m = 3
+if not m <= m :
+	print(m)
+# output
+# m = 3
+
+o = 7
+f = 2
+if not o != 3 :
+	print(f)
+# output
+# o = 7
+# f = 2
+# if not o != 3:
+#     print(f)
+
+c = 0
+z = 1
+if z > 4 :
+	print(c)
+else :
+	print(z)
+# output
+# c = 0
+# z = 1
+# if z > 4:
+#     print(c)
+# else:
+#     print(z)
+
+l = 0
+n = 4
+if  n == 5 :
+	print(n)
+elif n == 4 :
+	print(l)
+else :
+	print(n)
+# output
+# l = 0
+# n = 4
+# if n == 5:
+#     print(n)
+# elif n == 4:
+#     print(l)
+# else:
+#     print(n)
+
+g = 1
+u = 7
+h = 5
+f = 6
+h = 2
+i = 0
+if u < 4 :
+	print(u)
+elif u > g :
+	print(g)
+else :
+	print(u)
+# output
+# g = 1
+# u = 7
+# if u < 4:
+#     print(u)
+# elif u > g:
+#     print(g)
+# else:
+#     print(u)
+
+a = 9
+if  a != 0 :
+	print(a)
+else :
+	print(a)
+# output
+# a = 9
+# if a != 0:
+#     print(a)
+# else:
+#     print(a)
+
+h = 9
+if h > h :
+	print(h)
+else :
+	print(h)
+# output
+# h = 9
+# print(h)
+
+u = 3
+if not u < u :
+	print(u)
+# output
+# u = 3
+# print(u)
+
+u = 7
+if u >= 5 :
+	print(u)
+# output
+# u = 7
+# if u >= 5:
+#     print(u)
+
+h = 4
+g = 4
+if not h > g :
+	print(h)
+# output
+# h = 4
+# g = 4
+# if not h > g:
+#     print(h)
+
+q = 5
+if q >= 8 :
+	print(q)
+# output
+# q = 5
+# if q >= 8:
+#     print(q)
+
+t = 4
+b = 3
+if  t > 9 :
+	print(b)
+# output
+# t = 4
+# b = 3
+# if t > 9:
+#     print(b)
+
+j = 1
+if  j != j :
+	print(j)
+elif  j != 7 :
+	print(j)
+else :
+	print(j)
+# output
+# j = 1
+# if j != 7:
+#     print(j)
+# else:
+#     print(j)
+
+a = 7
+p = 0
+if  a <= 2 :
+	print(a)
+else :
+	print(p)
+# output
+# a = 7
+# p = 0
+# if a <= 2:
+#     print(a)
+# else:
+#     print(p)
+
+v = 0
+r = 9
+if v <= 2 :
+	print(v)
+else :
+	print(r)
+# output
+# v = 0
+# r = 9
+# if v <= 2:
+#     print(v)
+# else:
+#     print(r)
+
+u = 8
+r = 8
+if  r >= 1 :
+	print(r)
+elif  u > r :
+	print(r)
+else :
+	print(r)
+# output
+# u = 8
+# r = 8
+# if r >= 1:
+#     print(r)
+# elif u > r:
+#     print(r)
+# else:
+#     print(r)
+
+j = 1
+if  j > j :
+	print(j)
+# output
+# j = 1
+
+x = 7
+if not x > x :
+	print(x)
+elif not x <= x :
+	print(x)
+else :
+	print(x)
+# output
+# x = 7
+# print(x)
+
+x = 8
+if x >= x :
+	print(x)
+elif  x != x :
+	print(x)
+else :
+	print(x)
+# output
+# x = 8
+# print(x)
+
+k = 3
+if  k <= k :
+	print(k)
+else :
+	print(k)
+# output
+# k = 3
+# print(k)
+
+k = 9
+p = 3
+if not p == 1 :
+	print(k)
+elif k < k :
+	print(p)
+else :
+	print(p)
+# output
+# k = 9
+# p = 3
+# if not p == 1:
+#     print(k)
+# else:
+#     print(p)
+
+t = 7
+if t >= t :
+	print(t)
+else :
+	print(t)
+# output
+# t = 7
+# print(t)
+
+o = 9
+if o > o :
+	print(o)
+else :
+	print(o)
+# output
+# o = 9
+# print(o)
+
+x = 7
+w = 8
+a = 1
+if  a < 4 :
+	print(a)
+else :
+	print(w)
+# output
+# w = 8
+# a = 1
+# if a < 4:
+#     print(a)
+# else:
+#     print(w)
+
+x = 0
+if not x < 3 :
+	print(x)
+# output
+# x = 0
+# if not x < 3:
+#     print(x)
+
+f = 1
+h = 8
+if  h != 2 :
+	print(f)
+elif h >= f :
+	print(h)
+else :
+	print(h)
+# output
+# f = 1
+# h = 8
+# if h != 2:
+#     print(f)
+# elif h >= f:
+#     print(h)
+# else:
+#     print(h)
+
+s = 3
+p = 2
+if p == s :
+	print(p)
+else :
+	print(s)
+# output
+# s = 3
+# p = 2
+# if p == s:
+#     print(p)
+# else:
+#     print(s)
+
+u = 7
+if not u != 6 :
+	print(u)
+else :
+	print(u)
+# output
+# u = 7
+# if not u != 6:
+#     print(u)
+# else:
+#     print(u)
+
+m = 6
+a = 8
+if  m != 1 :
+	print(a)
+else :
+	print(a)
+# output
+# m = 6
+# a = 8
+# if m != 1:
+#     print(a)
+# else:
+#     print(a)
+
+g = 5
+y = 1
+if  y == 8 :
+	print(g)
+# output
+# g = 5
+# y = 1
+# if y == 8:
+#     print(g)
+
+z = 7
+if  z != z :
+	print(z)
+else :
+	print(z)
+# output
+# z = 7
+# print(z)
+
+d = 1
+u = 7
+if u != d :
+	print(d)
+else :
+	print(u)
+# output
+# d = 1
+# u = 7
+# if u != d:
+#     print(d)
+# else:
+#     print(u)
+
+n = 2
+if n >= n :
+	print(n)
+# output
+# n = 2
+# print(n)
+
+r = 1
+if r == 1 :
+	print(r)
+else :
+	print(r)
+# output
+# r = 1
+# if r == 1:
+#     print(r)
+# else:
+#     print(r)
+
+g = 5
+if g < 2 :
+	print(g)
+elif not g <= g :
+	print(g)
+else :
+	print(g)
+# output
+# g = 5
+# if g < 2:
+#     print(g)
+# else:
+#     print(g)
+
+h = 8
+x = 6
+if x == h :
+	print(x)
+else :
+	print(x)
+# output
+# h = 8
+# x = 6
+# if x == h:
+#     print(x)
+# else:
+#     print(x)
+
+m = 1
+if  m != m :
+	print(m)
+elif  m != m :
+	print(m)
+else :
+	print(m)
+# output
+# m = 1
+# print(m)
+
+t = 7
+if  t >= t :
+	print(t)
+# output
+# t = 7
+# print(t)
+
+n = 4
+r = 2
+if  n < n :
+	print(r)
+# output
+# n = 4
+
+g = 0
+e = 6
+y = 2
+v = 8
+p = 5
+if v != 8 :
+	print(p)
+elif  p <= e :
+	print(e)
+else :
+	print(p)
+# output
+# e = 6
+# v = 8
+# p = 5
+# if v != 8:
+#     print(p)
+# elif p <= e:
+#     print(e)
+# else:
+#     print(p)
+
+h = 3
+w = 7
+m = 9
+j = 6
+if  w <= 8 :
+	print(h)
+elif m >= j :
+	print(h)
+else :
+	print(m)
+# output
+# h = 3
+# w = 7
+# m = 9
+# j = 6
+# if w <= 8:
+#     print(h)
+# elif m >= j:
+#     print(h)
+# else:
+#     print(m)
+
+s = 8
+if s == 9 :
+	print(s)
+# output
+# s = 8
+# if s == 9:
+#     print(s)
+
+y = 7
+x = 9
+if not x <= y :
+	print(y)
+else :
+	print(y)
+# output
+# y = 7
+# x = 9
+# if not x <= y:
+#     print(y)
+# else:
+#     print(y)
+
+p = 4
+if p <= p :
+	print(p)
+# output
+# p = 4
+# print(p)
+
+x = 3
+if x == 0 :
+	print(x)
+# output
+# x = 3
+# if x == 0:
+#     print(x)
+
+f = 2
+if f == f :
+	print(f)
+else :
+	print(f)
+# output
+# f = 2
+# print(f)
+
+w = 4
+u = 6
+w = 1
+if w > w :
+	print(u)
+# output
+# w = 4
+# w = 1
+
+x = 5
+e = 3
+if e <= 7 :
+	print(e)
+else :
+	print(x)
+# output
+# x = 5
+# e = 3
+# if e <= 7:
+#     print(e)
+# else:
+#     print(x)
+
+t = 4
+v = 5
+c = 9
+b = 3
+if c >= b :
+	print(t)
+else :
+	print(c)
+# output
+# t = 4
+# c = 9
+# b = 3
+# if c >= b:
+#     print(t)
+# else:
+#     print(c)
+
+o = 9
+h = 9
+if o <= h :
+	print(o)
+# output
+# o = 9
+# h = 9
+# if o <= h:
+#     print(o)
+
+d = 2
+x = 8
+if x > 0 :
+	print(x)
+# output
+# x = 8
+# if x > 0:
+#     print(x)
+
+h = 1
+if  h <= h :
+	print(h)
+else :
+	print(h)
+# output
+# h = 1
+# print(h)
+
+o = 2
+u = 7
+y = 7
+t = 6
+if  t > 2 :
+	print(u)
+# output
+# u = 7
+# t = 6
+# if t > 2:
+#     print(u)
+
+e = 7
+if  e >= e :
+	print(e)
+elif e == 3 :
+	print(e)
+else :
+	print(e)
+# output
+# e = 7
+# print(e)
+
+i = 5
+if i <= i :
+	print(i)
+# output
+# i = 5
+# print(i)
+
+n = 6
+z = 8
+if  z == 7 :
+	print(n)
+# output
+# n = 6
+# z = 8
+# if z == 7:
+#     print(n)
+
+i = 6
+f = 3
+u = 8
+c = 7
+d = 3
+if u != 5 :
+	print(d)
+elif  u != 7 :
+	print(f)
+else :
+	print(d)
+# output
+# f = 3
+# u = 8
+# d = 3
+# if u != 5:
+#     print(d)
+# elif u != 7:
+#     print(f)
+# else:
+#     print(d)
+
+g = 4
+j = 1
+if g > 6 :
+	print(j)
+# output
+# g = 4
+# j = 1
+# if g > 6:
+#     print(j)
+
+u = 9
+if u >= 0 :
+	print(u)
+elif u == u :
+	print(u)
+else :
+	print(u)
+# output
+# u = 9
+# if u >= 0:
+#     print(u)
+# else:
+#     print(u)
+
+k = 3
+l = 3
+if not k == 4 :
+	print(l)
+# output
+# k = 3
+# l = 3
+# if not k == 4:
+#     print(l)
+
+o = 5
+if not o > 8 :
+	print(o)
+else :
+	print(o)
+# output
+# o = 5
+# if not o > 8:
+#     print(o)
+# else:
+#     print(o)
+
+x = 6
+if x != x :
+	print(x)
+# output
+# x = 6
+
+n = 2
+if not n == 0 :
+	print(n)
+else :
+	print(n)
+# output
+# n = 2
+# if not n == 0:
+#     print(n)
+# else:
+#     print(n)
+
+p = 9
+u = 8
+w = 2
+if not p < u :
+	print(p)
+elif p == 8 :
+	print(w)
+else :
+	print(w)
+# output
+# p = 9
+# u = 8
+# w = 2
+# if not p < u:
+#     print(p)
+# elif p == 8:
+#     print(w)
+# else:
+#     print(w)
+
+h = 8
+if h != h :
+	print(h)
+elif  h >= 9 :
+	print(h)
+else :
+	print(h)
+# output
+# h = 8
+# if h >= 9:
+#     print(h)
+# else:
+#     print(h)
+
+q = 9
+q = 1
+p = 0
+l = 6
+if  q >= q :
+	print(p)
+elif not p >= 6 :
+	print(l)
+else :
+	print(l)
+# output
+# q = 9
+# q = 1
+# print(p)
+
+c = 5
+if not c < c :
+	print(c)
+else :
+	print(c)
+# output
+# c = 5
+# print(c)
+
+l = 3
+l = 5
+t = 5
+y = 0
+if not l == l :
+	print(l)
+elif not y >= l :
+	print(y)
+else :
+	print(l)
+# output
+# l = 3
+# l = 5
+# y = 0
+# if not y >= l:
+#     print(y)
+# else:
+#     print(l)
+
+k = 3
+v = 4
+if  v < 5 :
+	print(k)
+else :
+	print(k)
+# output
+# k = 3
+# v = 4
+# if v < 5:
+#     print(k)
+# else:
+#     print(k)
+
+n = 5
+if n == 3 :
+	print(n)
+# output
+# n = 5
+# if n == 3:
+#     print(n)
+
+p = 0
+if p >= 0 :
+	print(p)
+elif p < 0 :
+	print(p)
+else :
+	print(p)
+# output
+# p = 0
+# if p >= 0:
+#     print(p)
+# elif p < 0:
+#     print(p)
+# else:
+#     print(p)
+
+a = 9
+if a <= a :
+	print(a)
+# output
+# a = 9
+# print(a)
+
+g = 6
+if g == g :
+	print(g)
+elif  g <= g :
+	print(g)
+else :
+	print(g)
+# output
+# g = 6
+# print(g)
+
+b = 1
+t = 6
+d = 8
+if d != d :
+	print(b)
+else :
+	print(b)
+# output
+# d = 8
+# print(b)
+
+s = 4
+if s == 0 :
+	print(s)
+# output
+# s = 4
+# if s == 0:
+#     print(s)
+
+s = 6
+if not s >= s :
+	print(s)
+elif  s == 5 :
+	print(s)
+else :
+	print(s)
+# output
+# s = 6
+# if s == 5:
+#     print(s)
+# else:
+#     print(s)
+
+o = 5
+if o < 6 :
+	print(o)
+elif not o <= o :
+	print(o)
+else :
+	print(o)
+# output
+# o = 5
+# if o < 6:
+#     print(o)
+# else:
+#     print(o)
+
+o = 2
+j = 3
+if j == 1 :
+	print(o)
+else :
+	print(o)
+# output
+# o = 2
+# j = 3
+# if j == 1:
+#     print(o)
+# else:
+#     print(o)
+
+t = 0
+f = 1
+if not f == 4 :
+	print(f)
+# output
+# f = 1
+# if not f == 4:
+#     print(f)
+
+c = 0
+if c < c :
+	print(c)
+elif c == 1 :
+	print(c)
+else :
+	print(c)
+# output
+# c = 0
+# if c == 1:
+#     print(c)
+# else:
+#     print(c)
+
+c = 6
+g = 1
+h = 4
+if not h <= 6 :
+	print(h)
+else :
+	print(c)
+# output
+# c = 6
+# h = 4
+# if not h <= 6:
+#     print(h)
+# else:
+#     print(c)
+
+s = 6
+if not s != 7 :
+	print(s)
+# output
+# s = 6
+# if not s != 7:
+#     print(s)
+
+s = 7
+h = 8
+if s < 7 :
+	print(h)
+elif h >= 4 :
+	print(h)
+else :
+	print(s)
+# output
+# s = 7
+# h = 8
+# if s < 7:
+#     print(h)
+# elif h >= 4:
+#     print(h)
+# else:
+#     print(s)
+
+y = 9
+if y != y :
+	print(y)
+elif y < y :
+	print(y)
+else :
+	print(y)
+# output
+# y = 9
+# print(y)
+
+k = 6
+x = 8
+x = 4
+if x > 0 :
+	print(k)
+# output
+# k = 6
+# x = 8
+# x = 4
+# if x > 0:
+#     print(k)
+
+k = 5
+if k <= 6 :
+	print(k)
+# output
+# k = 5
+# if k <= 6:
+#     print(k)
+
+i = 0
+if not i < i :
+	print(i)
+elif i >= 6 :
+	print(i)
+else :
+	print(i)
+# output
+# i = 0
+# print(i)
+
+o = 7
+if not o < 9 :
+	print(o)
+# output
+# o = 7
+# if not o < 9:
+#     print(o)
+
+v = 7
+if v != 7 :
+	print(v)
+elif v >= 6 :
+	print(v)
+else :
+	print(v)
+# output
+# v = 7
+# if v != 7:
+#     print(v)
+# elif v >= 6:
+#     print(v)
+# else:
+#     print(v)
+
+p = 7
+if  p > 9 :
+	print(p)
+# output
+# p = 7
+# if p > 9:
+#     print(p)
+
+p = 9
+g = 8
+x = 5
+e = 9
+o = 3
+f = 8
+if p == x :
+	print(g)
+else :
+	print(f)
+# output
+# p = 9
+# g = 8
+# x = 5
+# f = 8
+# if p == x:
+#     print(g)
+# else:
+#     print(f)
+
+o = 3
+w = 6
+if not o > 2 :
+	print(w)
+else :
+	print(w)
+# output
+# o = 3
+# w = 6
+# if not o > 2:
+#     print(w)
+# else:
+#     print(w)
+
+j = 0
+if not j == j :
+	print(j)
+elif j < 2 :
+	print(j)
+else :
+	print(j)
+# output
+# j = 0
+# if j < 2:
+#     print(j)
+# else:
+#     print(j)
+
+w = 1
+if  w >= 4 :
+	print(w)
+else :
+	print(w)
+# output
+# w = 1
+# if w >= 4:
+#     print(w)
+# else:
+#     print(w)
+
+f = 6
+f = 8
+g = 8
+h = 0
+if g <= 4 :
+	print(f)
+# output
+# f = 6
+# f = 8
+# g = 8
+# if g <= 4:
+#     print(f)
+
+w = 2
+if w <= 9 :
+	print(w)
+elif w > w :
+	print(w)
+else :
+	print(w)
+# output
+# w = 2
+# if w <= 9:
+#     print(w)
+# else:
+#     print(w)
+
+e = 2
+u = 4
+p = 8
+if p != p :
+	print(u)
+# output
+# p = 8
+
+y = 0
+m = 2
+if not y == 3 :
+	print(y)
+# output
+# y = 0
+# if not y == 3:
+#     print(y)
+
+q = 3
+if not q > q :
+	print(q)
+# output
+# q = 3
+# print(q)
+
+x = 3
+e = 3
+q = 1
+if  q != 8 :
+	print(q)
+# output
+# q = 1
+# if q != 8:
+#     print(q)
+
+v = 6
+h = 9
+if not v == 2 :
+	print(h)
+else :
+	print(h)
+# output
+# v = 6
+# h = 9
+# if not v == 2:
+#     print(h)
+# else:
+#     print(h)
+
+y = 6
+if  y <= y :
+	print(y)
+else :
+	print(y)
+# output
+# y = 6
+# print(y)
+
+t = 9
+o = 3
+g = 6
+i = 3
+if not t > t :
+	print(i)
+else :
+	print(t)
+# output
+# t = 9
+# print(i)
+
+t = 1
+y = 7
+if not t <= t :
+	print(y)
+else :
+	print(y)
+# output
+# t = 1
+# print(y)
+
+p = 1
+l = 8
+i = 8
+if not p <= 9 :
+	print(i)
+else :
+	print(i)
+# output
+# p = 1
+# i = 8
+# if not p <= 9:
+#     print(i)
+# else:
+#     print(i)
+
+o = 4
+if not o < o :
+	print(o)
+elif not o >= o :
+	print(o)
+else :
+	print(o)
+# output
+# o = 4
+# print(o)
+
+u = 7
+y = 6
+if y > u :
+	print(u)
+elif not u > u :
+	print(u)
+else :
+	print(y)
+# output
+# u = 7
+# y = 6
+# if y > u:
+#     print(u)
+# else:
+#     print(u)
+
+k = 1
+if  k <= 8 :
+	print(k)
+else :
+	print(k)
+# output
+# k = 1
+# if k <= 8:
+#     print(k)
+# else:
+#     print(k)
+
+s = 1
+n = 2
+if n > 4 :
+	print(s)
+elif  s != 3 :
+	print(s)
+else :
+	print(n)
+# output
+# s = 1
+# n = 2
+# if n > 4:
+#     print(s)
+# elif s != 3:
+#     print(s)
+# else:
+#     print(n)
+
+a = 5
+h = 8
+if a == a :
+	print(h)
+# output
+# a = 5
+# print(h)
+
+f = 2
+n = 7
+if f == n :
+	print(n)
+else :
+	print(f)
+# output
+# f = 2
+# n = 7
+# if f == n:
+#     print(n)
+# else:
+#     print(f)
+
+s = 5
+if not s < 4 :
+	print(s)
+elif s == 5 :
+	print(s)
+else :
+	print(s)
+# output
+# s = 5
+# if not s < 4:
+#     print(s)
+# elif s == 5:
+#     print(s)
+# else:
+#     print(s)
+
+w = 8
+if  w >= w :
+	print(w)
+# output
+# w = 8
+# print(w)
+
+y = 6
+if not y >= 7 :
+	print(y)
+else :
+	print(y)
+# output
+# y = 6
+# if not y >= 7:
+#     print(y)
+# else:
+#     print(y)
+
+i = 7
+c = 3
+if not i >= 7 :
+	print(i)
+else :
+	print(i)
+# output
+# i = 7
+# if not i >= 7:
+#     print(i)
+# else:
+#     print(i)
+
+e = 5
+s = 1
+if not e > e :
+	print(e)
+elif  e <= e :
+	print(s)
+else :
+	print(e)
+# output
+# e = 5
+# print(e)
+
+z = 5
+l = 2
+r = 3
+b = 4
+f = 9
+if l >= b :
+	print(l)
+elif z >= 6 :
+	print(f)
+else :
+	print(f)
+# output
+# z = 5
+# l = 2
+# b = 4
+# f = 9
+# if l >= b:
+#     print(l)
+# elif z >= 6:
+#     print(f)
+# else:
+#     print(f)
+
+c = 6
+u = 0
+i = 2
+x = 3
+if u == x :
+	print(u)
+# output
+# u = 0
+# x = 3
+# if u == x:
+#     print(u)
+
+v = 6
+l = 0
+if not l > l :
+	print(l)
+# output
+# l = 0
+# print(l)
+
+f = 9
+n = 1
+w = 4
+l = 9
+p = 2
+g = 3
+if p == w :
+	print(p)
+elif g >= 8 :
+	print(w)
+else :
+	print(f)
+# output
+# f = 9
+# w = 4
+# p = 2
+# g = 3
+# if p == w:
+#     print(p)
+# elif g >= 8:
+#     print(w)
+# else:
+#     print(f)
+
+r = 6
+h = 9
+if  h == r :
+	print(r)
+else :
+	print(h)
+# output
+# r = 6
+# h = 9
+# if h == r:
+#     print(r)
+# else:
+#     print(h)
+
+b = 1
+if  b >= 7 :
+	print(b)
+# output
+# b = 1
+# if b >= 7:
+#     print(b)
+
+g = 9
+if not g > 0 :
+	print(g)
+elif not g == g :
+	print(g)
+else :
+	print(g)
+# output
+# g = 9
+# if not g > 0:
+#     print(g)
+# else:
+#     print(g)
+
+p = 9
+e = 8
+if  e == 6 :
+	print(e)
+elif not e > 0 :
+	print(e)
+else :
+	print(p)
+# output
+# p = 9
+# e = 8
+# if e == 6:
+#     print(e)
+# elif not e > 0:
+#     print(e)
+# else:
+#     print(p)
+
+o = 5
+if  o == o :
+	print(o)
+elif  o < o :
+	print(o)
+else :
+	print(o)
+# output
+# o = 5
+# print(o)
+
+g = 8
+if  g >= 2 :
+	print(g)
+else :
+	print(g)
+# output
+# g = 8
+# if g >= 2:
+#     print(g)
+# else:
+#     print(g)
+
+m = 7
+if m != m :
+	print(m)
+# output
+# m = 7
+
+z = 5
+v = 3
+h = 4
+if not h >= z :
+	print(h)
+elif not h > 7 :
+	print(z)
+else :
+	print(v)
+# output
+# z = 5
+# v = 3
+# h = 4
+# if not h >= z:
+#     print(h)
+# elif not h > 7:
+#     print(z)
+# else:
+#     print(v)
+
+q = 7
+f = 8
+g = 5
+i = 1
+g = 2
+l = 6
+if  f != 3 :
+	print(i)
+else :
+	print(g)
+# output
+# f = 8
+# g = 5
+# i = 1
+# g = 2
+# if f != 3:
+#     print(i)
+# else:
+#     print(g)
+
+t = 2
+b = 5
+if b <= b :
+	print(t)
+# output
+# b = 5
+# print(t)
+
+q = 5
+v = 7
+b = 9
+if  b <= 1 :
+	print(v)
+else :
+	print(q)
+# output
+# q = 5
+# v = 7
+# b = 9
+# if b <= 1:
+#     print(v)
+# else:
+#     print(q)
+
+a = 4
+if not a != a :
+	print(a)
+elif a != a :
+	print(a)
+else :
+	print(a)
+# output
+# a = 4
+# print(a)
+
+s = 3
+if not s > s :
+	print(s)
+else :
+	print(s)
+# output
+# s = 3
+# print(s)
+
+p = 2
+c = 9
+a = 5
+r = 9
+y = 2
+if not a < r :
+	print(a)
+else :
+	print(c)
+# output
+# c = 9
+# a = 5
+# r = 9
+# if not a < r:
+#     print(a)
+# else:
+#     print(c)
+
+e = 7
+if not e == 4 :
+	print(e)
+else :
+	print(e)
+# output
+# e = 7
+# if not e == 4:
+#     print(e)
+# else:
+#     print(e)
+
+v = 5
+x = 6
+if x >= 0 :
+	print(x)
+elif x <= x :
+	print(v)
+else :
+	print(x)
+# output
+# x = 6
+# if x >= 0:
+#     print(x)
+# else:
+#     print(v)
+
+a = 4
+i = 3
+if i < i :
+	print(i)
+else :
+	print(i)
+# output
+# i = 3
+# print(i)
+
+w = 9
+q = 5
+v = 7
+v = 6
+if  v != 5 :
+	print(w)
+elif v != w :
+	print(v)
+else :
+	print(w)
+# output
+# w = 9
+# v = 7
+# v = 6
+# if v != 5:
+#     print(w)
+# elif v != w:
+#     print(v)
+# else:
+#     print(w)
+
+r = 3
+z = 5
+if not z >= 1 :
+	print(r)
+elif z < 8 :
+	print(z)
+else :
+	print(z)
+# output
+# r = 3
+# z = 5
+# if not z >= 1:
+#     print(r)
+# elif z < 8:
+#     print(z)
+# else:
+#     print(z)
+
+e = 9
+if not e <= e :
+	print(e)
+# output
+# e = 9
+
+b = 0
+if b > b :
+	print(b)
+elif b >= b :
+	print(b)
+else :
+	print(b)
+# output
+# b = 0
+# print(b)
+
