@@ -8,7 +8,6 @@ from tqdm.auto import tqdm
 import hashlib
 import os
 import psutil
-import refactor_level1 
 
 
 class CodeGenerator:
@@ -24,10 +23,8 @@ class CodeGenerator:
         # Dictionary containing context-free grammar rules.
         self.cfg_rules = {
                 # Variables and digits
-                "VARIABLE": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"
-                            ],
-                "DIGIT": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"
-                         ],
+                "VARIABLE": ["a", "b", "c", "d", "e"],
+                "DIGIT": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
 
                 # Operators
                 "ARITHMETIC_OPERATOR": ["+", "-", "*", "/"],
@@ -144,31 +141,38 @@ class CodeGenerator:
         - str: The generated code.
         """
         node = Node(symbol, parent=parent)
-
+        
+        # If the symbol is a non-terminal, expand it using the CFG rules.
         if symbol in self.cfg_rules:
+            # Initialization count.
             if symbol == "IDENTIFIER_INITIALIZATION":
                 if self.init_count < self.max_init:
                     self.init_count += 1
                 else:
                     symbol = "INITIALIZATION"
-
+            # Choose a random rule for the symbol and split it into individual symbols.
             rule = random.choice(self.cfg_rules[symbol])
             symbols = rule.split(" ")
-
+            
+            # Recursively generate code for each symbol in the rule.
             generated_symbols = [self.generate_code(s, assigned_identifiers, last_variable, node) for s in symbols]
-
+            
+            # Handle special case for "FINAL" symbol where we need to evaluate an expression.
             if symbol == "FINAL":
                 return str(eval(''.join(generated_symbols)))
-
+                
+            # Add initialized variables to the assigned identifiers set.
             if symbol == "INITIALIZATION":
                 assigned_identifiers.add(generated_symbols[0])
 
+            # Keep track of the last used variables for assignments.
             if (symbol == "SIMPLE_ASSIGNMENTS") or (symbol == "ADVANCED_ASSIGNMENTS"):
                 if generated_symbols[0]:
                     last_variable.add(generated_symbols[0])
 
             return ''.join(generated_symbols)
-
+            
+        # Handle the terminal symbols.
         elif symbol == "EXPRESSION_IDENTIFIER":
             identifier = random.choice(tuple(assigned_identifiers)) if assigned_identifiers else random.choice(self.cfg_rules["DIGIT"])
             return identifier
@@ -177,7 +181,7 @@ class CodeGenerator:
             try:
                 return f"{tuple(last_variable)[0]}"
             except:
-                return f"{random.choice(tuple(assigned_identifiers))}"  
+                return f"{random.choice(tuple(assigned_identifiers))}"
         else:
             return symbol
 
@@ -205,6 +209,7 @@ class CodeGenerator:
         last_variable = set()
         root = Node("ROOT")
 
+        # Set the maximum number of initializations based on the level.
         self.init_count = 0
         if level == "1.1":
             self.max_init = 1
@@ -217,6 +222,7 @@ class CodeGenerator:
         else:
             self.max_init = 5
             
+        # Choose a rule for the specified level and generate code.    
         if level == "ALL" :
             level_passed = level
         else :
@@ -227,6 +233,12 @@ class CodeGenerator:
         return root, program.replace("SPACE", " ")
     
     def memory_usage(self):
+        """
+        Get the current memory usage of the process.
+
+        Returns:
+        - int: The memory usage in bytes.
+        """
         process = psutil.Process(os.getpid())
         mem_info = process.memory_info()
         return mem_info.rss
@@ -241,28 +253,29 @@ class CodeGenerator:
         - filename (str): Name of the file to write the programs (default is 'data.txt').
         - deduplicate (bool, optional): Whether to perform deduplication of generated programs (default is True).
         """
-        start_time = time.time()  
-        start_mem = self.memory_usage()
-        max_tries = 1000
-        num_tries = 0
+        start_time = time.time()   # Track the start time for performance measurement.
+        start_mem = self.memory_usage() # Track the initial memory usage.
+        max_tries = 1000 # Set the maximum number of tries for deduplication.
+        num_tries = 0 # Initialize the number of tries counter.
         
         with open(filename, 'w') as file:
             
-            generated_programs = 0
-            hashes = set() 
+            generated_programs = 0 # Initialize the counter for generated programs.
+            hashes = set() # Set to keep track of unique program hashes for deduplication.
             pbar = tqdm(desc="Generation", total=num_programs)
             
             while generated_programs < num_programs:
                 try:
-                    root, program = self.generate_program(level)
+                    root, program = self.generate_program(level) # Generate a program.
                     code = program + "\n# output"
 
-                    # SIO = StringIO()
-                    # with redirect_stdout(SIO):
-                    #     exec(code)
-                    # output = SIO.getvalue().strip()
-                    output = refactor_level1.remove_unused_variables_and_simplify_print(code)
+                    # Capture the output of the program.
+                    SIO = StringIO()
+                    with redirect_stdout(SIO):
+                        exec(code)
+                    output = SIO.getvalue().strip()
 
+                    # Format the output as comments.
                     output = '\n'.join([f'# {line}' if line else f'# ' for line in output.split('\n')])
                     result = f"""{code}\n{output}"""
                     
@@ -270,28 +283,29 @@ class CodeGenerator:
 
                     if deduplicate:
                         if program_hash not in hashes:
-                            hashes.add(program_hash)
-                            file.write(result + '\n\n')
-                            generated_programs += 1  
+                            hashes.add(program_hash) # Add the hash to the set if it's unique.
+                            file.write(result + '\n\n') # Write the program to the file.
+                            generated_programs += 1  # Increment the counter for generated programs.
                             pbar.update(1)
-                            num_tries = 0
+                            num_tries = 0 # Reset the tries counter.
                         else:
-                            num_tries += 1
+                            num_tries += 1 # Increment the tries counter.
                             if num_tries >= max_tries:
                                 print("Hit max tries in deduplication, stopping generation.")
-                                break
+                                break # Stop generation if max tries are reached.
                     else:
-                        file.write(result + '\n\n')
                         
-                        generated_programs += 1  
+                        file.write(result + '\n\n') # Write the program to the file without deduplication.
+                        generated_programs += 1   # Increment the counter for generated programs.
                         pbar.update(1)
 
                 except Exception as e:
-                    continue
+                    continue # Ignore code snippets containing division by zero error.
+
 
         pbar.close()
-        end_time = time.time()
-        end_mem = self.memory_usage()
+        end_time = time.time()  # Track the end time for performance measurement.
+        end_mem = self.memory_usage()  # Track the final memory usage.
         deduplication_info = "with deduplication" if deduplicate else "without deduplication"
         print(f"Code generation completed in {end_time - start_time:.2f} seconds.")
         print(f"Memory used during code generation: {end_mem - start_mem} bytes")
@@ -302,12 +316,16 @@ class CodeGenerator:
 def main():
     parser = argparse.ArgumentParser(description='Generate and write programs based on a specified level. ')
     parser.add_argument('--num_programs', type=int, default=1000, help='Number of programs to generate and write (default is 1000)')
-    parser.add_argument('--level', default="1.2", help='The level of the programs (1.1, 1.2, 2.1, 2.2, 3.1, 3.2, ALL)')
-    parser.add_argument('--filename', default='C:/Users/hp probook/Desktop/TestData1.txt', help='Name of the file to write the programs (default is data/data.txt)')
+    parser.add_argument('--level', default="ALL", help='The level of the programs (1.1, 1.2, 2.1, 2.2, 3.1, 3.2, ALL)')
+    parser.add_argument('--filename', default='data/data.txt', help='Name of the file to write the programs (default is data/data.txt)')
     parser.add_argument('--deduplicate', action='store_true', default=True, help='Perform deduplication of generated programs (default is True)')
 
     args = parser.parse_args()
 
+    valid_levels = ["1.1", "1.2", "2.1", "2.2", "3.1", "3.2", "ALL"]
+    if args.level not in valid_levels:
+        print(f"Error: Invalid level '{args.level}'. Please choose from {', '.join(valid_levels)}.")
+        return
     code_generator = CodeGenerator()
     code_generator.generate_and_write_programs(num_programs=args.num_programs, level=args.level, filename=args.filename,  deduplicate=args.deduplicate)
 
