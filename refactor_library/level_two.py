@@ -1,6 +1,9 @@
 import ast
+from refactor_library.refactor_base import Refactor
 
-class IfStatementRefactorer(ast.NodeTransformer):
+class LevelTwo(ast.NodeTransformer,Refactor):
+    """THis class is responsible for simplifying code at level 2.1"""
+
     def __init__(self):
         self.assigned_vars = {}
         self.used_vars = set()
@@ -39,6 +42,7 @@ class IfStatementRefactorer(ast.NodeTransformer):
                     # Handle 'not' conditions that are always false
                     if isinstance(op, (ast.Eq, ast.LtE, ast.GtE)):
                         if node.orelse:
+                            self.used_vars.remove(left.id)
                             return self.process_orelse(node.orelse)
                         else:
                             return None  # Ignore the if statement completely
@@ -61,6 +65,7 @@ class IfStatementRefactorer(ast.NodeTransformer):
                 # Handle conditions that are always false
                 elif isinstance(op, (ast.NotEq, ast.Gt, ast.Lt)):
                     if node.orelse:
+                        self.used_vars.remove(left.id)
                         return self.process_orelse(node.orelse)
                     else:
                         return None  # Ignore the if statement completely
@@ -107,16 +112,16 @@ class IfStatementRefactorer(ast.NodeTransformer):
         self.generic_visit(node)
         return self.remove_unused_assignments(node)
 
-def refactor_code(source_code):
-    # Parse the source code into an AST
-    tree = ast.parse(source_code)
-    
-    # Refactor the AST
-    refactorer = IfStatementRefactorer()
-    refactorer.visit(tree)
-    
-    # Unparse the AST back into source code
-    return ast.unparse(tree)
+    def refactor(self,source_code):
+        # Parse the source code into an AST
+        tree = ast.parse(source_code)
+        
+        # Refactor the AST
+        refactorer = LevelTwo()
+        refactorer.visit(tree)
+        
+        # Unparse the AST back into source code
+        return f"{ast.unparse(tree)}\n"
 
 code_snippets = [
     """q = 8
@@ -129,9 +134,9 @@ else :
 """
 ]
 
-# Refactor each code snippet
-for code in code_snippets:
-    refactored_code = refactor_code(code)
-    print("Original Code:\n", code)
-    print("Refactored Code:\n", refactored_code)
-    print("-" * 40)
+# # Refactor each code snippet
+# for code in code_snippets:
+#     refactored_code = refactor_code(code)
+#     print("Original Code:\n", code)
+#     print("Refactored Code:\n", refactored_code)
+#     print("-" * 40)
