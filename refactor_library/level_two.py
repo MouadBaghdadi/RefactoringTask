@@ -42,6 +42,7 @@ class LevelTwo(ast.NodeTransformer,Refactor):
                     # Handle 'not' conditions that are always false
                     if isinstance(op, (ast.Eq, ast.LtE, ast.GtE)):
                         if node.orelse:
+                            self.used_vars.remove(left.id)
                             return self.process_orelse(node.orelse)
                         else:
                             return None  # Ignore the if statement completely
@@ -64,6 +65,7 @@ class LevelTwo(ast.NodeTransformer,Refactor):
                 # Handle conditions that are always false
                 elif isinstance(op, (ast.NotEq, ast.Gt, ast.Lt)):
                     if node.orelse:
+                        self.used_vars.remove(left.id)
                         return self.process_orelse(node.orelse)
                     else:
                         return None  # Ignore the if statement completely
