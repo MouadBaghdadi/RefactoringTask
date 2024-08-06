@@ -8,8 +8,9 @@ from tqdm.auto import tqdm
 import hashlib
 import os
 import psutil
-import refactor_level1 
-import refactor_level2
+import level_one 
+import level_two
+import level_three
 
 
 class CodeGenerator:
@@ -262,7 +263,7 @@ class CodeGenerator:
                     # with redirect_stdout(SIO):
                     #     exec(code)
                     # output = SIO.getvalue().strip()
-                    output = refactor_level2.refactor_code(code)
+                    output = level_three.refactor_code(code)
 
                     output = '\n'.join([f'# {line}' if line else f'# ' for line in output.split('\n')])
                     result = f"""{code}\n{output}"""
@@ -303,8 +304,8 @@ class CodeGenerator:
 def main():
     parser = argparse.ArgumentParser(description='Generate and write programs based on a specified level. ')
     parser.add_argument('--num_programs', type=int, default=1000, help='Number of programs to generate and write (default is 1000)')
-    parser.add_argument('--level', default="2.1", help='The level of the programs (1.1, 1.2, 2.1, 2.2, 3.1, 3.2, ALL)')
-    parser.add_argument('--filename', default='Refactored_Data_2.1.txt', help='Name of the file to write the programs (default is data/data.txt)')
+    parser.add_argument('--level', default="3.2", help='The level of the programs (1.1, 1.2, 2.1, 2.2, 3.1, 3.2, ALL)')
+    parser.add_argument('--filename', default='data_3.2.txt', help='Name of the file to write the programs (default is data/data.txt)')
     parser.add_argument('--deduplicate', action='store_true', default=True, help='Perform deduplication of generated programs (default is True)')
 
     args = parser.parse_args()
