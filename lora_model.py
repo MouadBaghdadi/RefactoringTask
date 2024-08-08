@@ -81,8 +81,8 @@ class LoraGPT(nn.Module):
         self.freeze_parameters_except_lora_and_bias()
         
         
-    def forward(self, x):
-        return self.model(x)
+    def forward(self, x,targets=None):
+        return self.model(x,targets)
    
         
     def replace_multihead_attention_recursion(self,model):

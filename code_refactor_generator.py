@@ -61,7 +61,7 @@ class CodeRefactorGenerator(CodeGenerator):
     
 def main():
     argparser = argparse.ArgumentParser()
-    argparser.add_argument('--num_programs', type=int, default=1000, help='Number of programs to generate')
+    argparser.add_argument('--num_programs', type=int, default=50000, help='Number of programs to generate')
     argparser.add_argument('--level', type=str, default='1.1', help='Refactor level to use')
     argparser.add_argument('--filename', type=str, default='reformulation.txt', help='Output filename')
     argparser.add_argument('--deduplicate', type=bool,default=True, help='Deduplicate programs')
