@@ -1,7 +1,22 @@
-level1:
+Level 1:
 1- remove unused initialized variables
 2- replacing the variable with its expression inside the print statement and remove it's initialization
+3- if there is a division on 0 then delete all the code
+4- if there is a division on a variable that has the value 0 then delete all the code 
 
-level2:
-   
+Level 2.1:
+1- remove unused initialized variables
+2- if the condition is between the same variable : 
+    2.1- if the operator is "==" "<=" ">=" then return just its body and delete the other code and delete unused variable.
+    2.2- if the operator is "<" ">" "!=" then delete its body and do the same to the else of elif.
+    2.3- when we have a not condition then do the opposite. 
+
+Level 3:
+1- remove unused initialized variables
+2- if the start value >= final value inside the range then delete all the code 
+3- if there is a division on 0 then delete all the code
+4- if there is a division on a variable that has the value 0 then delete all the code 
+5- replace the variable with its expression inside the print statement and remove it's initialization in case:
+   3.1- the loop variable != printed variable
+   3.2- the loop variable is not a part of the initialization expression of the printed variable
  
