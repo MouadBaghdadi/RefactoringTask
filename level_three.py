@@ -1,12 +1,17 @@
 import ast
+# from refactor_library.refactor_base import Refactor
 
-class ForStatementRefactorer(ast.NodeTransformer):
+class LevelThree(ast.NodeTransformer):
+    """THis class is responsible for simplifying code at level 3.1 and 3.2"""
     def __init__(self):
         self.assigned_vars = {}
         self.used_vars = set()
         self.for_loop_removed = False
         self.for_loop_var = None
         self.print_var = None
+        self.map = {}
+        self.zero_init_vars = set()
+        self.division_by_zero_found = False
     
     def visit_Assign(self, node):
         # Track variable assignments with their values
@@ -14,12 +19,50 @@ class ForStatementRefactorer(ast.NodeTransformer):
             var_name = node.targets[0].id
             if isinstance(node.value, ast.Constant):
                 self.assigned_vars[var_name] = node.value.value
+                if node.value.value == 0:
+                    self.zero_init_vars.add(var_name)
             else:
                 self.assigned_vars[var_name] = node.value
-        
+                self.map = self.is_variable_used(node.value, var_name)
+                
+            
+            if isinstance(node.value, ast.BinOp):  
+                self.map = self.is_variable_used(node.value, var_name)
+
         # Continue processing the assignment
         self.generic_visit(node)
+        self.check_division_by_zero(node.value)
         return node
+    
+    def check_division_by_zero(self, node):
+        """Check if there is a division by zero or by a variable initialized to zero"""
+        if isinstance(node, ast.BinOp) and isinstance(node.op, ast.Div):
+            if isinstance(node.right, ast.Constant) and node.right.value == 0:
+                self.division_by_zero_found = True
+            elif isinstance(node.right, ast.Name) and node.right.id in self.zero_init_vars:
+                self.division_by_zero_found = True
+        
+        for child in ast.iter_child_nodes(node):
+            self.check_division_by_zero(child)
+
+
+    def is_variable_used(self, node, var_name):
+        """
+        Check if a variable is used within a given AST node
+        """
+        if isinstance(node, ast.Name) and node.id == var_name:
+            if var_name not in self.map:
+                    self.map[var_name] = []
+            self.map[var_name].append(var_name)
+            return self.map
+        for child in ast.iter_child_nodes(node):
+            if isinstance(child, ast.BinOp):  
+                self.map = self.is_variable_used(child, var_name)
+            if isinstance(child,ast.Name):
+                if var_name not in self.map:
+                    self.map[var_name] = []
+                self.map[var_name].append(child.id)
+        return self.map
     
     def visit_Name(self, node):
         # Track used variables
@@ -29,11 +72,10 @@ class ForStatementRefactorer(ast.NodeTransformer):
     
     def visit_For(self, node):
         self.for_loop_var = node.target.id
-        
         # Track variables used in the for loop
         if isinstance(node.target, ast.Name):
             self.used_vars.add(node.target.id)
-        
+
         # Track variables used in the loop body
         for stmt in node.body:
             self.generic_visit(stmt)
@@ -53,39 +95,96 @@ class ForStatementRefactorer(ast.NodeTransformer):
         self.generic_visit(node)
         return node
 
-    def visit_Expr(self, node):
-        ####################################### for tomorrow ####################################################
-        self.print_var =  node.value.args[0].id
-        if self.print_var != self.for_loop_var:
-            if isinstance(node.value, ast.Call) and isinstance(node.value.func, ast.Name) and node.value.func.id ==     'print':
-                new_args = []
-                for arg in node.value.args:
-                    if isinstance(arg, ast.Name):
-                        var_name = arg.id
+    # def visit_Expr(self, node):
+
+    #     self.print_var =  node.value.args[0].id
+
+    #     if self.print_var != self.for_loop_var and self.for_loop_var not in self.map[self.print_var] and self.print_var not in self.map[self.print_var]:
+    #         if isinstance(node.value, ast.Call) and isinstance(node.value.func, ast.Name) and node.value.func.id ==     'print':
+    #             new_args = []
+    #             for arg in node.value.args:
+    #                 if isinstance(arg, ast.Name):
+    #                     var_name = arg.id
                 
-                        if var_name in self.assigned_vars and self.assigned_vars[var_name] is not None:
-                            new_args.append(self.assigned_vars[var_name])
-                            self.used_vars.remove(var_name)
+    #                     if var_name in self.assigned_vars and self.assigned_vars[var_name] is not None:
+    #                         new_args.append(self.assigned_vars[var_name])
+    #                         self.used_vars.remove(var_name)
+    #                     else:
+    #                         new_args.append(arg)
+    #                 else:
+    #                     new_args.append(arg)
+    #             if isinstance(new_args[0], int):
+    #                 new_args = [ast.Constant(value=new_args[0], kind=None)]
+    #             node.value.args = new_args
+    #     return node
+
+    def visit_Expr(self, node):
+        self.print_var =  node.value.args[0].id
+        expression_variable = any(self.print_var == keys_list for keys_list in self.map.keys())
+        print(expression_variable)
+        if expression_variable:
+            if self.print_var != self.for_loop_var and self.for_loop_var not in self.map[self.print_var] and self.print_var not in self.map[self.print_var]:
+                if isinstance(node.value, ast.Call) and isinstance(node.value.func, ast.Name) and node.value.func.id == 'print':
+                    new_args = []
+                    for arg in node.value.args:
+                        if isinstance(arg, ast.Name):
+                            var_name = arg.id
+                            if var_name in self.assigned_vars and self.assigned_vars[var_name] is not None:
+
+                                left_node = ast.Constant(self.assigned_vars[self.assigned_vars[var_name].left.id])
+                                right_node = ast.Constant(self.assigned_vars[self.assigned_vars[var_name].right.id])
+
+                                new_one = ast.BinOp(left_node,self.assigned_vars[var_name].op,right_node)
+
+                                new_args.append(new_one)
+                                self.used_vars.remove(var_name)
+                                self.used_vars.remove(self.assigned_vars[var_name].left.id)
+                            else:
+                                new_args.append(arg)
                         else:
                             new_args.append(arg)
-                    else:
-                        new_args.append(arg)
-                if isinstance(new_args[0], int):
-                    new_args = [ast.Constant(value=new_args[0], kind=None)]
-                node.value.args = new_args
+                    if isinstance(new_args[0], int):
+                        new_args = [ast.Constant(value=new_args[0], kind=None)]
+                        self.used_vars.remove(var_name)
+                    node.value.args = new_args
+        else:
+            if self.print_var != self.for_loop_var :
+                if isinstance(node.value, ast.Call) and isinstance(node.value.func, ast.Name) and node.value.func.id     ==     'print':
+                    new_args = []
+                    for arg in node.value.args:
+                        if isinstance(arg, ast.Name):
+                            var_name = arg.id
+                            if isinstance(self.assigned_vars[var_name],ast.Name):
+                                value = self.assigned_vars[var_name].id
+                            else:
+                                value = self.assigned_vars[var_name]
+                            if var_name in self.assigned_vars and value != self.for_loop_var:
+                                new_args.append(self.assigned_vars[var_name])
+                                self.used_vars.remove(var_name)
+                            else:
+                                new_args.append(arg)
+                        else:
+                            new_args.append(arg)
+                    if isinstance(new_args[0], int):
+                        new_args = [ast.Constant(value=new_args[0], kind=None)]
+                        # self.used_vars.remove(var_name)
+                    node.value.args = new_args
         return node
 
     def remove_unused_assignments(self, node):
         #check for each assigned variable if it is used
-        if self.for_loop_removed:
+        if self.for_loop_removed or self.print_var == self.for_loop_var:
             node.body = [stmt for stmt in node.body if not isinstance(stmt, ast.Assign)]
         else:
             # check for each assigned variable if it is used
             new_body = []
             for stmt in node.body:
                 if isinstance(stmt, ast.Assign):
-                    var_name = stmt.targets[0].id
-                    if var_name in self.used_vars:
+                    var_name = stmt.targets[0].id 
+                    assinged = any(var_name in value_list for value_list in self.map.values())
+                    if var_name != self.for_loop_var and var_name in self.used_vars:
+                        new_body.append(stmt)
+                    elif var_name == self.for_loop_var and assinged:
                         new_body.append(stmt)
                 else:
                     new_body.append(stmt)
@@ -95,29 +194,31 @@ class ForStatementRefactorer(ast.NodeTransformer):
     def visit_Module(self, node):
         #handle the module (top-level) body
         self.generic_visit(node)
+        if self.division_by_zero_found:
+            node.body = []
         return self.remove_unused_assignments(node)
 
-def refactor_code(source_code):
+def refactor(source_code):
 
     tree = ast.parse(source_code)
     
-    refactorer = ForStatementRefactorer()
+    refactorer = LevelThree()
     refactorer.visit(tree)
     
-    return ast.unparse(tree)
+    return f"{ast.unparse(tree)}\n"
 
 code_snippets = [
-"""p = 2
-g = 8
-v = 0
-for g in range(6, 10, 1) :
-	print(v)
+"""a = 1
+d = 6
+e = d - d
+for a in range(6, 13, 2) :
+	print(e)
 """
 ]
 
 # Refactor each code snippet
 for code in code_snippets:
-    refactored_code = refactor_code(code)
+    refactored_code = refactor(code)
     print("Original Code:\n", code)
     print("Refactored Code:\n", refactored_code)
     print("-" * 40)
