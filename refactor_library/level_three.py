@@ -5,6 +5,7 @@ class LevelThree(ast.NodeTransformer, Refactor):
     """THis class is responsible for simplifying code at level 3.1 and 3.2"""
     def __init__(self):
         self.assigned_vars = {}
+        self.first_assignement = {}
         self.used_vars = set()
         self.for_loop_removed = False
         self.for_loop_var = None
@@ -17,16 +18,20 @@ class LevelThree(ast.NodeTransformer, Refactor):
         # Track variable assignments with their values
         if isinstance(node.targets[0], ast.Name):
             var_name = node.targets[0].id
+
             if isinstance(node.value, ast.Constant):
                 self.assigned_vars[var_name] = node.value.value
                 if node.value.value == 0:
                     self.zero_init_vars.add(var_name)
             else:
+                if var_name in self.assigned_vars:
+                    self.first_assignement[var_name] = self.assigned_vars[var_name]
                 self.assigned_vars[var_name] = node.value
+                self.map = self.is_variable_used(node.value, var_name)
+                
             
             if isinstance(node.value, ast.BinOp):  
                 self.map = self.is_variable_used(node.value, var_name)
-
         # Continue processing the assignment
         self.generic_visit(node)
         self.check_division_by_zero(node.value)
@@ -35,7 +40,44 @@ class LevelThree(ast.NodeTransformer, Refactor):
     def check_division_by_zero(self, node):
         """Check if there is a division by zero or by a variable initialized to zero"""
         if isinstance(node, ast.BinOp) and isinstance(node.op, ast.Div):
-            if isinstance(node.right, ast.Constant) and node.right.value == 0:
+            right_node = node.right
+            left_node = node.left
+            if isinstance(left_node,ast.BinOp) and isinstance(left_node.op, ast.Div):
+                if isinstance(left_node.right, ast.Constant) and left_node.right.value == 0:
+                    self.division_by_zero_found = True
+                elif isinstance(left_node.right, ast.Name) and left_node.right.id in self.zero_init_vars:
+                    self.division_by_zero_found = True 
+            elif isinstance(right_node,ast.BinOp) and (isinstance(right_node.op, ast.Mult) or isinstance(right_node.op, ast.Div)):
+                if isinstance(right_node.right, ast.Constant) and right_node.right.value == 0:
+                    self.division_by_zero_found = True
+                elif isinstance(right_node.right, ast.Name) and right_node.right.id in self.zero_init_vars:
+                    self.division_by_zero_found = True
+                if isinstance(right_node.left, ast.Constant) and right_node.left.value == 0:
+                    self.division_by_zero_found = True
+                elif isinstance(right_node.left, ast.Name) and right_node.left.id in self.zero_init_vars:
+                    self.division_by_zero_found = True
+            elif isinstance(right_node,ast.BinOp) and isinstance(right_node.op, ast.Sub):
+                if isinstance(right_node.left, ast.Name) and right_node.left.id in self.first_assignement:
+                    left_var = self.first_assignement[right_node.left.id]
+                elif isinstance(right_node.left, ast.Name):
+                    left_var = self.assigned_vars[right_node.left.id]
+                else: 
+                    left_var = right_node.left.value
+               
+                if isinstance(right_node.right, ast.Name) and right_node.right.id in self.first_assignement:
+                    right_var = self.assigned_vars[right_node.right.id]
+                elif isinstance(right_node.right, ast.Name):
+                    right_var = self.assigned_vars[right_node.right.id]
+                else: 
+                    right_var = right_node.right.value
+
+                if right_var == left_var:
+                    self.division_by_zero_found = True
+            elif isinstance(right_node,ast.BinOp) and isinstance(right_node.op, ast.Add):
+                if right_node.left.id in self.zero_init_vars and right_node.right.id in self.zero_init_vars:
+                    self.division_by_zero_found = True
+            ############
+            elif isinstance(node.right, ast.Constant) and node.right.value == 0:
                 self.division_by_zero_found = True
             elif isinstance(node.right, ast.Name) and node.right.id in self.zero_init_vars:
                 self.division_by_zero_found = True
@@ -70,11 +112,10 @@ class LevelThree(ast.NodeTransformer, Refactor):
     
     def visit_For(self, node):
         self.for_loop_var = node.target.id
-        
         # Track variables used in the for loop
         if isinstance(node.target, ast.Name):
             self.used_vars.add(node.target.id)
-        
+
         # Track variables used in the loop body
         for stmt in node.body:
             self.generic_visit(stmt)
@@ -95,26 +136,69 @@ class LevelThree(ast.NodeTransformer, Refactor):
         return node
 
     def visit_Expr(self, node):
-
         self.print_var =  node.value.args[0].id
+        expression_variable = any(self.print_var == keys_list for keys_list in self.map.keys())
+        if expression_variable:
+            if self.print_var != self.for_loop_var:
+                if isinstance(node.value, ast.Call) and isinstance(node.value.func, ast.Name) and node.value.func.id == 'print':
+                    new_args = []
+                    for arg in node.value.args:
+                        if isinstance(arg, ast.Name):
+                            var_name = arg.id
+                            if var_name in self.assigned_vars and self.assigned_vars[var_name] is not None:
+                                # Replacing variables within the print statement with their values
+                                left_var = self.assigned_vars[var_name].left.id
+                                right_var = self.assigned_vars[var_name].right.id
+                                if left_var in self.first_assignement:
+                                    left_node = ast.Constant(self.first_assignement[left_var])
+                                else:
+                                    left_node = ast.Constant(self.assigned_vars[self.assigned_vars[var_name].left.id])
 
-        if self.print_var != self.for_loop_var and self.for_loop_var not in self.map[self.print_var] and self.print_var not in self.map[self.print_var]:
-            if isinstance(node.value, ast.Call) and isinstance(node.value.func, ast.Name) and node.value.func.id ==     'print':
-                new_args = []
-                for arg in node.value.args:
-                    if isinstance(arg, ast.Name):
-                        var_name = arg.id
-                
-                        if var_name in self.assigned_vars and self.assigned_vars[var_name] is not None:
-                            new_args.append(self.assigned_vars[var_name])
-                            self.used_vars.remove(var_name)
+                                if right_var in self.first_assignement:
+                                    right_node = ast.Constant(self.first_assignement[right_var])
+                                else:
+                                    right_node = ast.Constant(self.assigned_vars[self.assigned_vars[var_name].right.id])
+
+                                new_one = ast.BinOp(left_node,self.assigned_vars[var_name].op,right_node)
+                                
+                                new_args.append(new_one)
+                                self.used_vars.remove(var_name)
+                                self.used_vars.remove(self.assigned_vars[var_name].left.id)
+                                if self.assigned_vars[var_name].right.id in self.used_vars:
+                                    self.used_vars.remove(self.assigned_vars[var_name].right.id)
+                            else:
+                                new_args.append(arg)
                         else:
                             new_args.append(arg)
-                    else:
-                        new_args.append(arg)
-                if isinstance(new_args[0], int):
-                    new_args = [ast.Constant(value=new_args[0], kind=None)]
-                node.value.args = new_args
+
+                    if isinstance(new_args[0], int):
+                        new_args = [ast.Constant(value=new_args[0], kind=None)]
+                        self.used_vars.remove(var_name)
+                    node.value.args = new_args
+        else:
+            if self.print_var != self.for_loop_var :
+                if isinstance(node.value, ast.Call) and isinstance(node.value.func, ast.Name) and node.value.func.id     ==     'print':
+                    new_args = []
+                    for arg in node.value.args:
+                        if isinstance(arg, ast.Name):
+                            var_name = arg.id
+                            if isinstance(self.assigned_vars[var_name],ast.Name):
+                                value = self.assigned_vars[self.assigned_vars[var_name].id]
+                            else:
+                                value = self.assigned_vars[var_name]
+                            if var_name in self.assigned_vars and value != self.for_loop_var:
+                                new_args.append(value)
+                                self.used_vars.remove(var_name)
+                                if isinstance(self.assigned_vars[var_name], ast.Name):
+                                    self.used_vars.remove(self.assigned_vars[var_name].id)
+                            else:
+                                new_args.append(arg)
+                        else:
+                            new_args.append(arg)
+                    if isinstance(new_args[0], int):
+                        new_args = [ast.Constant(value=new_args[0], kind=None)]
+                        # self.used_vars.remove(var_name)
+                    node.value.args = new_args
         return node
 
     def remove_unused_assignments(self, node):
@@ -126,8 +210,11 @@ class LevelThree(ast.NodeTransformer, Refactor):
             new_body = []
             for stmt in node.body:
                 if isinstance(stmt, ast.Assign):
-                    var_name = stmt.targets[0].id
-                    if var_name in self.used_vars:
+                    var_name = stmt.targets[0].id 
+                    assinged = any(var_name in value_list for value_list in self.map.values())
+                    if var_name != self.for_loop_var and var_name in self.used_vars:
+                        new_body.append(stmt)
+                    elif var_name == self.for_loop_var and assinged and var_name in self.used_vars:
                         new_body.append(stmt)
                 else:
                     new_body.append(stmt)
@@ -151,15 +238,14 @@ class LevelThree(ast.NodeTransformer, Refactor):
         return f"{ast.unparse(tree)}\n"
 
 code_snippets = [
-"""c = 0
-d = 7
-b = (b * 3)/(b * b)/(b + 8)-(b * 5)/(b)-(3)
-for b in range(4, 8) :
-	print(b)
+"""c = 9
+c = (c + 7)/(0 / c)
+for c in range(3, 5) :
+	print(c)
 """
 ]
 
-# Refactor each code snippet
+# # Refactor each code snippet
 # for code in code_snippets:
 #     refactored_code = refactor(code)
 #     print("Original Code:\n", code)
