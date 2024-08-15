@@ -8,10 +8,10 @@ from tqdm.auto import tqdm
 import hashlib
 import os
 import psutil
-import level_one 
-import level_two
-import level_three
-
+# import level_one 
+# import level_two
+# import level_three
+import clone_level1 
 
 class CodeGenerator:
     def __init__(self):
@@ -257,16 +257,17 @@ class CodeGenerator:
             while generated_programs < num_programs:
                 try:
                     root, program = self.generate_program(level)
-                    code = program + "\n# reformulation"
+                    code ="# snippet1\n"+ program
 
                     # SIO = StringIO()
                     # with redirect_stdout(SIO):
                     #     exec(code)
                     # output = SIO.getvalue().strip()
-                    output = level_three.refactor_code(code)
+        
+                    output = clone_level1.generate_clone_code(program)
 
-                    output = '\n'.join([f'# {line}' if line else f'# ' for line in output.split('\n')])
-                    result = f"""{code}\n{output}"""
+                    output = '\n'.join([f'{line}' if line else f'# ' for line in output.split('\n')])
+                    result = f"""{code}"""
                     
                     program_hash = hashlib.sha256(result.encode('utf-8')).hexdigest()
 
@@ -304,8 +305,8 @@ class CodeGenerator:
 def main():
     parser = argparse.ArgumentParser(description='Generate and write programs based on a specified level. ')
     parser.add_argument('--num_programs', type=int, default=1000, help='Number of programs to generate and write (default is 1000)')
-    parser.add_argument('--level', default="3.2", help='The level of the programs (1.1, 1.2, 2.1, 2.2, 3.1, 3.2, ALL)')
-    parser.add_argument('--filename', default='data_3.2.txt', help='Name of the file to write the programs (default is data/data.txt)')
+    parser.add_argument('--level', default="1.2", help='The level of the programs (1.1, 1.2, 2.1, 2.2, 3.1, 3.2, ALL)')
+    parser.add_argument('--filename', default='level3_data.txt', help='Name of the file to write the programs (default is data/data.txt)')
     parser.add_argument('--deduplicate', action='store_true', default=True, help='Perform deduplication of generated programs (default is True)')
 
     args = parser.parse_args()
