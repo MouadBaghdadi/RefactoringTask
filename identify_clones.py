@@ -1,7 +1,10 @@
 import json
 from tqdm import tqdm
+import os
 
-with open('outputs_level3.json') as f:
+file_path = os.path.join('level_2', 'outputs_level2.json')
+
+with open(file_path) as f:
     outputs = json.load(f)
 
 clones = {}
@@ -33,8 +36,9 @@ for i in tqdm(range(1000)):
 
 print(clones)
 
-file_path = 'clones_level3.json'
-with open(file_path, "w") as write_file:
+output_file_path = os.path.join('level_2', 'clones_level2.json')
+
+with open(output_file_path, "w") as write_file:
     json.dump(clones, write_file)
 
 print(f'the clones are stored in {file_path}')

@@ -1,0 +1,10560 @@
+# 0
+v = 1
+o = 2
+t = 7 - 9
+for o in range(7, 5, 1) :
+	print(o * o)
+# Simplification
+for o in range(7, 5, 1):
+    print(o * o)
+
+
+# 1
+u = 6
+for u in range(3, 10, 3) :
+	print(u)
+# Simplification
+for u in range(3, 10, 3):
+    print(u)
+
+
+# 2
+r = 6
+q = 0
+n = 2
+b = (3 - r)+(r + r)
+for r in range(2, 9, 2) :
+	print(n / q)
+# Simplification
+for _ in range(2, 9, 2):
+    print(n / q)
+
+
+# 3
+h = 9
+x = 0
+i = 3
+q = 1 / 6
+for h in range(5, 13, 3) :
+	print(q)
+# Simplification
+for _ in range(5, 13, 3):
+    print(q)
+
+
+# 4
+l = 9
+p = (l - l)*(7 + l)
+for l in range(0, 11, 3) :
+	print(p)
+# Simplification
+for _ in range(0, 11, 3):
+    print((l - l) * (7 + l))
+
+
+# 5
+n = 3
+w = (n + n)*(9 * 6)
+for n in range(1, 12, 1) :
+	print(w)
+# Simplification
+for _ in range(1, 12, 1):
+    print((n + n) * (9 * 6))
+
+
+# 6
+g = 2
+e = 0
+p = 9
+for g in range(4, 7, 2) :
+	print(g)
+# Simplification
+for g in range(4, 7, 2):
+    print(g)
+
+
+# 7
+j = 5
+y = 3
+g = 9
+f = 2
+q = 4
+for g in range(0, 9, 3) :
+	print(q)
+# Simplification
+for _ in range(0, 9, 3):
+    print(q)
+
+
+# 8
+e = 1
+i = 5
+v = 6
+a = (v * i)
+for i in range(3, 3) :
+	print(a)
+# Simplification
+for _ in range(3, 3):
+    print(v * i)
+
+
+# 9
+b = 9
+y = 9
+l = 0
+c = 7
+h = 1
+l = (4 + 7)
+for l in range(0, 10) :
+	print(l)
+# Simplification
+for l in range(0, 10):
+    print(l)
+
+
+# 10
+g = 8
+i = 6
+i = 9
+x = 3 - 2
+for i in range(1, 9, 1) :
+	print(x)
+# Simplification
+for _ in range(1, 9, 1):
+    print(x)
+
+
+# 11
+g = 8
+k = 6
+for k in range(2, 8) :
+	print(k)
+# Simplification
+for k in range(2, 8):
+    print(k)
+
+
+# 12
+q = 5
+h = 6
+r = 8
+s = 2 - 5
+for q in range(5, 7) :
+	print(s)
+# Simplification
+for _ in range(5, 7):
+    print(s)
+
+
+# 13
+y = 2
+p = (1 / 3)
+for y in range(6, 5, 2) :
+	print(p)
+# Simplification
+for _ in range(6, 5, 2):
+    print(p)
+
+
+# 14
+j = 1
+t = 1
+d = 3
+y = 3
+k = 2
+n = (d / d)-(0 * 3)-(3 + 2)
+for d in range(5, 10, 3) :
+	print(n)
+# Simplification
+for _ in range(5, 10, 3):
+    print(d / d - 0 * 3 - (3 + 2))
+
+
+# 15
+u = 6
+h = u / 2
+for u in range(6, 10) :
+	print(h)
+# Simplification
+for _ in range(6, 10):
+    print(u / 2)
+
+
+# 16
+j = 2
+y = 8
+for y in range(9, 8, 2) :
+	print(j)
+# Simplification
+for _ in range(9, 8, 2):
+    print(j)
+
+
+# 17
+u = 4
+f = 9 / u
+for u in range(0, 13) :
+	print(f)
+# Simplification
+for _ in range(0, 13):
+    print(9 / u)
+
+
+# 18
+i = 4
+v = 0
+g = 4
+for i in range(5, 2, 3) :
+	print(v)
+# Simplification
+for _ in range(5, 2, 3):
+    print(v)
+
+
+# 19
+w = 7
+u = 1
+p = 2
+i = 6
+for u in range(8, 7, 3) :
+	print(w)
+# Simplification
+for _ in range(8, 7, 3):
+    print(w)
+
+
+# 20
+z = 8
+r = 9
+for z in range(5, 7) :
+	print(r / 0)
+# Simplification
+for _ in range(5, 7):
+    print(r / 0)
+
+
+# 21
+d = 8
+x = 3
+l = d - 6
+for x in range(4, 12, 2) :
+	print(l)
+# Simplification
+for _ in range(4, 12, 2):
+    print(d - 6)
+
+
+# 22
+b = 9
+for b in range(1, 11) :
+	print(b)
+# Simplification
+for b in range(1, 11):
+    print(b)
+
+
+# 23
+o = 8
+e = 8
+j = 5
+i = 1
+for j in range(8, 8) :
+	print(o + j)
+# Simplification
+for j in range(8, 8):
+    print(o + j)
+
+
+# 24
+a = 8
+for a in range(2, 6, 2) :
+	print(a)
+# Simplification
+for a in range(2, 6, 2):
+    print(a)
+
+
+# 25
+v = 5
+w = 4
+b = (v / w)+(w * w)/(v + v)
+for w in range(2, 7, 1) :
+	print(w + 2)
+# Simplification
+for w in range(2, 7, 1):
+    print(w + 2)
+
+
+# 26
+e = 0
+y = 0
+d = 9
+n = 6
+u = (9 + n)+(d * 5)+(7 - 1)
+for y in range(6, 7) :
+	print(u)
+# Simplification
+for _ in range(6, 7):
+    print(9 + n + d * 5 + (7 - 1))
+
+
+# 27
+i = 4
+c = 2
+o = 3
+q = 1
+d = 2
+s = d / 0
+for d in range(4, 11, 1) :
+	print(s)
+# Simplification
+for _ in range(4, 11, 1):
+    print(d / 0)
+
+
+# 28
+h = 9
+y = 1 / h
+for h in range(4, 14, 3) :
+	print(h - h)
+# Simplification
+for h in range(4, 14, 3):
+    print(h - h)
+
+
+# 29
+m = 2
+for m in range(4, 8, 3) :
+	print(m)
+# Simplification
+for m in range(4, 8, 3):
+    print(m)
+
+
+# 30
+d = 8
+q = 4
+for d in range(1, 3) :
+	print(d)
+# Simplification
+for d in range(1, 3):
+    print(d)
+
+
+# 31
+a = 5
+for a in range(0, 8, 1) :
+	print(a)
+# Simplification
+for a in range(0, 8, 1):
+    print(a)
+
+
+# 32
+n = 9
+i = n * n
+for n in range(2, 11) :
+	print(i)
+# Simplification
+for _ in range(2, 11):
+    print(n * n)
+
+
+# 33
+l = 8
+q = 6
+v = (4 * 7)
+for q in range(2, 7) :
+	print(v)
+# Simplification
+for _ in range(2, 7):
+    print(v)
+
+
+# 34
+y = 5
+l = 9
+for l in range(2, 12, 3) :
+	print(l)
+# Simplification
+for l in range(2, 12, 3):
+    print(l)
+
+
+# 35
+u = 9
+f = 6
+r = 7
+w = 1
+j = 9
+g = (9 / 6)
+for j in range(8, 11) :
+	print(g)
+# Simplification
+for _ in range(8, 11):
+    print(g)
+
+
+# 36
+j = 9
+for j in range(7, 7, 1) :
+	print(j - 3)
+# Simplification
+for j in range(7, 7, 1):
+    print(j - 3)
+
+
+# 37
+t = 0
+for t in range(0, 4) :
+	print(t + 5)
+# Simplification
+for t in range(0, 4):
+    print(t + 5)
+
+
+# 38
+x = 5
+w = (0 - 5)*(6 * 1)+(6 + x)
+for x in range(0, 4) :
+	print(x * x)
+# Simplification
+for x in range(0, 4):
+    print(x * x)
+
+
+# 39
+r = 7
+i = 7 + 1
+for r in range(7, 9, 3) :
+	print(r * 6)
+# Simplification
+for r in range(7, 9, 3):
+    print(r * 6)
+
+
+# 40
+w = 3
+c = 5
+u = 1
+q = 3
+n = 2
+v = 6 / c
+for n in range(0, 6, 2) :
+	print(v)
+# Simplification
+for _ in range(0, 6, 2):
+    print(6 / c)
+
+
+# 41
+w = 1
+for w in range(8, 8, 3) :
+	print(w * w)
+# Simplification
+for w in range(8, 8, 3):
+    print(w * w)
+
+
+# 42
+k = 8
+v = (k / k)
+for k in range(6, 9) :
+	print(v)
+# Simplification
+for _ in range(6, 9):
+    print(k / k)
+
+
+# 43
+a = 1
+u = 3
+for u in range(1, 6) :
+	print(a)
+# Simplification
+for _ in range(1, 6):
+    print(a)
+
+
+# 44
+r = 6
+w = 1
+x = (r * w)
+for w in range(9, 10) :
+	print(x)
+# Simplification
+for _ in range(9, 10):
+    print(r * w)
+
+
+# 45
+e = 3
+s = e - 0
+for e in range(6, 9) :
+	print(e - 5)
+# Simplification
+for e in range(6, 9):
+    print(e - 5)
+
+
+# 46
+k = 0
+a = 1
+s = a * k
+for k in range(9, 2) :
+	print(s)
+# Simplification
+for _ in range(9, 2):
+    print(a * k)
+
+
+# 47
+x = 8
+q = 1
+t = 5
+f = 7
+s = q / t
+for x in range(8, 9) :
+	print(q - 1)
+# Simplification
+for _ in range(8, 9):
+    print(q - 1)
+
+
+# 48
+y = 1
+u = (y + 7)
+for y in range(2, 10, 3) :
+	print(u)
+# Simplification
+for _ in range(2, 10, 3):
+    print(y + 7)
+
+
+# 49
+y = 3
+t = 1
+v = 6 - t
+for y in range(6, 4, 1) :
+	print(v)
+# Simplification
+for _ in range(6, 4, 1):
+    print(6 - t)
+
+
+# 50
+v = 6
+d = 8
+m = 3
+l = 4
+c = (0 * d)
+for l in range(4, 11) :
+	print(c)
+# Simplification
+for _ in range(4, 11):
+    print(0 * d)
+
+
+# 51
+k = 8
+n = 9
+w = 1
+p = 2
+f = 1
+n = 6 * 1
+for w in range(7, 11) :
+	print(n)
+# Simplification
+for _ in range(7, 11):
+    print(n)
+
+
+# 52
+f = 9
+k = (f - f)+(8 + 3)+(6 / f)
+for f in range(4, 10, 1) :
+	print(f + f)
+# Simplification
+for f in range(4, 10, 1):
+    print(f + f)
+
+
+# 53
+g = 5
+for g in range(9, 10) :
+	print(g * g)
+# Simplification
+for g in range(9, 10):
+    print(g * g)
+
+
+# 54
+t = 9
+h = 7
+p = 3
+y = 5
+q = (p / 9)+(8 / 8)
+for t in range(1, 12) :
+	print(q)
+# Simplification
+for _ in range(1, 12):
+    print(p / 9 + 8 / 8)
+
+
+# 55
+v = 2
+d = 7 - 0
+for v in range(7, 11, 3) :
+	print(d)
+# Simplification
+for _ in range(7, 11, 3):
+    print(d)
+
+
+# 56
+n = 8
+for n in range(8, 10) :
+	print(n)
+# Simplification
+for n in range(8, 10):
+    print(n)
+
+
+# 57
+t = 2
+for t in range(9, 7, 1) :
+	print(t)
+# Simplification
+for t in range(9, 7, 1):
+    print(t)
+
+
+# 58
+b = 6
+r = 8
+q = 0
+u = 0
+l = b / 2
+for b in range(6, 5) :
+	print(q + b)
+# Simplification
+for b in range(6, 5):
+    print(q + b)
+
+
+# 59
+v = 6
+e = (v / v)
+for v in range(2, 10, 3) :
+	print(e)
+# Simplification
+for _ in range(2, 10, 3):
+    print(v / v)
+
+
+# 60
+y = 8
+for y in range(3, 12, 1) :
+	print(y - 2)
+# Simplification
+for y in range(3, 12, 1):
+    print(y - 2)
+
+
+# 61
+a = 6
+d = 9
+j = 7
+d = 3
+k = 9 * 6
+for d in range(6, 8) :
+	print(k)
+# Simplification
+for _ in range(6, 8):
+    print(k)
+
+
+# 62
+b = 2
+j = (5 - 3)
+for b in range(3, 3, 3) :
+	print(j)
+# Simplification
+for _ in range(3, 3, 3):
+    print(j)
+
+
+# 63
+g = 1
+o = 1
+x = 6
+j = 6
+for g in range(7, 8, 2) :
+	print(o + 3)
+# Simplification
+for _ in range(7, 8, 2):
+    print(o + 3)
+
+
+# 64
+a = 2
+d = (8 * 8)*(a * 4)+(0 + a)+(9 + 9)-(8 + 1)-(a / a)
+for a in range(8, 4, 2) :
+	print(a - 8)
+# Simplification
+for a in range(8, 4, 2):
+    print(a - 8)
+
+
+# 65
+a = 9
+d = 0
+for d in range(0, 11, 1) :
+	print(d)
+# Simplification
+for d in range(0, 11, 1):
+    print(d)
+
+
+# 66
+a = 0
+t = (a - a)
+for a in range(8, 7, 2) :
+	print(a / 8)
+# Simplification
+for a in range(8, 7, 2):
+    print(a / 8)
+
+
+# 67
+c = 9
+o = 1
+c = 2
+n = 0
+for c in range(9, 14, 2) :
+	print(o)
+# Simplification
+for _ in range(9, 14, 2):
+    print(o)
+
+
+# 68
+v = 2
+z = 6
+s = z + 5
+for v in range(0, 7) :
+	print(s)
+# Simplification
+for _ in range(0, 7):
+    print(z + 5)
+
+
+# 69
+s = 7
+u = (4 / 3)
+for s in range(5, 3) :
+	print(u)
+# Simplification
+for _ in range(5, 3):
+    print(u)
+
+
+# 70
+i = 3
+j = (5 + 8)*(2 / i)-(2 + 0)-(7 / i)
+for i in range(2, 12) :
+	print(j)
+# Simplification
+for _ in range(2, 12):
+    print((5 + 8) * (2 / i) - (2 + 0) - 7 / i)
+
+
+# 71
+t = 4
+l = 6 + t
+for t in range(6, 4, 3) :
+	print(t - t)
+# Simplification
+for t in range(6, 4, 3):
+    print(t - t)
+
+
+# 72
+j = 1
+a = 7 + j
+for j in range(8, 10, 2) :
+	print(j / j)
+# Simplification
+for j in range(8, 10, 2):
+    print(j / j)
+
+
+# 73
+x = 7
+b = x * 3
+for x in range(4, 8) :
+	print(x / 5)
+# Simplification
+for x in range(4, 8):
+    print(x / 5)
+
+
+# 74
+g = 5
+k = g + 4
+for g in range(1, 7) :
+	print(k)
+# Simplification
+for _ in range(1, 7):
+    print(g + 4)
+
+
+# 75
+z = 7
+y = 3
+g = 3
+z = 0
+u = 4 / 6
+for z in range(0, 8) :
+	print(u)
+# Simplification
+for _ in range(0, 8):
+    print(u)
+
+
+# 76
+s = 9
+v = 3 + s
+for s in range(6, 3, 2) :
+	print(s - 2)
+# Simplification
+for s in range(6, 3, 2):
+    print(s - 2)
+
+
+# 77
+t = 0
+z = 3
+for z in range(2, 14) :
+	print(z)
+# Simplification
+for z in range(2, 14):
+    print(z)
+
+
+# 78
+z = 1
+v = (6 / 2)
+for z in range(1, 10) :
+	print(z - z)
+# Simplification
+for z in range(1, 10):
+    print(z - z)
+
+
+# 79
+p = 3
+u = (0 - p)
+for p in range(9, 9, 1) :
+	print(u)
+# Simplification
+for _ in range(9, 9, 1):
+    print(0 - p)
+
+
+# 80
+s = 3
+n = 7
+v = 9 + 3
+for s in range(5, 12, 2) :
+	print(v)
+# Simplification
+for _ in range(5, 12, 2):
+    print(v)
+
+
+# 81
+t = 6
+h = 5
+a = 0
+for h in range(7, 4) :
+	print(t)
+# Simplification
+for _ in range(7, 4):
+    print(t)
+
+
+# 82
+u = 9
+c = 9 - u
+for u in range(2, 2) :
+	print(c)
+# Simplification
+for _ in range(2, 2):
+    print(9 - u)
+
+
+# 83
+v = 8
+for v in range(7, 7, 2) :
+	print(v)
+# Simplification
+for v in range(7, 7, 2):
+    print(v)
+
+
+# 84
+w = 0
+for w in range(6, 17) :
+	print(w)
+# Simplification
+for w in range(6, 17):
+    print(w)
+
+
+# 85
+a = 1
+p = 4
+e = 4
+g = (2 * 0)
+for a in range(0, 11, 2) :
+	print(a - 8)
+# Simplification
+for a in range(0, 11, 2):
+    print(a - 8)
+
+
+# 86
+h = 9
+r = h / 9
+for h in range(7, 13, 1) :
+	print(r)
+# Simplification
+for _ in range(7, 13, 1):
+    print(h / 9)
+
+
+# 87
+a = 5
+d = 3
+for a in range(8, 8, 2) :
+	print(d - 8)
+# Simplification
+for _ in range(8, 8, 2):
+    print(d - 8)
+
+
+# 88
+z = 5
+for z in range(0, 12, 2) :
+	print(z)
+# Simplification
+for z in range(0, 12, 2):
+    print(z)
+
+
+# 89
+v = 9
+w = (v + v)-(0 / v)
+for v in range(3, 2) :
+	print(w)
+# Simplification
+for _ in range(3, 2):
+    print(v + v - 0 / v)
+
+
+# 90
+j = 0
+for j in range(3, 2) :
+	print(j)
+# Simplification
+for j in range(3, 2):
+    print(j)
+
+
+# 91
+p = 7
+r = 7
+d = 5
+for p in range(3, 8, 2) :
+	print(d)
+# Simplification
+for _ in range(3, 8, 2):
+    print(d)
+
+
+# 92
+f = 9
+h = 3
+k = 5
+r = 5
+p = 8
+e = 5 * p
+for r in range(7, 8, 1) :
+	print(p - r)
+# Simplification
+for r in range(7, 8, 1):
+    print(p - r)
+
+
+# 93
+v = 2
+x = 7
+for v in range(1, 9) :
+	print(x)
+# Simplification
+for _ in range(1, 9):
+    print(x)
+
+
+# 94
+v = 2
+m = 0
+s = 9
+t = (m - 5)*(v * m)
+for m in range(4, 10, 1) :
+	print(t)
+# Simplification
+for _ in range(4, 10, 1):
+    print((m - 5) * (v * m))
+
+
+# 95
+r = 6
+t = 7 + r
+for r in range(2, 10, 1) :
+	print(t)
+# Simplification
+for _ in range(2, 10, 1):
+    print(7 + r)
+
+
+# 96
+p = 4
+r = 6 - 3
+for p in range(5, 6, 1) :
+	print(r)
+# Simplification
+for _ in range(5, 6, 1):
+    print(r)
+
+
+# 97
+s = 7
+for s in range(3, 4) :
+	print(s / s)
+# Simplification
+for s in range(3, 4):
+    print(s / s)
+
+
+# 98
+i = 1
+for i in range(8, 9) :
+	print(i)
+# Simplification
+for i in range(8, 9):
+    print(i)
+
+
+# 99
+m = 9
+k = (6 + m)
+for m in range(3, 4, 1) :
+	print(k)
+# Simplification
+for _ in range(3, 4, 1):
+    print(6 + m)
+
+
+# 100
+w = 8
+e = 3
+for e in range(3, 8, 3) :
+	print(w)
+# Simplification
+for _ in range(3, 8, 3):
+    print(w)
+
+
+# 101
+n = 1
+d = 5
+u = (d / 1)*(4 / 1)+(d + 9)-(n - 3)
+for n in range(5, 8) :
+	print(u)
+# Simplification
+for _ in range(5, 8):
+    print(d / 1 * (4 / 1) + (d + 9) - (n - 3))
+
+
+# 102
+k = 9
+for k in range(3, 5) :
+	print(k)
+# Simplification
+for k in range(3, 5):
+    print(k)
+
+
+# 103
+g = 9
+e = 3
+o = 9 / 2
+for g in range(9, 10, 2) :
+	print(o)
+# Simplification
+for _ in range(9, 10, 2):
+    print(o)
+
+
+# 104
+k = 9
+r = k * k
+for k in range(9, 6, 3) :
+	print(r)
+# Simplification
+for _ in range(9, 6, 3):
+    print(k * k)
+
+
+# 105
+a = 0
+d = 2
+y = 0
+y = 3
+for a in range(3, 6, 3) :
+	print(d)
+# Simplification
+for _ in range(3, 6, 3):
+    print(d)
+
+
+# 106
+a = 1
+u = (a * a)-(a - 1)+(9 * 2)
+for a in range(4, 10, 3) :
+	print(u)
+# Simplification
+for _ in range(4, 10, 3):
+    print(a * a - (a - 1) + 9 * 2)
+
+
+# 107
+m = 1
+i = (m * m)+(4 - 1)
+for m in range(7, 8, 2) :
+	print(i)
+# Simplification
+for _ in range(7, 8, 2):
+    print(m * m + (4 - 1))
+
+
+# 108
+p = 0
+m = p * 9
+for p in range(3, 4, 3) :
+	print(m)
+# Simplification
+for _ in range(3, 4, 3):
+    print(p * 9)
+
+
+# 109
+y = 7
+i = 3
+a = 1
+e = 0
+c = 4
+l = e * 6
+for i in range(5, 11, 2) :
+	print(l)
+# Simplification
+for _ in range(5, 11, 2):
+    print(e * 6)
+
+
+# 110
+k = 9
+g = (1 / 0)-(7 * k)
+for k in range(4, 12) :
+	print(k / k)
+# Simplification
+for k in range(4, 12):
+    print(k / k)
+
+
+# 111
+t = 5
+a = t / 9
+for t in range(9, 8, 1) :
+	print(t * t)
+# Simplification
+for t in range(9, 8, 1):
+    print(t * t)
+
+
+# 112
+k = 7
+s = k * 6
+for k in range(2, 15, 3) :
+	print(k + 2)
+# Simplification
+for k in range(2, 15, 3):
+    print(k + 2)
+
+
+# 113
+p = 6
+k = 2
+for k in range(7, 13, 1) :
+	print(p / 6)
+# Simplification
+for _ in range(7, 13, 1):
+    print(p / 6)
+
+
+# 114
+y = 5
+p = 7
+a = 5 * 7
+for p in range(6, 14) :
+	print(a)
+# Simplification
+for _ in range(6, 14):
+    print(a)
+
+
+# 115
+c = 0
+o = (c * 4)*(3 / 3)+(1 * 3)
+for c in range(2, 10) :
+	print(o)
+# Simplification
+for _ in range(2, 10):
+    print(c * 4 * (3 / 3) + 1 * 3)
+
+
+# 116
+l = 3
+k = (l - 2)/(l + 8)*(l - 2)
+for l in range(1, 10, 2) :
+	print(l - l)
+# Simplification
+for l in range(1, 10, 2):
+    print(l - l)
+
+
+# 117
+f = 4
+for f in range(8, 16) :
+	print(f)
+# Simplification
+for f in range(8, 16):
+    print(f)
+
+
+# 118
+w = 0
+x = 0 + 8
+for w in range(2, 10) :
+	print(x)
+# Simplification
+for _ in range(2, 10):
+    print(x)
+
+
+# 119
+o = 3
+x = (o + o)
+for o in range(3, 5, 1) :
+	print(o / o)
+# Simplification
+for o in range(3, 5, 1):
+    print(o / o)
+
+
+# 120
+j = 6
+e = 5 + 3
+for j in range(0, 13, 3) :
+	print(e)
+# Simplification
+for _ in range(0, 13, 3):
+    print(e)
+
+
+# 121
+t = 6
+v = 0 * 6
+for t in range(5, 5, 1) :
+	print(v)
+# Simplification
+for _ in range(5, 5, 1):
+    print(v)
+
+
+# 122
+v = 9
+e = 2
+q = e - 5
+for e in range(9, 4) :
+	print(q)
+# Simplification
+for _ in range(9, 4):
+    print(e - 5)
+
+
+# 123
+l = 5
+s = (9 - 7)+(0 * l)/(7 - l)
+for l in range(8, 6, 3) :
+	print(s)
+# Simplification
+for _ in range(8, 6, 3):
+    print(9 - 7 + 0 * l / (7 - l))
+
+
+# 124
+m = 7
+q = m - m
+for m in range(1, 7) :
+	print(m + m)
+# Simplification
+for m in range(1, 7):
+    print(m + m)
+
+
+# 125
+m = 9
+for m in range(6, 5, 3) :
+	print(m)
+# Simplification
+for m in range(6, 5, 3):
+    print(m)
+
+
+# 126
+i = 6
+v = 7
+for i in range(6, 9, 3) :
+	print(v - 2)
+# Simplification
+for _ in range(6, 9, 3):
+    print(v - 2)
+
+
+# 127
+w = 8
+v = 1
+for v in range(2, 12) :
+	print(w)
+# Simplification
+for _ in range(2, 12):
+    print(w)
+
+
+# 128
+p = 4
+f = (0 + 6)+(3 / p)
+for p in range(3, 6, 2) :
+	print(f)
+# Simplification
+for _ in range(3, 6, 2):
+    print(0 + 6 + 3 / p)
+
+
+# 129
+z = 7
+g = 5
+w = 6
+v = 4
+for w in range(2, 8) :
+	print(v)
+# Simplification
+for _ in range(2, 8):
+    print(v)
+
+
+# 130
+d = 7
+q = d + d
+for d in range(3, 6) :
+	print(q)
+# Simplification
+for _ in range(3, 6):
+    print(d + d)
+
+
+# 131
+h = 3
+for h in range(6, 7) :
+	print(h - 8)
+# Simplification
+for h in range(6, 7):
+    print(h - 8)
+
+
+# 132
+l = 6
+v = 6
+t = 1
+d = 3
+j = 8
+g = (3 / j)-(l / 3)/(9 - 8)
+for j in range(2, 5, 3) :
+	print(g)
+# Simplification
+for _ in range(2, 5, 3):
+    print(3 / j - l / 3 / (9 - 8))
+
+
+# 133
+n = 6
+g = 2
+l = 1 * 9
+for g in range(3, 11, 2) :
+	print(n + 6)
+# Simplification
+for _ in range(3, 11, 2):
+    print(n + 6)
+
+
+# 134
+l = 3
+p = 8
+s = 9
+g = p / 5
+for s in range(2, 11) :
+	print(l + 2)
+# Simplification
+for _ in range(2, 11):
+    print(l + 2)
+
+
+# 135
+r = 5
+for r in range(2, 10) :
+	print(r / r)
+# Simplification
+for r in range(2, 10):
+    print(r / r)
+
+
+# 136
+a = 9
+l = 7
+for a in range(9, 9) :
+	print(a)
+# Simplification
+for a in range(9, 9):
+    print(a)
+
+
+# 137
+x = 5
+c = 8
+l = 5
+f = 0
+z = 8
+e = (5 + 1)*(9 + l)
+for l in range(4, 15) :
+	print(e)
+# Simplification
+for _ in range(4, 15):
+    print((5 + 1) * (9 + l))
+
+
+# 138
+h = 4
+r = 5
+b = 7
+q = 0 + h
+for r in range(7, 6) :
+	print(q)
+# Simplification
+for _ in range(7, 6):
+    print(0 + h)
+
+
+# 139
+v = 6
+k = 0
+g = 7 * 7
+for v in range(9, 8, 3) :
+	print(g)
+# Simplification
+for _ in range(9, 8, 3):
+    print(g)
+
+
+# 140
+j = 2
+v = 9
+z = v - 6
+for v in range(1, 11) :
+	print(z)
+# Simplification
+for _ in range(1, 11):
+    print(v - 6)
+
+
+# 141
+o = 9
+s = 7
+for s in range(7, 8) :
+	print(o)
+# Simplification
+for _ in range(7, 8):
+    print(o)
+
+
+# 142
+e = 7
+w = 6
+x = 8
+m = (7 * w)
+for w in range(0, 11) :
+	print(m)
+# Simplification
+for _ in range(0, 11):
+    print(7 * w)
+
+
+# 143
+q = 4
+p = q + 3
+for q in range(4, 9, 2) :
+	print(p)
+# Simplification
+for _ in range(4, 9, 2):
+    print(q + 3)
+
+
+# 144
+t = 9
+a = 6
+for t in range(3, 10, 3) :
+	print(a)
+# Simplification
+for _ in range(3, 10, 3):
+    print(a)
+
+
+# 145
+f = 1
+t = (f - 5)
+for f in range(0, 5) :
+	print(f - f)
+# Simplification
+for f in range(0, 5):
+    print(f - f)
+
+
+# 146
+n = 9
+l = n * n
+for n in range(2, 13, 1) :
+	print(l)
+# Simplification
+for _ in range(2, 13, 1):
+    print(n * n)
+
+
+# 147
+p = 1
+j = 7
+j = 3
+l = (p * j)
+for p in range(3, 13) :
+	print(p * 5)
+# Simplification
+for p in range(3, 13):
+    print(p * 5)
+
+
+# 148
+s = 6
+f = 0
+a = 6
+g = 5 + 7
+for s in range(0, 14) :
+	print(a - a)
+# Simplification
+for _ in range(0, 14):
+    print(a - a)
+
+
+# 149
+r = 7
+t = (r + 1)
+for r in range(6, 4) :
+	print(t)
+# Simplification
+for _ in range(6, 4):
+    print(r + 1)
+
+
+# 150
+a = 2
+k = a / 5
+for a in range(7, 9, 3) :
+	print(k)
+# Simplification
+for _ in range(7, 9, 3):
+    print(a / 5)
+
+
+# 151
+y = 1
+r = y + y
+for y in range(9, 5, 3) :
+	print(r)
+# Simplification
+for _ in range(9, 5, 3):
+    print(y + y)
+
+
+# 152
+r = 6
+j = 7
+i = 3
+for r in range(3, 3, 2) :
+	print(r)
+# Simplification
+for r in range(3, 3, 2):
+    print(r)
+
+
+# 153
+h = 8
+o = 9 * h
+for h in range(3, 3) :
+	print(o)
+# Simplification
+for _ in range(3, 3):
+    print(9 * h)
+
+
+# 154
+k = 8
+c = (4 * 8)
+for k in range(0, 16, 2) :
+	print(c)
+# Simplification
+for _ in range(0, 16, 2):
+    print(c)
+
+
+# 155
+b = 3
+v = 1
+m = 9
+w = 9
+y = 1
+for m in range(1, 9, 1) :
+	print(m + v)
+# Simplification
+for m in range(1, 9, 1):
+    print(m + v)
+
+
+# 156
+m = 7
+f = m - 5
+for m in range(5, 7) :
+	print(f)
+# Simplification
+for _ in range(5, 7):
+    print(m - 5)
+
+
+# 157
+b = 6
+o = 3
+n = o / o
+for o in range(9, 4) :
+	print(n)
+# Simplification
+for _ in range(9, 4):
+    print(o / o)
+
+
+# 158
+r = 1
+for r in range(9, 9) :
+	print(r)
+# Simplification
+for r in range(9, 9):
+    print(r)
+
+
+# 159
+o = 0
+e = 7
+p = 4
+j = (2 + 8)-(o / o)
+for p in range(7, 4, 3) :
+	print(j)
+# Simplification
+for _ in range(7, 4, 3):
+    print(2 + 8 - o / o)
+
+
+# 160
+x = 1
+h = (5 + x)
+for x in range(1, 12, 1) :
+	print(h)
+# Simplification
+for _ in range(1, 12, 1):
+    print(5 + x)
+
+
+# 161
+f = 3
+l = 4
+t = l / 4
+for f in range(7, 14, 2) :
+	print(t)
+# Simplification
+for _ in range(7, 14, 2):
+    print(l / 4)
+
+
+# 162
+s = 1
+for s in range(0, 5, 3) :
+	print(s)
+# Simplification
+for s in range(0, 5, 3):
+    print(s)
+
+
+# 163
+a = 3
+p = 4
+k = 7
+for p in range(0, 5) :
+	print(a)
+# Simplification
+for _ in range(0, 5):
+    print(a)
+
+
+# 164
+n = 6
+for n in range(3, 14, 1) :
+	print(n)
+# Simplification
+for n in range(3, 14, 1):
+    print(n)
+
+
+# 165
+i = 7
+s = (i / i)/(0 / 7)
+for i in range(4, 6) :
+	print(s)
+# Simplification
+for _ in range(4, 6):
+    print(i / i / (0 / 7))
+
+
+# 166
+a = 3
+e = 2
+s = 5
+k = 0
+for e in range(8, 9, 3) :
+	print(k)
+# Simplification
+for _ in range(8, 9, 3):
+    print(k)
+
+
+# 167
+j = 9
+f = (7 / j)/(8 - 6)
+for j in range(8, 10) :
+	print(f)
+# Simplification
+for _ in range(8, 10):
+    print(7 / j / (8 - 6))
+
+
+# 168
+j = 2
+f = 2
+d = 9
+m = (1 * d)
+for j in range(8, 12, 2) :
+	print(m)
+# Simplification
+for _ in range(8, 12, 2):
+    print(1 * d)
+
+
+# 169
+b = 6
+z = 0
+a = (b + z)
+for b in range(7, 8, 3) :
+	print(a)
+# Simplification
+for _ in range(7, 8, 3):
+    print(b + z)
+
+
+# 170
+i = 3
+y = (3 / i)/(i - i)*(i * i)/(i / i)/(6 + 8)+(i + 2)
+for i in range(4, 12, 2) :
+	print(i * 6)
+# Simplification
+for i in range(4, 12, 2):
+    print(i * 6)
+
+
+# 171
+n = 9
+for n in range(4, 9, 3) :
+	print(n)
+# Simplification
+for n in range(4, 9, 3):
+    print(n)
+
+
+# 172
+j = 9
+h = 6
+m = 9
+i = 3 / 2
+for j in range(8, 12, 2) :
+	print(i)
+# Simplification
+for _ in range(8, 12, 2):
+    print(i)
+
+
+# 173
+i = 9
+for i in range(9, 3, 2) :
+	print(i - 3)
+# Simplification
+for i in range(9, 3, 2):
+    print(i - 3)
+
+
+# 174
+e = 9
+n = 2 * 3
+for e in range(8, 7) :
+	print(e + 6)
+# Simplification
+for e in range(8, 7):
+    print(e + 6)
+
+
+# 175
+i = 0
+j = 6
+d = 7
+k = 0 * 1
+for d in range(2, 4) :
+	print(k)
+# Simplification
+for _ in range(2, 4):
+    print(k)
+
+
+# 176
+g = 0
+k = 6
+f = 8
+y = 5
+h = 5
+b = 7 + 3
+for f in range(1, 9, 1) :
+	print(b)
+# Simplification
+for _ in range(1, 9, 1):
+    print(b)
+
+
+# 177
+b = 7
+for b in range(5, 3) :
+	print(b)
+# Simplification
+for b in range(5, 3):
+    print(b)
+
+
+# 178
+z = 8
+s = 4
+n = 0
+g = (3 * s)+(z + s)
+for n in range(6, 5) :
+	print(g)
+# Simplification
+for _ in range(6, 5):
+    print(3 * s + (z + s))
+
+
+# 179
+i = 2
+c = 7
+c = 4
+m = (i - 2)
+for c in range(4, 8) :
+	print(m)
+# Simplification
+for _ in range(4, 8):
+    print(i - 2)
+
+
+# 180
+a = 8
+k = 2 - 8
+for a in range(7, 10, 2) :
+	print(k)
+# Simplification
+for _ in range(7, 10, 2):
+    print(k)
+
+
+# 181
+c = 1
+s = (7 * 0)-(8 - c)*(5 + c)*(3 / c)/(6 * c)*(c - c)*(c / c)+(1 / c)/(1 - c)
+for c in range(5, 12, 1) :
+	print(s)
+# Simplification
+for _ in range(5, 12, 1):
+    print(7 * 0 - (8 - c) * (5 + c) * (3 / c) / (6 * c) * (c - c) * (c / c) +
+        1 / c / (1 - c))
+
+
+# 182
+n = 3
+h = 7 * 4
+for n in range(4, 10, 2) :
+	print(h)
+# Simplification
+for _ in range(4, 10, 2):
+    print(h)
+
+
+# 183
+t = 2
+g = (8 / 7)
+for t in range(4, 9) :
+	print(g)
+# Simplification
+for _ in range(4, 9):
+    print(g)
+
+
+# 184
+p = 8
+b = (4 / 9)*(4 + p)
+for p in range(3, 10) :
+	print(b)
+# Simplification
+for _ in range(3, 10):
+    print(4 / 9 * (4 + p))
+
+
+# 185
+q = 4
+f = (q * 0)+(q + q)
+for q in range(0, 6) :
+	print(q - 7)
+# Simplification
+for q in range(0, 6):
+    print(q - 7)
+
+
+# 186
+k = 3
+l = 4
+m = (8 * 9)
+for l in range(9, 6, 3) :
+	print(m)
+# Simplification
+for _ in range(9, 6, 3):
+    print(m)
+
+
+# 187
+h = 5
+b = 9
+w = 4
+w = h - h
+for h in range(6, 3, 3) :
+	print(w)
+# Simplification
+for _ in range(6, 3, 3):
+    print(h - h)
+
+
+# 188
+p = 4
+s = 4
+d = 1
+for s in range(1, 11) :
+	print(p)
+# Simplification
+for _ in range(1, 11):
+    print(p)
+
+
+# 189
+s = 2
+b = s * 0
+for s in range(6, 5, 2) :
+	print(b)
+# Simplification
+for _ in range(6, 5, 2):
+    print(s * 0)
+
+
+# 190
+l = 8
+p = 4
+l = 5
+r = 2
+s = 9
+w = (4 * 3)
+for r in range(6, 2) :
+	print(l + l)
+# Simplification
+for _ in range(6, 2):
+    print(l + l)
+
+
+# 191
+b = 8
+m = (5 - 6)
+for b in range(9, 6) :
+	print(b + b)
+# Simplification
+for b in range(9, 6):
+    print(b + b)
+
+
+# 192
+i = 7
+for i in range(2, 9) :
+	print(i)
+# Simplification
+for i in range(2, 9):
+    print(i)
+
+
+# 193
+k = 7
+for k in range(6, 11) :
+	print(k)
+# Simplification
+for k in range(6, 11):
+    print(k)
+
+
+# 194
+v = 8
+h = v + v
+for v in range(3, 17) :
+	print(h)
+# Simplification
+for _ in range(3, 17):
+    print(v + v)
+
+
+# 195
+g = 2
+d = 5
+z = 8
+for g in range(1, 9, 2) :
+	print(g)
+# Simplification
+for g in range(1, 9, 2):
+    print(g)
+
+
+# 196
+j = 6
+b = (j + 0)*(2 / j)
+for j in range(2, 17) :
+	print(b)
+# Simplification
+for _ in range(2, 17):
+    print((j + 0) * (2 / j))
+
+
+# 197
+q = 9
+a = (7 * q)
+for q in range(0, 4, 2) :
+	print(a)
+# Simplification
+for _ in range(0, 4, 2):
+    print(7 * q)
+
+
+# 198
+l = 6
+q = 3
+z = 8 + 4
+for l in range(4, 7, 1) :
+	print(z)
+# Simplification
+for _ in range(4, 7, 1):
+    print(z)
+
+
+# 199
+w = 3
+for w in range(3, 7) :
+	print(w)
+# Simplification
+for w in range(3, 7):
+    print(w)
+
+
+# 200
+q = 7
+h = 8
+z = 8
+p = 5
+x = 8
+for h in range(8, 11) :
+	print(z)
+# Simplification
+for _ in range(8, 11):
+    print(z)
+
+
+# 201
+c = 6
+r = 4
+s = 8
+for s in range(3, 5, 1) :
+	print(r / s)
+# Simplification
+for s in range(3, 5, 1):
+    print(r / s)
+
+
+# 202
+d = 1
+w = 7
+for d in range(4, 6, 3) :
+	print(d)
+# Simplification
+for d in range(4, 6, 3):
+    print(d)
+
+
+# 203
+r = 3
+p = 0
+q = r + 4
+for p in range(7, 17) :
+	print(q)
+# Simplification
+for _ in range(7, 17):
+    print(r + 4)
+
+
+# 204
+i = 3
+v = (i / 7)
+for i in range(1, 3, 3) :
+	print(v)
+# Simplification
+for _ in range(1, 3, 3):
+    print(i / 7)
+
+
+# 205
+e = 9
+f = 5
+k = 4
+f = (9 / 9)
+for k in range(7, 10) :
+	print(f)
+# Simplification
+for _ in range(7, 10):
+    print(f)
+
+
+# 206
+o = 5
+q = 1
+r = 0
+for r in range(5, 11, 3) :
+	print(r)
+# Simplification
+for r in range(5, 11, 3):
+    print(r)
+
+
+# 207
+k = 3
+j = k - 3
+for k in range(3, 6, 2) :
+	print(j)
+# Simplification
+for _ in range(3, 6, 2):
+    print(k - 3)
+
+
+# 208
+n = 2
+m = 5 * 9
+for n in range(9, 7) :
+	print(m)
+# Simplification
+for _ in range(9, 7):
+    print(m)
+
+
+# 209
+n = 7
+g = 5
+q = 2
+p = (3 - g)+(n * 9)
+for q in range(2, 11) :
+	print(p)
+# Simplification
+for _ in range(2, 11):
+    print(3 - g + n * 9)
+
+
+# 210
+y = 9
+k = 0
+v = 6
+for k in range(9, 5, 3) :
+	print(k + 0)
+# Simplification
+for k in range(9, 5, 3):
+    print(k + 0)
+
+
+# 211
+y = 0
+i = y / y
+for y in range(6, 7, 2) :
+	print(y * y)
+# Simplification
+for y in range(6, 7, 2):
+    print(y * y)
+
+
+# 212
+g = 2
+h = (g + 0)*(g * 3)*(g * g)
+for g in range(1, 12, 1) :
+	print(g - g)
+# Simplification
+for g in range(1, 12, 1):
+    print(g - g)
+
+
+# 213
+n = 2
+z = 7
+h = 0
+d = 3
+e = 1
+k = (5 * 2)
+for h in range(6, 5, 2) :
+	print(d - e)
+# Simplification
+for _ in range(6, 5, 2):
+    print(d - e)
+
+
+# 214
+w = 3
+h = 7 + 2
+for w in range(4, 6) :
+	print(w + 0)
+# Simplification
+for w in range(4, 6):
+    print(w + 0)
+
+
+# 215
+s = 3
+for s in range(5, 10, 3) :
+	print(s)
+# Simplification
+for s in range(5, 10, 3):
+    print(s)
+
+
+# 216
+p = 8
+a = 2
+k = 9
+d = 8
+g = 0
+for g in range(4, 9, 1) :
+	print(a / 6)
+# Simplification
+for _ in range(4, 9, 1):
+    print(a / 6)
+
+
+# 217
+a = 3
+r = 3 / a
+for a in range(8, 9, 1) :
+	print(r)
+# Simplification
+for _ in range(8, 9, 1):
+    print(3 / a)
+
+
+# 218
+i = 4
+g = 5
+n = g / 8
+for g in range(4, 7, 2) :
+	print(n)
+# Simplification
+for _ in range(4, 7, 2):
+    print(g / 8)
+
+
+# 219
+u = 9
+i = 4
+x = 7
+j = 2
+for x in range(1, 6) :
+	print(u)
+# Simplification
+for _ in range(1, 6):
+    print(u)
+
+
+# 220
+c = 7
+j = (6 - c)+(4 + 5)*(0 * 0)
+for c in range(8, 12, 1) :
+	print(j)
+# Simplification
+for _ in range(8, 12, 1):
+    print(6 - c + (4 + 5) * (0 * 0))
+
+
+# 221
+a = 5
+c = a * 1
+for a in range(0, 6) :
+	print(a + a)
+# Simplification
+for a in range(0, 6):
+    print(a + a)
+
+
+# 222
+n = 9
+q = 6
+c = 0 / 1
+for q in range(8, 9) :
+	print(c)
+# Simplification
+for _ in range(8, 9):
+    print(c)
+
+
+# 223
+c = 0
+for c in range(5, 4, 3) :
+	print(c + 3)
+# Simplification
+for c in range(5, 4, 3):
+    print(c + 3)
+
+
+# 224
+i = 8
+a = 5
+for a in range(9, 7) :
+	print(i)
+# Simplification
+for _ in range(9, 7):
+    print(i)
+
+
+# 225
+q = 3
+i = 2
+l = 6 - i
+for q in range(9, 17) :
+	print(l)
+# Simplification
+for _ in range(9, 17):
+    print(6 - i)
+
+
+# 226
+f = 3
+n = f / 9
+for f in range(9, 11) :
+	print(n)
+# Simplification
+for _ in range(9, 11):
+    print(f / 9)
+
+
+# 227
+z = 1
+for z in range(5, 9, 1) :
+	print(z)
+# Simplification
+for z in range(5, 9, 1):
+    print(z)
+
+
+# 228
+l = 9
+y = 0
+a = 8
+s = 0
+h = 4
+for s in range(4, 9, 2) :
+	print(y - y)
+# Simplification
+for _ in range(4, 9, 2):
+    print(y - y)
+
+
+# 229
+m = 9
+f = (8 / m)
+for m in range(8, 1, 1) :
+	print(f)
+# Simplification
+for _ in range(8, 1, 1):
+    print(8 / m)
+
+
+# 230
+y = 5
+o = 2
+t = 6
+f = (t / 3)
+for y in range(7, 11, 1) :
+	print(f)
+# Simplification
+for _ in range(7, 11, 1):
+    print(t / 3)
+
+
+# 231
+s = 9
+l = (s * 5)/(8 + s)+(s / s)
+for s in range(0, 5) :
+	print(l)
+# Simplification
+for _ in range(0, 5):
+    print(s * 5 / (8 + s) + s / s)
+
+
+# 232
+t = 3
+g = 1
+i = 8
+i = 6
+y = t + i
+for t in range(1, 4, 2) :
+	print(y)
+# Simplification
+for _ in range(1, 4, 2):
+    print(t + i)
+
+
+# 233
+v = 5
+h = (5 - v)*(v / 6)+(3 / v)
+for v in range(6, 12) :
+	print(h)
+# Simplification
+for _ in range(6, 12):
+    print((5 - v) * (v / 6) + 3 / v)
+
+
+# 234
+y = 0
+for y in range(5, 10) :
+	print(y)
+# Simplification
+for y in range(5, 10):
+    print(y)
+
+
+# 235
+l = 3
+q = (6 - l)
+for l in range(7, 10, 3) :
+	print(q)
+# Simplification
+for _ in range(7, 10, 3):
+    print(6 - l)
+
+
+# 236
+n = 4
+m = 1
+x = 9
+g = 1
+r = 0 / n
+for g in range(6, 11, 3) :
+	print(r)
+# Simplification
+for _ in range(6, 11, 3):
+    print(0 / n)
+
+
+# 237
+p = 9
+h = p * p
+for p in range(1, 9) :
+	print(h)
+# Simplification
+for _ in range(1, 9):
+    print(p * p)
+
+
+# 238
+g = 0
+d = 3
+n = 1
+o = g + g
+for g in range(3, 7) :
+	print(d * n)
+# Simplification
+for _ in range(3, 7):
+    print(d * n)
+
+
+# 239
+d = 4
+for d in range(2, 16) :
+	print(d / 8)
+# Simplification
+for d in range(2, 16):
+    print(d / 8)
+
+
+# 240
+k = 9
+q = k + k
+for k in range(9, 11) :
+	print(q)
+# Simplification
+for _ in range(9, 11):
+    print(k + k)
+
+
+# 241
+j = 7
+w = (j + 6)
+for j in range(6, 6, 2) :
+	print(j * j)
+# Simplification
+for j in range(6, 6, 2):
+    print(j * j)
+
+
+# 242
+c = 7
+k = c * c
+for c in range(0, 10, 1) :
+	print(c * 1)
+# Simplification
+for c in range(0, 10, 1):
+    print(c * 1)
+
+
+# 243
+h = 8
+u = (h * h)
+for h in range(2, 4) :
+	print(u)
+# Simplification
+for _ in range(2, 4):
+    print(h * h)
+
+
+# 244
+j = 8
+for j in range(4, 9, 2) :
+	print(j / 8)
+# Simplification
+for j in range(4, 9, 2):
+    print(j / 8)
+
+
+# 245
+r = 7
+h = 8
+f = 5
+h = 6
+k = (9 * 5)
+for r in range(2, 9, 1) :
+	print(k)
+# Simplification
+for _ in range(2, 9, 1):
+    print(k)
+
+
+# 246
+a = 8
+n = 4 / 0
+for a in range(7, 8, 1) :
+	print(a / 3)
+# Simplification
+for a in range(7, 8, 1):
+    print(a / 3)
+
+
+# 247
+t = 4
+for t in range(8, 10, 3) :
+	print(t)
+# Simplification
+for t in range(8, 10, 3):
+    print(t)
+
+
+# 248
+u = 1
+for u in range(1, 7, 3) :
+	print(u)
+# Simplification
+for u in range(1, 7, 3):
+    print(u)
+
+
+# 249
+q = 8
+for q in range(3, 10) :
+	print(q)
+# Simplification
+for q in range(3, 10):
+    print(q)
+
+
+# 250
+z = 9
+t = (z - z)
+for z in range(3, 9, 1) :
+	print(t)
+# Simplification
+for _ in range(3, 9, 1):
+    print(z - z)
+
+
+# 251
+r = 1
+f = (r / r)*(r - r)+(4 - r)
+for r in range(0, 12, 1) :
+	print(f)
+# Simplification
+for _ in range(0, 12, 1):
+    print(r / r * (r - r) + (4 - r))
+
+
+# 252
+x = 6
+h = 6
+m = 2
+o = 2
+a = (m - 7)*(x * 0)
+for o in range(3, 4) :
+	print(a)
+# Simplification
+for _ in range(3, 4):
+    print((m - 7) * (x * 0))
+
+
+# 253
+t = 4
+n = 7
+r = 7
+for n in range(0, 7) :
+	print(t)
+# Simplification
+for _ in range(0, 7):
+    print(t)
+
+
+# 254
+o = 3
+t = o - 6
+for o in range(8, 9) :
+	print(o * 6)
+# Simplification
+for o in range(8, 9):
+    print(o * 6)
+
+
+# 255
+o = 2
+u = 4 + o
+for o in range(9, 10) :
+	print(o * 0)
+# Simplification
+for o in range(9, 10):
+    print(o * 0)
+
+
+# 256
+r = 4
+for r in range(6, 1) :
+	print(r)
+# Simplification
+for r in range(6, 1):
+    print(r)
+
+
+# 257
+f = 6
+d = 9
+e = (d + 0)
+for f in range(0, 12, 2) :
+	print(e)
+# Simplification
+for _ in range(0, 12, 2):
+    print(d + 0)
+
+
+# 258
+v = 2
+for v in range(1, 10, 1) :
+	print(v * v)
+# Simplification
+for v in range(1, 10, 1):
+    print(v * v)
+
+
+# 259
+f = 8
+z = f - f
+for f in range(8, 9, 1) :
+	print(f / f)
+# Simplification
+for f in range(8, 9, 1):
+    print(f / f)
+
+
+# 260
+i = 2
+j = 3
+j = (3 - 1)
+for i in range(8, 11) :
+	print(j)
+# Simplification
+for _ in range(8, 11):
+    print(j)
+
+
+# 261
+j = 5
+z = 1
+f = 2
+h = 6
+for j in range(7, 8, 2) :
+	print(z)
+# Simplification
+for _ in range(7, 8, 2):
+    print(z)
+
+
+# 262
+k = 3
+for k in range(2, 14) :
+	print(k + k)
+# Simplification
+for k in range(2, 14):
+    print(k + k)
+
+
+# 263
+a = 6
+f = 0
+p = 7
+y = 3
+m = 5
+for f in range(4, 4, 1) :
+	print(m)
+# Simplification
+for _ in range(4, 4, 1):
+    print(m)
+
+
+# 264
+j = 0
+x = 8
+for x in range(5, 12) :
+	print(x + x)
+# Simplification
+for x in range(5, 12):
+    print(x + x)
+
+
+# 265
+m = 8
+d = 4
+y = 6
+b = 5 + 1
+for m in range(2, 10) :
+	print(b)
+# Simplification
+for _ in range(2, 10):
+    print(b)
+
+
+# 266
+l = 9
+e = 3
+for e in range(9, 7, 2) :
+	print(e)
+# Simplification
+for e in range(9, 7, 2):
+    print(e)
+
+
+# 267
+g = 3
+g = 9
+d = 4
+t = d + 3
+for d in range(6, 9) :
+	print(g / 5)
+# Simplification
+for _ in range(6, 9):
+    print(g / 5)
+
+
+# 268
+y = 3
+q = (8 - y)+(y - 4)
+for y in range(9, 8, 2) :
+	print(y / y)
+# Simplification
+for y in range(9, 8, 2):
+    print(y / y)
+
+
+# 269
+y = 9
+o = 6
+i = (3 + o)
+for y in range(4, 4) :
+	print(y / 4)
+# Simplification
+for y in range(4, 4):
+    print(y / 4)
+
+
+# 270
+g = 4
+b = 2
+y = (g - g)
+for b in range(8, 11, 2) :
+	print(g - 1)
+# Simplification
+for _ in range(8, 11, 2):
+    print(g - 1)
+
+
+# 271
+p = 7
+g = 6
+for p in range(5, 11, 3) :
+	print(p * 3)
+# Simplification
+for p in range(5, 11, 3):
+    print(p * 3)
+
+
+# 272
+s = 1
+i = 9
+for s in range(2, 4) :
+	print(i)
+# Simplification
+for _ in range(2, 4):
+    print(i)
+
+
+# 273
+m = 3
+s = 5
+e = m / 4
+for s in range(3, 13, 1) :
+	print(e)
+# Simplification
+for _ in range(3, 13, 1):
+    print(m / 4)
+
+
+# 274
+z = 7
+for z in range(5, 5) :
+	print(z)
+# Simplification
+for z in range(5, 5):
+    print(z)
+
+
+# 275
+w = 4
+x = 9
+for x in range(6, 5) :
+	print(x)
+# Simplification
+for x in range(6, 5):
+    print(x)
+
+
+# 276
+y = 2
+r = (y + y)-(y + y)
+for y in range(9, 7) :
+	print(r)
+# Simplification
+for _ in range(9, 7):
+    print(y + y - (y + y))
+
+
+# 277
+l = 6
+q = 2
+i = 2
+for l in range(4, 11) :
+	print(l / l)
+# Simplification
+for l in range(4, 11):
+    print(l / l)
+
+
+# 278
+y = 5
+b = (4 * 1)
+for y in range(2, 6, 1) :
+	print(b)
+# Simplification
+for _ in range(2, 6, 1):
+    print(b)
+
+
+# 279
+z = 6
+h = 2 * 0
+for z in range(0, 8, 1) :
+	print(h)
+# Simplification
+for _ in range(0, 8, 1):
+    print(h)
+
+
+# 280
+r = 9
+for r in range(4, 9, 3) :
+	print(r - 0)
+# Simplification
+for r in range(4, 9, 3):
+    print(r - 0)
+
+
+# 281
+j = 9
+c = 2
+s = c / c
+for c in range(1, 8, 1) :
+	print(s)
+# Simplification
+for _ in range(1, 8, 1):
+    print(c / c)
+
+
+# 282
+v = 6
+z = v / 0
+for v in range(4, 14, 3) :
+	print(v + 2)
+# Simplification
+for v in range(4, 14, 3):
+    print(v + 2)
+
+
+# 283
+j = 2
+l = 5
+n = l * 7
+for j in range(5, 6) :
+	print(n)
+# Simplification
+for _ in range(5, 6):
+    print(l * 7)
+
+
+# 284
+o = 6
+h = 2
+o = 6
+for o in range(5, 8, 1) :
+	print(o)
+# Simplification
+for o in range(5, 8, 1):
+    print(o)
+
+
+# 285
+u = 0
+y = (u * 8)
+for u in range(8, 8) :
+	print(u - u)
+# Simplification
+for u in range(8, 8):
+    print(u - u)
+
+
+# 286
+z = 4
+z = 3 * 8
+for z in range(5, 5) :
+	print(z)
+# Simplification
+for z in range(5, 5):
+    print(z)
+
+
+# 287
+z = 9
+l = 0
+p = l * 2
+for l in range(3, 11, 2) :
+	print(p)
+# Simplification
+for _ in range(3, 11, 2):
+    print(l * 2)
+
+
+# 288
+a = 8
+for a in range(9, 9, 2) :
+	print(a)
+# Simplification
+for a in range(9, 9, 2):
+    print(a)
+
+
+# 289
+u = 3
+z = 2
+j = 1
+a = z - 8
+for u in range(2, 3) :
+	print(a)
+# Simplification
+for _ in range(2, 3):
+    print(z - 8)
+
+
+# 290
+g = 4
+for g in range(9, 10, 2) :
+	print(g)
+# Simplification
+for g in range(9, 10, 2):
+    print(g)
+
+
+# 291
+w = 3
+a = (w + 4)
+for w in range(1, 6, 3) :
+	print(a)
+# Simplification
+for _ in range(1, 6, 3):
+    print(w + 4)
+
+
+# 292
+c = 0
+t = 0 + 8
+for c in range(7, 13, 2) :
+	print(t)
+# Simplification
+for _ in range(7, 13, 2):
+    print(t)
+
+
+# 293
+f = 5
+l = 4 / f
+for f in range(8, 1, 1) :
+	print(l)
+# Simplification
+for _ in range(8, 1, 1):
+    print(4 / f)
+
+
+# 294
+e = 0
+b = 5
+for b in range(6, 10) :
+	print(e)
+# Simplification
+for _ in range(6, 10):
+    print(e)
+
+
+# 295
+q = 0
+h = 5
+h = 6
+u = 5 * q
+for q in range(3, 7, 3) :
+	print(u)
+# Simplification
+for _ in range(3, 7, 3):
+    print(5 * q)
+
+
+# 296
+q = 5
+for q in range(9, 8, 1) :
+	print(q)
+# Simplification
+for q in range(9, 8, 1):
+    print(q)
+
+
+# 297
+w = 9
+for w in range(6, 3, 1) :
+	print(w)
+# Simplification
+for w in range(6, 3, 1):
+    print(w)
+
+
+# 298
+j = 1
+t = 9
+k = 4
+for k in range(7, 3) :
+	print(k)
+# Simplification
+for k in range(7, 3):
+    print(k)
+
+
+# 299
+o = 3
+j = 2
+for j in range(3, 17) :
+	print(o / o)
+# Simplification
+for _ in range(3, 17):
+    print(o / o)
+
+
+# 300
+v = 4
+w = 0
+n = 2
+c = 7
+y = 1 * 6
+for v in range(8, 10) :
+	print(y)
+# Simplification
+for _ in range(8, 10):
+    print(y)
+
+
+# 301
+c = 4
+n = 4 + 2
+for c in range(8, 8) :
+	print(n)
+# Simplification
+for _ in range(8, 8):
+    print(n)
+
+
+# 302
+k = 6
+a = k * k
+for k in range(1, 7) :
+	print(a)
+# Simplification
+for _ in range(1, 7):
+    print(k * k)
+
+
+# 303
+o = 2
+m = o * 2
+for o in range(2, 10, 3) :
+	print(m)
+# Simplification
+for _ in range(2, 10, 3):
+    print(o * 2)
+
+
+# 304
+l = 2
+t = (l * l)*(l + 3)
+for l in range(8, 10) :
+	print(t)
+# Simplification
+for _ in range(8, 10):
+    print(l * l * (l + 3))
+
+
+# 305
+j = 3
+p = 3
+l = 4
+p = (l + j)+(9 - 1)
+for l in range(4, 10) :
+	print(j / l)
+# Simplification
+for l in range(4, 10):
+    print(j / l)
+
+
+# 306
+h = 4
+p = (5 - h)+(h * 5)
+for h in range(7, 9) :
+	print(p)
+# Simplification
+for _ in range(7, 9):
+    print(5 - h + h * 5)
+
+
+# 307
+x = 8
+for x in range(9, 6, 3) :
+	print(x)
+# Simplification
+for x in range(9, 6, 3):
+    print(x)
+
+
+# 308
+l = 0
+q = 4
+for l in range(0, 7, 1) :
+	print(l)
+# Simplification
+for l in range(0, 7, 1):
+    print(l)
+
+
+# 309
+i = 9
+r = 5
+v = 1
+g = (i + 0)/(r * 4)+(0 - r)*(v * 1)/(v * v)/(v / r)*(3 - 6)
+for v in range(8, 9) :
+	print(g)
+# Simplification
+for _ in range(8, 9):
+    print((i + 0) / (r * 4) + (0 - r) * (v * 1) / (v * v) / (v / r) * (3 - 6))
+
+
+# 310
+b = 4
+x = 9
+j = 6
+for b in range(9, 3) :
+	print(x * 3)
+# Simplification
+for _ in range(9, 3):
+    print(x * 3)
+
+
+# 311
+g = 7
+k = 9
+s = (k + 8)-(k + g)
+for g in range(3, 13, 1) :
+	print(s)
+# Simplification
+for _ in range(3, 13, 1):
+    print(k + 8 - (k + g))
+
+
+# 312
+l = 0
+z = (l + l)-(l + l)
+for l in range(9, 12) :
+	print(z)
+# Simplification
+for _ in range(9, 12):
+    print(l + l - (l + l))
+
+
+# 313
+u = 3
+o = 4 / u
+for u in range(5, 12) :
+	print(o)
+# Simplification
+for _ in range(5, 12):
+    print(4 / u)
+
+
+# 314
+w = 9
+for w in range(0, 3) :
+	print(w + 8)
+# Simplification
+for w in range(0, 3):
+    print(w + 8)
+
+
+# 315
+d = 9
+for d in range(1, 4) :
+	print(d)
+# Simplification
+for d in range(1, 4):
+    print(d)
+
+
+# 316
+w = 1
+for w in range(0, 9, 2) :
+	print(w)
+# Simplification
+for w in range(0, 9, 2):
+    print(w)
+
+
+# 317
+o = 7
+m = 9
+l = 4
+l = 2
+d = (8 / m)+(8 + 6)
+for l in range(4, 5) :
+	print(d)
+# Simplification
+for _ in range(4, 5):
+    print(8 / m + (8 + 6))
+
+
+# 318
+k = 2
+m = 8 / 3
+for k in range(8, 4) :
+	print(m)
+# Simplification
+for _ in range(8, 4):
+    print(m)
+
+
+# 319
+o = 0
+i = 8 + o
+for o in range(9, 9, 1) :
+	print(i)
+# Simplification
+for _ in range(9, 9, 1):
+    print(8 + o)
+
+
+# 320
+c = 4
+a = c + 6
+for c in range(1, 11, 1) :
+	print(a)
+# Simplification
+for _ in range(1, 11, 1):
+    print(c + 6)
+
+
+# 321
+w = 0
+i = 3
+x = 0
+s = 0
+for x in range(7, 14, 1) :
+	print(i)
+# Simplification
+for _ in range(7, 14, 1):
+    print(i)
+
+
+# 322
+f = 7
+for f in range(8, 7, 2) :
+	print(f)
+# Simplification
+for f in range(8, 7, 2):
+    print(f)
+
+
+# 323
+c = 0
+n = 4
+f = (n / 4)/(n - n)/(1 / 0)+(7 - 4)
+for n in range(6, 10) :
+	print(f)
+# Simplification
+for _ in range(6, 10):
+    print(n / 4 / (n - n) / (1 / 0) + (7 - 4))
+
+
+# 324
+w = 0
+g = 5 - w
+for w in range(3, 14, 2) :
+	print(g)
+# Simplification
+for _ in range(3, 14, 2):
+    print(5 - w)
+
+
+# 325
+g = 1
+n = 6
+q = n / 3
+for g in range(1, 16) :
+	print(g * g)
+# Simplification
+for g in range(1, 16):
+    print(g * g)
+
+
+# 326
+c = 6
+t = 9
+d = 6
+x = (c / 5)+(t - 8)
+for c in range(5, 3) :
+	print(x)
+# Simplification
+for _ in range(5, 3):
+    print(c / 5 + (t - 8))
+
+
+# 327
+b = 4
+r = (b + b)
+for b in range(7, 5) :
+	print(r)
+# Simplification
+for _ in range(7, 5):
+    print(b + b)
+
+
+# 328
+x = 0
+e = 0
+p = 6
+l = e / p
+for p in range(7, 4) :
+	print(l)
+# Simplification
+for _ in range(7, 4):
+    print(e / p)
+
+
+# 329
+y = 5
+x = y * y
+for y in range(3, 5, 2) :
+	print(y * y)
+# Simplification
+for y in range(3, 5, 2):
+    print(y * y)
+
+
+# 330
+g = 5
+y = 2
+p = 2
+q = (3 / p)
+for p in range(5, 6, 2) :
+	print(p + 2)
+# Simplification
+for p in range(5, 6, 2):
+    print(p + 2)
+
+
+# 331
+j = 4
+i = 6
+q = i - 7
+for i in range(7, 14) :
+	print(q)
+# Simplification
+for _ in range(7, 14):
+    print(i - 7)
+
+
+# 332
+f = 5
+y = 2 + 6
+for f in range(6, 8) :
+	print(y)
+# Simplification
+for _ in range(6, 8):
+    print(y)
+
+
+# 333
+u = 4
+f = 0
+for f in range(2, 2, 3) :
+	print(f - f)
+# Simplification
+for f in range(2, 2, 3):
+    print(f - f)
+
+
+# 334
+x = 9
+k = 9 + x
+for x in range(4, 9) :
+	print(k)
+# Simplification
+for _ in range(4, 9):
+    print(9 + x)
+
+
+# 335
+e = 4
+f = 1
+n = f + 0
+for f in range(8, 9, 3) :
+	print(f - e)
+# Simplification
+for f in range(8, 9, 3):
+    print(f - e)
+
+
+# 336
+a = 7
+m = 5
+for m in range(9, 7, 3) :
+	print(a)
+# Simplification
+for _ in range(9, 7, 3):
+    print(a)
+
+
+# 337
+q = 5
+b = 0
+p = b + b
+for q in range(7, 10) :
+	print(p)
+# Simplification
+for _ in range(7, 10):
+    print(b + b)
+
+
+# 338
+i = 5
+k = (8 * 9)/(2 - 4)
+for i in range(1, 3) :
+	print(k)
+# Simplification
+for _ in range(1, 3):
+    print(8 * 9 / (2 - 4))
+
+
+# 339
+m = 0
+o = 5
+t = 4
+i = 7
+l = 1
+for i in range(4, 12, 3) :
+	print(i)
+# Simplification
+for i in range(4, 12, 3):
+    print(i)
+
+
+# 340
+o = 1
+for o in range(1, 14) :
+	print(o)
+# Simplification
+for o in range(1, 14):
+    print(o)
+
+
+# 341
+f = 2
+h = 7
+b = 6
+for b in range(4, 8) :
+	print(h)
+# Simplification
+for _ in range(4, 8):
+    print(h)
+
+
+# 342
+z = 1
+c = 3
+x = 1
+e = z + z
+for x in range(8, 5, 1) :
+	print(e)
+# Simplification
+for _ in range(8, 5, 1):
+    print(z + z)
+
+
+# 343
+d = 1
+for d in range(0, 5, 2) :
+	print(d)
+# Simplification
+for d in range(0, 5, 2):
+    print(d)
+
+
+# 344
+r = 0
+f = 3
+q = (3 + f)+(5 / f)-(r - r)/(f + 3)
+for r in range(0, 15, 1) :
+	print(q)
+# Simplification
+for _ in range(0, 15, 1):
+    print(3 + f + 5 / f - (r - r) / (f + 3))
+
+
+# 345
+d = 4
+s = 9
+g = 7
+t = 3
+m = 2
+for m in range(7, 8, 1) :
+	print(g - d)
+# Simplification
+for _ in range(7, 8, 1):
+    print(g - d)
+
+
+# 346
+x = 7
+d = 0
+b = 3 / d
+for x in range(9, 12) :
+	print(x / d)
+# Simplification
+for x in range(9, 12):
+    print(x / d)
+
+
+# 347
+z = 1
+v = 4
+for v in range(5, 10, 1) :
+	print(v / v)
+# Simplification
+for v in range(5, 10, 1):
+    print(v / v)
+
+
+# 348
+a = 4
+f = 5
+a = 3
+o = 4
+d = f - 3
+for o in range(2, 6, 1) :
+	print(d)
+# Simplification
+for _ in range(2, 6, 1):
+    print(f - 3)
+
+
+# 349
+e = 7
+for e in range(1, 3, 2) :
+	print(e)
+# Simplification
+for e in range(1, 3, 2):
+    print(e)
+
+
+# 350
+m = 6
+j = (m / m)
+for m in range(0, 9, 1) :
+	print(j)
+# Simplification
+for _ in range(0, 9, 1):
+    print(m / m)
+
+
+# 351
+q = 4
+f = 4
+g = 6
+o = 9
+s = (9 - 7)*(1 * 0)+(g * q)
+for q in range(1, 11) :
+	print(s)
+# Simplification
+for _ in range(1, 11):
+    print((9 - 7) * (1 * 0) + g * q)
+
+
+# 352
+p = 3
+j = 0
+o = 9 - 8
+for p in range(1, 7, 2) :
+	print(p / j)
+# Simplification
+for p in range(1, 7, 2):
+    print(p / j)
+
+
+# 353
+l = 1
+for l in range(9, 17) :
+	print(l)
+# Simplification
+for l in range(9, 17):
+    print(l)
+
+
+# 354
+j = 8
+z = 1 / j
+for j in range(6, 8) :
+	print(j - 9)
+# Simplification
+for j in range(6, 8):
+    print(j - 9)
+
+
+# 355
+l = 5
+for l in range(8, 5) :
+	print(l)
+# Simplification
+for l in range(8, 5):
+    print(l)
+
+
+# 356
+i = 4
+l = 2 / 5
+for i in range(3, 2) :
+	print(l)
+# Simplification
+for _ in range(3, 2):
+    print(l)
+
+
+# 357
+a = 8
+c = 8
+c = 9
+u = 8 - 2
+for c in range(2, 4, 1) :
+	print(u)
+# Simplification
+for _ in range(2, 4, 1):
+    print(u)
+
+
+# 358
+w = 1
+f = (9 * w)
+for w in range(2, 11, 3) :
+	print(w + 5)
+# Simplification
+for w in range(2, 11, 3):
+    print(w + 5)
+
+
+# 359
+w = 3
+s = w + 3
+for w in range(9, 12) :
+	print(s)
+# Simplification
+for _ in range(9, 12):
+    print(w + 3)
+
+
+# 360
+j = 3
+w = 1
+p = 9
+for p in range(6, 10) :
+	print(w)
+# Simplification
+for _ in range(6, 10):
+    print(w)
+
+
+# 361
+r = 5
+t = 1
+e = t + 8
+for r in range(5, 5) :
+	print(e)
+# Simplification
+for _ in range(5, 5):
+    print(t + 8)
+
+
+# 362
+u = 6
+j = 0 * 2
+for u in range(3, 9) :
+	print(j)
+# Simplification
+for _ in range(3, 9):
+    print(j)
+
+
+# 363
+u = 0
+t = 1
+j = 1
+r = 8 + j
+for u in range(5, 5, 1) :
+	print(t + 7)
+# Simplification
+for _ in range(5, 5, 1):
+    print(t + 7)
+
+
+# 364
+j = 9
+f = 0
+t = f + 0
+for f in range(4, 11, 2) :
+	print(t)
+# Simplification
+for _ in range(4, 11, 2):
+    print(f + 0)
+
+
+# 365
+l = 3
+w = (l * l)
+for l in range(1, 11, 1) :
+	print(w)
+# Simplification
+for _ in range(1, 11, 1):
+    print(l * l)
+
+
+# 366
+u = 8
+for u in range(3, 8) :
+	print(u * u)
+# Simplification
+for u in range(3, 8):
+    print(u * u)
+
+
+# 367
+s = 4
+o = 3
+m = 9
+r = 3
+m = 8
+j = 3 / o
+for s in range(5, 8) :
+	print(s - 3)
+# Simplification
+for s in range(5, 8):
+    print(s - 3)
+
+
+# 368
+m = 9
+f = m * 6
+for m in range(2, 4, 2) :
+	print(f)
+# Simplification
+for _ in range(2, 4, 2):
+    print(m * 6)
+
+
+# 369
+p = 0
+n = 6
+e = 2
+w = 6
+t = (p + 2)
+for p in range(6, 6) :
+	print(t)
+# Simplification
+for _ in range(6, 6):
+    print(p + 2)
+
+
+# 370
+w = 9
+x = 7
+for w in range(3, 5, 2) :
+	print(w)
+# Simplification
+for w in range(3, 5, 2):
+    print(w)
+
+
+# 371
+m = 0
+q = 6
+p = 3
+for p in range(7, 7) :
+	print(m)
+# Simplification
+for _ in range(7, 7):
+    print(m)
+
+
+# 372
+b = 4
+v = 8
+f = 6
+f = 2 / 2
+for f in range(6, 10) :
+	print(f)
+# Simplification
+for f in range(6, 10):
+    print(f)
+
+
+# 373
+t = 3
+j = (9 - 1)
+for t in range(0, 2) :
+	print(j)
+# Simplification
+for _ in range(0, 2):
+    print(j)
+
+
+# 374
+v = 2
+p = v + 8
+for v in range(7, 11) :
+	print(v + v)
+# Simplification
+for v in range(7, 11):
+    print(v + v)
+
+
+# 375
+o = 7
+c = 0 / o
+for o in range(3, 6, 3) :
+	print(c)
+# Simplification
+for _ in range(3, 6, 3):
+    print(0 / o)
+
+
+# 376
+h = 0
+z = 1
+t = (1 - 7)*(z * 8)+(z * z)
+for z in range(5, 9, 1) :
+	print(t)
+# Simplification
+for _ in range(5, 9, 1):
+    print((1 - 7) * (z * 8) + z * z)
+
+
+# 377
+h = 2
+u = (h - 8)
+for h in range(3, 6) :
+	print(u)
+# Simplification
+for _ in range(3, 6):
+    print(h - 8)
+
+
+# 378
+p = 0
+c = 1
+e = 0
+for c in range(1, 16) :
+	print(p * c)
+# Simplification
+for c in range(1, 16):
+    print(p * c)
+
+
+# 379
+m = 6
+for m in range(6, 11, 2) :
+	print(m)
+# Simplification
+for m in range(6, 11, 2):
+    print(m)
+
+
+# 380
+z = 7
+m = (3 - z)-(7 * z)/(z - 3)*(3 * z)
+for z in range(7, 8, 1) :
+	print(m)
+# Simplification
+for _ in range(7, 8, 1):
+    print(3 - z - 7 * z / (z - 3) * (3 * z))
+
+
+# 381
+q = 6
+v = 9 * q
+for q in range(3, 16, 3) :
+	print(v)
+# Simplification
+for _ in range(3, 16, 3):
+    print(9 * q)
+
+
+# 382
+t = 8
+o = 8
+d = 0 - t
+for o in range(8, 11) :
+	print(d)
+# Simplification
+for _ in range(8, 11):
+    print(0 - t)
+
+
+# 383
+r = 6
+w = 0
+l = 5
+m = (9 / 3)*(r * w)-(w * 2)-(1 + l)+(r / 5)
+for w in range(8, 8) :
+	print(m)
+# Simplification
+for _ in range(8, 8):
+    print(9 / 3 * (r * w) - w * 2 - (1 + l) + r / 5)
+
+
+# 384
+x = 8
+e = (1 + 8)
+for x in range(0, 9, 3) :
+	print(e)
+# Simplification
+for _ in range(0, 9, 3):
+    print(e)
+
+
+# 385
+l = 6
+a = (l - l)
+for l in range(0, 3) :
+	print(a)
+# Simplification
+for _ in range(0, 3):
+    print(l - l)
+
+
+# 386
+m = 3
+v = 8
+f = 6
+d = (4 - f)
+for m in range(5, 13, 3) :
+	print(d)
+# Simplification
+for _ in range(5, 13, 3):
+    print(4 - f)
+
+
+# 387
+z = 4
+for z in range(4, 13) :
+	print(z)
+# Simplification
+for z in range(4, 13):
+    print(z)
+
+
+# 388
+l = 5
+u = 6 / 2
+for l in range(8, 11) :
+	print(u)
+# Simplification
+for _ in range(8, 11):
+    print(u)
+
+
+# 389
+b = 9
+for b in range(5, 6) :
+	print(b / 2)
+# Simplification
+for b in range(5, 6):
+    print(b / 2)
+
+
+# 390
+u = 3
+z = 4
+w = 6
+j = 4
+d = 0
+for w in range(6, 14) :
+	print(z)
+# Simplification
+for _ in range(6, 14):
+    print(z)
+
+
+# 391
+y = 1
+d = (7 / y)/(7 * 4)
+for y in range(9, 5, 1) :
+	print(y - y)
+# Simplification
+for y in range(9, 5, 1):
+    print(y - y)
+
+
+# 392
+q = 1
+for q in range(9, 8, 2) :
+	print(q)
+# Simplification
+for q in range(9, 8, 2):
+    print(q)
+
+
+# 393
+n = 7
+w = 2
+i = 0
+o = 1
+m = 0
+for i in range(2, 13, 1) :
+	print(o)
+# Simplification
+for _ in range(2, 13, 1):
+    print(o)
+
+
+# 394
+h = 6
+d = 2
+f = (2 / d)/(h / h)/(d / 7)
+for d in range(4, 12) :
+	print(f)
+# Simplification
+for _ in range(4, 12):
+    print(2 / d / (h / h) / (d / 7))
+
+
+# 395
+z = 2
+h = 2
+l = 8
+c = (h * 3)/(h * 2)
+for z in range(3, 4, 2) :
+	print(c)
+# Simplification
+for _ in range(3, 4, 2):
+    print(h * 3 / (h * 2))
+
+
+# 396
+d = 4
+f = (d / 4)
+for d in range(2, 5) :
+	print(d - 5)
+# Simplification
+for d in range(2, 5):
+    print(d - 5)
+
+
+# 397
+u = 1
+for u in range(5, 8) :
+	print(u / u)
+# Simplification
+for u in range(5, 8):
+    print(u / u)
+
+
+# 398
+d = 9
+p = 0
+for d in range(1, 10) :
+	print(d)
+# Simplification
+for d in range(1, 10):
+    print(d)
+
+
+# 399
+n = 8
+q = (3 + 1)
+for n in range(9, 10, 3) :
+	print(n / 2)
+# Simplification
+for n in range(9, 10, 3):
+    print(n / 2)
+
+
+# 400
+g = 9
+v = (g / 2)+(g - g)-(4 * 4)+(g - g)+(0 - g)
+for g in range(9, 17) :
+	print(v)
+# Simplification
+for _ in range(9, 17):
+    print(g / 2 + (g - g) - 4 * 4 + (g - g) + (0 - g))
+
+
+# 401
+d = 1
+g = (9 * d)
+for d in range(7, 11, 3) :
+	print(g)
+# Simplification
+for _ in range(7, 11, 3):
+    print(9 * d)
+
+
+# 402
+d = 3
+for d in range(2, 9, 3) :
+	print(d * 4)
+# Simplification
+for d in range(2, 9, 3):
+    print(d * 4)
+
+
+# 403
+e = 5
+for e in range(5, 13) :
+	print(e)
+# Simplification
+for e in range(5, 13):
+    print(e)
+
+
+# 404
+y = 1
+for y in range(7, 10, 2) :
+	print(y * 3)
+# Simplification
+for y in range(7, 10, 2):
+    print(y * 3)
+
+
+# 405
+h = 7
+o = h - h
+for h in range(8, 5, 2) :
+	print(h / h)
+# Simplification
+for h in range(8, 5, 2):
+    print(h / h)
+
+
+# 406
+b = 0
+j = 8
+for j in range(0, 5, 1) :
+	print(b)
+# Simplification
+for _ in range(0, 5, 1):
+    print(b)
+
+
+# 407
+y = 4
+c = (5 + 1)
+for y in range(0, 9, 3) :
+	print(c)
+# Simplification
+for _ in range(0, 9, 3):
+    print(c)
+
+
+# 408
+q = 2
+a = 2
+for a in range(3, 4, 1) :
+	print(a)
+# Simplification
+for a in range(3, 4, 1):
+    print(a)
+
+
+# 409
+w = 0
+j = w / 7
+for w in range(6, 7, 1) :
+	print(j)
+# Simplification
+for _ in range(6, 7, 1):
+    print(w / 7)
+
+
+# 410
+z = 7
+s = (z / z)-(z / z)
+for z in range(1, 14) :
+	print(z + 7)
+# Simplification
+for z in range(1, 14):
+    print(z + 7)
+
+
+# 411
+u = 2
+d = (u + 2)
+for u in range(4, 4) :
+	print(d)
+# Simplification
+for _ in range(4, 4):
+    print(u + 2)
+
+
+# 412
+b = 6
+o = (b + b)
+for b in range(6, 14) :
+	print(b + b)
+# Simplification
+for b in range(6, 14):
+    print(b + b)
+
+
+# 413
+y = 1
+a = 0 - 0
+for y in range(0, 13, 3) :
+	print(a)
+# Simplification
+for _ in range(0, 13, 3):
+    print(a)
+
+
+# 414
+r = 4
+n = (r * 3)
+for r in range(1, 8, 3) :
+	print(n)
+# Simplification
+for _ in range(1, 8, 3):
+    print(r * 3)
+
+
+# 415
+y = 5
+n = 1 * y
+for y in range(7, 13, 2) :
+	print(n)
+# Simplification
+for _ in range(7, 13, 2):
+    print(1 * y)
+
+
+# 416
+b = 9
+g = (b - b)
+for b in range(2, 10) :
+	print(g)
+# Simplification
+for _ in range(2, 10):
+    print(b - b)
+
+
+# 417
+n = 2
+y = 3
+for n in range(7, 6, 1) :
+	print(y)
+# Simplification
+for _ in range(7, 6, 1):
+    print(y)
+
+
+# 418
+l = 4
+k = 0
+for k in range(6, 11) :
+	print(l / l)
+# Simplification
+for _ in range(6, 11):
+    print(l / l)
+
+
+# 419
+z = 3
+e = 1
+s = 8 / e
+for z in range(4, 7, 3) :
+	print(s)
+# Simplification
+for _ in range(4, 7, 3):
+    print(8 / e)
+
+
+# 420
+y = 9
+for y in range(9, 11) :
+	print(y / 9)
+# Simplification
+for y in range(9, 11):
+    print(y / 9)
+
+
+# 421
+k = 7
+for k in range(7, 7) :
+	print(k)
+# Simplification
+for k in range(7, 7):
+    print(k)
+
+
+# 422
+n = 8
+f = 9
+z = (7 - n)*(n / n)
+for f in range(5, 5, 2) :
+	print(z)
+# Simplification
+for _ in range(5, 5, 2):
+    print((7 - n) * (n / n))
+
+
+# 423
+m = 5
+j = 4
+d = 3
+q = 1
+j = 1
+e = (1 - 7)/(9 - j)+(j * m)
+for d in range(6, 11) :
+	print(e)
+# Simplification
+for _ in range(6, 11):
+    print((1 - 7) / (9 - j) + j * m)
+
+
+# 424
+t = 8
+o = (7 - 4)*(0 + 5)
+for t in range(7, 11, 2) :
+	print(o)
+# Simplification
+for _ in range(7, 11, 2):
+    print((7 - 4) * (0 + 5))
+
+
+# 425
+n = 6
+c = 7 - 2
+for n in range(6, 12) :
+	print(c)
+# Simplification
+for _ in range(6, 12):
+    print(c)
+
+
+# 426
+m = 4
+for m in range(3, 8, 3) :
+	print(m)
+# Simplification
+for m in range(3, 8, 3):
+    print(m)
+
+
+# 427
+s = 3
+for s in range(4, 14, 3) :
+	print(s)
+# Simplification
+for s in range(4, 14, 3):
+    print(s)
+
+
+# 428
+y = 3
+for y in range(9, 17) :
+	print(y)
+# Simplification
+for y in range(9, 17):
+    print(y)
+
+
+# 429
+t = 3
+w = (8 * t)+(t + 4)/(t - t)-(0 * t)-(t + 1)
+for t in range(6, 13, 1) :
+	print(w)
+# Simplification
+for _ in range(6, 13, 1):
+    print(8 * t + (t + 4) / (t - t) - 0 * t - (t + 1))
+
+
+# 430
+s = 6
+v = 8
+e = 4
+n = (s + v)*(0 - 5)
+for s in range(8, 12) :
+	print(n)
+# Simplification
+for _ in range(8, 12):
+    print((s + v) * (0 - 5))
+
+
+# 431
+k = 8
+o = 2
+z = 2
+x = 3
+m = (k - z)
+for z in range(2, 5) :
+	print(m)
+# Simplification
+for _ in range(2, 5):
+    print(k - z)
+
+
+# 432
+y = 2
+t = 1
+p = 8 * 7
+for t in range(3, 12) :
+	print(p)
+# Simplification
+for _ in range(3, 12):
+    print(p)
+
+
+# 433
+h = 3
+o = 1
+y = 4 * o
+for o in range(2, 4, 2) :
+	print(h / o)
+# Simplification
+for o in range(2, 4, 2):
+    print(h / o)
+
+
+# 434
+v = 0
+w = 7
+z = 6
+f = 7
+for w in range(5, 8, 3) :
+	print(f)
+# Simplification
+for _ in range(5, 8, 3):
+    print(f)
+
+
+# 435
+y = 8
+l = 3
+m = l - 3
+for y in range(9, 3, 2) :
+	print(y / y)
+# Simplification
+for y in range(9, 3, 2):
+    print(y / y)
+
+
+# 436
+c = 4
+d = 3
+b = 2 - c
+for d in range(2, 9) :
+	print(b)
+# Simplification
+for _ in range(2, 9):
+    print(2 - c)
+
+
+# 437
+l = 8
+s = 0
+a = 6
+p = 1 - 7
+for s in range(7, 11) :
+	print(p)
+# Simplification
+for _ in range(7, 11):
+    print(p)
+
+
+# 438
+r = 5
+p = 0 + r
+for r in range(9, 3, 2) :
+	print(p)
+# Simplification
+for _ in range(9, 3, 2):
+    print(0 + r)
+
+
+# 439
+j = 6
+l = 7
+for l in range(4, 8, 2) :
+	print(l)
+# Simplification
+for l in range(4, 8, 2):
+    print(l)
+
+
+# 440
+y = 5
+q = (y / 6)
+for y in range(6, 8) :
+	print(q)
+# Simplification
+for _ in range(6, 8):
+    print(y / 6)
+
+
+# 441
+w = 4
+i = 4
+z = (w / 4)
+for i in range(7, 11, 3) :
+	print(z)
+# Simplification
+for _ in range(7, 11, 3):
+    print(w / 4)
+
+
+# 442
+l = 4
+w = 5
+f = 1
+v = 9
+d = 4
+for l in range(1, 7, 1) :
+	print(w)
+# Simplification
+for _ in range(1, 7, 1):
+    print(w)
+
+
+# 443
+j = 0
+b = 5
+l = 6
+e = 9 / b
+for l in range(9, 10) :
+	print(e)
+# Simplification
+for _ in range(9, 10):
+    print(9 / b)
+
+
+# 444
+y = 1
+y = 0
+o = 4
+a = (6 / 0)
+for o in range(4, 8) :
+	print(o * y)
+# Simplification
+for o in range(4, 8):
+    print(o * y)
+
+
+# 445
+g = 5
+k = 2
+p = 6
+e = 0
+p = (6 / p)
+for p in range(0, 6, 1) :
+	print(k * k)
+# Simplification
+for _ in range(0, 6, 1):
+    print(k * k)
+
+
+# 446
+s = 4
+for s in range(7, 7, 2) :
+	print(s)
+# Simplification
+for s in range(7, 7, 2):
+    print(s)
+
+
+# 447
+i = 6
+x = 0
+a = (x / i)
+for x in range(6, 11) :
+	print(i / 1)
+# Simplification
+for _ in range(6, 11):
+    print(i / 1)
+
+
+# 448
+a = 5
+g = 5
+i = (a / 0)
+for g in range(2, 7, 1) :
+	print(i)
+# Simplification
+for _ in range(2, 7, 1):
+    print(a / 0)
+
+
+# 449
+b = 3
+a = 5 + 5
+for b in range(1, 14, 3) :
+	print(a)
+# Simplification
+for _ in range(1, 14, 3):
+    print(a)
+
+
+# 450
+l = 2
+q = 8
+x = 6 * 7
+for l in range(4, 10) :
+	print(q + 3)
+# Simplification
+for _ in range(4, 10):
+    print(q + 3)
+
+
+# 451
+g = 3
+h = 3
+l = 2
+c = 5 * 3
+for h in range(1, 2) :
+	print(c)
+# Simplification
+for _ in range(1, 2):
+    print(c)
+
+
+# 452
+p = 8
+u = 3
+g = 5 * 1
+for u in range(0, 6) :
+	print(g)
+# Simplification
+for _ in range(0, 6):
+    print(g)
+
+
+# 453
+n = 3
+g = (7 + n)
+for n in range(9, 2, 3) :
+	print(n - 7)
+# Simplification
+for n in range(9, 2, 3):
+    print(n - 7)
+
+
+# 454
+f = 7
+for f in range(9, 10) :
+	print(f * f)
+# Simplification
+for f in range(9, 10):
+    print(f * f)
+
+
+# 455
+t = 2
+for t in range(2, 10) :
+	print(t - t)
+# Simplification
+for t in range(2, 10):
+    print(t - t)
+
+
+# 456
+j = 7
+w = j + 2
+for j in range(9, 4, 2) :
+	print(w)
+# Simplification
+for _ in range(9, 4, 2):
+    print(j + 2)
+
+
+# 457
+w = 6
+o = 5
+h = w / w
+for o in range(8, 13, 1) :
+	print(h)
+# Simplification
+for _ in range(8, 13, 1):
+    print(w / w)
+
+
+# 458
+s = 0
+x = 5
+b = 1
+for b in range(2, 7) :
+	print(s)
+# Simplification
+for _ in range(2, 7):
+    print(s)
+
+
+# 459
+j = 8
+o = 4 * 2
+for j in range(6, 5) :
+	print(o)
+# Simplification
+for _ in range(6, 5):
+    print(o)
+
+
+# 460
+q = 3
+x = 2
+for q in range(9, 9) :
+	print(q)
+# Simplification
+for q in range(9, 9):
+    print(q)
+
+
+# 461
+h = 6
+w = h - h
+for h in range(5, 14, 2) :
+	print(w)
+# Simplification
+for _ in range(5, 14, 2):
+    print(h - h)
+
+
+# 462
+g = 8
+g = 4 * 6
+for g in range(8, 4, 2) :
+	print(g / 9)
+# Simplification
+for g in range(8, 4, 2):
+    print(g / 9)
+
+
+# 463
+p = 3
+x = 7
+s = 7 * 2
+for x in range(2, 7, 1) :
+	print(s)
+# Simplification
+for _ in range(2, 7, 1):
+    print(s)
+
+
+# 464
+x = 8
+m = 1
+h = m - 8
+for m in range(6, 15, 2) :
+	print(h)
+# Simplification
+for _ in range(6, 15, 2):
+    print(m - 8)
+
+
+# 465
+v = 7
+i = 3
+q = 2
+h = 1 - 5
+for q in range(9, 5, 2) :
+	print(h)
+# Simplification
+for _ in range(9, 5, 2):
+    print(h)
+
+
+# 466
+c = 9
+g = 9 * c
+for c in range(2, 8) :
+	print(g)
+# Simplification
+for _ in range(2, 8):
+    print(9 * c)
+
+
+# 467
+u = 6
+w = 5
+z = 2
+q = (8 - z)
+for u in range(8, 6) :
+	print(q)
+# Simplification
+for _ in range(8, 6):
+    print(8 - z)
+
+
+# 468
+d = 0
+for d in range(7, 13) :
+	print(d)
+# Simplification
+for d in range(7, 13):
+    print(d)
+
+
+# 469
+q = 6
+x = (2 - 7)
+for q in range(0, 4) :
+	print(x)
+# Simplification
+for _ in range(0, 4):
+    print(x)
+
+
+# 470
+m = 1
+e = m - m
+for m in range(6, 7, 1) :
+	print(e)
+# Simplification
+for _ in range(6, 7, 1):
+    print(m - m)
+
+
+# 471
+r = 4
+t = r * 8
+for r in range(6, 10, 3) :
+	print(t)
+# Simplification
+for _ in range(6, 10, 3):
+    print(r * 8)
+
+
+# 472
+h = 4
+f = 3
+l = 4
+d = l + f
+for l in range(2, 1, 3) :
+	print(d)
+# Simplification
+for _ in range(2, 1, 3):
+    print(l + f)
+
+
+# 473
+d = 7
+t = 1 - 5
+for d in range(9, 12, 3) :
+	print(d - 4)
+# Simplification
+for d in range(9, 12, 3):
+    print(d - 4)
+
+
+# 474
+i = 5
+e = 9
+for e in range(4, 12) :
+	print(i)
+# Simplification
+for _ in range(4, 12):
+    print(i)
+
+
+# 475
+v = 0
+n = 5 - v
+for v in range(0, 8, 3) :
+	print(n)
+# Simplification
+for _ in range(0, 8, 3):
+    print(5 - v)
+
+
+# 476
+v = 4
+for v in range(9, 4, 3) :
+	print(v)
+# Simplification
+for v in range(9, 4, 3):
+    print(v)
+
+
+# 477
+l = 3
+for l in range(8, 9, 2) :
+	print(l)
+# Simplification
+for l in range(8, 9, 2):
+    print(l)
+
+
+# 478
+d = 2
+o = 6
+g = (2 + d)/(8 * 0)*(o + d)+(4 * o)
+for o in range(1, 8) :
+	print(o / o)
+# Simplification
+for o in range(1, 8):
+    print(o / o)
+
+
+# 479
+i = 9
+t = 8
+p = t + 8
+for i in range(2, 6) :
+	print(t / t)
+# Simplification
+for _ in range(2, 6):
+    print(t / t)
+
+
+# 480
+v = 7
+p = 2
+for v in range(3, 10, 1) :
+	print(p)
+# Simplification
+for _ in range(3, 10, 1):
+    print(p)
+
+
+# 481
+r = 5
+d = 5
+for d in range(6, 12, 3) :
+	print(d)
+# Simplification
+for d in range(6, 12, 3):
+    print(d)
+
+
+# 482
+i = 6
+for i in range(4, 3) :
+	print(i)
+# Simplification
+for i in range(4, 3):
+    print(i)
+
+
+# 483
+s = 6
+b = (s / 2)+(s + s)
+for s in range(0, 10, 1) :
+	print(b)
+# Simplification
+for _ in range(0, 10, 1):
+    print(s / 2 + (s + s))
+
+
+# 484
+o = 9
+q = (o / o)*(4 + 0)+(2 - 9)-(o - o)
+for o in range(6, 7) :
+	print(q)
+# Simplification
+for _ in range(6, 7):
+    print(o / o * (4 + 0) + (2 - 9) - (o - o))
+
+
+# 485
+a = 5
+for a in range(3, 13, 3) :
+	print(a)
+# Simplification
+for a in range(3, 13, 3):
+    print(a)
+
+
+# 486
+e = 5
+g = (e - 4)-(4 / e)
+for e in range(9, 5) :
+	print(e / e)
+# Simplification
+for e in range(9, 5):
+    print(e / e)
+
+
+# 487
+d = 1
+u = 7
+for d in range(1, 3) :
+	print(d * 7)
+# Simplification
+for d in range(1, 3):
+    print(d * 7)
+
+
+# 488
+a = 3
+p = 5 * a
+for a in range(7, 11, 3) :
+	print(a * 5)
+# Simplification
+for a in range(7, 11, 3):
+    print(a * 5)
+
+
+# 489
+r = 7
+b = 5 + 8
+for r in range(4, 2) :
+	print(r + r)
+# Simplification
+for r in range(4, 2):
+    print(r + r)
+
+
+# 490
+v = 2
+t = 8
+u = 1
+a = (9 / u)
+for v in range(7, 5, 3) :
+	print(a)
+# Simplification
+for _ in range(7, 5, 3):
+    print(9 / u)
+
+
+# 491
+y = 0
+p = 5
+k = 0
+y = 5 + p
+for k in range(9, 7) :
+	print(y)
+# Simplification
+for _ in range(9, 7):
+    print(5 + p)
+
+
+# 492
+r = 3
+for r in range(8, 9, 1) :
+	print(r)
+# Simplification
+for r in range(8, 9, 1):
+    print(r)
+
+
+# 493
+z = 4
+s = z * 3
+for z in range(8, 14, 3) :
+	print(s)
+# Simplification
+for _ in range(8, 14, 3):
+    print(z * 3)
+
+
+# 494
+m = 1
+h = 5
+x = (0 / 7)
+for m in range(8, 11) :
+	print(x)
+# Simplification
+for _ in range(8, 11):
+    print(x)
+
+
+# 495
+z = 7
+for z in range(9, 11) :
+	print(z + z)
+# Simplification
+for z in range(9, 11):
+    print(z + z)
+
+
+# 496
+e = 9
+c = 6
+f = c - c
+for c in range(9, 8, 3) :
+	print(f)
+# Simplification
+for _ in range(9, 8, 3):
+    print(c - c)
+
+
+# 497
+r = 8
+c = 4
+y = 9
+p = c + y
+for r in range(0, 12, 1) :
+	print(p)
+# Simplification
+for _ in range(0, 12, 1):
+    print(c + y)
+
+
+# 498
+l = 4
+l = 4
+r = 1 / l
+for l in range(4, 1, 3) :
+	print(l * 2)
+# Simplification
+for l in range(4, 1, 3):
+    print(l * 2)
+
+
+# 499
+w = 5
+for w in range(2, 10, 2) :
+	print(w)
+# Simplification
+for w in range(2, 10, 2):
+    print(w)
+
+
+# 500
+n = 0
+a = 9
+for a in range(1, 5, 1) :
+	print(n)
+# Simplification
+for _ in range(1, 5, 1):
+    print(n)
+
+
+# 501
+q = 6
+e = 7
+w = (q + 0)*(9 - e)/(1 / 4)*(6 - 3)/(4 + q)
+for e in range(7, 6) :
+	print(e * q)
+# Simplification
+for e in range(7, 6):
+    print(e * q)
+
+
+# 502
+n = 2
+z = (n / n)*(n / n)
+for n in range(5, 12) :
+	print(n / 8)
+# Simplification
+for n in range(5, 12):
+    print(n / 8)
+
+
+# 503
+v = 9
+k = 3
+j = 5
+for k in range(9, 3, 1) :
+	print(v)
+# Simplification
+for _ in range(9, 3, 1):
+    print(v)
+
+
+# 504
+r = 6
+w = 8
+for w in range(8, 4) :
+	print(r)
+# Simplification
+for _ in range(8, 4):
+    print(r)
+
+
+# 505
+s = 1
+m = (0 + 7)+(s + s)
+for s in range(5, 4, 2) :
+	print(s * s)
+# Simplification
+for s in range(5, 4, 2):
+    print(s * s)
+
+
+# 506
+j = 5
+d = 1
+m = 5 - j
+for d in range(6, 7) :
+	print(m)
+# Simplification
+for _ in range(6, 7):
+    print(5 - j)
+
+
+# 507
+g = 4
+for g in range(0, 8) :
+	print(g)
+# Simplification
+for g in range(0, 8):
+    print(g)
+
+
+# 508
+q = 1
+c = 2
+r = 5
+o = 4
+a = 2
+p = q - 0
+for r in range(5, 12, 2) :
+	print(p)
+# Simplification
+for _ in range(5, 12, 2):
+    print(q - 0)
+
+
+# 509
+r = 3
+c = (2 + r)-(r + 8)
+for r in range(0, 7, 2) :
+	print(c)
+# Simplification
+for _ in range(0, 7, 2):
+    print(2 + r - (r + 8))
+
+
+# 510
+e = 5
+b = 3 + e
+for e in range(4, 17) :
+	print(b)
+# Simplification
+for _ in range(4, 17):
+    print(3 + e)
+
+
+# 511
+d = 8
+for d in range(9, 5) :
+	print(d)
+# Simplification
+for d in range(9, 5):
+    print(d)
+
+
+# 512
+k = 9
+j = 1
+p = 8
+n = 0
+h = 0
+b = (4 / k)
+for p in range(6, 8) :
+	print(b)
+# Simplification
+for _ in range(6, 8):
+    print(4 / k)
+
+
+# 513
+m = 1
+a = m + m
+for m in range(0, 5, 3) :
+	print(a)
+# Simplification
+for _ in range(0, 5, 3):
+    print(m + m)
+
+
+# 514
+q = 0
+k = 9
+m = 6 + k
+for k in range(9, 8, 1) :
+	print(m)
+# Simplification
+for _ in range(9, 8, 1):
+    print(6 + k)
+
+
+# 515
+m = 2
+for m in range(7, 7) :
+	print(m)
+# Simplification
+for m in range(7, 7):
+    print(m)
+
+
+# 516
+r = 8
+x = 6
+c = 8
+w = 3
+b = 6
+for c in range(6, 8, 1) :
+	print(x)
+# Simplification
+for _ in range(6, 8, 1):
+    print(x)
+
+
+# 517
+p = 0
+for p in range(1, 9, 3) :
+	print(p)
+# Simplification
+for p in range(1, 9, 3):
+    print(p)
+
+
+# 518
+h = 8
+v = (h * h)-(h * h)+(h * 6)-(6 + h)
+for h in range(2, 2, 1) :
+	print(v)
+# Simplification
+for _ in range(2, 2, 1):
+    print(h * h - h * h + h * 6 - (6 + h))
+
+
+# 519
+b = 4
+r = (8 - b)
+for b in range(3, 11) :
+	print(r)
+# Simplification
+for _ in range(3, 11):
+    print(8 - b)
+
+
+# 520
+e = 8
+l = 1
+y = e - 0
+for l in range(6, 13) :
+	print(y)
+# Simplification
+for _ in range(6, 13):
+    print(e - 0)
+
+
+# 521
+b = 4
+v = 3
+k = 9
+n = (7 * v)*(v * 2)
+for b in range(5, 14) :
+	print(b + 7)
+# Simplification
+for b in range(5, 14):
+    print(b + 7)
+
+
+# 522
+m = 5
+for m in range(9, 9, 2) :
+	print(m)
+# Simplification
+for m in range(9, 9, 2):
+    print(m)
+
+
+# 523
+h = 1
+for h in range(9, 6) :
+	print(h)
+# Simplification
+for h in range(9, 6):
+    print(h)
+
+
+# 524
+t = 3
+o = 6
+u = 6 + t
+for o in range(6, 7, 1) :
+	print(o / t)
+# Simplification
+for o in range(6, 7, 1):
+    print(o / t)
+
+
+# 525
+a = 4
+b = 0
+for b in range(2, 16, 3) :
+	print(b)
+# Simplification
+for b in range(2, 16, 3):
+    print(b)
+
+
+# 526
+j = 8
+o = 5
+x = 9
+for j in range(1, 7, 2) :
+	print(o)
+# Simplification
+for _ in range(1, 7, 2):
+    print(o)
+
+
+# 527
+i = 1
+u = 3
+j = (u - 9)
+for u in range(4, 11, 3) :
+	print(j)
+# Simplification
+for _ in range(4, 11, 3):
+    print(u - 9)
+
+
+# 528
+n = 3
+k = (5 - 4)
+for n in range(3, 3) :
+	print(k)
+# Simplification
+for _ in range(3, 3):
+    print(k)
+
+
+# 529
+d = 2
+n = 5
+z = 8
+for d in range(8, 13, 1) :
+	print(d)
+# Simplification
+for d in range(8, 13, 1):
+    print(d)
+
+
+# 530
+x = 3
+for x in range(7, 6) :
+	print(x - x)
+# Simplification
+for x in range(7, 6):
+    print(x - x)
+
+
+# 531
+q = 1
+c = 3
+for q in range(2, 11) :
+	print(q / 0)
+# Simplification
+for q in range(2, 11):
+    print(q / 0)
+
+
+# 532
+k = 9
+f = (k / k)/(k - 6)
+for k in range(1, 4) :
+	print(f)
+# Simplification
+for _ in range(1, 4):
+    print(k / k / (k - 6))
+
+
+# 533
+z = 3
+o = z / 0
+for z in range(6, 14, 2) :
+	print(o)
+# Simplification
+for _ in range(6, 14, 2):
+    print(z / 0)
+
+
+# 534
+r = 5
+j = (r / 4)*(2 * r)
+for r in range(8, 16, 2) :
+	print(j)
+# Simplification
+for _ in range(8, 16, 2):
+    print(r / 4 * (2 * r))
+
+
+# 535
+e = 1
+z = 4
+for z in range(5, 12, 2) :
+	print(z + 7)
+# Simplification
+for z in range(5, 12, 2):
+    print(z + 7)
+
+
+# 536
+t = 6
+for t in range(6, 15, 2) :
+	print(t / t)
+# Simplification
+for t in range(6, 15, 2):
+    print(t / t)
+
+
+# 537
+s = 6
+for s in range(1, 6, 2) :
+	print(s / 2)
+# Simplification
+for s in range(1, 6, 2):
+    print(s / 2)
+
+
+# 538
+w = 2
+c = (w - 8)
+for w in range(4, 2) :
+	print(c)
+# Simplification
+for _ in range(4, 2):
+    print(w - 8)
+
+
+# 539
+a = 0
+a = 3
+v = 5
+b = (8 + 9)+(v - a)*(a + 3)+(v - 3)*(a - 9)/(8 * 7)/(v * v)
+for a in range(9, 10, 3) :
+	print(b)
+# Simplification
+for _ in range(9, 10, 3):
+    print(8 + 9 + (v - a) * (a + 3) + (v - 3) * (a - 9) / (8 * 7) / (v * v))
+
+
+# 540
+k = 9
+i = 8
+for k in range(5, 3, 2) :
+	print(i)
+# Simplification
+for _ in range(5, 3, 2):
+    print(i)
+
+
+# 541
+w = 7
+x = w / 1
+for w in range(0, 8) :
+	print(x)
+# Simplification
+for _ in range(0, 8):
+    print(w / 1)
+
+
+# 542
+z = 4
+z = 2
+e = 8
+for e in range(5, 12, 2) :
+	print(z * 5)
+# Simplification
+for _ in range(5, 12, 2):
+    print(z * 5)
+
+
+# 543
+o = 6
+g = (o / o)-(o / o)+(o / 4)/(o - 3)
+for o in range(4, 10, 3) :
+	print(g)
+# Simplification
+for _ in range(4, 10, 3):
+    print(o / o - o / o + o / 4 / (o - 3))
+
+
+# 544
+f = 3
+for f in range(6, 9) :
+	print(f)
+# Simplification
+for f in range(6, 9):
+    print(f)
+
+
+# 545
+d = 5
+o = 1
+p = 2
+t = (9 + o)*(3 / d)-(o - 2)
+for p in range(8, 16) :
+	print(t)
+# Simplification
+for _ in range(8, 16):
+    print((9 + o) * (3 / d) - (o - 2))
+
+
+# 546
+p = 5
+for p in range(5, 6) :
+	print(p / p)
+# Simplification
+for p in range(5, 6):
+    print(p / p)
+
+
+# 547
+l = 4
+x = 8
+p = 4 - l
+for x in range(8, 13, 3) :
+	print(p)
+# Simplification
+for _ in range(8, 13, 3):
+    print(4 - l)
+
+
+# 548
+d = 7
+p = (d + 4)+(6 / d)
+for d in range(4, 7) :
+	print(d + 1)
+# Simplification
+for d in range(4, 7):
+    print(d + 1)
+
+
+# 549
+j = 9
+f = j / j
+for j in range(3, 10) :
+	print(f)
+# Simplification
+for _ in range(3, 10):
+    print(j / j)
+
+
+# 550
+r = 6
+f = (8 * 1)
+for r in range(0, 5, 1) :
+	print(f)
+# Simplification
+for _ in range(0, 5, 1):
+    print(f)
+
+
+# 551
+f = 8
+k = 7
+for f in range(2, 13, 1) :
+	print(f)
+# Simplification
+for f in range(2, 13, 1):
+    print(f)
+
+
+# 552
+s = 5
+for s in range(1, 3) :
+	print(s * 0)
+# Simplification
+for s in range(1, 3):
+    print(s * 0)
+
+
+# 553
+u = 2
+r = 1
+t = 7
+n = 4 + r
+for u in range(0, 5) :
+	print(t - 2)
+# Simplification
+for _ in range(0, 5):
+    print(t - 2)
+
+
+# 554
+j = 4
+y = 5
+p = (1 - 7)
+for j in range(1, 6) :
+	print(p)
+# Simplification
+for _ in range(1, 6):
+    print(p)
+
+
+# 555
+t = 0
+for t in range(3, 5) :
+	print(t)
+# Simplification
+for t in range(3, 5):
+    print(t)
+
+
+# 556
+k = 9
+for k in range(9, 13) :
+	print(k)
+# Simplification
+for k in range(9, 13):
+    print(k)
+
+
+# 557
+e = 4
+y = (8 + e)+(6 + 2)+(e - e)-(e / e)
+for e in range(7, 10) :
+	print(y)
+# Simplification
+for _ in range(7, 10):
+    print(8 + e + (6 + 2) + (e - e) - e / e)
+
+
+# 558
+g = 2
+w = (g - 0)*(g * g)
+for g in range(4, 13, 3) :
+	print(w)
+# Simplification
+for _ in range(4, 13, 3):
+    print((g - 0) * (g * g))
+
+
+# 559
+j = 5
+v = 2 / j
+for j in range(0, 9) :
+	print(v)
+# Simplification
+for _ in range(0, 9):
+    print(2 / j)
+
+
+# 560
+g = 3
+q = 9
+r = 8
+for g in range(9, 13) :
+	print(q)
+# Simplification
+for _ in range(9, 13):
+    print(q)
+
+
+# 561
+x = 4
+r = x - x
+for x in range(0, 4, 2) :
+	print(r)
+# Simplification
+for _ in range(0, 4, 2):
+    print(x - x)
+
+
+# 562
+j = 7
+r = 7
+for r in range(4, 12, 3) :
+	print(r)
+# Simplification
+for r in range(4, 12, 3):
+    print(r)
+
+
+# 563
+f = 9
+j = 1
+w = 9
+d = 4
+j = f * f
+for w in range(7, 13) :
+	print(j)
+# Simplification
+for _ in range(7, 13):
+    print(f * f)
+
+
+# 564
+l = 0
+f = 4 + 4
+for l in range(7, 9, 2) :
+	print(f)
+# Simplification
+for _ in range(7, 9, 2):
+    print(f)
+
+
+# 565
+g = 4
+for g in range(3, 11, 2) :
+	print(g)
+# Simplification
+for g in range(3, 11, 2):
+    print(g)
+
+
+# 566
+z = 3
+b = 4
+d = z * z
+for b in range(4, 5, 1) :
+	print(d)
+# Simplification
+for _ in range(4, 5, 1):
+    print(z * z)
+
+
+# 567
+b = 5
+y = 5
+b = 8
+e = 2 - 5
+for b in range(2, 4, 1) :
+	print(e)
+# Simplification
+for _ in range(2, 4, 1):
+    print(e)
+
+
+# 568
+c = 3
+p = 5
+t = 0
+h = 3 * p
+for c in range(1, 14, 3) :
+	print(h)
+# Simplification
+for _ in range(1, 14, 3):
+    print(3 * p)
+
+
+# 569
+q = 3
+y = (4 * 0)*(7 * q)*(q + 5)*(1 / q)+(8 * 4)+(q * 5)+(4 - 8)
+for q in range(1, 13, 1) :
+	print(y)
+# Simplification
+for _ in range(1, 13, 1):
+    print(4 * 0 * (7 * q) * (q + 5) * (1 / q) + 8 * 4 + q * 5 + (4 - 8))
+
+
+# 570
+z = 2
+for z in range(4, 7) :
+	print(z)
+# Simplification
+for z in range(4, 7):
+    print(z)
+
+
+# 571
+w = 5
+a = (w + 8)
+for w in range(9, 12, 2) :
+	print(a)
+# Simplification
+for _ in range(9, 12, 2):
+    print(w + 8)
+
+
+# 572
+o = 7
+for o in range(5, 13, 3) :
+	print(o)
+# Simplification
+for o in range(5, 13, 3):
+    print(o)
+
+
+# 573
+x = 6
+t = 4 * 8
+for x in range(1, 10) :
+	print(t)
+# Simplification
+for _ in range(1, 10):
+    print(t)
+
+
+# 574
+a = 3
+j = (7 + a)
+for a in range(3, 10) :
+	print(j)
+# Simplification
+for _ in range(3, 10):
+    print(7 + a)
+
+
+# 575
+s = 8
+z = 0
+y = 0
+x = 5
+k = 4
+for s in range(7, 6, 2) :
+	print(s)
+# Simplification
+for s in range(7, 6, 2):
+    print(s)
+
+
+# 576
+q = 5
+u = (9 + 1)/(q - q)
+for q in range(7, 10, 3) :
+	print(u)
+# Simplification
+for _ in range(7, 10, 3):
+    print((9 + 1) / (q - q))
+
+
+# 577
+g = 7
+t = (1 * 5)+(g + 6)*(g + g)-(g + 9)-(g / g)+(g - 3)
+for g in range(2, 9) :
+	print(g + 5)
+# Simplification
+for g in range(2, 9):
+    print(g + 5)
+
+
+# 578
+q = 3
+d = 2
+u = 7
+l = 0
+m = 3
+y = (q + q)-(d + u)
+for l in range(3, 2) :
+	print(y)
+# Simplification
+for _ in range(3, 2):
+    print(q + q - (d + u))
+
+
+# 579
+o = 1
+j = 1 - o
+for o in range(2, 16) :
+	print(o - o)
+# Simplification
+for o in range(2, 16):
+    print(o - o)
+
+
+# 580
+q = 4
+v = 3
+o = (4 * 6)
+for v in range(0, 13, 3) :
+	print(o)
+# Simplification
+for _ in range(0, 13, 3):
+    print(o)
+
+
+# 581
+l = 3
+y = 3
+g = y - 6
+for l in range(9, 5) :
+	print(g)
+# Simplification
+for _ in range(9, 5):
+    print(y - 6)
+
+
+# 582
+g = 3
+j = (g / g)+(5 * 1)
+for g in range(5, 9, 2) :
+	print(j)
+# Simplification
+for _ in range(5, 9, 2):
+    print(g / g + 5 * 1)
+
+
+# 583
+z = 4
+for z in range(8, 8) :
+	print(z * 2)
+# Simplification
+for z in range(8, 8):
+    print(z * 2)
+
+
+# 584
+n = 7
+t = n - 2
+for n in range(4, 6, 3) :
+	print(t)
+# Simplification
+for _ in range(4, 6, 3):
+    print(n - 2)
+
+
+# 585
+s = 0
+n = (4 + s)*(s / 6)+(s / 0)
+for s in range(2, 12, 1) :
+	print(s - s)
+# Simplification
+for s in range(2, 12, 1):
+    print(s - s)
+
+
+# 586
+m = 0
+r = 3
+h = 7 * 0
+for r in range(0, 15, 2) :
+	print(h)
+# Simplification
+for _ in range(0, 15, 2):
+    print(h)
+
+
+# 587
+m = 3
+u = 2
+v = u + 8
+for m in range(9, 6) :
+	print(v)
+# Simplification
+for _ in range(9, 6):
+    print(u + 8)
+
+
+# 588
+n = 5
+t = 2
+w = 9
+for t in range(2, 3, 3) :
+	print(n - 9)
+# Simplification
+for _ in range(2, 3, 3):
+    print(n - 9)
+
+
+# 589
+h = 2
+k = 3 * h
+for h in range(6, 5, 3) :
+	print(k)
+# Simplification
+for _ in range(6, 5, 3):
+    print(3 * h)
+
+
+# 590
+e = 9
+for e in range(6, 5, 1) :
+	print(e)
+# Simplification
+for e in range(6, 5, 1):
+    print(e)
+
+
+# 591
+x = 1
+l = (x + 9)/(x - 1)
+for x in range(0, 13) :
+	print(l)
+# Simplification
+for _ in range(0, 13):
+    print((x + 9) / (x - 1))
+
+
+# 592
+c = 8
+p = 4
+p = 1
+r = (7 * p)/(9 * p)*(2 * 1)-(7 - 4)
+for p in range(5, 8, 2) :
+	print(r)
+# Simplification
+for _ in range(5, 8, 2):
+    print(7 * p / (9 * p) * (2 * 1) - (7 - 4))
+
+
+# 593
+c = 6
+e = 5
+s = 5
+u = 5
+h = 8
+g = (8 + u)
+for s in range(2, 8, 3) :
+	print(g)
+# Simplification
+for _ in range(2, 8, 3):
+    print(8 + u)
+
+
+# 594
+p = 5
+for p in range(2, 4, 3) :
+	print(p)
+# Simplification
+for p in range(2, 4, 3):
+    print(p)
+
+
+# 595
+y = 6
+d = y * 3
+for y in range(3, 12) :
+	print(d)
+# Simplification
+for _ in range(3, 12):
+    print(y * 3)
+
+
+# 596
+l = 2
+p = 8
+for p in range(9, 6) :
+	print(l)
+# Simplification
+for _ in range(9, 6):
+    print(l)
+
+
+# 597
+s = 7
+u = 5
+t = 1
+for t in range(8, 1) :
+	print(s)
+# Simplification
+for _ in range(8, 1):
+    print(s)
+
+
+# 598
+q = 0
+o = (q * q)
+for q in range(5, 11, 2) :
+	print(o)
+# Simplification
+for _ in range(5, 11, 2):
+    print(q * q)
+
+
+# 599
+y = 2
+c = 4
+r = 0
+y = 5
+i = 1
+m = y + r
+for i in range(8, 4) :
+	print(m)
+# Simplification
+for _ in range(8, 4):
+    print(y + r)
+
+
+# 600
+h = 4
+a = (h * h)
+for h in range(1, 5, 2) :
+	print(a)
+# Simplification
+for _ in range(1, 5, 2):
+    print(h * h)
+
+
+# 601
+z = 1
+y = 9
+c = (y / z)
+for y in range(0, 7, 1) :
+	print(c)
+# Simplification
+for _ in range(0, 7, 1):
+    print(y / z)
+
+
+# 602
+r = 0
+r = 9
+g = 5 + r
+for r in range(3, 7, 3) :
+	print(g)
+# Simplification
+for _ in range(3, 7, 3):
+    print(5 + r)
+
+
+# 603
+q = 0
+for q in range(0, 2, 2) :
+	print(q)
+# Simplification
+for q in range(0, 2, 2):
+    print(q)
+
+
+# 604
+l = 9
+f = (9 * l)
+for l in range(0, 13) :
+	print(f)
+# Simplification
+for _ in range(0, 13):
+    print(9 * l)
+
+
+# 605
+k = 6
+for k in range(3, 14, 2) :
+	print(k + k)
+# Simplification
+for k in range(3, 14, 2):
+    print(k + k)
+
+
+# 606
+x = 4
+r = x / 4
+for x in range(2, 14) :
+	print(r)
+# Simplification
+for _ in range(2, 14):
+    print(x / 4)
+
+
+# 607
+p = 1
+s = 1
+for p in range(5, 2) :
+	print(p)
+# Simplification
+for p in range(5, 2):
+    print(p)
+
+
+# 608
+v = 1
+for v in range(7, 12, 2) :
+	print(v + v)
+# Simplification
+for v in range(7, 12, 2):
+    print(v + v)
+
+
+# 609
+p = 3
+g = 3
+for g in range(0, 11) :
+	print(g)
+# Simplification
+for g in range(0, 11):
+    print(g)
+
+
+# 610
+w = 3
+v = 2
+r = 1
+for r in range(7, 9, 3) :
+	print(r)
+# Simplification
+for r in range(7, 9, 3):
+    print(r)
+
+
+# 611
+e = 2
+k = 5
+h = (e - 8)*(k / k)
+for e in range(6, 6) :
+	print(h)
+# Simplification
+for _ in range(6, 6):
+    print((e - 8) * (k / k))
+
+
+# 612
+d = 8
+q = 9
+r = 3 * 5
+for d in range(3, 2) :
+	print(r)
+# Simplification
+for _ in range(3, 2):
+    print(r)
+
+
+# 613
+s = 8
+e = (s + s)/(1 - s)
+for s in range(0, 12, 3) :
+	print(e)
+# Simplification
+for _ in range(0, 12, 3):
+    print((s + s) / (1 - s))
+
+
+# 614
+x = 9
+d = 8 - 7
+for x in range(7, 5, 3) :
+	print(x * x)
+# Simplification
+for x in range(7, 5, 3):
+    print(x * x)
+
+
+# 615
+j = 3
+e = (6 + j)
+for j in range(4, 9) :
+	print(e)
+# Simplification
+for _ in range(4, 9):
+    print(6 + j)
+
+
+# 616
+r = 9
+d = (7 * 6)*(1 - 1)
+for r in range(1, 9, 3) :
+	print(d)
+# Simplification
+for _ in range(1, 9, 3):
+    print(7 * 6 * (1 - 1))
+
+
+# 617
+v = 2
+i = 0
+b = 1
+for i in range(9, 8, 1) :
+	print(i)
+# Simplification
+for i in range(9, 8, 1):
+    print(i)
+
+
+# 618
+n = 7
+r = 5
+b = (7 - n)
+for r in range(1, 3, 3) :
+	print(b)
+# Simplification
+for _ in range(1, 3, 3):
+    print(7 - n)
+
+
+# 619
+m = 8
+j = 6
+x = 9
+for m in range(4, 13, 3) :
+	print(m)
+# Simplification
+for m in range(4, 13, 3):
+    print(m)
+
+
+# 620
+u = 3
+n = 7
+for n in range(9, 17, 1) :
+	print(n)
+# Simplification
+for n in range(9, 17, 1):
+    print(n)
+
+
+# 621
+m = 2
+j = 9
+b = 8 / m
+for j in range(7, 9, 3) :
+	print(b)
+# Simplification
+for _ in range(7, 9, 3):
+    print(8 / m)
+
+
+# 622
+h = 1
+m = 7
+f = h * 9
+for m in range(9, 9, 3) :
+	print(f)
+# Simplification
+for _ in range(9, 9, 3):
+    print(h * 9)
+
+
+# 623
+h = 5
+c = 0
+d = 6 / 1
+for h in range(0, 10, 3) :
+	print(c * c)
+# Simplification
+for _ in range(0, 10, 3):
+    print(c * c)
+
+
+# 624
+h = 8
+r = h + 4
+for h in range(5, 10) :
+	print(h + 4)
+# Simplification
+for h in range(5, 10):
+    print(h + 4)
+
+
+# 625
+h = 1
+u = 4
+l = 9
+for l in range(3, 8, 3) :
+	print(l)
+# Simplification
+for l in range(3, 8, 3):
+    print(l)
+
+
+# 626
+v = 4
+h = 1
+o = 6
+u = 1 + o
+for v in range(7, 8) :
+	print(h - 9)
+# Simplification
+for _ in range(7, 8):
+    print(h - 9)
+
+
+# 627
+u = 4
+e = 8
+k = 7
+r = (u - k)*(5 - 9)
+for e in range(0, 7, 3) :
+	print(r)
+# Simplification
+for _ in range(0, 7, 3):
+    print((u - k) * (5 - 9))
+
+
+# 628
+s = 4
+j = 3
+h = 0
+p = 5
+p = 4 + 9
+for p in range(2, 10) :
+	print(p)
+# Simplification
+for p in range(2, 10):
+    print(p)
+
+
+# 629
+r = 4
+v = 9
+n = 1
+c = 6
+z = (v + 2)*(0 - 6)+(v * n)*(n * 8)/(r / v)/(r / c)/(v - n)/(3 - n)+(5 + 8)
+for v in range(6, 9, 3) :
+	print(n + 9)
+# Simplification
+for _ in range(6, 9, 3):
+    print(n + 9)
+
+
+# 630
+y = 0
+e = 9
+m = 0
+for m in range(0, 5) :
+	print(m)
+# Simplification
+for m in range(0, 5):
+    print(m)
+
+
+# 631
+m = 0
+z = 2
+o = 2
+u = 3
+s = 2
+g = (o + o)
+for u in range(9, 11) :
+	print(g)
+# Simplification
+for _ in range(9, 11):
+    print(o + o)
+
+
+# 632
+w = 8
+for w in range(7, 2, 2) :
+	print(w)
+# Simplification
+for w in range(7, 2, 2):
+    print(w)
+
+
+# 633
+j = 6
+l = (j / j)
+for j in range(7, 6, 1) :
+	print(l)
+# Simplification
+for _ in range(7, 6, 1):
+    print(j / j)
+
+
+# 634
+w = 1
+f = 8
+for f in range(2, 6) :
+	print(f)
+# Simplification
+for f in range(2, 6):
+    print(f)
+
+
+# 635
+s = 4
+t = 6
+g = 5
+for g in range(3, 8) :
+	print(g / 0)
+# Simplification
+for g in range(3, 8):
+    print(g / 0)
+
+
+# 636
+p = 0
+l = p / p
+for p in range(6, 3, 3) :
+	print(l)
+# Simplification
+for _ in range(6, 3, 3):
+    print(p / p)
+
+
+# 637
+d = 5
+h = (0 - 4)
+for d in range(3, 8, 3) :
+	print(h)
+# Simplification
+for _ in range(3, 8, 3):
+    print(h)
+
+
+# 638
+l = 9
+q = (7 - 2)/(5 / 1)/(0 - l)-(l / l)
+for l in range(1, 6) :
+	print(q)
+# Simplification
+for _ in range(1, 6):
+    print((7 - 2) / (5 / 1) / (0 - l) - l / l)
+
+
+# 639
+n = 9
+e = 3 - n
+for n in range(4, 14) :
+	print(e)
+# Simplification
+for _ in range(4, 14):
+    print(3 - n)
+
+
+# 640
+b = 1
+p = 2
+for p in range(5, 9, 3) :
+	print(p)
+# Simplification
+for p in range(5, 9, 3):
+    print(p)
+
+
+# 641
+s = 6
+a = 6
+q = (8 + 5)
+for a in range(2, 15) :
+	print(q)
+# Simplification
+for _ in range(2, 15):
+    print(q)
+
+
+# 642
+u = 2
+for u in range(7, 8) :
+	print(u * 0)
+# Simplification
+for u in range(7, 8):
+    print(u * 0)
+
+
+# 643
+t = 3
+p = 0
+x = 0
+g = 2
+z = 8 + x
+for p in range(5, 11, 3) :
+	print(z)
+# Simplification
+for _ in range(5, 11, 3):
+    print(8 + x)
+
+
+# 644
+y = 4
+s = 3
+k = (3 * 6)
+for y in range(8, 14, 3) :
+	print(k)
+# Simplification
+for _ in range(8, 14, 3):
+    print(k)
+
+
+# 645
+g = 9
+for g in range(7, 13) :
+	print(g)
+# Simplification
+for g in range(7, 13):
+    print(g)
+
+
+# 646
+a = 7
+f = 8 / 3
+for a in range(1, 8) :
+	print(f)
+# Simplification
+for _ in range(1, 8):
+    print(f)
+
+
+# 647
+o = 2
+for o in range(7, 14) :
+	print(o)
+# Simplification
+for o in range(7, 14):
+    print(o)
+
+
+# 648
+f = 3
+f = 1 / 2
+for f in range(2, 13, 1) :
+	print(f)
+# Simplification
+for f in range(2, 13, 1):
+    print(f)
+
+
+# 649
+x = 8
+h = 4
+for x in range(1, 4) :
+	print(x)
+# Simplification
+for x in range(1, 4):
+    print(x)
+
+
+# 650
+o = 3
+for o in range(8, 1) :
+	print(o)
+# Simplification
+for o in range(8, 1):
+    print(o)
+
+
+# 651
+s = 9
+q = 3
+t = 7
+b = 6
+r = 4
+for r in range(8, 3) :
+	print(q)
+# Simplification
+for _ in range(8, 3):
+    print(q)
+
+
+# 652
+m = 5
+c = 0
+z = 8
+b = z * m
+for z in range(6, 4, 3) :
+	print(c - c)
+# Simplification
+for _ in range(6, 4, 3):
+    print(c - c)
+
+
+# 653
+p = 6
+w = 2 * p
+for p in range(4, 6) :
+	print(w)
+# Simplification
+for _ in range(4, 6):
+    print(2 * p)
+
+
+# 654
+l = 1
+k = 0
+f = 7
+y = 3
+h = 7
+l = 1 / 8
+for h in range(9, 7) :
+	print(l)
+# Simplification
+for _ in range(9, 7):
+    print(l)
+
+
+# 655
+a = 7
+e = a + 7
+for a in range(7, 11) :
+	print(e)
+# Simplification
+for _ in range(7, 11):
+    print(a + 7)
+
+
+# 656
+v = 8
+w = 5
+for v in range(9, 11, 1) :
+	print(v)
+# Simplification
+for v in range(9, 11, 1):
+    print(v)
+
+
+# 657
+s = 2
+v = 3
+m = (6 + 5)
+for s in range(0, 8, 1) :
+	print(m)
+# Simplification
+for _ in range(0, 8, 1):
+    print(m)
+
+
+# 658
+q = 4
+b = (q * q)/(1 + 9)
+for q in range(1, 10, 1) :
+	print(b)
+# Simplification
+for _ in range(1, 10, 1):
+    print(q * q / (1 + 9))
+
+
+# 659
+e = 1
+for e in range(9, 4) :
+	print(e)
+# Simplification
+for e in range(9, 4):
+    print(e)
+
+
+# 660
+t = 3
+y = 7 + 5
+for t in range(6, 7) :
+	print(y)
+# Simplification
+for _ in range(6, 7):
+    print(y)
+
+
+# 661
+o = 1
+u = 9
+t = 9
+m = 7
+t = 4
+f = 2 - m
+for o in range(1, 13, 3) :
+	print(u - 8)
+# Simplification
+for _ in range(1, 13, 3):
+    print(u - 8)
+
+
+# 662
+o = 3
+m = 4
+p = 9
+l = 6
+f = 5
+g = (8 / f)+(9 / 3)+(6 / f)
+for o in range(5, 12, 3) :
+	print(g)
+# Simplification
+for _ in range(5, 12, 3):
+    print(8 / f + 9 / 3 + 6 / f)
+
+
+# 663
+c = 5
+p = 9
+t = 5
+k = 8
+n = 2
+f = (k / p)
+for p in range(9, 4, 1) :
+	print(t - k)
+# Simplification
+for _ in range(9, 4, 1):
+    print(t - k)
+
+
+# 664
+i = 5
+t = i - i
+for i in range(6, 8) :
+	print(t)
+# Simplification
+for _ in range(6, 8):
+    print(i - i)
+
+
+# 665
+s = 2
+for s in range(7, 7, 1) :
+	print(s)
+# Simplification
+for s in range(7, 7, 1):
+    print(s)
+
+
+# 666
+m = 6
+for m in range(9, 8) :
+	print(m)
+# Simplification
+for m in range(9, 8):
+    print(m)
+
+
+# 667
+f = 7
+l = (6 * 5)
+for f in range(6, 7, 1) :
+	print(l)
+# Simplification
+for _ in range(6, 7, 1):
+    print(l)
+
+
+# 668
+f = 7
+for f in range(2, 8) :
+	print(f)
+# Simplification
+for f in range(2, 8):
+    print(f)
+
+
+# 669
+a = 5
+d = 4
+e = (6 - a)
+for d in range(2, 10) :
+	print(e)
+# Simplification
+for _ in range(2, 10):
+    print(6 - a)
+
+
+# 670
+b = 8
+z = 3
+g = 4
+for z in range(9, 9) :
+	print(b)
+# Simplification
+for _ in range(9, 9):
+    print(b)
+
+
+# 671
+u = 6
+b = 9
+q = (b + 5)
+for b in range(7, 2, 1) :
+	print(q)
+# Simplification
+for _ in range(7, 2, 1):
+    print(b + 5)
+
+
+# 672
+t = 9
+x = 2
+for x in range(6, 6, 3) :
+	print(t)
+# Simplification
+for _ in range(6, 6, 3):
+    print(t)
+
+
+# 673
+g = 2
+l = 8
+h = 0
+for l in range(3, 6) :
+	print(g)
+# Simplification
+for _ in range(3, 6):
+    print(g)
+
+
+# 674
+n = 4
+r = (5 / n)
+for n in range(9, 14) :
+	print(n * 0)
+# Simplification
+for n in range(9, 14):
+    print(n * 0)
+
+
+# 675
+i = 1
+y = 1
+e = (y + y)+(9 + 0)
+for i in range(6, 12, 3) :
+	print(e)
+# Simplification
+for _ in range(6, 12, 3):
+    print(y + y + (9 + 0))
+
+
+# 676
+i = 2
+h = 5 / 2
+for i in range(8, 12) :
+	print(h)
+# Simplification
+for _ in range(8, 12):
+    print(h)
+
+
+# 677
+e = 4
+for e in range(4, 3, 3) :
+	print(e - 4)
+# Simplification
+for e in range(4, 3, 3):
+    print(e - 4)
+
+
+# 678
+f = 2
+k = (1 * f)/(f + 3)*(f / f)
+for f in range(4, 13) :
+	print(k)
+# Simplification
+for _ in range(4, 13):
+    print(1 * f / (f + 3) * (f / f))
+
+
+# 679
+g = 1
+i = (0 / 7)
+for g in range(2, 10) :
+	print(i)
+# Simplification
+for _ in range(2, 10):
+    print(i)
+
+
+# 680
+x = 0
+c = 3
+for c in range(3, 17) :
+	print(c)
+# Simplification
+for c in range(3, 17):
+    print(c)
+
+
+# 681
+j = 5
+l = 0
+z = (3 / j)
+for l in range(1, 11, 3) :
+	print(z)
+# Simplification
+for _ in range(1, 11, 3):
+    print(3 / j)
+
+
+# 682
+y = 7
+u = 5
+l = 2
+for y in range(8, 8, 1) :
+	print(y)
+# Simplification
+for y in range(8, 8, 1):
+    print(y)
+
+
+# 683
+h = 1
+n = 1
+k = (7 + 0)+(6 - h)/(6 * h)*(n / h)/(0 * h)
+for h in range(5, 7) :
+	print(k)
+# Simplification
+for _ in range(5, 7):
+    print(7 + 0 + (6 - h) / (6 * h) * (n / h) / (0 * h))
+
+
+# 684
+j = 4
+s = 1 / 2
+for j in range(3, 11, 3) :
+	print(s)
+# Simplification
+for _ in range(3, 11, 3):
+    print(s)
+
+
+# 685
+s = 5
+p = (4 * 3)
+for s in range(0, 9, 3) :
+	print(p)
+# Simplification
+for _ in range(0, 9, 3):
+    print(p)
+
+
+# 686
+d = 1
+g = 9
+y = 5
+q = (y - y)
+for y in range(4, 3) :
+	print(q)
+# Simplification
+for _ in range(4, 3):
+    print(y - y)
+
+
+# 687
+o = 4
+a = 5
+z = 2
+e = 5
+a = 4
+r = o / a
+for e in range(5, 9) :
+	print(r)
+# Simplification
+for _ in range(5, 9):
+    print(o / a)
+
+
+# 688
+l = 6
+s = 3
+m = (8 / 2)-(2 + l)
+for l in range(5, 17, 2) :
+	print(m)
+# Simplification
+for _ in range(5, 17, 2):
+    print(8 / 2 - (2 + l))
+
+
+# 689
+o = 1
+q = 2
+o = 0
+t = 8
+for t in range(3, 6) :
+	print(t)
+# Simplification
+for t in range(3, 6):
+    print(t)
+
+
+# 690
+q = 6
+h = 9
+m = (h + 8)-(q / 7)/(q - 0)
+for q in range(0, 5, 2) :
+	print(m)
+# Simplification
+for _ in range(0, 5, 2):
+    print(h + 8 - q / 7 / (q - 0))
+
+
+# 691
+x = 3
+n = x + 6
+for x in range(2, 10) :
+	print(n)
+# Simplification
+for _ in range(2, 10):
+    print(x + 6)
+
+
+# 692
+y = 3
+z = y * 1
+for y in range(8, 7, 2) :
+	print(z)
+# Simplification
+for _ in range(8, 7, 2):
+    print(y * 1)
+
+
+# 693
+v = 7
+o = v - v
+for v in range(5, 10, 2) :
+	print(o)
+# Simplification
+for _ in range(5, 10, 2):
+    print(v - v)
+
+
+# 694
+g = 4
+b = 1
+a = 3
+n = 7
+for b in range(5, 8) :
+	print(g * 1)
+# Simplification
+for _ in range(5, 8):
+    print(g * 1)
+
+
+# 695
+m = 8
+n = 4
+z = 1
+g = 0
+q = 4 + 4
+for n in range(1, 8, 3) :
+	print(n + z)
+# Simplification
+for n in range(1, 8, 3):
+    print(n + z)
+
+
+# 696
+r = 0
+t = 7
+q = 7
+e = q * 0
+for q in range(9, 17) :
+	print(e)
+# Simplification
+for _ in range(9, 17):
+    print(q * 0)
+
+
+# 697
+f = 8
+f = 2
+h = 9
+k = 0
+f = 5
+for h in range(9, 17, 3) :
+	print(h)
+# Simplification
+for h in range(9, 17, 3):
+    print(h)
+
+
+# 698
+i = 5
+e = 7
+p = 3
+for p in range(3, 5) :
+	print(p)
+# Simplification
+for p in range(3, 5):
+    print(p)
+
+
+# 699
+b = 6
+w = 4
+j = (5 - w)
+for b in range(2, 4, 2) :
+	print(j)
+# Simplification
+for _ in range(2, 4, 2):
+    print(5 - w)
+
+
+# 700
+u = 6
+w = 4
+v = 8
+u = 4 * 0
+for u in range(9, 17) :
+	print(w * 4)
+# Simplification
+for _ in range(9, 17):
+    print(w * 4)
+
+
+# 701
+u = 4
+for u in range(9, 7, 1) :
+	print(u)
+# Simplification
+for u in range(9, 7, 1):
+    print(u)
+
+
+# 702
+n = 5
+b = (1 / 5)
+for n in range(9, 15) :
+	print(b)
+# Simplification
+for _ in range(9, 15):
+    print(b)
+
+
+# 703
+x = 1
+u = 4
+k = 5
+g = k + 4
+for u in range(9, 7, 3) :
+	print(g)
+# Simplification
+for _ in range(9, 7, 3):
+    print(k + 4)
+
+
+# 704
+f = 3
+v = 5
+o = 8
+h = 8
+e = 8
+f = (8 / 0)
+for f in range(1, 1) :
+	print(f)
+# Simplification
+for f in range(1, 1):
+    print(f)
+
+
+# 705
+z = 8
+f = (z * 0)/(9 - 8)/(z / 9)/(6 - z)
+for z in range(6, 3) :
+	print(f)
+# Simplification
+for _ in range(6, 3):
+    print(z * 0 / (9 - 8) / (z / 9) / (6 - z))
+
+
+# 706
+t = 1
+x = 0
+t = x / x
+for x in range(7, 12, 3) :
+	print(t)
+# Simplification
+for _ in range(7, 12, 3):
+    print(x / x)
+
+
+# 707
+p = 6
+k = 9
+t = (4 * 0)
+for k in range(2, 7, 1) :
+	print(t)
+# Simplification
+for _ in range(2, 7, 1):
+    print(t)
+
+
+# 708
+c = 9
+y = 0
+n = 7
+d = (y * n)+(n / n)+(3 + y)+(n - y)+(3 / n)
+for y in range(9, 13) :
+	print(y * c)
+# Simplification
+for y in range(9, 13):
+    print(y * c)
+
+
+# 709
+c = 6
+e = (8 + c)*(5 / c)-(7 + c)
+for c in range(4, 14, 3) :
+	print(e)
+# Simplification
+for _ in range(4, 14, 3):
+    print((8 + c) * (5 / c) - (7 + c))
+
+
+# 710
+l = 0
+p = 8
+y = 7
+l = 7
+h = 2
+for h in range(9, 9, 1) :
+	print(h)
+# Simplification
+for h in range(9, 9, 1):
+    print(h)
+
+
+# 711
+v = 7
+k = 8
+for v in range(2, 14) :
+	print(k)
+# Simplification
+for _ in range(2, 14):
+    print(k)
+
+
+# 712
+d = 6
+y = 5
+w = 0
+k = 1 * w
+for y in range(2, 10, 1) :
+	print(k)
+# Simplification
+for _ in range(2, 10, 1):
+    print(1 * w)
+
+
+# 713
+j = 1
+s = 6
+c = (7 - s)
+for j in range(9, 8) :
+	print(c)
+# Simplification
+for _ in range(9, 8):
+    print(7 - s)
+
+
+# 714
+s = 1
+t = (s + 7)-(s / 7)/(s - s)
+for s in range(4, 13, 3) :
+	print(t)
+# Simplification
+for _ in range(4, 13, 3):
+    print(s + 7 - s / 7 / (s - s))
+
+
+# 715
+n = 5
+s = 8
+for s in range(3, 14, 1) :
+	print(s)
+# Simplification
+for s in range(3, 14, 1):
+    print(s)
+
+
+# 716
+n = 5
+y = (7 + n)/(0 / 0)-(n + n)
+for n in range(9, 14, 2) :
+	print(n + n)
+# Simplification
+for n in range(9, 14, 2):
+    print(n + n)
+
+
+# 717
+h = 4
+q = 0
+l = 0
+y = 5
+i = 3
+e = (y + 3)
+for h in range(3, 8) :
+	print(e)
+# Simplification
+for _ in range(3, 8):
+    print(y + 3)
+
+
+# 718
+o = 3
+h = 2
+s = (9 * o)+(o / o)-(o * o)
+for h in range(2, 14) :
+	print(s)
+# Simplification
+for _ in range(2, 14):
+    print(9 * o + o / o - o * o)
+
+
+# 719
+z = 6
+y = 6
+r = y * 1
+for y in range(6, 9, 2) :
+	print(z * z)
+# Simplification
+for _ in range(6, 9, 2):
+    print(z * z)
+
+
+# 720
+i = 9
+e = 5 + i
+for i in range(7, 7, 1) :
+	print(e)
+# Simplification
+for _ in range(7, 7, 1):
+    print(5 + i)
+
+
+# 721
+q = 2
+z = q * 3
+for q in range(3, 3) :
+	print(q * 4)
+# Simplification
+for q in range(3, 3):
+    print(q * 4)
+
+
+# 722
+j = 9
+e = 8
+t = 9 - 1
+for j in range(5, 14) :
+	print(t)
+# Simplification
+for _ in range(5, 14):
+    print(t)
+
+
+# 723
+c = 5
+t = 9
+z = 8
+m = 3
+for m in range(0, 7, 3) :
+	print(t)
+# Simplification
+for _ in range(0, 7, 3):
+    print(t)
+
+
+# 724
+b = 6
+m = (5 * b)/(7 / b)+(b - 6)-(7 / b)
+for b in range(3, 5) :
+	print(m)
+# Simplification
+for _ in range(3, 5):
+    print(5 * b / (7 / b) + (b - 6) - 7 / b)
+
+
+# 725
+w = 4
+l = 5
+m = 0
+v = 6 - l
+for l in range(9, 7, 2) :
+	print(v)
+# Simplification
+for _ in range(9, 7, 2):
+    print(6 - l)
+
+
+# 726
+h = 5
+for h in range(0, 8) :
+	print(h)
+# Simplification
+for h in range(0, 8):
+    print(h)
+
+
+# 727
+p = 5
+u = 9
+t = 5
+for p in range(9, 7, 3) :
+	print(p)
+# Simplification
+for p in range(9, 7, 3):
+    print(p)
+
+
+# 728
+b = 4
+t = (b * b)
+for b in range(3, 10, 2) :
+	print(t)
+# Simplification
+for _ in range(3, 10, 2):
+    print(b * b)
+
+
+# 729
+u = 8
+b = 8
+for b in range(5, 5) :
+	print(b + b)
+# Simplification
+for b in range(5, 5):
+    print(b + b)
+
+
+# 730
+f = 7
+u = 9
+o = 1
+s = 5
+p = (4 - o)*(8 / f)
+for f in range(4, 15, 2) :
+	print(p)
+# Simplification
+for _ in range(4, 15, 2):
+    print((4 - o) * (8 / f))
+
+
+# 731
+v = 7
+f = (v * 9)
+for v in range(3, 10, 2) :
+	print(f)
+# Simplification
+for _ in range(3, 10, 2):
+    print(v * 9)
+
+
+# 732
+w = 6
+a = 3 * 0
+for w in range(6, 9) :
+	print(w / 3)
+# Simplification
+for w in range(6, 9):
+    print(w / 3)
+
+
+# 733
+o = 7
+z = 5
+r = (2 + o)
+for z in range(5, 8) :
+	print(z + 1)
+# Simplification
+for z in range(5, 8):
+    print(z + 1)
+
+
+# 734
+i = 8
+for i in range(6, 14) :
+	print(i)
+# Simplification
+for i in range(6, 14):
+    print(i)
+
+
+# 735
+a = 6
+l = 0
+d = 6
+p = 8
+b = (6 * 7)
+for a in range(6, 5) :
+	print(b)
+# Simplification
+for _ in range(6, 5):
+    print(b)
+
+
+# 736
+l = 3
+for l in range(8, 12) :
+	print(l)
+# Simplification
+for l in range(8, 12):
+    print(l)
+
+
+# 737
+e = 4
+j = 1
+m = (1 - e)
+for j in range(9, 4) :
+	print(m)
+# Simplification
+for _ in range(9, 4):
+    print(1 - e)
+
+
+# 738
+h = 0
+e = 4
+for e in range(4, 7) :
+	print(e)
+# Simplification
+for e in range(4, 7):
+    print(e)
+
+
+# 739
+f = 5
+for f in range(4, 10, 3) :
+	print(f)
+# Simplification
+for f in range(4, 10, 3):
+    print(f)
+
+
+# 740
+j = 5
+d = 5
+v = 6
+l = j + 5
+for d in range(1, 16) :
+	print(l)
+# Simplification
+for _ in range(1, 16):
+    print(j + 5)
+
+
+# 741
+g = 0
+o = 6
+for o in range(7, 3) :
+	print(g + 9)
+# Simplification
+for _ in range(7, 3):
+    print(g + 9)
+
+
+# 742
+n = 6
+t = 2 + 1
+for n in range(3, 9, 3) :
+	print(t)
+# Simplification
+for _ in range(3, 9, 3):
+    print(t)
+
+
+# 743
+p = 9
+for p in range(2, 8, 3) :
+	print(p)
+# Simplification
+for p in range(2, 8, 3):
+    print(p)
+
+
+# 744
+d = 6
+z = 8
+for d in range(5, 3, 1) :
+	print(d - 5)
+# Simplification
+for d in range(5, 3, 1):
+    print(d - 5)
+
+
+# 745
+d = 4
+for d in range(6, 11) :
+	print(d)
+# Simplification
+for d in range(6, 11):
+    print(d)
+
+
+# 746
+v = 2
+for v in range(8, 7, 3) :
+	print(v)
+# Simplification
+for v in range(8, 7, 3):
+    print(v)
+
+
+# 747
+r = 2
+j = 3 + 9
+for r in range(5, 5) :
+	print(j)
+# Simplification
+for _ in range(5, 5):
+    print(j)
+
+
+# 748
+c = 5
+t = 3
+for t in range(5, 14, 1) :
+	print(t)
+# Simplification
+for t in range(5, 14, 1):
+    print(t)
+
+
+# 749
+c = 6
+d = 7
+b = 6
+k = 8
+q = (4 * d)
+for b in range(8, 8, 3) :
+	print(q)
+# Simplification
+for _ in range(8, 8, 3):
+    print(4 * d)
+
+
+# 750
+f = 6
+v = 3
+j = 2
+for j in range(9, 6, 1) :
+	print(j / f)
+# Simplification
+for j in range(9, 6, 1):
+    print(j / f)
+
+
+# 751
+i = 8
+y = i + i
+for i in range(9, 11, 3) :
+	print(y)
+# Simplification
+for _ in range(9, 11, 3):
+    print(i + i)
+
+
+# 752
+v = 8
+for v in range(8, 11) :
+	print(v)
+# Simplification
+for v in range(8, 11):
+    print(v)
+
+
+# 753
+r = 0
+e = 4
+for r in range(1, 16) :
+	print(e)
+# Simplification
+for _ in range(1, 16):
+    print(e)
+
+
+# 754
+n = 4
+f = 3
+e = 0
+x = f - 1
+for n in range(3, 9, 3) :
+	print(f - 9)
+# Simplification
+for _ in range(3, 9, 3):
+    print(f - 9)
+
+
+# 755
+v = 9
+y = 9
+j = 9
+t = 1
+for y in range(8, 9) :
+	print(v)
+# Simplification
+for _ in range(8, 9):
+    print(v)
+
+
+# 756
+h = 7
+z = 1
+d = 8
+o = 5
+o = (0 + 9)
+for o in range(6, 9, 2) :
+	print(o)
+# Simplification
+for o in range(6, 9, 2):
+    print(o)
+
+
+# 757
+o = 4
+u = 9
+m = (u + u)*(9 / 9)
+for u in range(0, 7, 3) :
+	print(u * 5)
+# Simplification
+for u in range(0, 7, 3):
+    print(u * 5)
+
+
+# 758
+a = 8
+g = 5
+o = a + 8
+for g in range(4, 11) :
+	print(o)
+# Simplification
+for _ in range(4, 11):
+    print(a + 8)
+
+
+# 759
+p = 4
+z = (p / p)*(5 - 4)
+for p in range(4, 10, 3) :
+	print(p + p)
+# Simplification
+for p in range(4, 10, 3):
+    print(p + p)
+
+
+# 760
+w = 0
+x = (w / 9)-(9 - 4)-(3 * 6)
+for w in range(7, 17, 3) :
+	print(x)
+# Simplification
+for _ in range(7, 17, 3):
+    print(w / 9 - (9 - 4) - 3 * 6)
+
+
+# 761
+q = 7
+r = 7
+s = 5
+r = 7 / 4
+for s in range(9, 7) :
+	print(r)
+# Simplification
+for _ in range(9, 7):
+    print(r)
+
+
+# 762
+a = 6
+y = 0
+r = 0
+for r in range(4, 5, 2) :
+	print(y)
+# Simplification
+for _ in range(4, 5, 2):
+    print(y)
+
+
+# 763
+u = 3
+n = (1 - 6)+(u * 3)
+for u in range(0, 8) :
+	print(n)
+# Simplification
+for _ in range(0, 8):
+    print(1 - 6 + u * 3)
+
+
+# 764
+y = 8
+f = 6
+m = y / 1
+for y in range(3, 7) :
+	print(m)
+# Simplification
+for _ in range(3, 7):
+    print(y / 1)
+
+
+# 765
+p = 7
+s = 4
+f = (1 - p)+(4 - 4)*(3 * 1)-(2 / p)*(p * s)-(p * s)-(s - s)
+for p in range(1, 11) :
+	print(f)
+# Simplification
+for _ in range(1, 11):
+    print(1 - p + (4 - 4) * (3 * 1) - 2 / p * (p * s) - p * s - (s - s))
+
+
+# 766
+l = 9
+for l in range(5, 14, 1) :
+	print(l)
+# Simplification
+for l in range(5, 14, 1):
+    print(l)
+
+
+# 767
+d = 4
+w = d * d
+for d in range(1, 10, 3) :
+	print(d - d)
+# Simplification
+for d in range(1, 10, 3):
+    print(d - d)
+
+
+# 768
+n = 1
+d = (n - 0)+(n / 5)
+for n in range(6, 6) :
+	print(n + n)
+# Simplification
+for n in range(6, 6):
+    print(n + n)
+
+
+# 769
+h = 3
+k = 5
+i = 3
+k = i / 8
+for k in range(3, 15, 1) :
+	print(i - 6)
+# Simplification
+for _ in range(3, 15, 1):
+    print(i - 6)
+
+
+# 770
+p = 3
+q = 5
+i = q + q
+for q in range(0, 11, 2) :
+	print(i)
+# Simplification
+for _ in range(0, 11, 2):
+    print(q + q)
+
+
+# 771
+a = 1
+for a in range(2, 15, 1) :
+	print(a)
+# Simplification
+for a in range(2, 15, 1):
+    print(a)
+
+
+# 772
+e = 6
+p = 4
+for e in range(4, 6, 2) :
+	print(e)
+# Simplification
+for e in range(4, 6, 2):
+    print(e)
+
+
+# 773
+v = 9
+h = 3 - v
+for v in range(5, 1) :
+	print(h)
+# Simplification
+for _ in range(5, 1):
+    print(3 - v)
+
+
+# 774
+q = 7
+q = 8
+g = (q / q)/(1 * q)+(q * 1)
+for q in range(1, 14) :
+	print(q / q)
+# Simplification
+for q in range(1, 14):
+    print(q / q)
+
+
+# 775
+f = 9
+y = 3
+r = y * f
+for f in range(3, 9) :
+	print(r)
+# Simplification
+for _ in range(3, 9):
+    print(y * f)
+
+
+# 776
+p = 7
+x = (3 / 4)*(p * p)
+for p in range(1, 14) :
+	print(x)
+# Simplification
+for _ in range(1, 14):
+    print(3 / 4 * (p * p))
+
+
+# 777
+z = 0
+h = 0
+w = 4
+x = (w - z)*(w - 4)
+for z in range(4, 4) :
+	print(h + z)
+# Simplification
+for z in range(4, 4):
+    print(h + z)
+
+
+# 778
+q = 0
+w = 8
+for q in range(1, 9) :
+	print(q)
+# Simplification
+for q in range(1, 9):
+    print(q)
+
+
+# 779
+h = 5
+k = 4
+x = 5
+k = (x - x)
+for k in range(5, 4, 2) :
+	print(h * 9)
+# Simplification
+for _ in range(5, 4, 2):
+    print(h * 9)
+
+
+# 780
+y = 0
+n = 0
+l = 1
+e = 5
+d = 5
+l = 0 + 5
+for d in range(5, 9, 1) :
+	print(l)
+# Simplification
+for _ in range(5, 9, 1):
+    print(l)
+
+
+# 781
+w = 2
+for w in range(4, 10) :
+	print(w)
+# Simplification
+for w in range(4, 10):
+    print(w)
+
+
+# 782
+f = 1
+v = 4
+i = (9 * v)-(0 / 0)*(3 / v)-(2 / 4)
+for f in range(2, 8) :
+	print(i)
+# Simplification
+for _ in range(2, 8):
+    print(9 * v - 0 / 0 * (3 / v) - 2 / 4)
+
+
+# 783
+w = 3
+h = 3
+r = 5 / w
+for h in range(7, 1, 1) :
+	print(r)
+# Simplification
+for _ in range(7, 1, 1):
+    print(5 / w)
+
+
+# 784
+t = 4
+g = 8
+d = 8
+c = 8
+for g in range(5, 13) :
+	print(g / d)
+# Simplification
+for g in range(5, 13):
+    print(g / d)
+
+
+# 785
+b = 8
+for b in range(6, 9, 1) :
+	print(b / b)
+# Simplification
+for b in range(6, 9, 1):
+    print(b / b)
+
+
+# 786
+r = 8
+e = 6
+c = 4
+q = e - 5
+for e in range(1, 8, 3) :
+	print(r - 0)
+# Simplification
+for _ in range(1, 8, 3):
+    print(r - 0)
+
+
+# 787
+m = 6
+d = 2
+v = 8
+e = 3 - v
+for m in range(2, 9, 2) :
+	print(e)
+# Simplification
+for _ in range(2, 9, 2):
+    print(3 - v)
+
+
+# 788
+c = 0
+c = (5 / 1)
+for c in range(8, 10) :
+	print(c * c)
+# Simplification
+for c in range(8, 10):
+    print(c * c)
+
+
+# 789
+c = 7
+k = 9
+t = 1
+k = 2 + 9
+for k in range(5, 6, 1) :
+	print(k)
+# Simplification
+for k in range(5, 6, 1):
+    print(k)
+
+
+# 790
+e = 4
+w = e + 6
+for e in range(3, 8) :
+	print(w)
+# Simplification
+for _ in range(3, 8):
+    print(e + 6)
+
+
+# 791
+j = 8
+for j in range(6, 11) :
+	print(j)
+# Simplification
+for j in range(6, 11):
+    print(j)
+
+
+# 792
+l = 7
+d = 8
+p = 8
+z = 2
+z = 4
+h = 8 / 1
+for l in range(2, 4, 1) :
+	print(h)
+# Simplification
+for _ in range(2, 4, 1):
+    print(h)
+
+
+# 793
+q = 5
+v = 9
+g = 5
+t = 8
+k = (7 - q)
+for q in range(0, 6, 1) :
+	print(k)
+# Simplification
+for _ in range(0, 6, 1):
+    print(7 - q)
+
+
+# 794
+n = 2
+w = 3
+v = (w / 3)
+for n in range(6, 10) :
+	print(v)
+# Simplification
+for _ in range(6, 10):
+    print(w / 3)
+
+
+# 795
+a = 0
+e = (a * a)/(a - a)
+for a in range(4, 9) :
+	print(e)
+# Simplification
+for _ in range(4, 9):
+    print(a * a / (a - a))
+
+
+# 796
+i = 4
+u = 7
+t = 0
+n = (5 * 8)
+for i in range(0, 7) :
+	print(n)
+# Simplification
+for _ in range(0, 7):
+    print(n)
+
+
+# 797
+b = 4
+r = 3
+z = 4
+for z in range(5, 14, 3) :
+	print(b)
+# Simplification
+for _ in range(5, 14, 3):
+    print(b)
+
+
+# 798
+e = 8
+s = (5 * e)
+for e in range(5, 8, 1) :
+	print(s)
+# Simplification
+for _ in range(5, 8, 1):
+    print(5 * e)
+
+
+# 799
+q = 6
+b = 1
+i = (3 + 4)*(q / 0)-(4 * 3)/(3 - q)-(b - 3)/(q - b)
+for q in range(1, 11) :
+	print(i)
+# Simplification
+for _ in range(1, 11):
+    print((3 + 4) * (q / 0) - 4 * 3 / (3 - q) - (b - 3) / (q - b))
+
+
+# 800
+u = 2
+v = 7
+d = 0
+s = 9
+o = 4 * 2
+for u in range(1, 9) :
+	print(o)
+# Simplification
+for _ in range(1, 9):
+    print(o)
+
+
+# 801
+g = 3
+r = 6
+for r in range(7, 11, 1) :
+	print(g)
+# Simplification
+for _ in range(7, 11, 1):
+    print(g)
+
+
+# 802
+r = 7
+for r in range(4, 4) :
+	print(r)
+# Simplification
+for r in range(4, 4):
+    print(r)
+
+
+# 803
+c = 1
+e = 7
+x = 5
+for e in range(1, 8, 2) :
+	print(c)
+# Simplification
+for _ in range(1, 8, 2):
+    print(c)
+
+
+# 804
+w = 0
+g = 2 + 7
+for w in range(9, 6, 1) :
+	print(g)
+# Simplification
+for _ in range(9, 6, 1):
+    print(g)
+
+
+# 805
+m = 4
+j = (9 - m)
+for m in range(2, 8) :
+	print(j)
+# Simplification
+for _ in range(2, 8):
+    print(9 - m)
+
+
+# 806
+y = 2
+n = (y * 4)
+for y in range(3, 3, 3) :
+	print(y * y)
+# Simplification
+for y in range(3, 3, 3):
+    print(y * y)
+
+
+# 807
+g = 8
+u = 9
+o = 8
+e = o / u
+for o in range(5, 11) :
+	print(e)
+# Simplification
+for _ in range(5, 11):
+    print(o / u)
+
+
+# 808
+k = 4
+a = 8
+f = (k / 0)*(9 - 4)
+for k in range(9, 9, 2) :
+	print(f)
+# Simplification
+for _ in range(9, 9, 2):
+    print(k / 0 * (9 - 4))
+
+
+# 809
+x = 5
+a = 8
+for a in range(3, 5, 1) :
+	print(x - 5)
+# Simplification
+for _ in range(3, 5, 1):
+    print(x - 5)
+
+
+# 810
+g = 3
+i = 1
+for g in range(3, 8, 2) :
+	print(g)
+# Simplification
+for g in range(3, 8, 2):
+    print(g)
+
+
+# 811
+t = 3
+e = 6
+c = 1
+v = 7
+for e in range(3, 11) :
+	print(e)
+# Simplification
+for e in range(3, 11):
+    print(e)
+
+
+# 812
+k = 1
+v = 5
+o = (0 - 9)/(1 - 0)
+for k in range(4, 5) :
+	print(k - 5)
+# Simplification
+for k in range(4, 5):
+    print(k - 5)
+
+
+# 813
+o = 8
+p = 8
+h = 2
+g = 1
+f = (g / 1)
+for h in range(4, 11, 2) :
+	print(f)
+# Simplification
+for _ in range(4, 11, 2):
+    print(g / 1)
+
+
+# 814
+q = 0
+z = 6
+for q in range(3, 9, 2) :
+	print(z)
+# Simplification
+for _ in range(3, 9, 2):
+    print(z)
+
+
+# 815
+r = 5
+k = 2
+q = 5
+n = 6 / 9
+for q in range(3, 11) :
+	print(k * k)
+# Simplification
+for _ in range(3, 11):
+    print(k * k)
+
+
+# 816
+u = 2
+z = 2
+for u in range(6, 5, 1) :
+	print(z)
+# Simplification
+for _ in range(6, 5, 1):
+    print(z)
+
+
+# 817
+l = 8
+v = 5
+q = v - 5
+for l in range(8, 1) :
+	print(q)
+# Simplification
+for _ in range(8, 1):
+    print(v - 5)
+
+
+# 818
+w = 9
+j = 6
+h = 5
+z = (7 + j)+(0 + 5)+(h * j)+(4 / w)/(w - j)
+for w in range(6, 4, 1) :
+	print(z)
+# Simplification
+for _ in range(6, 4, 1):
+    print(7 + j + (0 + 5) + h * j + 4 / w / (w - j))
+
+
+# 819
+v = 2
+k = (v + 3)*(2 - v)-(2 - 0)+(6 - v)-(1 - 1)
+for v in range(4, 7) :
+	print(v / v)
+# Simplification
+for v in range(4, 7):
+    print(v / v)
+
+
+# 820
+p = 0
+x = 8 + 7
+for p in range(8, 12, 2) :
+	print(x)
+# Simplification
+for _ in range(8, 12, 2):
+    print(x)
+
+
+# 821
+o = 7
+for o in range(5, 17, 2) :
+	print(o)
+# Simplification
+for o in range(5, 17, 2):
+    print(o)
+
+
+# 822
+s = 3
+p = 3
+m = (8 * 0)-(9 / s)-(p + 3)+(6 * 4)/(p * p)
+for p in range(2, 5) :
+	print(m)
+# Simplification
+for _ in range(2, 5):
+    print(8 * 0 - 9 / s - (p + 3) + 6 * 4 / (p * p))
+
+
+# 823
+q = 7
+for q in range(3, 11, 3) :
+	print(q)
+# Simplification
+for q in range(3, 11, 3):
+    print(q)
+
+
+# 824
+c = 6
+for c in range(7, 8, 2) :
+	print(c)
+# Simplification
+for c in range(7, 8, 2):
+    print(c)
+
+
+# 825
+f = 0
+t = 2
+d = 8
+n = 5 - 0
+for d in range(9, 16, 1) :
+	print(n)
+# Simplification
+for _ in range(9, 16, 1):
+    print(n)
+
+
+# 826
+s = 9
+t = 8
+p = 8
+m = 3 - 6
+for t in range(4, 2) :
+	print(m)
+# Simplification
+for _ in range(4, 2):
+    print(m)
+
+
+# 827
+o = 4
+l = 7
+s = 1
+h = 4
+i = l + l
+for h in range(7, 7) :
+	print(i)
+# Simplification
+for _ in range(7, 7):
+    print(l + l)
+
+
+# 828
+b = 3
+q = (4 - 5)/(7 + 5)+(1 * b)
+for b in range(8, 4) :
+	print(q)
+# Simplification
+for _ in range(8, 4):
+    print((4 - 5) / (7 + 5) + 1 * b)
+
+
+# 829
+r = 2
+e = (9 - r)/(0 * 9)
+for r in range(1, 11, 2) :
+	print(e)
+# Simplification
+for _ in range(1, 11, 2):
+    print((9 - r) / (0 * 9))
+
+
+# 830
+y = 3
+a = 5
+n = (y + y)+(1 / y)
+for a in range(4, 12, 1) :
+	print(n)
+# Simplification
+for _ in range(4, 12, 1):
+    print(y + y + 1 / y)
+
+
+# 831
+q = 4
+s = q * q
+for q in range(1, 11) :
+	print(s)
+# Simplification
+for _ in range(1, 11):
+    print(q * q)
+
+
+# 832
+j = 1
+q = 1
+s = 8
+k = 4
+y = (k - j)*(s - q)
+for k in range(2, 9) :
+	print(y)
+# Simplification
+for _ in range(2, 9):
+    print((k - j) * (s - q))
+
+
+# 833
+p = 2
+for p in range(6, 6, 3) :
+	print(p)
+# Simplification
+for p in range(6, 6, 3):
+    print(p)
+
+
+# 834
+f = 6
+for f in range(0, 4, 2) :
+	print(f)
+# Simplification
+for f in range(0, 4, 2):
+    print(f)
+
+
+# 835
+w = 0
+for w in range(2, 17, 2) :
+	print(w)
+# Simplification
+for w in range(2, 17, 2):
+    print(w)
+
+
+# 836
+b = 1
+c = (b - b)
+for b in range(2, 10, 3) :
+	print(c)
+# Simplification
+for _ in range(2, 10, 3):
+    print(b - b)
+
+
+# 837
+o = 1
+t = 9
+g = (t + 3)
+for t in range(0, 5) :
+	print(g)
+# Simplification
+for _ in range(0, 5):
+    print(t + 3)
+
+
+# 838
+s = 4
+i = 1
+h = 6
+u = 7
+k = 3
+for s in range(4, 11) :
+	print(k)
+# Simplification
+for _ in range(4, 11):
+    print(k)
+
+
+# 839
+j = 0
+s = 8
+f = 2
+p = (1 / 6)-(3 / 8)
+for j in range(3, 12) :
+	print(p)
+# Simplification
+for _ in range(3, 12):
+    print(1 / 6 - 3 / 8)
+
+
+# 840
+e = 1
+s = 5
+c = (4 / e)+(s / 2)-(e + 3)
+for e in range(9, 8) :
+	print(c)
+# Simplification
+for _ in range(9, 8):
+    print(4 / e + s / 2 - (e + 3))
+
+
+# 841
+j = 4
+d = 0
+z = 7
+b = 3
+t = 7
+d = 8 + b
+for j in range(7, 10) :
+	print(d)
+# Simplification
+for _ in range(7, 10):
+    print(8 + b)
+
+
+# 842
+n = 6
+b = 7
+b = 8
+for b in range(5, 6, 3) :
+	print(n)
+# Simplification
+for _ in range(5, 6, 3):
+    print(n)
+
+
+# 843
+e = 0
+o = 2
+for o in range(3, 3, 2) :
+	print(o - o)
+# Simplification
+for o in range(3, 3, 2):
+    print(o - o)
+
+
+# 844
+q = 7
+j = 6
+for q in range(5, 14) :
+	print(q + 4)
+# Simplification
+for q in range(5, 14):
+    print(q + 4)
+
+
+# 845
+u = 1
+o = u / u
+for u in range(1, 2, 1) :
+	print(o)
+# Simplification
+for _ in range(1, 2, 1):
+    print(u / u)
+
+
+# 846
+y = 1
+m = 3
+f = (y / m)
+for m in range(5, 14, 2) :
+	print(f)
+# Simplification
+for _ in range(5, 14, 2):
+    print(y / m)
+
+
+# 847
+d = 2
+z = 2
+for d in range(4, 11) :
+	print(d)
+# Simplification
+for d in range(4, 11):
+    print(d)
+
+
+# 848
+x = 1
+m = 8
+d = 7
+b = 2
+p = (x + b)
+for d in range(5, 15) :
+	print(p)
+# Simplification
+for _ in range(5, 15):
+    print(x + b)
+
+
+# 849
+l = 5
+for l in range(8, 5) :
+	print(l)
+# Simplification
+for l in range(8, 5):
+    print(l)
+
+
+# 850
+b = 4
+l = (8 - b)
+for b in range(9, 14) :
+	print(l)
+# Simplification
+for _ in range(9, 14):
+    print(8 - b)
+
+
+# 851
+z = 3
+a = (7 + z)*(9 / z)-(z * 8)
+for z in range(0, 10) :
+	print(a)
+# Simplification
+for _ in range(0, 10):
+    print((7 + z) * (9 / z) - z * 8)
+
+
+# 852
+f = 2
+r = 7
+h = 5
+k = 5
+j = 6 / 3
+for h in range(9, 6, 2) :
+	print(j)
+# Simplification
+for _ in range(9, 6, 2):
+    print(j)
+
+
+# 853
+y = 2
+u = 0
+v = 3
+for y in range(1, 12, 3) :
+	print(u * y)
+# Simplification
+for y in range(1, 12, 3):
+    print(u * y)
+
+
+# 854
+d = 2
+s = (d - d)
+for d in range(2, 7) :
+	print(d - d)
+# Simplification
+for d in range(2, 7):
+    print(d - d)
+
+
+# 855
+g = 4
+c = 0 / 0
+for g in range(5, 14, 3) :
+	print(c)
+# Simplification
+for _ in range(5, 14, 3):
+    print(c)
+
+
+# 856
+v = 6
+f = 0
+m = 1
+p = 3
+j = 1
+s = p - 2
+for m in range(9, 12) :
+	print(m - 9)
+# Simplification
+for m in range(9, 12):
+    print(m - 9)
+
+
+# 857
+v = 2
+j = 1
+for j in range(6, 7) :
+	print(j)
+# Simplification
+for j in range(6, 7):
+    print(j)
+
+
+# 858
+s = 1
+v = 7
+a = 6
+for v in range(2, 9, 1) :
+	print(a)
+# Simplification
+for _ in range(2, 9, 1):
+    print(a)
+
+
+# 859
+t = 1
+a = 5
+i = 0
+t = (i + a)
+for t in range(1, 12) :
+	print(t)
+# Simplification
+for t in range(1, 12):
+    print(i + a)
+
+
+# 860
+d = 4
+o = 3
+i = 7
+u = 2
+u = 0 / 7
+for i in range(7, 5) :
+	print(u)
+# Simplification
+for _ in range(7, 5):
+    print(u)
+
+
+# 861
+b = 1
+for b in range(4, 7) :
+	print(b)
+# Simplification
+for b in range(4, 7):
+    print(b)
+
+
+# 862
+u = 4
+d = 7
+e = (0 - u)+(d - 9)/(4 / 0)/(3 + 5)-(4 * 0)
+for d in range(5, 9) :
+	print(d - 8)
+# Simplification
+for d in range(5, 9):
+    print(d - 8)
+
+
+# 863
+g = 7
+for g in range(4, 5, 2) :
+	print(g - g)
+# Simplification
+for g in range(4, 5, 2):
+    print(g - g)
+
+
+# 864
+y = 0
+q = 2
+d = 7
+o = 4
+z = 9 + 7
+for d in range(5, 9) :
+	print(z)
+# Simplification
+for _ in range(5, 9):
+    print(z)
+
+
+# 865
+c = 7
+l = (c + 6)
+for c in range(5, 16, 1) :
+	print(l)
+# Simplification
+for _ in range(5, 16, 1):
+    print(c + 6)
+
+
+# 866
+o = 8
+for o in range(8, 14, 1) :
+	print(o)
+# Simplification
+for o in range(8, 14, 1):
+    print(o)
+
+
+# 867
+q = 9
+p = 8
+for p in range(6, 3) :
+	print(p)
+# Simplification
+for p in range(6, 3):
+    print(p)
+
+
+# 868
+v = 1
+b = 8
+d = 1
+a = v + b
+for d in range(6, 5) :
+	print(a)
+# Simplification
+for _ in range(6, 5):
+    print(v + b)
+
+
+# 869
+f = 1
+c = 4
+e = c - c
+for c in range(2, 15) :
+	print(e)
+# Simplification
+for _ in range(2, 15):
+    print(c - c)
+
+
+# 870
+n = 7
+for n in range(2, 12, 1) :
+	print(n)
+# Simplification
+for n in range(2, 12, 1):
+    print(n)
+
+
+# 871
+k = 7
+for k in range(2, 1, 3) :
+	print(k)
+# Simplification
+for k in range(2, 1, 3):
+    print(k)
+
+
+# 872
+s = 4
+o = (9 + 3)+(5 - 8)
+for s in range(2, 12) :
+	print(o)
+# Simplification
+for _ in range(2, 12):
+    print(9 + 3 + (5 - 8))
+
+
+# 873
+b = 8
+l = 5
+for b in range(7, 14) :
+	print(b)
+# Simplification
+for b in range(7, 14):
+    print(b)
+
+
+# 874
+y = 8
+u = 9
+a = 8
+for a in range(7, 3) :
+	print(y)
+# Simplification
+for _ in range(7, 3):
+    print(y)
+
+
+# 875
+p = 9
+u = (p / p)*(p / p)*(p / p)*(p + p)
+for p in range(7, 9, 1) :
+	print(u)
+# Simplification
+for _ in range(7, 9, 1):
+    print(p / p * (p / p) * (p / p) * (p + p))
+
+
+# 876
+x = 8
+h = x * 1
+for x in range(1, 16) :
+	print(x - 4)
+# Simplification
+for x in range(1, 16):
+    print(x - 4)
+
+
+# 877
+o = 4
+e = 1
+u = 8
+r = 7
+for u in range(9, 6, 3) :
+	print(u)
+# Simplification
+for u in range(9, 6, 3):
+    print(u)
+
+
+# 878
+z = 8
+g = 0
+w = (1 * 8)
+for g in range(2, 6) :
+	print(w)
+# Simplification
+for _ in range(2, 6):
+    print(w)
+
+
+# 879
+b = 3
+c = 2
+m = b - 3
+for b in range(7, 2) :
+	print(m)
+# Simplification
+for _ in range(7, 2):
+    print(b - 3)
+
+
+# 880
+x = 4
+q = 8 - 3
+for x in range(8, 9) :
+	print(q)
+# Simplification
+for _ in range(8, 9):
+    print(q)
+
+
+# 881
+k = 0
+p = (k / 1)/(k * k)
+for k in range(6, 9, 3) :
+	print(p)
+# Simplification
+for _ in range(6, 9, 3):
+    print(k / 1 / (k * k))
+
+
+# 882
+e = 1
+l = 2
+k = 4 / e
+for e in range(7, 15) :
+	print(k)
+# Simplification
+for _ in range(7, 15):
+    print(4 / e)
+
+
+# 883
+n = 9
+i = (n / n)
+for n in range(8, 7, 3) :
+	print(i)
+# Simplification
+for _ in range(8, 7, 3):
+    print(n / n)
+
+
+# 884
+z = 1
+e = (z + z)+(z * 5)+(2 + z)
+for z in range(3, 7) :
+	print(e)
+# Simplification
+for _ in range(3, 7):
+    print(z + z + z * 5 + (2 + z))
+
+
+# 885
+v = 0
+h = (v * v)/(4 + 1)
+for v in range(3, 8) :
+	print(v + v)
+# Simplification
+for v in range(3, 8):
+    print(v + v)
+
+
+# 886
+t = 4
+z = (1 / 1)
+for t in range(9, 10, 1) :
+	print(z)
+# Simplification
+for _ in range(9, 10, 1):
+    print(z)
+
+
+# 887
+j = 9
+o = j / 9
+for j in range(9, 11) :
+	print(j / 0)
+# Simplification
+for j in range(9, 11):
+    print(j / 0)
+
+
+# 888
+r = 6
+f = (r + r)-(r + 7)*(r + 4)/(r + 1)
+for r in range(2, 4) :
+	print(f)
+# Simplification
+for _ in range(2, 4):
+    print(r + r - (r + 7) * (r + 4) / (r + 1))
+
+
+# 889
+x = 0
+r = 0
+z = (x - 3)/(2 / r)*(7 - x)
+for r in range(1, 6) :
+	print(z)
+# Simplification
+for _ in range(1, 6):
+    print((x - 3) / (2 / r) * (7 - x))
+
+
+# 890
+l = 4
+w = l * 7
+for l in range(9, 7, 2) :
+	print(l - 0)
+# Simplification
+for l in range(9, 7, 2):
+    print(l - 0)
+
+
+# 891
+h = 9
+q = (3 + 1)
+for h in range(2, 11, 1) :
+	print(q)
+# Simplification
+for _ in range(2, 11, 1):
+    print(q)
+
+
+# 892
+g = 5
+for g in range(4, 7) :
+	print(g)
+# Simplification
+for g in range(4, 7):
+    print(g)
+
+
+# 893
+v = 0
+v = 3
+z = 0
+for v in range(8, 8, 2) :
+	print(v)
+# Simplification
+for v in range(8, 8, 2):
+    print(v)
+
+
+# 894
+d = 0
+for d in range(7, 6) :
+	print(d)
+# Simplification
+for d in range(7, 6):
+    print(d)
+
+
+# 895
+h = 4
+a = (9 + h)/(h + 8)
+for h in range(1, 5, 3) :
+	print(a)
+# Simplification
+for _ in range(1, 5, 3):
+    print((9 + h) / (h + 8))
+
+
+# 896
+g = 1
+o = g * g
+for g in range(8, 6, 3) :
+	print(o)
+# Simplification
+for _ in range(8, 6, 3):
+    print(g * g)
+
+
+# 897
+h = 0
+j = (h / h)+(7 * 4)
+for h in range(4, 4) :
+	print(j)
+# Simplification
+for _ in range(4, 4):
+    print(h / h + 7 * 4)
+
+
+# 898
+n = 4
+for n in range(1, 14) :
+	print(n)
+# Simplification
+for n in range(1, 14):
+    print(n)
+
+
+# 899
+q = 2
+t = 8
+w = 9
+q = 9 * 7
+for q in range(2, 5) :
+	print(q)
+# Simplification
+for q in range(2, 5):
+    print(q)
+
+
+# 900
+a = 2
+e = 8
+x = 4
+e = (a / 7)
+for x in range(1, 6, 2) :
+	print(e)
+# Simplification
+for _ in range(1, 6, 2):
+    print(a / 7)
+
+
+# 901
+t = 0
+c = 1
+x = (4 * 2)
+for c in range(1, 8) :
+	print(x)
+# Simplification
+for _ in range(1, 8):
+    print(x)
+
+
+# 902
+r = 7
+y = 2
+t = 0
+e = 5
+t = 5
+j = (4 / y)
+for e in range(7, 8, 3) :
+	print(j)
+# Simplification
+for _ in range(7, 8, 3):
+    print(4 / y)
+
+
+# 903
+p = 7
+for p in range(8, 4) :
+	print(p + 5)
+# Simplification
+for p in range(8, 4):
+    print(p + 5)
+
+
+# 904
+d = 9
+z = 1
+u = 4
+m = 2
+for d in range(9, 3, 2) :
+	print(m)
+# Simplification
+for _ in range(9, 3, 2):
+    print(m)
+
+
+# 905
+m = 8
+l = 8
+j = (4 - 3)-(7 - 1)
+for l in range(1, 1) :
+	print(j)
+# Simplification
+for _ in range(1, 1):
+    print(4 - 3 - (7 - 1))
+
+
+# 906
+n = 0
+p = 7
+d = (3 / p)
+for p in range(2, 1) :
+	print(d)
+# Simplification
+for _ in range(2, 1):
+    print(3 / p)
+
+
+# 907
+c = 8
+x = (5 + c)
+for c in range(1, 5) :
+	print(x)
+# Simplification
+for _ in range(1, 5):
+    print(5 + c)
+
+
+# 908
+a = 7
+l = 9 + a
+for a in range(7, 3) :
+	print(l)
+# Simplification
+for _ in range(7, 3):
+    print(9 + a)
+
+
+# 909
+o = 4
+h = 5
+f = 1
+d = 0
+a = h + o
+for h in range(6, 12, 3) :
+	print(f / 7)
+# Simplification
+for _ in range(6, 12, 3):
+    print(f / 7)
+
+
+# 910
+p = 7
+for p in range(9, 8, 3) :
+	print(p)
+# Simplification
+for p in range(9, 8, 3):
+    print(p)
+
+
+# 911
+p = 2
+r = 6 * 8
+for p in range(0, 6) :
+	print(r)
+# Simplification
+for _ in range(0, 6):
+    print(r)
+
+
+# 912
+k = 6
+for k in range(1, 10, 2) :
+	print(k)
+# Simplification
+for k in range(1, 10, 2):
+    print(k)
+
+
+# 913
+g = 8
+for g in range(1, 12, 3) :
+	print(g)
+# Simplification
+for g in range(1, 12, 3):
+    print(g)
+
+
+# 914
+a = 8
+g = 0
+c = (g / 3)
+for g in range(1, 12) :
+	print(c)
+# Simplification
+for _ in range(1, 12):
+    print(g / 3)
+
+
+# 915
+w = 9
+o = w * 2
+for w in range(1, 3) :
+	print(o)
+# Simplification
+for _ in range(1, 3):
+    print(w * 2)
+
+
+# 916
+s = 7
+b = 9
+a = 0
+c = b - b
+for s in range(9, 16, 3) :
+	print(b * 3)
+# Simplification
+for _ in range(9, 16, 3):
+    print(b * 3)
+
+
+# 917
+r = 6
+d = (r * r)/(r / r)
+for r in range(0, 8, 3) :
+	print(d)
+# Simplification
+for _ in range(0, 8, 3):
+    print(r * r / (r / r))
+
+
+# 918
+c = 1
+t = (c * c)-(6 * 6)-(c * c)/(7 * c)
+for c in range(4, 14, 3) :
+	print(t)
+# Simplification
+for _ in range(4, 14, 3):
+    print(c * c - 6 * 6 - c * c / (7 * c))
+
+
+# 919
+e = 3
+r = 3
+r = e - 0
+for e in range(1, 11, 3) :
+	print(r)
+# Simplification
+for _ in range(1, 11, 3):
+    print(e - 0)
+
+
+# 920
+b = 5
+for b in range(9, 6, 2) :
+	print(b)
+# Simplification
+for b in range(9, 6, 2):
+    print(b)
+
+
+# 921
+t = 0
+f = 6
+for t in range(9, 8, 1) :
+	print(t)
+# Simplification
+for t in range(9, 8, 1):
+    print(t)
+
+
+# 922
+t = 1
+d = 2
+for t in range(0, 8) :
+	print(t)
+# Simplification
+for t in range(0, 8):
+    print(t)
+
+
+# 923
+p = 5
+w = (p / p)
+for p in range(4, 6) :
+	print(w)
+# Simplification
+for _ in range(4, 6):
+    print(p / p)
+
+
+# 924
+n = 0
+w = (6 * n)+(3 - n)+(0 - n)
+for n in range(7, 9) :
+	print(w)
+# Simplification
+for _ in range(7, 9):
+    print(6 * n + (3 - n) + (0 - n))
+
+
+# 925
+p = 7
+m = p / 7
+for p in range(9, 10) :
+	print(m)
+# Simplification
+for _ in range(9, 10):
+    print(p / 7)
+
+
+# 926
+u = 0
+for u in range(1, 8, 2) :
+	print(u - 2)
+# Simplification
+for u in range(1, 8, 2):
+    print(u - 2)
+
+
+# 927
+x = 7
+h = 4
+k = 2
+m = 9
+k = 2
+for k in range(3, 13) :
+	print(x)
+# Simplification
+for _ in range(3, 13):
+    print(x)
+
+
+# 928
+h = 3
+for h in range(5, 8) :
+	print(h)
+# Simplification
+for h in range(5, 8):
+    print(h)
+
+
+# 929
+y = 2
+p = y / y
+for y in range(5, 10, 3) :
+	print(p)
+# Simplification
+for _ in range(5, 10, 3):
+    print(y / y)
+
+
+# 930
+d = 9
+r = d - d
+for d in range(4, 9) :
+	print(r)
+# Simplification
+for _ in range(4, 9):
+    print(d - d)
+
+
+# 931
+f = 1
+l = f + f
+for f in range(2, 6) :
+	print(l)
+# Simplification
+for _ in range(2, 6):
+    print(f + f)
+
+
+# 932
+s = 0
+b = 7 / s
+for s in range(2, 6, 1) :
+	print(b)
+# Simplification
+for _ in range(2, 6, 1):
+    print(7 / s)
+
+
+# 933
+v = 0
+x = 4
+e = 4
+r = (7 / x)*(4 - 9)
+for x in range(4, 8) :
+	print(r)
+# Simplification
+for _ in range(4, 8):
+    print(7 / x * (4 - 9))
+
+
+# 934
+u = 6
+v = 9
+j = 0
+w = (v * j)
+for j in range(1, 3, 2) :
+	print(w)
+# Simplification
+for _ in range(1, 3, 2):
+    print(v * j)
+
+
+# 935
+b = 4
+u = 5
+i = 0
+h = 1
+z = (2 / 4)
+for i in range(9, 10) :
+	print(z)
+# Simplification
+for _ in range(9, 10):
+    print(z)
+
+
+# 936
+t = 7
+z = 8 + 7
+for t in range(8, 9) :
+	print(z)
+# Simplification
+for _ in range(8, 9):
+    print(z)
+
+
+# 937
+y = 0
+for y in range(1, 2, 3) :
+	print(y)
+# Simplification
+for y in range(1, 2, 3):
+    print(y)
+
+
+# 938
+s = 3
+for s in range(1, 13) :
+	print(s / s)
+# Simplification
+for s in range(1, 13):
+    print(s / s)
+
+
+# 939
+s = 3
+k = 6
+a = 1 - k
+for k in range(0, 5) :
+	print(a)
+# Simplification
+for _ in range(0, 5):
+    print(1 - k)
+
+
+# 940
+f = 5
+o = (f + 4)
+for f in range(0, 13) :
+	print(f + 1)
+# Simplification
+for f in range(0, 13):
+    print(f + 1)
+
+
+# 941
+t = 3
+m = t + t
+for t in range(3, 8) :
+	print(m)
+# Simplification
+for _ in range(3, 8):
+    print(t + t)
+
+
+# 942
+o = 8
+w = 5 / 6
+for o in range(8, 4) :
+	print(w)
+# Simplification
+for _ in range(8, 4):
+    print(w)
+
+
+# 943
+y = 4
+s = y / 3
+for y in range(1, 17, 3) :
+	print(s)
+# Simplification
+for _ in range(1, 17, 3):
+    print(y / 3)
+
+
+# 944
+u = 8
+v = 4 + 3
+for u in range(9, 12) :
+	print(u * u)
+# Simplification
+for u in range(9, 12):
+    print(u * u)
+
+
+# 945
+x = 2
+t = 1
+s = t - 5
+for x in range(3, 11) :
+	print(s)
+# Simplification
+for _ in range(3, 11):
+    print(t - 5)
+
+
+# 946
+k = 8
+for k in range(1, 2) :
+	print(k)
+# Simplification
+for k in range(1, 2):
+    print(k)
+
+
+# 947
+q = 9
+z = 7
+for q in range(1, 6) :
+	print(z / 7)
+# Simplification
+for _ in range(1, 6):
+    print(z / 7)
+
+
+# 948
+m = 5
+for m in range(6, 9, 1) :
+	print(m / m)
+# Simplification
+for m in range(6, 9, 1):
+    print(m / m)
+
+
+# 949
+s = 6
+d = s - s
+for s in range(9, 13) :
+	print(s - 3)
+# Simplification
+for s in range(9, 13):
+    print(s - 3)
+
+
+# 950
+r = 8
+n = 4
+for n in range(0, 11, 3) :
+	print(n)
+# Simplification
+for n in range(0, 11, 3):
+    print(n)
+
+
+# 951
+i = 5
+for i in range(1, 5, 2) :
+	print(i)
+# Simplification
+for i in range(1, 5, 2):
+    print(i)
+
+
+# 952
+c = 6
+w = 9
+r = c - c
+for w in range(2, 4) :
+	print(r)
+# Simplification
+for _ in range(2, 4):
+    print(c - c)
+
+
+# 953
+i = 9
+o = (i + i)
+for i in range(6, 9) :
+	print(i - i)
+# Simplification
+for i in range(6, 9):
+    print(i - i)
+
+
+# 954
+e = 9
+w = 7 - e
+for e in range(0, 3) :
+	print(w)
+# Simplification
+for _ in range(0, 3):
+    print(7 - e)
+
+
+# 955
+g = 6
+for g in range(4, 5, 1) :
+	print(g)
+# Simplification
+for g in range(4, 5, 1):
+    print(g)
+
+
+# 956
+t = 2
+j = (t + 4)*(2 + t)/(t * 2)/(0 + t)-(1 / 1)-(8 + 4)+(6 + t)
+for t in range(6, 1) :
+	print(t - 3)
+# Simplification
+for t in range(6, 1):
+    print(t - 3)
+
+
+# 957
+s = 3
+for s in range(0, 11) :
+	print(s)
+# Simplification
+for s in range(0, 11):
+    print(s)
+
+
+# 958
+y = 6
+n = y + y
+for y in range(5, 17) :
+	print(n)
+# Simplification
+for _ in range(5, 17):
+    print(y + y)
+
+
+# 959
+v = 3
+s = v + 2
+for v in range(9, 13) :
+	print(s)
+# Simplification
+for _ in range(9, 13):
+    print(v + 2)
+
+
+# 960
+s = 7
+for s in range(0, 6, 3) :
+	print(s)
+# Simplification
+for s in range(0, 6, 3):
+    print(s)
+
+
+# 961
+k = 9
+for k in range(9, 6) :
+	print(k)
+# Simplification
+for k in range(9, 6):
+    print(k)
+
+
+# 962
+w = 6
+x = 4 / w
+for w in range(1, 14) :
+	print(x)
+# Simplification
+for _ in range(1, 14):
+    print(4 / w)
+
+
+# 963
+v = 3
+for v in range(5, 10, 1) :
+	print(v)
+# Simplification
+for v in range(5, 10, 1):
+    print(v)
+
+
+# 964
+h = 0
+v = 9
+m = 3
+for h in range(3, 8) :
+	print(v)
+# Simplification
+for _ in range(3, 8):
+    print(v)
+
+
+# 965
+b = 5
+for b in range(1, 5, 3) :
+	print(b)
+# Simplification
+for b in range(1, 5, 3):
+    print(b)
+
+
+# 966
+p = 9
+n = (7 + p)*(2 + p)
+for p in range(6, 17) :
+	print(p + p)
+# Simplification
+for p in range(6, 17):
+    print(p + p)
+
+
+# 967
+b = 9
+i = (b - b)*(b - 9)
+for b in range(4, 13, 2) :
+	print(i)
+# Simplification
+for _ in range(4, 13, 2):
+    print((b - b) * (b - 9))
+
+
+# 968
+w = 9
+a = 8
+m = w - a
+for a in range(8, 13, 3) :
+	print(m)
+# Simplification
+for _ in range(8, 13, 3):
+    print(w - a)
+
+
+# 969
+x = 5
+v = 7
+v = 1
+t = (v / 1)+(x - 9)
+for v in range(5, 13) :
+	print(t)
+# Simplification
+for _ in range(5, 13):
+    print(v / 1 + (x - 9))
+
+
+# 970
+q = 9
+for q in range(5, 14) :
+	print(q)
+# Simplification
+for q in range(5, 14):
+    print(q)
+
+
+# 971
+a = 9
+t = (9 * 8)+(a / a)*(a / a)-(a + 8)+(a / a)
+for a in range(4, 13) :
+	print(t)
+# Simplification
+for _ in range(4, 13):
+    print(9 * 8 + a / a * (a / a) - (a + 8) + a / a)
+
+
+# 972
+y = 4
+for y in range(6, 12, 2) :
+	print(y)
+# Simplification
+for y in range(6, 12, 2):
+    print(y)
+
+
+# 973
+d = 8
+c = 8
+u = c + c
+for d in range(4, 3, 2) :
+	print(u)
+# Simplification
+for _ in range(4, 3, 2):
+    print(c + c)
+
+
+# 974
+j = 2
+w = j - j
+for j in range(8, 6) :
+	print(w)
+# Simplification
+for _ in range(8, 6):
+    print(j - j)
+
+
+# 975
+h = 3
+m = 3 * 6
+for h in range(1, 11, 2) :
+	print(m)
+# Simplification
+for _ in range(1, 11, 2):
+    print(m)
+
+
+# 976
+x = 5
+i = 4
+b = 4
+p = 7 - i
+for x in range(4, 17, 3) :
+	print(x - 0)
+# Simplification
+for x in range(4, 17, 3):
+    print(x - 0)
+
+
+# 977
+x = 9
+for x in range(9, 9) :
+	print(x / 6)
+# Simplification
+for x in range(9, 9):
+    print(x / 6)
+
+
+# 978
+g = 7
+y = 1
+s = 7 * g
+for g in range(9, 3) :
+	print(g / 7)
+# Simplification
+for g in range(9, 3):
+    print(g / 7)
+
+
+# 979
+h = 0
+for h in range(9, 12) :
+	print(h + h)
+# Simplification
+for h in range(9, 12):
+    print(h + h)
+
+
+# 980
+y = 2
+r = 0
+l = 1
+k = 9
+r = (3 * 5)
+for l in range(9, 10) :
+	print(r * r)
+# Simplification
+for _ in range(9, 10):
+    print(r * r)
+
+
+# 981
+s = 2
+y = 7
+r = (s + 8)
+for y in range(4, 5) :
+	print(r)
+# Simplification
+for _ in range(4, 5):
+    print(s + 8)
+
+
+# 982
+v = 7
+l = 8
+d = (v - 8)/(5 * v)*(3 - v)/(l * l)*(v + 0)+(7 - 8)
+for v in range(9, 12, 2) :
+	print(d)
+# Simplification
+for _ in range(9, 12, 2):
+    print((v - 8) / (5 * v) * (3 - v) / (l * l) * (v + 0) + (7 - 8))
+
+
+# 983
+f = 8
+for f in range(9, 9) :
+	print(f)
+# Simplification
+for f in range(9, 9):
+    print(f)
+
+
+# 984
+i = 4
+for i in range(8, 4) :
+	print(i)
+# Simplification
+for i in range(8, 4):
+    print(i)
+
+
+# 985
+i = 0
+for i in range(5, 14, 2) :
+	print(i)
+# Simplification
+for i in range(5, 14, 2):
+    print(i)
+
+
+# 986
+w = 3
+e = w + w
+for w in range(3, 5, 1) :
+	print(w * w)
+# Simplification
+for w in range(3, 5, 1):
+    print(w * w)
+
+
+# 987
+d = 5
+a = 6
+t = d / 4
+for a in range(7, 5, 3) :
+	print(t)
+# Simplification
+for _ in range(7, 5, 3):
+    print(d / 4)
+
+
+# 988
+j = 5
+r = j - j
+for j in range(1, 7, 1) :
+	print(r)
+# Simplification
+for _ in range(1, 7, 1):
+    print(j - j)
+
+
+# 989
+y = 3
+y = 5
+p = 2
+n = (y - p)
+for p in range(7, 17) :
+	print(y / 0)
+# Simplification
+for _ in range(7, 17):
+    print(y / 0)
+
+
+# 990
+l = 0
+k = (9 - 3)
+for l in range(5, 10) :
+	print(k)
+# Simplification
+for _ in range(5, 10):
+    print(k)
+
+
+# 991
+g = 6
+a = 1
+d = 0
+o = 9
+s = 2
+c = s / a
+for s in range(4, 6, 1) :
+	print(c)
+# Simplification
+for _ in range(4, 6, 1):
+    print(s / a)
+
+
+# 992
+m = 2
+for m in range(8, 9) :
+	print(m)
+# Simplification
+for m in range(8, 9):
+    print(m)
+
+
+# 993
+y = 8
+b = 5
+d = 7
+l = 2
+m = (6 * d)
+for d in range(8, 11) :
+	print(m)
+# Simplification
+for _ in range(8, 11):
+    print(6 * d)
+
+
+# 994
+n = 9
+w = n - 6
+for n in range(1, 4, 2) :
+	print(w)
+# Simplification
+for _ in range(1, 4, 2):
+    print(n - 6)
+
+
+# 995
+r = 9
+i = 2
+u = (r / 1)+(8 * r)
+for i in range(4, 6, 2) :
+	print(u)
+# Simplification
+for _ in range(4, 6, 2):
+    print(r / 1 + 8 * r)
+
+
+# 996
+x = 3
+l = (1 / x)
+for x in range(4, 9) :
+	print(l)
+# Simplification
+for _ in range(4, 9):
+    print(1 / x)
+
+
+# 997
+h = 3
+i = h / h
+for h in range(7, 6) :
+	print(h / h)
+# Simplification
+for h in range(7, 6):
+    print(h / h)
+
+
+# 998
+i = 7
+f = 6
+b = 8
+r = 3
+v = 0
+f = (0 + i)
+for b in range(5, 10) :
+	print(f)
+# Simplification
+for _ in range(5, 10):
+    print(0 + i)
+
+
+# 999
+k = 6
+z = (1 * 3)*(k - 3)
+for k in range(1, 8) :
+	print(k / k)
+# Simplification
+for k in range(1, 8):
+    print(k / k)
+
+
