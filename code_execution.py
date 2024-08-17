@@ -47,7 +47,7 @@ def execute_code_with_random_initialization(snippet, variables, num):
     if level_2:
         result = has_diff_var_comparison(snippet)
     
-    if (result and level_2) or not(result and level_2): #when we have a comparison between two diff variables
+    if (result and level_2) or (not result and not level_2): #when we have a comparison between two diff variables
         if len(variables) == 0:
            code = f"""{snippet}
     """
