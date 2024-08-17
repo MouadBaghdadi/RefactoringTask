@@ -1,18 +1,22 @@
 import random
 import io
+import os
 import contextlib
 import json
 from tqdm import tqdm
-from print_variable_detector import get_printed_variables
+from printed_variables_detector import get_printed_variables
 
 simplifications = []
 
-with open('dataset1.txt', 'r') as file:
-    lines = file.readlines()
+file_path = os.path.join('level 3', 'dataset3.txt')
 
-for i, line in enumerate(lines):
-    if "# Simplification" in line:
-        simplifications.append(lines[i + 1].strip())
+with open(file_path, 'r') as file:
+    lines = file.read()
+
+simplification = lines.split('# Simplification')[1:]
+
+for i in range(len(simplification)):
+    simplifications.append(simplification[i].split('\n\n\n#')[0])
 
 printed_vars = {}
 for i,snippet in enumerate(simplifications):
@@ -22,8 +26,8 @@ random.seed(42)
 random_initializations_var1 = []
 random_initializations_var2 = []
 for _ in range(100):
-    random_initializations_var1.append(random.randint(1, 1000))
-    random_initializations_var2.append(random.randint(1, 1000))
+    random_initializations_var1.append(random.randint(1, 100))
+    random_initializations_var2.append(random.randint(1, 100))
 
 def execute_code_with_random_initialization(snippet, variables, num):
     # Prepare a dictionary of random values to initialize variables
@@ -39,6 +43,7 @@ def execute_code_with_random_initialization(snippet, variables, num):
 {variables[1]} = {random_initializations_var2[num]}        
 {snippet}
     """
+    print(code)
     # Capture the output of the code
     output = io.StringIO()
     try:
@@ -55,10 +60,10 @@ outputs = {}
 for i in tqdm(range(1000)):
     output = []
     for num in range(10):
-        output.append(execute_code_with_random_initialization(simplifications[i], list(printed_vars[i]), num))
+        output.append(execute_code_with_random_initialization(simplifications[i], list(printed_vars[i]), num).split('\n'))
     outputs[i] = output
 
-file_path = 'outputs_level1.json'
+file_path = 'level 3\outputs_level3.json'
 with open(file_path, "w") as write_file:
     json.dump(outputs, write_file)
 

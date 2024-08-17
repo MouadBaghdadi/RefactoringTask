@@ -1,7 +1,7 @@
 import itertools
 import json
 
-with open('clones_level1.json') as f:
+with open('clones_level3.json') as f:
     clones = json.load(f) 
 
 def get_code_snippets(filename):
@@ -12,7 +12,7 @@ def get_code_snippets(filename):
     snippet_id = None
     snippet_code = []
     
-    with open('dataset1.txt', 'r') as file:
+    with open(filename, 'r') as file:
         lines = file.read()
     
     snippets_list = lines.split("# ")[1::2]
@@ -56,8 +56,8 @@ def write_binary_pairs_to_file(binary_pairs, output_filename):
             file.write(f"# snippet 2\n{snippet2}")
             file.write(f"# is clone\n{label}\n\n")
 
-filename = "dataset1.txt"  
-output_filename = "binary_pairs.txt"
+filename = "dataset3.txt"  
+output_filename = "binary_pairs_level3.txt"
 
 snippets = get_code_snippets(filename)
 
