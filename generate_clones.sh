@@ -10,6 +10,6 @@ LEVEL=$2
 FILENAME="level${LEVEL}.txt"
 
 # Run the Python scripts
+rm *.txt
 python tinypy_generator.py --level $LEVEL --filename $FILENAME
-python code_refactor_generator.py --level $LEVEL --filename $FILENAME
-python validate_dataset.py --filename $FILENAME
+python main.py --input $FILENAME

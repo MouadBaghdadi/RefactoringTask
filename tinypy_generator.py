@@ -267,17 +267,17 @@ class CodeGenerator:
             while generated_programs < num_programs:
                 try:
                     root, program = self.generate_program(level) # Generate a program.
-                    code = program + "\n# output"
+                    code = program 
 
                     # Capture the output of the program.
-                    SIO = StringIO()
-                    with redirect_stdout(SIO):
-                        exec(code)
-                    output = SIO.getvalue().strip()
-
-                    # Format the output as comments.
-                    output = '\n'.join([f'# {line}' if line else f'# ' for line in output.split('\n')])
-                    result = f"""{code}\n{output}"""
+                    #SIO = StringIO()
+                    #with redirect_stdout(SIO):
+                    #    exec(code)
+                    #output = SIO.getvalue().strip()
+#
+                    ## Format the output as comments.
+                    #output = '\n'.join([f'# {line}' if line else f'# ' for line in output.split('\n')])
+                    result = f"""{code}"""
                     
                     program_hash = hashlib.sha256(result.encode('utf-8')).hexdigest()
 
@@ -315,7 +315,7 @@ class CodeGenerator:
 
 def main():
     parser = argparse.ArgumentParser(description='Generate and write programs based on a specified level. ')
-    parser.add_argument('--num_programs', type=int, default=1000, help='Number of programs to generate and write (default is 1000)')
+    parser.add_argument('--num_programs', type=int, default=20, help='Number of programs to generate and write (default is 1000)')
     parser.add_argument('--level', default="ALL", help='The level of the programs (1.1, 1.2, 2.1, 2.2, 3.1, 3.2, ALL)')
     parser.add_argument('--filename', default='data/data.txt', help='Name of the file to write the programs (default is data/data.txt)')
     parser.add_argument('--deduplicate', action='store_true', default=True, help='Perform deduplication of generated programs (default is True)')
