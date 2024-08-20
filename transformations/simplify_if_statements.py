@@ -3,6 +3,8 @@ import astor
 import sympy as sp
 import random
 
+from transformations.variables_vocab import get_new_variable_name
+
 class RandomizeIfSimplification(ast.NodeTransformer):
     def __init__(self):
         self.declared_vars = []  # List to keep track of declared variables
@@ -30,7 +32,7 @@ class RandomizeIfSimplification(ast.NodeTransformer):
         elif action == 'add_junk':
             # Add a junk condition with random operations and variables
             num_vars = random.randint(2, 5)
-            self.declared_vars = [f'var_{random.randint(10000, 99999)}' for _ in range(num_vars)]
+            self.declared_vars = [get_new_variable_name() for _ in range(num_vars)]
             junk_values = [random.randint(-10000, 10000) for _ in range(num_vars)]
             
             # Define the junk variables and their values

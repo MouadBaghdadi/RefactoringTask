@@ -6,7 +6,7 @@ from tqdm import tqdm
 # Initialize the transformer
 transformer = CodeTransformer()
 
-def generate_clone(code_snippet):
+def use_main_tranformer(code_snippet):
     # Parse code snippet into AST
     tree = ast.parse(code_snippet)
     
@@ -26,11 +26,11 @@ def process_code_files(input_file, output_file):
         for idx,snippet_1 in enumerate(tqdm(snippets)):
           
             
-            # Apply transformations
-            transformed_code = transformer.apply_transformations(snippet_1)
+            # make sure the main transformer is the first transformation being applied
+            snippet_2 = use_main_tranformer(snippet_1)
+            snippet_2 = transformer.apply_transformations(snippet_2)
             
             # Generate a clone
-            snippet_2 = generate_clone(transformed_code)
             
             # Write the results to the output file
             outfile.write(f"# snippet 1\n{snippet_1}\n")

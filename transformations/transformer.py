@@ -11,20 +11,25 @@ from transformations.modfy_direction_assignments import apply_simplify_expressio
 from transformations.simplify_obvious_operations import simplify_obvious_operations
 from transformations.simplify_if_statements import apply_randomized_if_simplification
 from transformations.simplify_complex_if_statements import simplify_conditions
+from transformations.for_to_while_loops import for_to_while_loop
 
-transformations = {
-    0: remove_useless_operations,
-    0.11: remove_unused_vars,
-    0.001: apply_simplify_expression,
-    0.2: add_operations,
-    0.0001: reorder_statements,
-    0.00001: simplify_obvious_operations,
-    0.0002: apply_randomized_if_simplification,
-    0.21: simplify_conditions
-}
+
+from transformations.variables_vocab import get_new_variable_name
+transformations = [
+remove_useless_operations,
+    remove_unused_vars,
+     apply_simplify_expression,
+     add_operations,
+    reorder_statements,
+     simplify_obvious_operations,
+    apply_randomized_if_simplification,
+     simplify_conditions,
+     for_to_while_loop
+]
 
 class CodeTransformer(ast.NodeTransformer):
     def __init__(self):
+        
         super().__init__()
         self.variable_map = {}
         self.constant_map = {}
@@ -36,7 +41,7 @@ class CodeTransformer(ast.NodeTransformer):
             for target in node.targets:
                 if isinstance(target, ast.Name):
                     old_name = target.id
-                    new_name = self.get_new_variable_name()
+                    new_name = get_new_variable_name()
                     self.variable_map[old_name] = new_name
                     target.id = new_name
 
@@ -73,21 +78,11 @@ class CodeTransformer(ast.NodeTransformer):
             code = re.sub(pattern, new_name, code)
         return code
 
-    def get_new_variable_name(self):
-        return f"var_{random.randint(1000, 9999)}"
     
     def get_new_constant_value(self):
         return random.randint(0, 100)
 
-    def enforce_print_statement(self, code):
-        last_line_pattern = r'print\(([^)]+)\)'
-        match = re.search(last_line_pattern, code)
-        if match:
-            variable_name = match.group(1).split('/')[0].strip()
-            new_print_statement = f'print({variable_name} / {variable_name})'
-            code = re.sub(last_line_pattern, new_print_statement, code)
-        return code
-
+ 
     def apply_transformations(self, code_snippet):
         code = code_snippet
 
@@ -97,13 +92,13 @@ class CodeTransformer(ast.NodeTransformer):
         # Prepare to log failed transformations
         log_file_path = 'failed_transformations.txt'
         with open(log_file_path, 'a') as log_file:
-            # Shuffle and apply each transformation based on probability
-            transformation_items = list(transformations.items())
-            for threshold, transformation in transformation_items:
+  
+            for  transformation in transformations:
                 random_uniform = random.uniform(0, 1)  # Use uniform distribution for probability
-                if random_uniform > threshold:
+                if random_uniform >= 0.5:
                     try:
                         code = transformation(code)
+
                     except Exception as e:
                         # Write the failed code snippet and error message to the log file
                         stack_trace = traceback.format_exc()
