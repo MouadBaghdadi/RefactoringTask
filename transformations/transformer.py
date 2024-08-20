@@ -3,6 +3,7 @@ import re
 import ast
 import astor
 import traceback
+import csv
 from transformations.add_operations import add_operations
 from transformations.remove_unused_variables import remove_unused_vars
 from transformations.reorder_statment import reorder_statements
@@ -13,28 +14,39 @@ from transformations.simplify_if_statements import apply_randomized_if_simplific
 from transformations.simplify_complex_if_statements import simplify_conditions
 from transformations.for_to_while_loops import for_to_while_loop
 
-
 from transformations.variables_vocab import get_new_variable_name
+
 transformations = [
-remove_useless_operations,
+    remove_useless_operations,
     remove_unused_vars,
-     apply_simplify_expression,
-     add_operations,
+    apply_simplify_expression,
+    add_operations,
     reorder_statements,
-     simplify_obvious_operations,
+    simplify_obvious_operations,
     apply_randomized_if_simplification,
-     simplify_conditions,
-     for_to_while_loop
+    simplify_conditions,
+    for_to_while_loop
+]
+
+transformation_names = [
+    "Remove Useless Operations",
+    "Remove Unused Variables",
+    "Simplify Assignments",
+    "Add Junk Operations",
+    "Reorder Statements",
+    "Simplify Obvious Operations",
+    "Randomize If-Statement",
+    "Simplify Complex Conditions",
+    "Convert For to While Loop"
 ]
 
 class CodeTransformer(ast.NodeTransformer):
     def __init__(self):
-        
         super().__init__()
         self.variable_map = {}
         self.constant_map = {}
         self.in_simple_assignment = False  # To track if we're inside a simple assignment
-    
+
     def visit_Assign(self, node):
         if isinstance(node.value, ast.Constant):
             self.in_simple_assignment = True
@@ -50,7 +62,7 @@ class CodeTransformer(ast.NodeTransformer):
             self.constant_map[old_value] = new_value
             node.value.value = new_value
             self.in_simple_assignment = False
-        
+
         return node
 
     def visit_Name(self, node):
@@ -78,30 +90,37 @@ class CodeTransformer(ast.NodeTransformer):
             code = re.sub(pattern, new_name, code)
         return code
 
-    
     def get_new_constant_value(self):
         return random.randint(0, 100)
 
- 
-    def apply_transformations(self, code_snippet):
+    def apply_transformations(self, code_snippet, csv_file_path,log_file_path='failed_transformations.txt'):
         code = code_snippet
 
         # Apply self transformations first
         code = self.apply_self_transformations(code)
 
+        # Initialize a list to keep track of which transformations were applied
+        transformation_record = [0] * len(transformations)
+        
+
+
         # Prepare to log failed transformations
-        log_file_path = 'failed_transformations.txt'
         with open(log_file_path, 'a') as log_file:
-  
-            for  transformation in transformations:
+            for i, transformation in enumerate(transformations):
                 random_uniform = random.uniform(0, 1)  # Use uniform distribution for probability
                 if random_uniform >= 0.5:
                     try:
                         code = transformation(code)
-
+                        transformation_record[i] = 1  # Mark the transformation as applied
                     except Exception as e:
                         # Write the failed code snippet and error message to the log file
                         stack_trace = traceback.format_exc()
                         log_file.write(f"Error in transformation:\n{code}\nException: {str(e)}\nStack Trace:\n{stack_trace}\n\n")
-                     
+
+        # Write the transformation record to the CSV file
+        with open(csv_file_path, 'a', newline='') as csv_file:
+            writer = csv.writer(csv_file)
+            writer.writerow(transformation_record)
+
         return code
+

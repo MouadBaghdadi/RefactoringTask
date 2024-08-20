@@ -11,5 +11,7 @@ FILENAME="level${LEVEL}.txt"
 
 # Run the Python scripts
 rm *.txt
+rm *.csv
+
 python tinypy_generator.py --level $LEVEL --filename $FILENAME
 python main.py --input $FILENAME

@@ -1,11 +1,13 @@
 import ast
 import astor
 import argparse
-from transformations.transformer import CodeTransformer
+from transformations.transformer import CodeTransformer,transformation_names
 from tqdm import tqdm
+import csv
 # Initialize the transformer
 transformer = CodeTransformer()
 
+csv_path="meta.csv"
 def use_main_tranformer(code_snippet):
     # Parse code snippet into AST
     tree = ast.parse(code_snippet)
@@ -28,7 +30,7 @@ def process_code_files(input_file, output_file):
             
             # make sure the main transformer is the first transformation being applied
             snippet_2 = use_main_tranformer(snippet_1)
-            snippet_2 = transformer.apply_transformations(snippet_2)
+            snippet_2 = transformer.apply_transformations(snippet_2,csv_file_path=csv_path)
             
             # Generate a clone
             
@@ -43,6 +45,10 @@ def main():
     parser.add_argument("--input", default="level1.1.txt" ,type=str, help='Path to the input file containing code snippets.')
     
     args = parser.parse_args()
+    with open(csv_path, 'w', newline='') as csv_file:
+        writer = csv.writer(csv_file)
+        writer.writerow(transformation_names)
+
     
     process_code_files(args.input, f"clones_{args.input}")
 

@@ -2,6 +2,7 @@ import ast
 import astor
 
 from transformations.variables_vocab import get_new_variable_name
+
 class ForToWhileTransformer(ast.NodeTransformer):
     def __init__(self):
         self.var_map = {}
@@ -24,7 +25,6 @@ class ForToWhileTransformer(ast.NodeTransformer):
             stop = astor.to_source(range_args[1]).strip().replace('(', '').replace(')', '')
             step = astor.to_source(range_args[2]).strip() if len(range_args) > 2 else '1'
             
-            
             step = step.replace('(', '').replace(')', '')
             step = int(step) if step != '1' else 1  # Convert step to integer for use
 
@@ -33,11 +33,23 @@ class ForToWhileTransformer(ast.NodeTransformer):
             stop_var = get_new_variable_name()
             step_var = get_new_variable_name()
 
+            # Update the variable names in the loop body
+            body = []
+            for stmt in node.body:
+                updated_stmt = self.visit(stmt)
+                body.append(updated_stmt)
+
+            # Replace loop variable with start_var in the loop body
+            body = [ast.fix_missing_locations(
+                        ast.NodeTransformer().visit(
+                            ast.parse(astor.to_source(stmt).replace(node.target.id, start_var))
+                        ).body[0]
+                    ) for stmt in body]
+
             # Create a while loop equivalent with variable declarations
             while_loop = ast.While(
                 test=ast.Compare(left=ast.Name(id=start_var, ctx=ast.Load()), ops=[ast.Lt()], comparators=[ast.Name(id=stop_var, ctx=ast.Load())]),
-                body=[
-                    ast.Expr(value=ast.Call(func=ast.Name(id='print', ctx=ast.Load()), args=[ast.Name(id=start_var, ctx=ast.Load())], keywords=[])),
+                body=body + [
                     ast.Assign(targets=[ast.Name(id=start_var, ctx=ast.Store())], value=ast.BinOp(left=ast.Name(id=start_var, ctx=ast.Load()), op=ast.Add(), right=ast.Constant(value=step)))
                 ],
                 orelse=[]
