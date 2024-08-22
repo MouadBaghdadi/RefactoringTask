@@ -8,9 +8,10 @@ from tqdm.auto import tqdm
 import hashlib
 import os
 import psutil
-import simplify_level1
-import simplify_level2
-import simplify_level3
+import level_1.simplify_level1
+import level_2.simplify_level2
+import level_3.simplify_level3
+import importlib
 
 class CodeGenerator:
     def __init__(self):
@@ -246,7 +247,10 @@ class CodeGenerator:
         start_mem = self.memory_usage()
         max_tries = 1000
         num_tries = 0
-        
+
+        level_module = importlib.import_module(f'level_{level[0]}.simplify_level{level[0]}')
+        simplify_function = getattr(level_module, f'simplify_code_level{level[0]}')
+
         with open(filename, 'w') as file:
             
             generated_programs = 0
@@ -263,7 +267,7 @@ class CodeGenerator:
                     #     exec(code)
                     # output = SIO.getvalue().strip()
         
-                    output = simplify_level3.simplify_code_level3(program)
+                    output = simplify_function(code)
 
                     output = '\n'.join([f'{line}' for line in output.split('\n')])
                     result = f"""{code}\n{output}"""
@@ -304,8 +308,8 @@ class CodeGenerator:
 def main():
     parser = argparse.ArgumentParser(description='Generate and write programs based on a specified level. ')
     parser.add_argument('--num_programs', type=int, default=1000, help='Number of programs to generate and write (default is 1000)')
-    parser.add_argument('--level', default="2.2", help='The level of the programs (1.1, 1.2, 2.1, 2.2, 3.1, 3.2, ALL)')
-    parser.add_argument('--filename', default='dataset3.txt', help='Name of the file to write the programs (default is data/data.txt)')
+    parser.add_argument('--level', default="1.2", help='The level of the programs (1.1, 1.2, 2.1, 2.2, 3.1, 3.2, ALL)')
+    parser.add_argument('--filename', default='test1.txt', help='Name of the file to write the programs (default is data/data.txt)')
     parser.add_argument('--deduplicate', action='store_true', default=True, help='Perform deduplication of generated programs (default is True)')
 
     args = parser.parse_args()

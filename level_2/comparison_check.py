@@ -3,6 +3,7 @@ import ast
 class ComparisonDetector(ast.NodeVisitor):
     def __init__(self):
         self.has_comparison_between_diff_vars = False
+        self.has_binary_operation_between_diff_vars = False
 
     def visit_Compare(self, node):
         # Check if the left side of the comparison is a variable
@@ -18,19 +19,41 @@ class ComparisonDetector(ast.NodeVisitor):
 
         self.generic_visit(node)
 
+    def visit_BinOp(self, node):
+        # check if the binary operation is within a print statement
+        if isinstance(node.op, (ast.Add, ast.Sub, ast.Mult, ast.Div, ast.Mod, ast.Pow, ast.LShift, ast.RShift, ast.BitOr, ast.BitXor, ast.BitAnd, ast.FloorDiv)):
+            if isinstance(node.left, ast.Name) and isinstance(node.right, ast.Name):
+                if node.left.id != node.right.id:
+                    self.has_binary_operation_between_diff_vars = True
+                    return
+
+        self.generic_visit(node)
+
+    def visit_Call(self, node):
+
+        if isinstance(node.func, ast.Name) and node.func.id == 'print':
+            # visit the arguments of the print statement to check for binary operations
+            for arg in node.args:
+                self.visit(arg)
+
+        self.generic_visit(node)
+
 def has_diff_var_comparison(code):
     tree = ast.parse(code)
     detector = ComparisonDetector()
     detector.visit(tree)
-    return detector.has_comparison_between_diff_vars
+    return detector.has_comparison_between_diff_vars or detector.has_binary_operation_between_diff_vars
 
 # code_snippet = """
+# a = 1
+# b = 2
+# h = a 
 # if not r != r and r == r:
-#     print(h)
-# elif not r == w:
-#     print(h)
+#     print(a)
+# elif not r == r:
+#     print(a)
 # else:
-#     print(h)
+#     print(a + h) 
 # """
 
 # result = has_diff_var_comparison(code_snippet)

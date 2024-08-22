@@ -56,7 +56,7 @@ class CodeSimplification(ast.NodeTransformer):
         return value
 
     
-def simplify_code_level2(code):
+def simplify_code_level3(code):
     # Parse the code into an AST
     tree = ast.parse(code)
     
@@ -67,14 +67,14 @@ def simplify_code_level2(code):
     # Convert the AST back to code
     return astor.to_source(transformed_tree)
 
-# Example
-code = """
-c = 3
-b = c / 3
-for c in range(3, 5) :
-	print(c / b)
-"""
+# # Example
+# code = """
+# c = 3
+# b = c / 3
+# for c in range(3, 5) :
+# 	print(c / b)
+# """
 
-transformed_code = simplify_code_level2(code)
-print(f'original code: \n{code}')
-print(f'transformed_code: \n{transformed_code}')
+# transformed_code = simplify_code_level3(code)
+# print(f'original code: \n{code}')
+# print(f'transformed_code: \n{transformed_code}')

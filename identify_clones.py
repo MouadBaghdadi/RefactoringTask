@@ -1,44 +1,50 @@
 import json
 from tqdm import tqdm
 import os
+import argparse
 
-file_path = os.path.join('level_2', 'outputs_level2.json')
+def main():
+    # Argument parsing
+    parser = argparse.ArgumentParser(description="Identify clones in the output JSON files")
+    parser.add_argument('--input-file', required=True, help='Path to the input JSON file with outputs')
+    parser.add_argument('--output-file', required=True, help='Path to the output JSON file to store clones')
+    args = parser.parse_args()
 
-with open(file_path) as f:
-    outputs = json.load(f)
+    # Load the outputs from the specified file
+    with open(args.input_file) as f:
+        outputs = json.load(f)
 
-clones = {}
-function = 0
-for i in tqdm(range(1000)):
-    clone = set()
-    skipi = False 
-    print(f"function = {function}")
-    for k in range(function):
-        if i in list(clones.values())[k-1]:
-            skipi = True
-            continue
-    if skipi:
-        continue
-    for j in range(1000):
-        skipj = False
+    clones = {}
+    function = 0
+    for i in tqdm(range(1000)):
+        clone = set()
+        skipi = False 
         for k in range(function):
-            if j in list(clones.values())[k-1]:
-                skipj = True
+            if i in list(clones.values())[k-1]:
+                skipi = True
                 continue
-        if skipj:
+        if skipi:
             continue
-        if outputs[f"{i}"] == outputs[f"{j}"] and i != j :
-            clone.add(i)
-            clone.add(j)
-    if clone:
-        clones[function] = list(clone)
-        function += 1
+        for j in range(1000):
+            skipj = False
+            for k in range(function):
+                if j in list(clones.values())[k-1]:
+                    skipj = True
+                    continue
+            if skipj:
+                continue
+            if outputs[f"{i}"] == outputs[f"{j}"] and i != j:
+                clone.add(i)
+                clone.add(j)
+        if clone:
+            clones[function] = list(clone)
+            function += 1
 
-print(clones)
+    # Save the clones to the specified output file
+    with open(args.output_file, "w") as write_file:
+        json.dump(clones, write_file)
 
-output_file_path = os.path.join('level_2', 'clones_level2.json')
+    print(f'The clones are stored in {args.output_file}')
 
-with open(output_file_path, "w") as write_file:
-    json.dump(clones, write_file)
-
-print(f'the clones are stored in {file_path}')
+if __name__ == "__main__":
+    main()

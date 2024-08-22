@@ -6,132 +6,91 @@ import json
 from tqdm import tqdm
 from printed_variables_detector import get_printed_and_condition_variables
 from level_2.comparison_check import has_diff_var_comparison
+import argparse
 
-simplifications = []
+def load_simplifications(file_path):
+    simplifications = []
+    with open(file_path, 'r') as file:
+        lines = file.read()
+    simplification = lines.split('# Simplification')[1:]
+    for i in range(len(simplification)):
+        simplifications.append(simplification[i].split('\n\n\n#')[0])
+    return simplifications
 
-file_path = os.path.join('level_2', 'dataset2.txt')
+def initialize_random_values():
+    return [random.randint(0, 15) for _ in range(100)]
 
-level_2 = True
-result = False
-
-
-with open(file_path, 'r') as file:
-    lines = file.read()
-
-simplification = lines.split('# Simplification')[1:]
-
-for i in range(len(simplification)):
-    simplifications.append(simplification[i].split('\n\n\n#')[0])
-
-printed_vars = {}
-for i,snippet in enumerate(simplifications):
-    printed_vars[i] = get_printed_and_condition_variables(snippet)
-
-
-random.seed(42)
-random_initializations_var1 = []
-random_initializations_var2 = []
-random_initializations_var3 = []
-random_initializations_var4 = []
-random_initializations_var5 = []
-for _ in range(50):
-    random_initializations_var1.append(random.randint(0, 15))
-    random_initializations_var2.append(random.randint(0, 15))
-    random_initializations_var3.append(random.randint(0, 15))
-    random_initializations_var4.append(random.randint(0, 15))
-    random_initializations_var5.append(random.randint(0, 15))
-
-def execute_code_with_random_initialization(snippet, variables, num):
-    # Prepare a dictionary of random values to initialize variables
-
+def execute_code_with_random_initialization(snippet, variables, num, level_2, random_initializations):
     if level_2:
         result = has_diff_var_comparison(snippet)
+    else:
+        result = False
+
+    if (result and level_2) or (not result and not level_2):
+        # Code block when there's a comparison between different variables
+
+        variables = snippet_initialization_code(variables, random_initializations, num, mode='different')
+        code = f"""{variables}
+        {snippet}
+        """
     
-    if (result and level_2) or (not result and not level_2): #when we have a comparison between two diff variables
-        if len(variables) == 0:
-           code = f"""{snippet}
-    """
-        elif len(variables) == 1:
-            code = f"""{variables[0]} = {random_initializations_var1[num]}
-{snippet}
-    """
-        elif len(variables) == 2:
-            code = f"""{variables[0]} = {random_initializations_var1[num]}
-{variables[1]} = {random_initializations_var2[num]}        
-{snippet}
-    """
-        elif len(variables) == 3:
-            code = f"""{variables[0]} = {random_initializations_var1[num]}
-{variables[1]} = {random_initializations_var2[num]} 
-{variables[2]} = {random_initializations_var3[num]}       
-{snippet}"""
-        elif len(variables) == 4:
-            code = f"""{variables[0]} = {random_initializations_var1[num]}
-{variables[1]} = {random_initializations_var2[num]} 
-{variables[2]} = {random_initializations_var3[num]}    
-{variables[3]} = {random_initializations_var4[num]}   
-{snippet}"""
-        else:
-            code = f"""{variables[0]} = {random_initializations_var1[num]}
-{variables[1]} = {random_initializations_var2[num]} 
-{variables[2]} = {random_initializations_var3[num]}    
-{variables[3]} = {random_initializations_var4[num]}
-{variables[4]} = {random_initializations_var5[num]}    
-{snippet}"""
-    else: # when we don't have a comparison between two diff variables
-        if len(variables) == 0:
-            code = f"""{snippet}
-    """
-        elif len(variables) == 1:
-            code = f"""{variables[0]} = {random_initializations_var1[num]}
-{snippet}
-    """
-        elif len(variables) == 2:
-            code = f"""{variables[0]} = {random_initializations_var1[num]}
-{variables[1]} = {random_initializations_var1[num]}        
-{snippet}
-    """
-        elif len(variables) == 3:
-            code = f"""{variables[0]} = {random_initializations_var1[num]}
-{variables[1]} = {random_initializations_var1[num]} 
-{variables[2]} = {random_initializations_var1[num]}       
-{snippet}"""
-        elif len(variables) == 4:
-            code = f"""{variables[0]} = {random_initializations_var1[num]}
-{variables[1]} = {random_initializations_var1[num]} 
-{variables[2]} = {random_initializations_var1[num]}    
-{variables[3]} = {random_initializations_var1[num]}   
-{snippet}"""
-        else: 
-            code = f"""{variables[0]} = {random_initializations_var1[num]}
-{variables[1]} = {random_initializations_var1[num]} 
-{variables[2]} = {random_initializations_var1[num]}    
-{variables[3]} = {random_initializations_var1[num]}
-{variables[4]} = {random_initializations_var1[num]}    
-{snippet}"""
+    else:
+        # Code block when there's no comparison between different variables
+        variables = snippet_initialization_code(variables, random_initializations, num, mode='same')
+        code = f"""{variables}
+        {snippet}
+        """
     # Capture the output of the code
     output = io.StringIO()
     try:
-        # Capture the stdout and execute the code
         with contextlib.redirect_stdout(output):
             exec(code)
     except Exception as e:
-        # Capture exceptions such as division by zero, etc.
         return str(e)
 
-    # Return the captured output or the error message
     return output.getvalue().strip()
-outputs = {}
-for i in tqdm(range(1000)):
-    output = []
-    for num in range(50):
-        output.append(execute_code_with_random_initialization(simplifications[i], list(printed_vars[i]), num))
-    outputs[i] = output
 
-file_path = 'level_2\outputs_level2.json'
-with open(file_path, "w") as write_file:
-    json.dump(outputs, write_file)
+def snippet_initialization_code(variables, random_initializations, num, mode='different'):
+    variables_init = ""
+    if mode == 'different':
+        for i, var in enumerate(variables):
 
-print(f'the outputs of the simplified programs are stored in {file_path}')
+            variables_init += f"{var} = {random_initializations[i][num]}\n"
+    else:
+        for var in variables:
+            variables_init += f"{var} = {random_initializations[0][num]}\n"
+    return variables_init
 
- 
+def main():
+    parser = argparse.ArgumentParser(description='Execute code snippets with random initializations and capture output.')
+    parser.add_argument('--level', required=True, help='Specify the level (e.g., 1, 2, 3)')
+    parser.add_argument('--dataset-file', required=True, help='Path to the dataset file to execute.')
+    parser.add_argument('--output-file', required=True, help='Path to save the JSON output file.')
+    
+    args = parser.parse_args()
+
+    level_2 = args.level == '2'
+    simplifications = load_simplifications(args.dataset_file)
+    
+    printed_vars = {}
+    for i, snippet in enumerate(simplifications):
+        printed_vars[i] = get_printed_and_condition_variables(snippet)
+    
+    random.seed(42)
+    
+    random_initializations = [initialize_random_values() for _ in range(5)]
+
+    outputs = {}
+    for i in tqdm(range(len(simplifications))):
+        output = []
+        for num in range(100):
+            output.append(execute_code_with_random_initialization(simplifications[i], list(printed_vars[i]), num, level_2, random_initializations))
+        outputs[i] = output
+
+    with open(args.output_file, "w") as write_file:
+        json.dump(outputs, write_file)
+
+    print(f'The outputs of the simplified programs are stored in {args.output_file}')
+
+if __name__ == "__main__":
+    main()

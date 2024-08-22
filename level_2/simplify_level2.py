@@ -35,7 +35,7 @@ class CodeSimplification(ast.NodeTransformer):
             value.right = self._replace_with_value(value.right)
         return value
     
-def simplify_code_level3(code):
+def simplify_code_level2(code):
     # Parse the code into an AST
     tree = ast.parse(code)
     
@@ -47,15 +47,15 @@ def simplify_code_level3(code):
     return astor.to_source(transformed_tree)
 
 # Example
-code = """q = 8
-if  q > 2 :
-	print(q)
-elif  q < q :
-	print(q)
-else :
-	print(q)
-"""
+# code = """q = 8
+# if  q > 2 :
+# 	print(q)
+# elif  q < q :
+# 	print(q)
+# else :
+# 	print(q)
+# """
 
-transformed_code = simplify_code_level3(code)
-print(f'original code: \n{code}')
-print(f'transformed_code: \n{transformed_code}')
+# transformed_code = simplify_code_level3(code)
+# print(f'original code: \n{code}')
+# print(f'transformed_code: \n{transformed_code}')

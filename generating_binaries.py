@@ -1,20 +1,13 @@
 import itertools
 import json
 import os
-
-file_path = os.path.join('level 2', 'clones_level2.json')
-
-with open(file_path) as f:
-    clones = json.load(f) 
+import argparse
 
 def get_code_snippets(filename):
     """
     Reads the code snippets from the given file and returns a dictionary where keys are the snippet IDs 
     and values are the code snippets without the simplification part.
     """
-    snippet_id = None
-    snippet_code = []
-    
     with open(filename, 'r') as file:
         lines = file.read()
     
@@ -59,15 +52,28 @@ def write_binary_pairs_to_file(binary_pairs, output_filename):
             file.write(f"# snippet 2\n{snippet2}")
             file.write(f"# is clone\n{label}\n\n")
 
-data_filename = os.path.join('level 2', 'dataset2.txt')
-output_filename = os.path.join('level 2', "clone_pairs_level2.txt")
+def main():
+    # Argument parsing
+    parser = argparse.ArgumentParser(description="Generate binary pairs of code snippets and their clone labels")
+    parser.add_argument('--input-clones', required=True, help='Path to the input JSON file with clone data')
+    parser.add_argument('--input-snippets', required=True, help='Path to the input file with code snippets')
+    parser.add_argument('--output-file', required=True, help='Path to the output file to store binary pairs')
+    args = parser.parse_args()
 
-snippets = get_code_snippets(data_filename)
+    # Load clones from the specified file
+    with open(args.input_clones) as f:
+        clones = json.load(f)
 
-# Generate binary pairs
-binary_pairs = generate_binary_pairs(snippets, clones)
+    # Load code snippets from the specified file
+    snippets = get_code_snippets(args.input_snippets)
 
-# Write binary pairs to the output file
-write_binary_pairs_to_file(binary_pairs, output_filename)
+    # Generate binary pairs
+    binary_pairs = generate_binary_pairs(snippets, clones)
 
-print(f'clones and non clones pairs are generated in {output_filename}')
+    # Write binary pairs to the output file
+    write_binary_pairs_to_file(binary_pairs, args.output_file)
+
+    print(f'Clones and non-clones pairs are generated in {args.output_file}')
+
+if __name__ == "__main__":
+    main()
