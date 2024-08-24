@@ -1,7 +1,7 @@
 import json
-from tqdm import tqdm
-import os
 import argparse
+from collections import defaultdict
+from tqdm import tqdm
 
 def main():
     # Argument parsing
@@ -14,30 +14,15 @@ def main():
     with open(args.input_file) as f:
         outputs = json.load(f)
 
+    value_to_keys = defaultdict(list)
+    for key, value in outputs.items():
+        value_to_keys[tuple(value)].append(int(key))
+
     clones = {}
     function = 0
-    for i in tqdm(range(1000)):
-        clone = set()
-        skipi = False 
-        for k in range(function):
-            if i in list(clones.values())[k-1]:
-                skipi = True
-                continue
-        if skipi:
-            continue
-        for j in range(1000):
-            skipj = False
-            for k in range(function):
-                if j in list(clones.values())[k-1]:
-                    skipj = True
-                    continue
-            if skipj:
-                continue
-            if outputs[f"{i}"] == outputs[f"{j}"] and i != j:
-                clone.add(i)
-                clone.add(j)
-        if clone:
-            clones[function] = list(clone)
+    for keys in value_to_keys.values():
+        if len(keys) > 1:
+            clones[function] = keys
             function += 1
 
     # Save the clones to the specified output file
