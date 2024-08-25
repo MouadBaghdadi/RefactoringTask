@@ -78,7 +78,7 @@ def main():
     
     random.seed(42)
     
-    random_initializations = [initialize_random_values() for _ in range(5)]
+    random_initializations = [initialize_random_values() for _ in range(10)]
 
     outputs = {}
     for i in tqdm(range(len(simplifications))):

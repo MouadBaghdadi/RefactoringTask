@@ -25,6 +25,19 @@ def main():
             clones[function] = keys
             function += 1
 
+    def trim_map_values(input_map, max_values=50):
+        trimmed_map = {}
+        
+        for key, values in input_map.items():
+            if len(values) > max_values:
+                trimmed_map[key] = values[:max_values]  # Keep only the first 50 values
+            else:
+                trimmed_map[key] = values  # Keep the original list if it's already <= 50 values
+        
+        return trimmed_map
+
+    clones = trim_map_values(clones, 150)
+
     # Save the clones to the specified output file
     with open(args.output_file, "w") as write_file:
         json.dump(clones, write_file)
