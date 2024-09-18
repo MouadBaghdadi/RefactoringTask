@@ -251,7 +251,7 @@ class CodeGenerator:
         level_module = importlib.import_module(f'level_{level[0]}.simplify_level{level[0]}')
         simplify_function = getattr(level_module, f'simplify_code_level{level[0]}')
 
-        with open(filename, 'w') as file:
+        with open(filename, 'a') as file:
             
             generated_programs = 0
             hashes = set() 
@@ -260,12 +260,8 @@ class CodeGenerator:
             while generated_programs < num_programs:
                 try:
                     root, program = self.generate_program(level)
+                    
                     code =f"# {generated_programs}\n"+ program + "\n# Simplification"
-
-                    # SIO = StringIO()
-                    # with redirect_stdout(SIO):
-                    #     exec(code)
-                    # output = SIO.getvalue().strip()
         
                     output = simplify_function(code)
 
@@ -307,14 +303,15 @@ class CodeGenerator:
 
 def main():
     parser = argparse.ArgumentParser(description='Generate and write programs based on a specified level. ')
-    parser.add_argument('--num_programs', type=int, default=1000, help='Number of programs to generate and write (default is 1000)')
+    parser.add_argument('--num_programs', type=int, default=100000, help='Number of programs to generate and write (default is 1000)')
     parser.add_argument('--level', default="1.2", help='The level of the programs (1.1, 1.2, 2.1, 2.2, 3.1, 3.2, ALL)')
     parser.add_argument('--filename', default='test1.txt', help='Name of the file to write the programs (default is data/data.txt)')
     parser.add_argument('--deduplicate', action='store_true', default=True, help='Perform deduplication of generated programs (default is True)')
-
+    
     args = parser.parse_args()
 
     code_generator = CodeGenerator()
+    
     code_generator.generate_and_write_programs(num_programs=args.num_programs, level=args.level, filename=args.filename,  deduplicate=args.deduplicate)
 
 if __name__ == "__main__":

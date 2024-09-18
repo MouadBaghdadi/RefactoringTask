@@ -2,7 +2,8 @@ import itertools
 import json
 import os
 import argparse
-
+from collections import defaultdict
+from tqdm import tqdm
 def get_code_snippets(filename):
     """
     Reads the code snippets from the given file and returns a dictionary where keys are the snippet IDs 
@@ -20,25 +21,34 @@ def get_code_snippets(filename):
     
     return snippets
 
-def generate_binary_pairs(snippets, clones):
+def generate_binary_pairs(snippets, clones, max_usage=1):
     """
-    Generates all binary pairs of code snippets and labels them as either clones (1) or not clones (0).
+    Generates all binary pairs of code snippets and labels them as either clones (1) or not clones (0),
+    ensuring that each snippet is used at most `max_usage` times.
     """
     binary_pairs = []
-
-    # Generate clone pairs (label 1)
-    for key, indices in clones.items():
+    snippet_usage_0 = defaultdict(int)
+    snippet_usage_1 = defaultdict(int)
+    
+    # Progress tracking for clone pairs generation
+    for key, indices in tqdm(clones.items(), desc="Processing clone pairs"):
         for pair in itertools.combinations(indices, 2):
-            snippet1, snippet2 = snippets[f'{pair[0]}'], snippets[f'{pair[1]}']
-            binary_pairs.append((snippet1, snippet2, 1))
-
-    # Generate non-clone pairs (label 0)
+            if snippet_usage_1[pair[0]] <= max_usage and snippet_usage_1[pair[1]] <= max_usage:
+                snippet1, snippet2 = snippets[f'{pair[0]}'], snippets[f'{pair[1]}']
+                binary_pairs.append((snippet1, snippet2, 1))
+                snippet_usage_1[pair[0]] += 1
+                snippet_usage_1[pair[1]] += 1
+    
+    # Progress tracking for non-clone pairs generation
     all_keys = list(clones.keys())
-    for key1, key2 in itertools.combinations(all_keys, 2):
+    for key1, key2 in tqdm(itertools.combinations(all_keys, 2), desc="Processing non-clone pairs"):
         for idx1 in clones[key1]:
             for idx2 in clones[key2]:
-                snippet1, snippet2 = snippets[f'{idx1}'], snippets[f'{idx2}']
-                binary_pairs.append((snippet1, snippet2, 0))
+                if snippet_usage_0[idx1] <= max_usage and snippet_usage_0[idx2] <= max_usage:
+                    snippet1, snippet2 = snippets[f'{idx1}'], snippets[f'{idx2}']
+                    binary_pairs.append((snippet1, snippet2, 0))
+                    snippet_usage_0[idx1] += 1
+                    snippet_usage_0[idx2] += 1
     
     return binary_pairs
 
@@ -46,8 +56,8 @@ def write_binary_pairs_to_file(binary_pairs, output_filename):
     """
     Writes the binary pairs and their labels to the specified output file.
     """
-    with open(output_filename, 'w') as file:
-        for i, (snippet1, snippet2, label) in enumerate(binary_pairs):
+    with open(output_filename, 'a') as file:
+        for i, (snippet1, snippet2, label) in tqdm(enumerate(binary_pairs), total=len(binary_pairs)):
             file.write(f"# snippet 1\n{snippet1}")
             file.write(f"# snippet 2\n{snippet2}")
             file.write(f"# is clone\n{label}\n\n")

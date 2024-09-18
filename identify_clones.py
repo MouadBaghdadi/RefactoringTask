@@ -36,7 +36,7 @@ def main():
         
         return trimmed_map
 
-    clones = trim_map_values(clones, 150)
+    clones = trim_map_values(clones, 200)
 
     # Save the clones to the specified output file
     with open(args.output_file, "w") as write_file:

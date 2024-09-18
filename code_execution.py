@@ -18,7 +18,7 @@ def load_simplifications(file_path):
     return simplifications
 
 def initialize_random_values():
-    return [random.randint(0, 15) for _ in range(100)]
+    return [random.randint(0, 12) for _ in range(150)]
 
 def execute_code_with_random_initialization(snippet, variables, num, level_2, random_initializations):
     if level_2:
@@ -71,7 +71,6 @@ def main():
 
     level_2 = args.level == '2'
     simplifications = load_simplifications(args.dataset_file)
-    
     printed_vars = {}
     for i, snippet in enumerate(simplifications):
         printed_vars[i] = get_printed_and_condition_variables(snippet)
@@ -81,11 +80,17 @@ def main():
     random_initializations = [initialize_random_values() for _ in range(10)]
 
     outputs = {}
+    # Check if the file exists
+    if os.path.exists(args.output_file):
+        with open(args.output_file, 'r') as f:
+            outputs = json.load(f)
+    
     for i in tqdm(range(len(simplifications))):
         output = []
-        for num in range(100):
+        for num in range(150):
             output.append(execute_code_with_random_initialization(simplifications[i], list(printed_vars[i]), num, level_2, random_initializations))
         outputs[i] = output
+    
 
     with open(args.output_file, "w") as write_file:
         json.dump(outputs, write_file)
