@@ -9,10 +9,10 @@ def run_script(script_name, args):
 def automate_process(programs_num):
     level_folder = f"all_levels"
     for i in range(1,4):
-        dataset_file = os.path.join(level_folder, f"dataset_level{i}.txt")
-        outputs_json = os.path.join(level_folder, f"outputs_level{i}.json")
-        clones_json = os.path.join(level_folder, f"clones_level{i}.json")
-        clone_pairs_txt = os.path.join(level_folder, f"clone_pairs.txt")
+        dataset_file = f"dataset_level{i}.txt"
+        outputs_json = f"outputs_level{i}.json"
+        clones_json = f"clones_level{i}.json"
+        clone_pairs_txt = f"clone_pairs.txt"
     
         run_script('code_gen.py', ['--num_programs', programs_num, f'--level', f'{i}.2', '--filename', dataset_file])
     
