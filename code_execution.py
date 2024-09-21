@@ -17,8 +17,8 @@ def load_simplifications(file_path):
         simplifications.append(simplification[i].split('\n\n\n#')[0])
     return simplifications
 
-def initialize_random_values():
-    return [random.randint(0, 12) for _ in range(150)]
+def initialize_random_values(n):
+    return [random.randint(0, n) for _ in range(150)]
 
 def execute_code_with_random_initialization(snippet, variables, num, level_2, random_initializations):
     if level_2:
@@ -70,14 +70,15 @@ def main():
     args = parser.parse_args()
 
     level_2 = args.level == '2'
+
     simplifications = load_simplifications(args.dataset_file)
     printed_vars = {}
     for i, snippet in enumerate(simplifications):
         printed_vars[i] = get_printed_and_condition_variables(snippet)
     
     random.seed(42)
-    
-    random_initializations = [initialize_random_values() for _ in range(10)]
+
+    random_initializations = [initialize_random_values(22) for _ in range(10)]
 
     outputs = {}
     # Check if the file exists

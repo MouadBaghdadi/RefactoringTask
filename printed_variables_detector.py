@@ -17,6 +17,11 @@ class PrintVariablesDetector(ast.NodeVisitor):
         self._extract_variables(node.test, self.if_condition_vars)
         self.generic_visit(node)
 
+    def visit_While(self, node):
+        # Extract variables from the if condition
+        self._extract_variables(node.test, self.if_condition_vars)
+        self.generic_visit(node)
+
     def _extract_variables(self, node, target_set):
         # Recursively extract variable names from the expression
         if isinstance(node, ast.Name):
@@ -51,10 +56,9 @@ def get_printed_and_condition_variables(code):
 
     return used_vars
 
-# snippet = """if a >= 8 and not x <= x and o < x:
-#     print(k * 3)
-# else:
-#     print(1 - d)"""
+# snippet = """while i >= 13:
+#     print(s)
+#     i = i - 1"""
 
 # used_vars = get_printed_and_condition_variables(snippet)
 # print(f"used variables: {used_vars}")

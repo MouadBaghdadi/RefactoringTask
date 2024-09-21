@@ -8,20 +8,23 @@ def run_script(script_name, args):
 
 def automate_process(programs_num):
     level_folder = f"all_levels"
-    for i in range(1,4):
+    for i in range(1,5):
         dataset_file = f"dataset_level{i}.txt"
         outputs_json = f"outputs_level{i}.json"
         clones_json = f"clones_level{i}.json"
         clone_pairs_txt = f"clone_pairs.txt"
-    
-        run_script('code_gen.py', ['--num_programs', programs_num, f'--level', f'{i}.2', '--filename', dataset_file])
+        
+        if i != 4:
+            run_script('code_generator.py', ['--num_programs', programs_num, f'--level', f'{i}.2', '--filename',     dataset_file])
+        else:
+            run_script('code_generator.py', ['--num_programs', programs_num, f'--level', f'{i}.1', '--filename', dataset_file])
     
         run_script('code_execution.py', [f'--level', f'{i}',f'--dataset-file', dataset_file, '--output-file',     outputs_json])
 
         run_script('identify_clones.py', ['--input-file', outputs_json, '--output-file', clones_json])
 
         run_script('generating_binaries.py', ['--input-clones',clones_json,'--input-snippets', dataset_file, '--output-file', clone_pairs_txt])
-
+        
         os.remove(dataset_file)
         os.remove(outputs_json)
         os.remove(clones_json)
@@ -31,5 +34,4 @@ def automate_process(programs_num):
 if __name__ == "__main__":
 
     programs_num = sys.argv[2]
-    print(sys.argv)
     automate_process(programs_num)
