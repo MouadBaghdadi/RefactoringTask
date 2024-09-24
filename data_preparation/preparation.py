@@ -88,14 +88,14 @@ def main(source:str):
     train_ids = np.array(train_ids, dtype=np.uint16)
     val_ids = np.array(val_ids, dtype=np.uint16)
     test_ids = np.array(test_ids, dtype=np.uint16)
-    train_ids.tofile(os.path.join(os.path.dirname(__file__), 'train.bin'))
-    val_ids.tofile(os.path.join(os.path.dirname(__file__),   'val.bin'))
-    test_ids.tofile(os.path.join(os.path.dirname(__file__), 'test.bin'))
+    train_ids.tofile(os.path.join(os.path.dirname(source), 'train.bin'))
+    val_ids.tofile(os.path.join(os.path.dirname(source),   'val.bin'))
+    test_ids.tofile(os.path.join(os.path.dirname(source), 'test.bin'))
 
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Prepare data for training")
-    parser.add_argument("--source", type=str, help="./tasks_generators/level_1.1_reformulation.txt")
+    parser.add_argument("--source", default='dataset', type=str, help="./level_1/clone_pairs_level1.txt")
     args = parser.parse_args()
     main(args.source)
