@@ -5,7 +5,7 @@ import contextlib
 import json
 from tqdm import tqdm
 from printed_variables_detector import get_printed_and_condition_variables
-from level_2.comparison_check import has_diff_var_comparison
+from comparison_check import has_diff_var_comparison
 import argparse
 
 def load_simplifications(file_path):
@@ -20,13 +20,9 @@ def load_simplifications(file_path):
 def initialize_random_values(n):
     return [random.randint(0, n) for _ in range(150)]
 
-def execute_code_with_random_initialization(snippet, variables, num, level_2, random_initializations):
-    if level_2:
-        result = has_diff_var_comparison(snippet)
-    else:
-        result = False
-
-    if (result and level_2) or (not result and not level_2):
+def execute_code_with_random_initialization(snippet, variables, num, random_initializations):
+    result_true = has_diff_var_comparison(snippet)
+    if result_true:
         # Code block when there's a comparison between different variables
 
         variables = snippet_initialization_code(variables, random_initializations, num, mode='different')
@@ -69,8 +65,6 @@ def main():
     
     args = parser.parse_args()
 
-    level_2 = args.level == '2'
-
     simplifications = load_simplifications(args.dataset_file)
     printed_vars = {}
     for i, snippet in enumerate(simplifications):
@@ -89,7 +83,7 @@ def main():
     for i in tqdm(range(len(simplifications))):
         output = []
         for num in range(150):
-            output.append(execute_code_with_random_initialization(simplifications[i], list(printed_vars[i]), num, level_2, random_initializations))
+            output.append(execute_code_with_random_initialization(simplifications[i], list(printed_vars[i]), num, random_initializations))
         outputs[i] = output
     
 

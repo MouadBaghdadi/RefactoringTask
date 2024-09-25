@@ -55,11 +55,3 @@ def get_printed_and_condition_variables(code):
     used_vars = detector.printed_vars | detector.if_condition_vars
 
     return used_vars
-
-# snippet = """while i >= 13:
-#     print(s)
-#     i = i - 1"""
-
-# used_vars = get_printed_and_condition_variables(snippet)
-# print(f"used variables: {used_vars}")
-

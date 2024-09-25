@@ -8,10 +8,6 @@ from tqdm.auto import tqdm
 import hashlib
 import os
 import psutil
-import level_1.simplify_level1
-import level_2.simplify_level2
-import level_3.simplify_level3
-import level_4.simplify_level4
 import importlib
 
 
@@ -328,8 +324,8 @@ class CodeGenerator:
         max_tries = 1000
         num_tries = 0
 
-        level_module = importlib.import_module(f'level_{level[0]}.simplify_level{level[0]}')
-        simplify_function = getattr(level_module, f'simplify_code_level{level[0]}')
+        level_module = importlib.import_module(f'simplify_code')
+        simplify_function = getattr(level_module, f'simplify_code_funct')
 
         with open(filename, 'a') as file:
             

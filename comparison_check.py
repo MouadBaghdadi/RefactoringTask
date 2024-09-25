@@ -43,18 +43,3 @@ def has_diff_var_comparison(code):
     detector = ComparisonDetector()
     detector.visit(tree)
     return detector.has_comparison_between_diff_vars or detector.has_binary_operation_between_diff_vars
-
-# code_snippet = """
-# a = 1
-# b = 2
-# h = a 
-# if not r != r and r == r:
-#     print(a)
-# elif not r == r:
-#     print(a)
-# else:
-#     print(a + h) 
-# """
-
-# result = has_diff_var_comparison(code_snippet)
-# print(result) 
